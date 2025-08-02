@@ -5,3 +5,7 @@ PFR15PI
 OFRT520
 EAF15
 BFR2100
+
+
+instalar npm
+npx puppeteer browsers install chrome

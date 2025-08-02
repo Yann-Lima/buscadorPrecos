@@ -2,27 +2,28 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
+const resultados = [];
+
 // Lê o JSON com os produtos
 const produtosJson = JSON.parse(fs.readFileSync("produtos.json", "utf-8"));
 const listaProdutos = produtosJson.produtos;
-
-const resultados = [];
-
 
 async function executarBuscaEmTodos() {
   console.log("[INFO] Iniciando verificação de todos os produtos...\n");
 
   for (const termo of listaProdutos) {
-    await buscarPrimeiroProdutoEFACIL(termo);
+    await buscarPrimeiroProdutoLeBiscuit(termo);
   }
 
-  fs.writeFileSync("resultados_efacil.json", JSON.stringify(resultados, null, 2));
+  // Salva todos os resultados no final
+  fs.writeFileSync("resultados_lebiscuit.json", JSON.stringify(resultados, null, 2));
+
   console.log("\n[INFO] Fim da verificação.");
 }
 
-async function buscarPrimeiroProdutoEFACIL(termo) {
-  const termoBusca = termo.trim().replace(/\s+/g, '+');
-  const urlBusca = `https://www.efacil.com.br/loja/busca/?searchTerm=${termoBusca}`;
+async function buscarPrimeiroProdutoLeBiscuit(termo) {
+  const termoBusca = encodeURIComponent(termo);
+  const urlBusca = `https://www.lebiscuit.com.br/search?q=${termoBusca}`;
 
   console.log("\n[INFO] ========== NOVA BUSCA ==========");
   console.log("[DEBUG] Termo:", termo);
@@ -34,24 +35,24 @@ async function buscarPrimeiroProdutoEFACIL(termo) {
     });
 
     const $ = cheerio.load(resp.data);
-    const linkProduto = $("a[id^='btn_skuP']").first().attr("href");
+    const primeiroLink = $("a[id^='product-card']").first().attr("href");
 
-    if (!linkProduto) {
+    if (!primeiroLink) {
       console.warn("[WARN] Nenhum produto encontrado para:", termo);
       return;
     }
 
-    const urlProduto = "https://www.efacil.com.br" + linkProduto;
+    const urlProduto = `https://www.lebiscuit.com.br${primeiroLink}`;
     console.log("[DEBUG] Primeiro produto encontrado:", urlProduto);
 
-    await extrairDetalhesProduto(urlProduto, termo);
+    await extrairDetalhesProdutoLeBiscuit(urlProduto, termo);
 
   } catch (err) {
     console.error("[ERRO] Falha ao buscar:", termo, "→", err.message);
   }
 }
 
-async function extrairDetalhesProduto(urlProduto, termoOriginal) {
+async function extrairDetalhesProdutoLeBiscuit(urlProduto, termoOriginal) {
   console.log("[INFO] --- Acessando produto para:", termoOriginal);
 
   try {
@@ -62,30 +63,29 @@ async function extrairDetalhesProduto(urlProduto, termoOriginal) {
     const $ = cheerio.load(resp.data);
     const nome = $("h1").first().text().trim();
 
-    const preco = $("span")
+    const preco = $("span.h5-bold, span.md\\:h4-bold")
       .filter((_, el) => $(el).text().includes("R$"))
       .first()
       .text()
       .trim();
 
-    const entreguePor = $("span")
-      .filter((_, el) => $(el).text().includes("Vendido e entregue por"))
+    const entreguePor = $("p:contains('Vendido e entregue por')")
       .first()
       .text()
       .trim();
 
-    const vendidoEfácil = entreguePor.includes("eFácil");
+    const vendidoPorLeBiscuit = entreguePor.includes("LE BISCUIT");
 
     console.log(`[RESULTADO] Produto: ${nome}`);
     console.log(`[RESULTADO] Preço: ${preco}`);
-    console.log(`[RESULTADO] Vendido por eFácil: ${vendidoEfácil ? "✅ Sim" : "❌ Não"}`);
+    console.log(`[RESULTADO] Vendido por Le Biscuit: ${vendidoPorLeBiscuit ? "✅ Sim" : "❌ Não"}`);
     console.log(`[RESULTADO] Link: ${urlProduto}`);
 
     resultados.push({
       termo: termoOriginal,
       nome,
       preco,
-      loja: "eFácil",
+      loja: "Le Biscuit",
       link: urlProduto
     });
 
