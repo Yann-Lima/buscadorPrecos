@@ -1,0 +1,842 @@
+[
+  {
+    "termo": "OFRT520",
+    "nome": "Fritadeira Elétrica Air Fryer Oster OFRT520 4,6L Preta - 127V",
+    "preco": "R$ 465,40",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/fritadeira-oster-4-6l-ofrt520-127v-5128811/p"
+  },
+  {
+    "termo": "EAF15",
+    "nome": "Air Fryer Electrolux por Rita Lobo 3,2L Preta Efficient com Timer 1400W (EAF15)",
+    "preco": "R$ 260,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/air-fryer-electrolux-por-rita-lobo-32l-preta-efficient-com-timer-1400w--eaf15--2014414482/p"
+  },
+  {
+    "termo": "BFR2100",
+    "nome": "Fritadeira Elétrica Air Fryer Britânia Oven BFR2100 12L Preta - 127V",
+    "preco": "R$ 649,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/fritadeira-britania-oven-bfr2100p-127v-5114504/p"
+  },
+  {
+    "termo": "EAF90",
+    "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Oven Electrolux Experience Digital Por Rita Lobo EAF90 12L",
+    "preco": "R$ 799,00",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-eletrica-sem-oleo-air-fryer-oven-electrolux-experience-digital-por-rita-lobo-eaf90-12l-16k905685801y4q4/p"
+  },
+  {
+    "termo": "AFON-12L-BI",
+    "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Oven 2 em 1 Mondial AFON-12L-BI 12L Digital",
+    "preco": "R$ 568,00",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-eletrica-sem-oleo-air-fryer-oven-2-em-1-mondial-afon-12l-bi-12l-digital-2012839619/p"
+  },
+  {
+    "termo": "OFRT780",
+    "nome": "Fritadeira Elétrica Sem Óleo Oven Fryer Oster OFRT780 3 em 1 12L",
+    "preco": "R$ 619,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-eletrica-sem-oleo-oven-fryer-oster-ofrt780-3-em-1-12l-2012802982/p"
+  },
+  {
+    "termo": "PFR2200",
+    "nome": "Air Fryer Oven Philco 12L 4 em 1 1800W PFR2200",
+    "preco": "R$ 611,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/air-fryer-oven-philco-12l-4-em-1-1800w-pfr2200-2018285033/p"
+  },
+  {
+    "termo": "FW009547",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "VSP-40C-NB",
+    "nome": "Ventilador de Coluna Mondial Super Power 6 Pás VSP-40C-NB - 40cm 220V",
+    "preco": "R$ 199,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-mondial-vsp40cnb-col-220v-5132991/p"
+  },
+  {
+    "termo": "BVT450",
+    "nome": "Ventilador de Coluna Britânia Maxx  Force 6 Pás BVT450 - 40cm 220V",
+    "preco": "R$ 269,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/vcoluna-britania-40-bvt450-6p-pt-220v-5149306/p"
+  },
+  {
+    "termo": "VTX-40C-8P",
+    "nome": "Ventilador de Coluna Mondial VTX-40C-8P - 40 cm",
+    "preco": "R$ 289,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/ventilador-de-coluna-mondial-vtx-40c-8p-40-cm-cd166n0249439255/p"
+  },
+  {
+    "termo": "VFC4",
+    "nome": "Ventilador de Coluna Arno Turbo Force 6 Pás VFC4 - 40cm 220V",
+    "preco": "R$ 398,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-arno-col-force-vfc4-40-220v-5130817/p"
+  },
+  {
+    "termo": "VB4C",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "NVT-40C-8P-B",
+    "nome": "NVT-40C-8P-B - Ventilador de Coluna 40cm Turbo",
+    "preco": "R$ 309,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/nvt-40c-8p-b---ventilador-de-coluna-40cm-turbo-2014888846/p"
+  },
+  {
+    "termo": "VSP-30-B",
+    "nome": "Ventilador de Mesa Mondial 6 Pás Super Power Preto VSP-30-B - 30cm 127V",
+    "preco": "R$ 123,74",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-mondial-30-cm-vsp-30-b-127v-5120447/p"
+  },
+  {
+    "termo": "BVT301",
+    "nome": "Ventilador Britânia BVT301 para Mesa ou Parede 60W 3 Velocidades 6 Pás",
+    "preco": "R$ 139,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/ventilador-britania-bvt301-para-mesa-ou-parede-60w-3-velocidades-6-pas-2013993942/p"
+  },
+  {
+    "termo": "PROTECT 30 SIX",
+    "nome": "Ventilador Britânia 2 em 1 Turbo 55W Protect 30 Six 220V",
+    "preco": "R$ 152,16",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/ventilador-britania-2-em-1-turbo-55w-protect-30-six-220v-2017582460/p"
+  },
+  {
+    "termo": "TS30",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "VTR560",
+    "nome": "Ventilador de Mesa Cadence 6 Hélices VTR560 - 30cm 220V",
+    "preco": "R$ 113,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-de-mesa-cadence-vtr560-220v-5119786/p"
+  },
+  {
+    "termo": "VSP-40-B",
+    "nome": "Ventilador de Mesa Mondial 6 Pás Super Power Preto VSP-40-B - 40cm 220V",
+    "preco": "R$ 209,89",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-mondial-40cm-vsp-40-b-220v-5120450/p"
+  },
+  {
+    "termo": "VB40",
+    "nome": "Ventilador de Mesa Arno Xtreme Force Breeze 6 Pás VB40 - 40cm 127V",
+    "preco": "R$ 303,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-arno-xtreme-vb40-40cm-127v-5130816/p"
+  },
+  {
+    "termo": "VF42",
+    "nome": "Ventilador de Mesa Arno Turbo Force 6 Pás VF42 - 40cm 127V",
+    "preco": "R$ 265,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-arno-2-em-1-vf42-127v-5130814/p"
+  },
+  {
+    "termo": "BVT400",
+    "nome": "Ventilador de Mesa Britânia Maxx Force 6 Pás BVT400 - 40cm 220V",
+    "preco": "R$ 161,40",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-britania-bvt400-40cm-220v-5134845/p"
+  },
+  {
+    "termo": "VTX-40-8P",
+    "nome": "Ventilador de Mesa Mondial 8 Pás VTX-40-8P - 40cm 127V",
+    "preco": "R$ 189,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-mondial-40cm-vtx40-8p-127v-5103543/p"
+  },
+  {
+    "termo": "FW009218",
+    "nome": "Vent 50cm Wap Flow Turbo 2 Em 1 - Fw009218 Preto/cinza 110 Volts",
+    "preco": "R$ 246,85",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/vent-50cm-wap-flow-turbo-2-em-1---fw009218-preto-cinza-110-volts-2017397002/p"
+  },
+  {
+    "termo": "VTR409",
+    "nome": "Ventilador de Mesa Cadence 6 Pás VTR409- 40cm 220V",
+    "preco": "R$ 151,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-cadence-40cm-vtr409-220v-5110028/p"
+  },
+  {
+    "termo": "NVT-40-8P-B",
+    "nome": "Ventilador de Mesa Mondial Turbo 8 Pás NVT-40-8P-B - 40cm 127V",
+    "preco": "R$ 251,88",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-mesa-mondial-40-nvt408pb-127v-5169675/p"
+  },
+  {
+    "termo": "VE70",
+    "nome": "Ventilador de Mesa Arno 40Cm VE70 X-Treme 7 Preto e Azul Escuro 220V",
+    "preco": "R$ 410,00",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/ventilador-de-mesa-arno-40cm-ve70-x-treme-7-preto-e-azul-escuro-220v-2013551839/p"
+  },
+  {
+    "termo": "VTR410",
+    "nome": "Ventilador de Mesa Cadence Refresh Turbo 6 Pás VTR410 - 40cm 127V",
+    "preco": "R$ 149,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ven-cadence-refresh-turbo-vtr410-127v-5136042/p"
+  },
+  {
+    "termo": "BVT401",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "VTX-50-8P",
+    "nome": "Ventilador de Mesa Mondial 8 Pás Vtx-50-8p - 50cm 220V",
+    "preco": "R$ 199,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-mondial-50cm-vtx50-8p-220v-5103508/p"
+  },
+  {
+    "termo": "BVT500",
+    "nome": "Ventilador Britânia 2 em 1 Tecnologia Maxx Force 176W BVT500",
+    "preco": "R$ 215,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/ventilador-britania-2-em-1-tecnologia-maxx-force-176w-bvt500-2018282976/p"
+  },
+  {
+    "termo": "VB50",
+    "nome": "Ventilador de Mesa Arno Xtreme Force Breeze 6 Pás VB50 - 50cm 220V",
+    "preco": "R$ 339,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-arno-xtreme-vb50-50cm-220v-5130815/p"
+  },
+  {
+    "termo": "TURBO 6",
+    "nome": "Ventilador de Coluna Cadence 6 Pás Turbo Conforto VTR830 - 40cm 220V",
+    "preco": "R$ 249,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/v-coluna-cadence-vtr830-220v-5136041/p"
+  },
+  {
+    "termo": "BVT510",
+    "nome": "Ventilador de Mesa Britânia Titanium Silencioso 6 Pás BVT510 Preto - 45cm 220V",
+    "preco": "R$ 322,99",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/ventilador-britania-bvt510-turbo-220v-5120987/p"
+  },
+  {
+    "termo": "VT-30C-NB",
+    "nome": "Ventilador Coluna Mondial - Turbo 06 Pás - VT-30C-NB",
+    "preco": "R$ 219,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/ventilador-coluna-mondial---turbo-06-pas---vt-30c-nb-2012733343/p"
+  },
+  {
+    "termo": "BVT350",
+    "nome": "Ventilador de Coluna Britânia Maxx Force 75W BVT350",
+    "preco": "R$ 179,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/ventilador-de-coluna-britania-bvt350-maxx-force-75w-2012798025/p"
+  },
+  {
+    "termo": "Coluna 30cm",
+    "nome": "Ventilador Oscilante de Coluna Ventimais 30CM Turbo Preto/Bronze 220V",
+    "preco": "R$ 224,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/ventilador-oscilante-de-coluna-ventimais-30cm-turbo-preto-bronze-220v-2017897567/p"
+  },
+  {
+    "termo": "L-99-FB",
+    "nome": "Liquidificador Mondial Turbo Power L-99-FB",
+    "preco": "R$ 129,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-mondial-turbo-power-l-99-fb-2012733525/p"
+  },
+  {
+    "termo": "Black 3",
+    "nome": "Conjunto de Cabides Arthi Black Tintureiro com Cava 3 Unidades",
+    "preco": "R$ 18,99",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/cj-cabide-arthi-c3-black-c-cava-2419-5126848/p"
+  },
+  {
+    "termo": "LQ651",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LQ31",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BLQ920P",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LIQ347",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-550-B",
+    "nome": "Liquidificador Mondial Easy Power L-550-B Preto - 127V",
+    "preco": "R$ 119,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/liquidificador-mondial-easy-l-550-b-127v-5114334/p"
+  },
+  {
+    "termo": "RI2110/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LQ10",
+    "nome": "Liquidificador Arno Power Mix LQ10 Preto - 220V",
+    "preco": "R$ 129,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/liquidificador-arno-pw-mix-lq10pt220v-5118609/p"
+  },
+  {
+    "termo": "LIQ100",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "FAST MIX 2",
+    "nome": "Liquidificador Fast Mix 520w 2 Velocidades E Pulsar Mallory Preto 220v",
+    "preco": "R$ 105,02",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-fast-mix-520w-2-velocidades-e-pulsar-mallory-preto-220v-2017068398/p"
+  },
+  {
+    "termo": "LQLF",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-agratto-lqlf-02-leitoso-850w-cristal-220v--f002--2017992307/p"
+  },
+  {
+    "termo": "L-97-W",
+    "nome": "Liquidifcador 550W 2,2L Mondial L-97-W Pratic Power 2Vel Branco 220V",
+    "preco": "R$ 269,10",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidifcador-550w-22l-mondial-l-97-w-pratic-power-2vel-branco-220v-2017494158/p"
+  },
+  {
+    "termo": "L-900 FB",
+    "nome": "Liquidificador com Filtro 900W 2.7L Mondial Turbo L-900 FB 5 Velocidades Preto 127V",
+    "preco": "R$ 159,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-com-filtro-900w-2-7l-mondial-turbo-l-900-fb-5-velocidades-preto-127v-2012781649/p"
+  },
+  {
+    "termo": "DIAMANTE PRETO 900W",
+    "nome": "Liquidificador Britânia 900W 2.65L Diamante 800 com Filtro e 4 Velocidades Preto",
+    "preco": "R$ 119,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-britania-900w-2-65l-diamante-800-com-filtro-e-4-velocidades-preto-2012782740/p"
+  },
+  {
+    "termo": "BLQ970P",
+    "nome": "Liquidificador Britânia BLQ970P Turbo 900W",
+    "preco": "R$ 125,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-britania-blq970p-turbo-900w-2012738699/p"
+  },
+  {
+    "termo": "LIQ200",
+    "nome": "Liquidificador Cadence Hit LIQ200 Preto - 220V",
+    "preco": "R$ 132,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/liquidificador-cadence-hit-liq200-220v-5133833/p"
+  },
+  {
+    "termo": "LN61",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-power-max-ln61-700w-arno-vermelho-220v-2018021347/p"
+  },
+  {
+    "termo": "LQ35",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-1100-BI",
+    "nome": "Liquidificador Mondial Turbo Inox 3L L-1100-BI",
+    "preco": "R$ 189,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-mondial-turbo-inox-3l-l-1100-bi-2012733181/p"
+  },
+  {
+    "termo": "BLQ1280P",
+    "nome": "Liquidificador Britânia Pro Maxx BLQ1280P Preto - 220V",
+    "preco": "R$ 189,99",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/liquidificador-britania-blq1280p-220v-5128838/p"
+  },
+  {
+    "termo": "OLIQ606",
+    "nome": "Liquidificador Oster Power OLIQ606 Preto 220V",
+    "preco": "R$ 189,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/liquidificador-oster-pw-oliq606-pt-220v-5130804/p"
+  },
+  {
+    "termo": "PLQ1411P",
+    "nome": "Liquidificador Philco PLQ1411P 4 velocidades 2,7L 1150W",
+    "preco": "R$ 242,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-philco-plq1411p-4-velocidades-27l-1150w-2012738447/p"
+  },
+  {
+    "termo": "BLST3B-R2T",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LQ1111",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-28",
+    "nome": "Liquidificador Mondial Power 2 Black L-28 Preto - 220V",
+    "preco": "R$ 89,90",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/liquidificador-power-2-black--220v-5056183002/p"
+  },
+  {
+    "termo": "RI2112/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Flash Mix",
+    "nome": "Caixa de Som Amplificada Bluetooth Philco 250W PCX3800 Flash Lights",
+    "preco": "R$ 299,91",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/caixa-amplif-philco-pcx3800-250w-5179418/p"
+  },
+  {
+    "termo": "Flash Mix+",
+    "nome": "Caixa de Som Amplificada Bluetooth Philco 250W PCX3800 Flash Lights",
+    "preco": "R$ 299,91",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/caixa-amplif-philco-pcx3800-250w-5179418/p"
+  },
+  {
+    "termo": "L-1200-BI",
+    "nome": "Liquidificador Mondial Turbo Inox L-1200-Bi Preto - 127V",
+    "preco": "R$ 180,40",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/liquidificador-mondial-l-1200-bi-127v-5103888/p"
+  },
+  {
+    "termo": "PH900 Preto",
+    "nome": "Liquidificador Philco PH900 Preto - 127V",
+    "preco": "R$ 142,40",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/liquidificador-philco-ph900-pr-127v-5119598/p"
+  },
+  {
+    "termo": "RI2242_90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PLQ2100PI",
+    "nome": "Liquidificador Philco PLQ2100PI Turbo 1400W com 12 Velocidades",
+    "preco": "R$ 187,56",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-philco-plq2100pi-turbo-1400w-com-12-velocidades-2014016654/p"
+  },
+  {
+    "termo": "RI2240_90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BLQ1380P",
+    "nome": "Liquidificador Britânia BLQ1380P Pro Maxx 6 Inox 3L 1200W",
+    "preco": "R$ 179,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-britania-blq1380p-pro-maxx-6-inox-3l-1200w-2012738566/p"
+  },
+  {
+    "termo": "L-1400-GI",
+    "nome": "Liquidificador Mondial Turbo Glass L-1400-GI",
+    "preco": "R$ 289,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-mondial-turbo-glass-l-1400-gi-2012733215/p"
+  },
+  {
+    "termo": "BLSTMG-BR8",
+    "nome": "Liquidificador Oster Super Chef Preto 1,25L BLSTMG-BR8 110V",
+    "preco": "R$ 295,71",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-oster-super-chef-preto-125l-blstmg-br8-110v-2018284951/p"
+  },
+  {
+    "termo": "PLQ1350",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "OLIQ520",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "EBS30",
+    "nome": "Liquidificador Electrolux EBS30 com Copo de Vidro 700W e 5 Velocidades",
+    "preco": "R$ 264,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-electrolux-ebs30-com-copo-de-vidro-700w-e-5-velocidades-2012800048/p"
+  },
+  {
+    "termo": "OLIQ501",
+    "nome": "Liquidificador Oster Oliq501 Vermelho 1000W - 220V",
+    "preco": "R$ 379,99",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/liquidificador-oster-oliq501-220v-5124305/p"
+  },
+  {
+    "termo": "L-98-B",
+    "nome": "Liquidificador Mondial L-98-B Pratic Turbo com 2 Velocidades e Função Pulsar",
+    "preco": "R$ 101,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-mondial-l-98-b-pratic-turbo-com-2-velocidades-e-funcao-pulsar-2017800786/p"
+  },
+  {
+    "termo": "L-77",
+    "nome": "Liquidificador Mondial Turbo Power L-77",
+    "preco": "R$ 119,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/liquidificador-mondial-turbo-power-l-77-2012733258/p"
+  },
+  {
+    "termo": "AFN-50-BI",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Grand Family Inox AFN-50-BI 5L Preta - 220V",
+    "preco": "R$ 329,89",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/fritadeira-mondial-5l-afn-50-bi-220v-5114225/p"
+  },
+  {
+    "termo": "AFN-50-RI",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Grand Family Inox AFN-50-RI 5L Vermelha - 127V",
+    "preco": "R$ 424,17",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/fritadeira-mondial-5l-afn-50-ri-127v-5114226/p"
+  },
+  {
+    "termo": "BFR51",
+    "nome": "Fritadeira Elétrica Air Fryer 5,5L Sem Óleo Antiaderente Gold 1500W BFR51 Britânia Preta - 220V",
+    "preco": "R$ 342,78",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/fritadeira-5-5l-britania-bfr51-pt-220v-5135237/p"
+  },
+  {
+    "termo": "PAF55A",
+    "nome": "Air Fryer Philco 5,5L Cesto Quadrado 1500W PAF55A",
+    "preco": "R$ 548,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/air-fryer-philco-55l-cesto-quadrado-1500w-paf55a-2014340550/p"
+  },
+  {
+    "termo": "EAF40",
+    "nome": "Fritadeira Air Fryer Electrolux por Rita Lobo, 5,6 Litros, Cinza, 1400 W - EAF40",
+    "preco": "R$ 438,49",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-air-fryer-electrolux-por-rita-lobo-56-litros-cinza-1400-w---eaf40-2018016395/p"
+  },
+  {
+    "termo": "Fryer Space",
+    "nome": "Fritadeira Air Fryer Elgin Space 5 Afc50 5l 110V",
+    "preco": "R$ 598,73",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-air-fryer-elgin-space-5-afc50-5l-110v-2018225566/p"
+  },
+  {
+    "termo": "FRB50P1",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AFN-60-BI",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Pratic AFN-60-BI 6L Preta/Inox - 220V",
+    "preco": "R$ 465,40",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/fritadeira-mondial-6l-afn-60-bi-220v-5133733/p"
+  },
+  {
+    "termo": "AFN-60-RI",
+    "nome": "Fritadeira Sem Óleo Air Fryer 6 Litros AFN-60-RI Mondial",
+    "preco": "R$ 489,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-sem-oleo-air-fryer-6-litros-afn-60-ri-mondial-2012844474/p"
+  },
+  {
+    "termo": "EAF50",
+    "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Electrolux EAF50 5L",
+    "preco": "R$ 391,65",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-eletrica-sem-oleo-air-fryer-electrolux-eaf50-5l-1m69056mn8540307/p"
+  },
+  {
+    "termo": "RI9280",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PFR67PI",
+    "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Philco PFR67PI 6.8 Litros",
+    "preco": "R$ 519,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-eletrica-sem-oleo-air-fryer-philco-pfr67pi-6-8-litros-2012821291/p"
+  },
+  {
+    "termo": "MAD600010APKW1",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AFD6",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AFN-80-BI",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial AFN-80-BI 8L Preta - 220V",
+    "preco": "R$ 499,91",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/fritadeira-mondial-afn-80-bi-220v-5128808/p"
+  },
+  {
+    "termo": "AFN-80-RI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AFN-80-FB",
+    "nome": "Fritadeira Sem Óleo Air Fryer 8L Mondial Preto - AFN-80-FB",
+    "preco": "R$ 599,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-sem-oleo-air-fryer-8l-mondial-preto---afn-80-fb-2012799434/p"
+  },
+  {
+    "termo": "PFR13P",
+    "nome": "Air Fryer Philco 8,1L Sem Óleo 200°C PFR13P",
+    "preco": "R$ 728,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/air-fryer-philco-81l-sem-oleo-200%C2%B0c-pfr13p-2018344082/p"
+  },
+  {
+    "termo": "Chrome Fry",
+    "nome": "Fritadeira Chrome Fry Elgin 8l Afc80 42afc8002000 Preto-inox 220V",
+    "preco": "R$ 604,69",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-chrome-fry-elgin-8l-afc80-42afc8002000-preto-inox-220v-2017087243/p"
+  },
+  {
+    "termo": "Gran Fry",
+    "nome": "Air Fryer Start Fry Elgin 220V",
+    "preco": "R$ 294,49",
+    "loja": "Le Biscuit",
+    "vendido": true,
+    "link": "https://www.lebiscuit.com.br/air-fryer-start-fry-elgin-220v-5183179/p"
+  },
+  {
+    "termo": "FWM85P1",
+    "nome": "Fritadeira Air Fryer Midea Wide Max Cyclone Preto 8,5L 110V FWM85P1",
+    "preco": "R$ 599,00",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/fritadeira-air-fryer-midea-wide-max-cyclone-preto-85l-110v-fwm85p1-2018142387/p"
+  },
+  {
+    "termo": "AFDO-25L-FD",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AF-250FD2",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TSSTTVFDMAF",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": null
+  }
+]

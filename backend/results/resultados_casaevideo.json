@@ -1,0 +1,842 @@
+[
+  {
+    "termo": "OFRT520",
+    "nome": "Fritadeira Air Fryer 4.6L Inox Compact Oster OFRT520 Preta 127V",
+    "preco": "R$ 332,40",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-air-fryer-4-6l-oster-ofrt520-preta-127v/p"
+  },
+  {
+    "termo": "EAF15",
+    "nome": "Air Fryer Electrolux por Rita Lobo 3,2L Preta Efficient com Timer 1400W (EAF15)",
+    "preco": "R$ 269,61",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/air-fryer-electrolux-por-rita-lobo-32l-preta-efficient-com-timer-1400w--eaf15--3083686/p"
+  },
+  {
+    "termo": "BFR2100",
+    "nome": "Air Fryer Oven Britânia 12L 4 em 1 1800W BFR2100",
+    "preco": "R$ 521,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/air-fryer-oven-britania-12l-4-em-1-1800w-bfr2100-4402710/p"
+  },
+  {
+    "termo": "EAF90",
+    "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Oven Electrolux Experience Digital Por Rita Lobo EAF90 12L – Grafite",
+    "preco": "R$ 799,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-eletrica-sem-oleo-air-fryer-oven-electrolux-experience-digital-por-rita-lobo-eaf90-12l---grafite-2204323/p"
+  },
+  {
+    "termo": "AFON-12L-BI",
+    "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Oven 2 em 1 Mondial AFON-12L-BI 12L Digital  Preta/Inox",
+    "preco": "R$ 576,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-eletrica-sem-oleo-air-fryer-oven-2-em-1-mondial-afon-12l-bi-12l-digital--preta-inox-2474073/p"
+  },
+  {
+    "termo": "OFRT780",
+    "nome": "Fritadeira Elétrica Sem Óleo Oven Fryer Oster OFRT780 3 em 1 12L - Preta",
+    "preco": "R$ 619,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-eletrica-sem-oleo-oven-fryer-oster-ofrt780-3-em-1-12l---preta-2050570/p"
+  },
+  {
+    "termo": "PFR2200",
+    "nome": "Air Fryer Oven Philco 12L 4 em 1 1800W PFR2200",
+    "preco": "R$ 611,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/air-fryer-oven-philco-12l-4-em-1-1800w-pfr2200-4402700/p"
+  },
+  {
+    "termo": "FW009547",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "VSP-40C-NB",
+    "nome": "Ventilador de Coluna Mondial Super Power 6 Pás VSP-40C-NB - 40cm 110V",
+    "preco": "R$ 249,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-coluna-mondial-super-power-6-pas-vsp-40c-nb---40cm-110v-4373426/p"
+  },
+  {
+    "termo": "BVT450",
+    "nome": "Ventilador de Coluna Britânia Maxx Force Turbo 160W BVT450",
+    "preco": "R$ 296,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-coluna-britania-maxx-force-turbo-160w-bvt450-4403070/p"
+  },
+  {
+    "termo": "VTX-40C-8P",
+    "nome": "Ventilador de Coluna Mondial VTX-40C-8P 40 cm com 3 Velocidades - Preto",
+    "preco": "R$ 289,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-coluna-mondial-vtx-40c-8p-40-cm-com-3-velocidades---preto-2046278/p"
+  },
+  {
+    "termo": "VFC4",
+    "nome": "Ventilador De Coluna Arno Turbo Force 40cm Preto VFC4 220V",
+    "preco": "R$ 298,70",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-coluna-arno-turbo-force-40cm-preto-vfc4-220v-4408215/p"
+  },
+  {
+    "termo": "VB4C",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "NVT-40C-8P-B",
+    "nome": "NVT-40C-8P-B - Ventilador de Coluna 40cm Turbo",
+    "preco": "R$ 309,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/nvt-40c-8p-b---ventilador-de-coluna-40cm-turbo-3267452/p"
+  },
+  {
+    "termo": "VSP-30-B",
+    "nome": "Ventilador de Mesa 30cm Mondial Super Power VSP-30-B 6 Pás 3 Velocidades Preto",
+    "preco": "R$ 139,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-30cm-mondial-super-power-vsp-30-b-6-pas-3-velocidades-preto-2261694/p"
+  },
+  {
+    "termo": "BVT301",
+    "nome": "Ventilador Britânia BVT301 para Mesa ou Parede 60W 3 Velocidades 6 Pás - Preto",
+    "preco": "R$ 139,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-britania-bvt301-para-mesa-ou-parede-60w-3-velocidades-6-pas---preto-2307114/p"
+  },
+  {
+    "termo": "PROTECT 30 SIX",
+    "nome": "Ventilador Britânia 2 em 1 Turbo 55W Protect 30 Six 220V",
+    "preco": "R$ 152,16",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-britania-2-em-1-turbo-55w-protect-30-six-220v-3895633/p"
+  },
+  {
+    "termo": "TS30",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "VTR560",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "VSP-40-B",
+    "nome": "Ventilador de Mesa Mondial 40cm VSP-40-B 6 Pás Super Pow 220v",
+    "preco": "R$ 138,59",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-mondial-40cm-vsp-40-b-6-pas-super-pow-220v-1857240/p"
+  },
+  {
+    "termo": "VB40",
+    "nome": "Ventilador de Mesa 40cm Arno Xtreme Force Breeze, 6 PÁS, 126W VB40 127V",
+    "preco": "R$ 275,40",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-arno-xfbreeze-40-vb40-preto-com-azul-127v/p"
+  },
+  {
+    "termo": "VF42",
+    "nome": "Ventilador de Mesa Arno 40cm Turbo Power Zone VF42 Preto 127V",
+    "preco": "R$ 284,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-arno-powerzone-40cm-vf42-preto-127v/p"
+  },
+  {
+    "termo": "BVT400",
+    "nome": "Ventilador de Mesa 40cm 6 Pás Maxx Force Britânia BVT400 Preto com Prata 127V",
+    "preco": "R$ 139,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-40-bvt400-6-pas-britania-maxx-force-preto-127v/p"
+  },
+  {
+    "termo": "VTX-40-8P",
+    "nome": "Ventilador de Mesa 40cm Mondial Super Turbo VTX-40-8P 8 Pás 3 Velocidades Preto",
+    "preco": "R$ 199,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-40cm-mondial-super-turbo-vtx-40-8p-8-pas-3-velocidades-preto-2261688/p"
+  },
+  {
+    "termo": "FW009218",
+    "nome": "Vent 50cm Wap Flow Turbo 2 Em 1 - Fw009218 Preto/cinza 110 Volts",
+    "preco": "R$ 246,85",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/vent-50cm-wap-flow-turbo-2-em-1---fw009218-preto-cinza-110-volts-3041609/p"
+  },
+  {
+    "termo": "VTR409",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "NVT-40-8P-B",
+    "nome": "Ventilador De Mesa 40cm Turbo Nvt-40-8p-b Preto/prata 110V",
+    "preco": "R$ 217,41",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-40cm-turbo-nvt-40-8p-b-preto-prata-110v-3876182/p"
+  },
+  {
+    "termo": "VE70",
+    "nome": "Ventilador de Mesa 40cm 7 Pás Arno Xtreme VE70 Preto com Azul 127V",
+    "preco": "R$ 259,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-arno-40cm-xtreme-ve70-7-pas-127v/p"
+  },
+  {
+    "termo": "VTR410",
+    "nome": "Ventilador de Mesa 140W 40cm VTR410 6 Pás Cadence Preto 127V",
+    "preco": "R$ 142,40",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-140w-40cm-vtr410-6-pas-cadence-preto-127v/p"
+  },
+  {
+    "termo": "BVT401",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "VTX-50-8P",
+    "nome": "Ventilador de Mesa Mondial Turbo 8 Pás 50cm VTX-50-8P",
+    "preco": "R$ 289,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-mondial-turbo-8-pas-50cm-vtx-50-8p-78129/p"
+  },
+  {
+    "termo": "BVT500",
+    "nome": "Ventilador Britânia 2 Em 1 Tecnologia Maxx Force 176W BVT500 110V",
+    "preco": "R$ 200,01",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-britania-2-em-1-tecnologia-maxx-force-176w-bvt500-110v-4424392/p"
+  },
+  {
+    "termo": "VB50",
+    "nome": "Ventilador de Mesa 50cm Arno Xtreme Force Breeze, 6 PÁS, 126W VB50 127V",
+    "preco": "R$ 332,40",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-arno-xtreme-force-breeze-50cm-vb50-preto-com-azul-127v/p"
+  },
+  {
+    "termo": "TURBO 6",
+    "nome": "Liquidificador Philco Turbo Pro Maxx 6 PLQ1550 Vermelho 127V",
+    "preco": "R$ 170,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-philco-plq1550-vermelho-127v/p"
+  },
+  {
+    "termo": "BVT510",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "VT-30C-NB",
+    "nome": "Ventilador Coluna Mondial - Turbo 06 Pás - Vt-30c-nb Vent 30cm Vt-30c-nb 127v/60hz Turbo Coluna",
+    "preco": "R$ 191,31",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-coluna-mondial---turbo-06-pas---vt-30c-nb-vent-30cm-vt-30c-nb-127v-60hz-turbo-coluna-1982881/p"
+  },
+  {
+    "termo": "BVT350",
+    "nome": "Ventilador De Coluna Britânia Maxx Force 75W BVT350 220V",
+    "preco": "R$ 165,21",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-de-coluna-britania-maxx-force-75w-bvt350-220v-4452753/p"
+  },
+  {
+    "termo": "Coluna 30cm",
+    "nome": "Ventilador Coluna Mondial - Turbo 06 Pás - Vt-30c-nb Vent 30cm Vt-30c-nb 127v/60hz Turbo Coluna",
+    "preco": "R$ 191,31",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/ventilador-coluna-mondial---turbo-06-pas---vt-30c-nb-vent-30cm-vt-30c-nb-127v-60hz-turbo-coluna-1982881/p"
+  },
+  {
+    "termo": "L-99-FB",
+    "nome": "Liquidificador Mondial Turbo Power L-99-FB",
+    "preco": "R$ 129,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-turbo-power-l-99-fb-85611/p"
+  },
+  {
+    "termo": "Black 3",
+    "nome": "Kit Furadeira de Impacto 3/8\" Black & Decker TM500KB9B2 560W 9 Brocas e Maleta 127V",
+    "preco": "R$ 219,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/furadeira-de-impacto-3-8-black---decker-tm500kb9b2-560w-9-brocas-e-maleta-127v/p"
+  },
+  {
+    "termo": "LQ651",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LQ31",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BLQ920P",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LIQ347",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-550-B",
+    "nome": "Liquidificador Mondial 1,5l Easy Power 550w L-550-b Liquidificador L-550-b 220v/60hz .",
+    "preco": "R$ 95,61",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-15l-easy-power-550w-l-550-b-liquidificador-l-550-b-220v-60hz---1125844/p"
+  },
+  {
+    "termo": "RI2110/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LQ10",
+    "nome": "Liquidificador Arno Power Mix LQ10 550W 2L 2 Velocidades Preto 127V",
+    "preco": "R$ 113,05",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-arno-power-mix-lq10-550w-2l-2-velocidades-preto-127v/p"
+  },
+  {
+    "termo": "LIQ100",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "FAST MIX 2",
+    "nome": "Liquidificador Fast Mix 520w 2 Velocidades E Pulsar Mallory Preto 220v",
+    "preco": "R$ 105,02",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-fast-mix-520w-2-velocidades-e-pulsar-mallory-preto-220v-1829036/p"
+  },
+  {
+    "termo": "LQLF",
+    "nome": "Liquidificador 850W 127V Lqlf-01 Leitoso Agratto",
+    "preco": "R$ 144,09",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-850w-127v-lqlf-01-leitoso-agratto-775482/p"
+  },
+  {
+    "termo": "L-97-W",
+    "nome": "Liquidifcador 550W 2,2L Mondial L-97-W Pratic Power 2Vel Branco 220V",
+    "preco": "R$ 299,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidifcador-550w-22l-mondial-l-97-w-pratic-power-2vel-branco-220v-4017403/p"
+  },
+  {
+    "termo": "L-900 FB",
+    "nome": "Liquidificador com Filtro 900W 2.7L Mondial Turbo L-900 FB 5 Velocidades Preto 127V",
+    "preco": "R$ 142,40",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-com-filtro-900w-2-7l-5-velocidades-turbo-full-black-l-900-fb-127v/p"
+  },
+  {
+    "termo": "DIAMANTE PRETO 900W",
+    "nome": "Liquidificador Britânia 900W 2.65L Diamante 800 com Filtro e 4 Velocidades Preto",
+    "preco": "R$ 113,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-britania-900w-2-65l-diamante-800-com-filtro-e-4-velocidades-preto-127v/p"
+  },
+  {
+    "termo": "BLQ970P",
+    "nome": "Liquidificador Britânia BLQ970P Turbo 900W",
+    "preco": "R$ 125,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-britania-blq970p-turbo-900w-4402987/p"
+  },
+  {
+    "termo": "LIQ200",
+    "nome": "Liquidificador Hit LIQ200 Cadence Preta 127V",
+    "preco": "R$ 113,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-cadence-hit-liq200-preta-127v/p"
+  },
+  {
+    "termo": "LN61",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LQ35",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-1100-BI",
+    "nome": "Liquidificador Mondial Turbo Inox 3L L-1100-BI",
+    "preco": "R$ 189,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-turbo-inox-3l-l-1100-bi-78447/p"
+  },
+  {
+    "termo": "BLQ1280P",
+    "nome": "Liquidificador Britânia BLQ1280P Preto 1150 W com 4 Velocidades",
+    "preco": "R$ 119,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-britania-blq1280p-preto-1150-w-com-4-velocidades-2046563/p"
+  },
+  {
+    "termo": "OLIQ606",
+    "nome": "Liquidificador Oster 1100 Full OLIQ606 Cinza com 12 Velocidades - 1.100W",
+    "preco": "R$ 167,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-oster-1100-full-oliq606-cinza-com-12-velocidades---1-100w-3236556/p"
+  },
+  {
+    "termo": "PLQ1411P",
+    "nome": "Liquidificador Philco PLQ1411P 4 velocidades 2,7L 1150W",
+    "preco": "R$ 242,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-philco-plq1411p-4-velocidades-27l-1150w-4403221/p"
+  },
+  {
+    "termo": "BLST3B-R2T",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LQ1111",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-28",
+    "nome": "Liquidificador Mondial Power 2 Black L-28",
+    "preco": "R$ 119,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-power-2-black-l-28-85479/p"
+  },
+  {
+    "termo": "RI2112/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Flash Mix",
+    "nome": "Mop Giratório Fit Flash Limp Kit Completo",
+    "preco": "R$ 94,80",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mop-giratorio-fit-flash-limp-kit-completo-3135857/p"
+  },
+  {
+    "termo": "Flash Mix+",
+    "nome": "Mop Giratório Fit Flash Limp Kit Completo",
+    "preco": "R$ 94,80",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mop-giratorio-fit-flash-limp-kit-completo-3135857/p"
+  },
+  {
+    "termo": "L-1200-BI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PH900 Preto",
+    "nome": "Liquidificador Philco PH900 Preto 1200W com 12 Velocidades",
+    "preco": "R$ 138,99",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-philco-ph900-preto-1200w-com-12-velocidades-2046809/p"
+  },
+  {
+    "termo": "RI2242_90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PLQ2100PI",
+    "nome": "Liquidificador Philco Turbo PLQ2100PI Preto com Inox 127V",
+    "preco": "R$ 227,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-turbo-plq2100pi-philco-preto-prata-127v/p"
+  },
+  {
+    "termo": "RI2240_90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BLQ1380P",
+    "nome": "Liquidificador Britânia BLQ1380P Pro Maxx 6 Inox 3L 1200W",
+    "preco": "R$ 179,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-britania-blq1380p-pro-maxx-6-inox-3l-1200w-4403127/p"
+  },
+  {
+    "termo": "L-1400-GI",
+    "nome": "Liquidificador Mondial Turbo Glass L-1400-GI",
+    "preco": "R$ 289,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-turbo-glass-l-1400-gi-1624312/p"
+  },
+  {
+    "termo": "BLSTMG-BR8",
+    "nome": "Liquidificador Oster Super Chef Preto 1,25L BLSTMG-BR8 110V",
+    "preco": "R$ 295,71",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-oster-super-chef-preto-125l-blstmg-br8-110v-4401161/p"
+  },
+  {
+    "termo": "PLQ1350",
+    "nome": "Liquidificador Philco Turbo Glass 12 Velocidades e Pulsar 1200W PLQ1350",
+    "preco": "R$ 266,28",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-philco-turbo-glass-12-velocidades-e-pulsar-1200w-plq1350-2809689/p"
+  },
+  {
+    "termo": "OLIQ520",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "EBS30",
+    "nome": "Liquidificador Electrolux EBS30 Aço Inox Escovado/Preto com Copo de Vidro 700W e 5 Velocidades",
+    "preco": "R$ 264,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-electrolux-ebs30-aco-inox-escovado-preto-com-copo-de-vidro-700w-e-5-velocidades-2267348/p"
+  },
+  {
+    "termo": "OLIQ501",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-98-B",
+    "nome": "Liquidificador Pratic Turbo Mondial L-98-B 220V 60hz",
+    "preco": "R$ 134,76",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-pratic-turbo-mondial-l-98-b-220v-60hz-3237397/p"
+  },
+  {
+    "termo": "L-77",
+    "nome": "Liquidificador Mondial Turbo Power L-77",
+    "preco": "R$ 119,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-turbo-power-l-77-85615/p"
+  },
+  {
+    "termo": "AFN-50-BI",
+    "nome": "Fritadeira Sem Óleo Air Fryer 5L Mondial AFN-50-BI 127V/60Hz .",
+    "preco": "R$ 599,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-sem-oleo-air-fryer-5l-mondial-afn-50-bi-127v-60hz---2293659/p"
+  },
+  {
+    "termo": "AFN-50-RI",
+    "nome": "Fritadeira Air Fryer 5 Litros AFN-50-RI Mondial",
+    "preco": "R$ 439,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/fritadeira-air-fryer-5-litros-afn-50-ri-mondial-78213/p"
+  },
+  {
+    "termo": "BFR51",
+    "nome": "Fritadeira Air Fryer 5.5L BFR51 Britânia Preta 127V",
+    "preco": "R$ 399,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-5-5l-bfr51-britania-preta-127v/p"
+  },
+  {
+    "termo": "PAF55A",
+    "nome": "Air Fryer Philco 5,5L Cesto Quadrado 1500W PAF55A",
+    "preco": "R$ 548,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/air-fryer-philco-55l-cesto-quadrado-1500w-paf55a-4403041/p"
+  },
+  {
+    "termo": "EAF40",
+    "nome": "Fritadeira Air Fryer 5,6L Eaf40 Electrolux Cinza 127V",
+    "preco": "R$ 408,40",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-air-fryer-5-6l-eaf40-electrolux-cinza-127v/p"
+  },
+  {
+    "termo": "Fryer Space",
+    "nome": "Fritadeira Elétrica Air Fryer Elgin Space 5 5L 1700W Preto 127V",
+    "preco": "R$ 208,71",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-eletrica-air-fryer-elgin-space-5-5l-1700w-preto-127v-3039141/p"
+  },
+  {
+    "termo": "FRB50P1",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AFN-60-BI",
+    "nome": "Fritadeira Sem Óleo Air Fryer 6 Litros AFN-60-BI Mondial",
+    "preco": "R$ 489,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/fritadeira-sem-oleo-air-fryer-6-litros-afn-60-bi-mondial-1857501/p"
+  },
+  {
+    "termo": "AFN-60-RI",
+    "nome": "Fritadeira Sem Óleo Air Fryer 6 Litros AFN-60-RI Mondial",
+    "preco": "R$ 489,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/fritadeira-sem-oleo-air-fryer-6-litros-afn-60-ri-mondial-2525433/p"
+  },
+  {
+    "termo": "EAF50",
+    "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Electrolux Family Efficient Por Rita Lobo EAF50 5L  Grafite",
+    "preco": "R$ 379,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-eletrica-sem-oleo-air-fryer-electrolux-family-efficient-por-rita-lobo-eaf50-5l---grafite-2204241/p"
+  },
+  {
+    "termo": "RI9280",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PFR67PI",
+    "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Philco PFR67PI 6,8L  Inox/Preta",
+    "preco": "R$ 519,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-eletrica-sem-oleo-air-fryer-philco-pfr67pi-68l--inox-preta-2307047/p"
+  },
+  {
+    "termo": "MAD600010APKW1",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AFD6",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AFN-80-BI",
+    "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Mondial Mega Family AFN-80-BI 8L – Preta/Inox",
+    "preco": "R$ 519,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-eletrica-sem-oleo-air-fryer-mondial-mega-family-afn-80-bi-8l---preta-inox-2204405/p"
+  },
+  {
+    "termo": "AFN-80-RI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-sem-oleo-air-fryer-8-litros-afn-80-ri-mondial-air-fryer-afn-80-ri-220v-60hz-4205369/p"
+  },
+  {
+    "termo": "AFN-80-FB",
+    "nome": "Fritadeira Sem Óleo Air Fryer 8L Mondial Preto - AFN-80-FB",
+    "preco": "R$ 599,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/fritadeira-sem-oleo-air-fryer-8l-mondial-preto---afn-80-fb-1879182/p"
+  },
+  {
+    "termo": "PFR13P",
+    "nome": "Air Fryer Philco 8,1L Sem Óleo 200°C PFR13P",
+    "preco": "R$ 728,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/air-fryer-philco-81l-sem-oleo-200%C2%B0c-pfr13p-4402971/p"
+  },
+  {
+    "termo": "Chrome Fry",
+    "nome": "Fritadeira Chrome Fry Elgin 8l Afc80 42afc8002000 Preto-inox 220V",
+    "preco": "R$ 604,69",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-chrome-fry-elgin-8l-afc80-42afc8002000-preto-inox-220v-3907610/p"
+  },
+  {
+    "termo": "Gran Fry",
+    "nome": "Kit 2 Puffs Decorativo Base Preto Trixie Veludo Bege",
+    "preco": "R$ 565,41",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/kit-2-puffs-decorativo-base-preto-trixie-veludo-bege-189907/p"
+  },
+  {
+    "termo": "FWM85P1",
+    "nome": "Fritadeira Air Fryer Midea Wide Max Cyclone Preto 8,5L 110V FWM85P1",
+    "preco": "R$ 599,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fritadeira-air-fryer-midea-wide-max-cyclone-preto-85l-110v-fwm85p1-4337303/p"
+  },
+  {
+    "termo": "AFDO-25L-FD",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AF-250FD2",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TSSTTVFDMAF",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  }
+]
