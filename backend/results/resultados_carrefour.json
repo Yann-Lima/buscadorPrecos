@@ -1,0 +1,58 @@
+[
+  {
+    "termo": "OFRT520",
+    "nome": "Fritadeira Elétrica Sem Óleo Oster Compact OFRT520 4,6L",
+    "preco": "R$ 359,10",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fritadeira-eletrica-sem-oleo-oster-compact-ofrt520-46l-mp931869700/p"
+  },
+  {
+    "termo": "EAF15",
+    "nome": "Air Fryer Electrolux 3,2L Preta Efficient com Timer 1400W por Rita Lobo (EAF15) 220V",
+    "preco": "R$ 289,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/air-fryer-electrolux-32l-preta-efficient-com-timer-1400w-por-rita-lobo-eaf15-220v-mp934225048/p"
+  },
+  {
+    "termo": "BFR2100",
+    "nome": "Fritadeira Air Fry Britânia Oven Bfr2100 1800w",
+    "preco": "R$ 549,10",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fritadeira-air-fry-britania-oven-bfr2100-1800w-mp925539665/p"
+  },
+  {
+    "termo": "EAF90",
+    "nome": "Air Fryer Oven Electrolux 12L Digital Grafite Experience 1700W por Rita Lobo (EAF90) 127V",
+    "preco": "R$ 829,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/air-fryer-oven-electrolux-12l-digital-grafite-experience-1700w-por-rita-lobo-eaf90-127v-mp932781203/p"
+  },
+  {
+    "termo": "AFON-12L-BI",
+    "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Oven 2 em 1 Mondial AFON-12L-BI 12L Digital",
+    "preco": "R$ 599,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fritadeira-eletrica-sem-oleo-air-fryer-oven-2-em-1-mondial-afon12lbi-12l-digital-mp940022414/p"
+  },
+  {
+    "termo": "OFRT780",
+    "nome": "Fritadeira Elétrica Sem Óleo Oven Fryer Oster OFRT780 3 em 1 12L",
+    "preco": "R$ 619,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fritadeira-eletrica-sem-oleo-oven-fryer-oster-ofrt780-3-em-1-12l-mp931930204/p"
+  },
+  {
+    "termo": "PFR2200",
+    "nome": "Fritadeira Philco Air Fry Oven PFR2200 Preta 127V",
+    "preco": "R$ 599,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fritadeira-philco-air-fry-oven-pfr2200-preta-127v-mp920583289/p"
+  }
+]

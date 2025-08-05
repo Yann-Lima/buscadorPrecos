@@ -9,7 +9,7 @@ const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "produtos.j
 const listaProdutos = produtosJson.produtos;
 
 async function executarBuscaEmTodos() {
-  console.log("[INFO] Iniciando verificação de todos os produtos no eFácil...\n");
+  console.error("[INFO] Iniciando verificação de todos os produtos no eFácil...\n");
 
   for (const termo of listaProdutos) {
     try {
@@ -29,16 +29,16 @@ async function executarBuscaEmTodos() {
 
   const outputPath = path.join(__dirname, "..", "results", "resultados_eFacil.json");
   fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
-  console.log("\n[INFO] Fim da verificação.");
+  console.error("\n[INFO] Fim da verificação.");
 }
 
 async function buscarPrimeiroProdutoEFACIL(termo) {
   const termoBusca = termo.trim().replace(/\s+/g, '+');
   const urlBusca = `https://www.efacil.com.br/loja/busca/?searchTerm=${termoBusca}`;
 
-  console.log("\n[INFO] ========== NOVA BUSCA ==========");
-  console.log("[DEBUG] Termo:", termo);
-  console.log("[DEBUG] URL:", urlBusca);
+  console.error("\n[INFO] ========== NOVA BUSCA ==========");
+  console.error("[DEBUG] Termo:", termo);
+  console.error("[DEBUG] URL:", urlBusca);
 
   try {
     const resp = await axios.get(urlBusca, {
@@ -62,7 +62,7 @@ async function buscarPrimeiroProdutoEFACIL(termo) {
     }
 
     const urlProduto = "https://www.efacil.com.br" + linkProduto;
-    console.log("[DEBUG] Primeiro produto encontrado:", urlProduto);
+    console.error("[DEBUG] Primeiro produto encontrado:", urlProduto);
 
     await extrairDetalhesProdutoEFACIL(urlProduto, termo);
 
@@ -80,7 +80,7 @@ async function buscarPrimeiroProdutoEFACIL(termo) {
 }
 
 async function extrairDetalhesProdutoEFACIL(urlProduto, termoOriginal) {
-  console.log("[INFO] --- Acessando produto para:", termoOriginal);
+  console.error("[INFO] --- Acessando produto para:", termoOriginal);
 
   try {
     const resp = await axios.get(urlProduto, {
@@ -123,10 +123,10 @@ async function extrairDetalhesProdutoEFACIL(urlProduto, termoOriginal) {
 
     const vendidoEFACIL = entreguePor.toLowerCase().includes("efácil");
 
-    console.log(`[RESULTADO] Produto: ${nome}`);
-    console.log(`[RESULTADO] Preço à vista: ${preco}`);
-    console.log(`[RESULTADO] Vendido por eFácil: ${vendidoEFACIL ? "✅ Sim" : "❌ Não"}`);
-    console.log(`[RESULTADO] Link: ${urlProduto}`);
+    console.error(`[RESULTADO] Produto: ${nome}`);
+    console.error(`[RESULTADO] Preço à vista: ${preco}`);
+    console.error(`[RESULTADO] Vendido por eFácil: ${vendidoEFACIL ? "✅ Sim" : "❌ Não"}`);
+    console.error(`[RESULTADO] Link: ${urlProduto}`);
 
     resultados.push({
       termo: termoOriginal,
@@ -149,15 +149,36 @@ async function extrairDetalhesProdutoEFACIL(urlProduto, termoOriginal) {
     });
   }
 
-  console.log("[INFO] --- Fim da verificação do produto ---\n");
+  console.error("[INFO] --- Fim da verificação do produto ---\n");
 }
 
 executarBuscaEmTodos()
   .then(() => {
-    console.log("[INFO] Script eFácil finalizado com sucesso.");
+    // Apenas o JSON final deve ir para o stdout
+    const resultadoFinal = {};
+    for (const item of resultados) {
+      resultadoFinal[item.termo] = {
+        preco: item.vendido ? item.preco : null,
+        vendido: item.vendido
+      };
+    }
+    console.log(JSON.stringify(resultadoFinal));
+
+    // Todas as outras mensagens são só informativas
+    console.error("[INFO] Script eFacil finalizado com sucesso.");
+    process.exit(0);
+  })
+  .catch(err => {
+    console.error("[ERRO FATAL] Falha inesperada no script eFacil:", err.message);
+    process.exit(1);
+  });
+
+/*executarBuscaEmTodos()
+  .then(() => {
+    console.error("[INFO] Script eFácil finalizado com sucesso.");
     process.exit(0);
   })
   .catch(err => {
     console.error("[ERRO FATAL] Falha inesperada no script eFácil:", err.message);
     process.exit(1);
-  });
+  });*/

@@ -13,7 +13,7 @@ const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "produtos.j
 const listaProdutos = produtosJson.produtos;
 
 async function executarBuscaEmTodos() {
-  console.log("[INFO] Iniciando verificação de todos os produtos no Carrefour...\n");
+  console.error("[INFO] Iniciando verificação de todos os produtos no Carrefour...\n");
 
   for (const termo of listaProdutos) {
     try {
@@ -33,16 +33,16 @@ async function executarBuscaEmTodos() {
 
   const outputPath = path.join(__dirname, "..", "results", "resultados_carrefour.json");
   fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
-  console.log("\n[INFO] Fim da verificação.");
+  console.error("\n[INFO] Fim da verificação.");
 }
 
 async function buscarPrimeiroProdutoCarrefour(termo) {
   const termoBusca = encodeURIComponent(termo);
   const urlBusca = `https://www.carrefour.com.br/busca/${termoBusca}`;
 
-  console.log("\n[INFO] ========== NOVA BUSCA ==========");
-  console.log("[DEBUG] Termo:", termo);
-  console.log("[DEBUG] URL:", urlBusca);
+  console.error("\n[INFO] ========== NOVA BUSCA ==========");
+  console.error("[DEBUG] Termo:", termo);
+  console.error("[DEBUG] URL:", urlBusca);
 
   try {
     const resp = await axios.get(urlBusca, {
@@ -66,7 +66,7 @@ async function buscarPrimeiroProdutoCarrefour(termo) {
     }
 
     const urlProduto = `https://www.carrefour.com.br${relativeLink}`;
-    console.log("[DEBUG] Primeiro produto encontrado:", urlProduto);
+    console.error("[DEBUG] Primeiro produto encontrado:", urlProduto);
 
     await extrairDetalhesProdutoCarrefour(urlProduto, termo);
 
@@ -84,7 +84,7 @@ async function buscarPrimeiroProdutoCarrefour(termo) {
 }
 
 async function extrairDetalhesProdutoCarrefour(urlProduto, termoOriginal) {
-  console.log("[INFO] --- Acessando produto via navegador real (Puppeteer)");
+  console.error("[INFO] --- Acessando produto via navegador real (Puppeteer)");
 
   const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
@@ -112,10 +112,10 @@ async function extrairDetalhesProdutoCarrefour(urlProduto, termoOriginal) {
 
     const vendidoPorCarrefour = entreguePor.includes("Carrefour");
 
-    console.log(`[RESULTADO] Produto: ${nome}`);
-    console.log(`[RESULTADO] Preço: ${preco}`);
-    console.log(`[RESULTADO] Vendido por Carrefour: ${vendidoPorCarrefour ? "✅ Sim" : "❌ Não"}`);
-    console.log(`[RESULTADO] Link: ${urlProduto}`);
+    console.error(`[RESULTADO] Produto: ${nome}`);
+    console.error(`[RESULTADO] Preço: ${preco}`);
+    console.error(`[RESULTADO] Vendido por Carrefour: ${vendidoPorCarrefour ? "✅ Sim" : "❌ Não"}`);
+    console.error(`[RESULTADO] Link: ${urlProduto}`);
 
     resultados.push({
       termo: termoOriginal,
@@ -138,16 +138,37 @@ async function extrairDetalhesProdutoCarrefour(urlProduto, termoOriginal) {
     });
   } finally {
     await browser.close();
-    console.log("[INFO] --- Fim da verificação do produto ---\n");
+    console.error("[INFO] --- Fim da verificação do produto ---\n");
   }
 }
-
 executarBuscaEmTodos()
   .then(() => {
-    console.log("[INFO] Script finalizado com sucesso.");
+    // Apenas o JSON final deve ir para o stdoutF
+    const resultadoFinal = {};
+for (const item of resultados) {
+  resultadoFinal[item.termo] = {
+    preco: item.vendido ? item.preco : null,
+    vendido: item.vendido
+  };
+}
+console.log(JSON.stringify(resultadoFinal));
+F // <-- único console.log permitido
+
+    // Todas as outras mensagens são só informativas
+    console.error("[INFO] Script Carreffour finalizado com sucesso.");
+    process.exit(0);
+  })
+  .catch(err => {
+    console.error("[ERRO FATAL] Falha inesperada no script Carrefour:", err.message);
+    process.exit(1);
+  });
+
+/*executarBuscaEmTodos()
+  .then(() => {
+    console.error("[INFO] Script finalizado com sucesso.");
     process.exit(0);
   })
   .catch(err => {
     console.error("[ERRO FATAL] Falha inesperada:", err.message);
     process.exit(1);
-  });
+  });*/
