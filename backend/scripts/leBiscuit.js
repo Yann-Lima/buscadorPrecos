@@ -6,7 +6,7 @@ const path = require("path");
 const resultados = [];
 
 const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "produtos.json"), "utf-8"));
-const listaProdutos = produtosJson.produtos;
+const listaProdutos = produtosJson.produtos.map(p => p.trim());
 
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no Le Biscuit...\n");

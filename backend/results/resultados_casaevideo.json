@@ -1,5 +1,365 @@
 [
   {
+    "termo": "PLQ1350",
+    "nome": "Liquidificador Philco Turbo Glass 12 Velocidades e Pulsar 1200W PLQ1350",
+    "preco": "R$ 266,28",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-philco-turbo-glass-12-velocidades-e-pulsar-1200w-plq1350-2809689/p"
+  },
+  {
+    "termo": "L-28",
+    "nome": "Liquidificador Mondial Power 2 Black L-28",
+    "preco": "R$ 119,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-power-2-black-l-28-85479/p"
+  },
+  {
+    "termo": "RI2112/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Flash Mix",
+    "nome": "Mop Giratório Fit Flash Limp Kit Completo",
+    "preco": "R$ 94,80",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mop-giratorio-fit-flash-limp-kit-completo-3135857/p"
+  },
+  {
+    "termo": "Flash Mix+",
+    "nome": "Mop Giratório Fit Flash Limp Kit Completo",
+    "preco": "R$ 94,80",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mop-giratorio-fit-flash-limp-kit-completo-3135857/p"
+  },
+  {
+    "termo": "LQLF",
+    "nome": "Liquidificador 850W 127V Lqlf-01 Leitoso Agratto",
+    "preco": "R$ 144,09",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-850w-127v-lqlf-01-leitoso-agratto-775482/p"
+  },
+  {
+    "termo": "LQ10",
+    "nome": "Liquidificador Arno Power Mix LQ10 550W 2L 2 Velocidades Preto 127V",
+    "preco": "R$ 113,05",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-arno-power-mix-lq10-550w-2l-2-velocidades-preto-127v/p"
+  },
+  {
+    "termo": "LIQ100",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "FAST MIX 2",
+    "nome": "Liquidificador Fast Mix 520w 2 Velocidades E Pulsar Mallory Preto 220v",
+    "preco": "R$ 105,02",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-fast-mix-520w-2-velocidades-e-pulsar-mallory-preto-220v-1829036/p"
+  },
+  {
+    "termo": "L-550-B",
+    "nome": "Liquidificador Mondial 1,5l Easy Power 550w L-550-b Liquidificador L-550-b 220v/60hz .",
+    "preco": "R$ 95,61",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-15l-easy-power-550w-l-550-b-liquidificador-l-550-b-220v-60hz---1125844/p"
+  },
+  {
+    "termo": "RI2110/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Flash Mix",
+    "nome": "Mop Giratório Fit Flash Limp Kit Completo",
+    "preco": "R$ 94,80",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mop-giratorio-fit-flash-limp-kit-completo-3135857/p"
+  },
+  {
+    "termo": "Flash Mix+",
+    "nome": "Mop Giratório Fit Flash Limp Kit Completo",
+    "preco": "R$ 94,80",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mop-giratorio-fit-flash-limp-kit-completo-3135857/p"
+  },
+  {
+    "termo": "L-77",
+    "nome": "Liquidificador Mondial Turbo Power L-77",
+    "preco": "R$ 119,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-turbo-power-l-77-85615/p"
+  },
+  {
+    "termo": "RI2112/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-900 FB",
+    "nome": "Liquidificador com Filtro 900W 2.7L Mondial Turbo L-900 FB 5 Velocidades Preto 127V",
+    "preco": "R$ 142,40",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-com-filtro-900w-2-7l-5-velocidades-turbo-full-black-l-900-fb-127v/p"
+  },
+  {
+    "termo": "DIAMANTE PRETO 900W",
+    "nome": "Liquidificador Britânia 900W 2.65L Diamante 800 com Filtro e 4 Velocidades Preto",
+    "preco": "R$ 113,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-britania-900w-2-65l-diamante-800-com-filtro-e-4-velocidades-preto-127v/p"
+  },
+  {
+    "termo": "BLQ970P",
+    "nome": "Liquidificador Britânia BLQ970P Turbo 900W",
+    "preco": "R$ 125,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-britania-blq970p-turbo-900w-4402987/p"
+  },
+  {
+    "termo": "LIQ200",
+    "nome": "Liquidificador Hit LIQ200 Cadence Preta 127V",
+    "preco": "R$ 113,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-cadence-hit-liq200-preta-127v/p"
+  },
+  {
+    "termo": "LN61",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LQ35",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-97-W",
+    "nome": "Liquidifcador 550W 2,2L Mondial L-97-W Pratic Power 2Vel Branco 220V",
+    "preco": "R$ 299,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidifcador-550w-22l-mondial-l-97-w-pratic-power-2vel-branco-220v-4017403/p"
+  },
+  {
+    "termo": "Flash Mix",
+    "nome": "Mop Giratório Fit Flash Limp Kit Completo",
+    "preco": "R$ 94,80",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mop-giratorio-fit-flash-limp-kit-completo-3135857/p"
+  },
+  {
+    "termo": "Flash Mix+",
+    "nome": "Mop Giratório Fit Flash Limp Kit Completo",
+    "preco": "R$ 94,80",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mop-giratorio-fit-flash-limp-kit-completo-3135857/p"
+  },
+  {
+    "termo": "L-98-B",
+    "nome": "Liquidificador Pratic Turbo Mondial L-98-B 220V 60hz",
+    "preco": "R$ 134,76",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-pratic-turbo-mondial-l-98-b-220v-60hz-3237397/p"
+  },
+  {
+    "termo": "RI2110/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "RI2112/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LQ10",
+    "nome": "Liquidificador Arno Power Mix LQ10 550W 2L 2 Velocidades Preto 127V",
+    "preco": "R$ 113,05",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/liquidificador-arno-power-mix-lq10-550w-2l-2-velocidades-preto-127v/p"
+  },
+  {
+    "termo": "L-99-FB",
+    "nome": "Liquidificador Mondial Turbo Power L-99-FB",
+    "preco": "R$ 129,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/liquidificador-mondial-turbo-power-l-99-fb-85611/p"
+  },
+  {
+    "termo": "CMA20BB",
+    "nome": "Micro ondas 20 Litros 10 Níveis de Potência CMA20BB Consul",
+    "preco": "R$ 580,23",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/micro-ondas-20-litros-10-niveis-de-potencia-cma20bb-consul-2809241/p"
+  },
+  {
+    "termo": "CMS46AR",
+    "nome": "Micro-ondas CMS46AR Consul 32 Litros de Bancada Menu Fácil e Espelhado",
+    "preco": "R$ 929,07",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/micro-ondas-cms46ar-consul-32-litros-de-bancada-menu-facil-e-espelhado-2846149/p"
+  },
+  {
+    "termo": "MTO30",
+    "nome": "Micro-ondas Electrolux 20L Branco com Função Tira Odor e Descongelar (MTO30)",
+    "preco": "R$ 569,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/micro-ondas-electrolux-20l-branco-com-funcao-tira-odor-e-descongelar--mto30--3086948/p"
+  },
+  {
+    "termo": "MI41S",
+    "nome": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S)",
+    "preco": "R$ 849,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/micro-ondas-electrolux-31l-cor-inox-espelhado-com-painel-integrado-e-funcao-tira-odor--mi41s--3086947/p"
+  },
+  {
+    "termo": "MRAS21",
+    "nome": "Micro-Ondas 20 Litros Midea MRAS21 Preto/Branco 127V",
+    "preco": "R$ 550,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/micro-ondas-20l-midea-mras21-preto-branco-127v/p"
+  },
+  {
+    "termo": "MXSA35S1",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "MO-01-21-W",
+    "nome": "Micro-ondas Mondial MO-01-21-W com Função Tira Odor e Manter Aquecido Branco - 21L",
+    "preco": "R$ 509,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/micro-ondas-mondial-mo-01-21-w-com-funcao-tira-odor-e-manter-aquecido-branco---21l-2536180/p"
+  },
+  {
+    "termo": "MO-02-34-E",
+    "nome": "Micro-ondas 34L Mondial MO-02-34-E Prata 127V",
+    "preco": "R$ 729,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/micro-ondas-34l-mondial-mo02-preto-127v/p"
+  },
+  {
+    "termo": "NN-ST25LWRU",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "ST67LSRU",
+    "nome": "Micro-ondas Panasonic Tecnologia Antibactéria AG 34L Inox - ST67LSRU 110V",
+    "preco": "",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/micro-ondas-panasonic-tecnologia-antibacteria-ag-34l-inox---st67lsru-110v-3089935/p"
+  },
+  {
+    "termo": "PMO23BB",
+    "nome": "Forno Micro-Ondas 20 Litros Philco PMO23BB Branco 127V",
+    "preco": "R$ 579,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/forno-micro-ondas-20l-philco-pmo23bb-branco-127v/p"
+  },
+  {
+    "termo": "PMO34EB",
+    "nome": "Forno Micro-ondas 34L Philco PMO34EB Branco 127V",
+    "preco": "R$ 759,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/micro-ondas-34l-philco-pmo34eb-branco-127v-/p"
+  },
+  {
+    "termo": "BFR11PG",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BFR38",
+    "nome": "Air Fryer Britânia 4,2L Dura Mais 1500W BFR38",
+    "preco": "R$ 233,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/air-fryer-britania-42l-dura-mais-1500w-bfr38-4403072/p"
+  },
+  {
+    "termo": "EAF15",
+    "nome": "Air Fryer Electrolux por Rita Lobo 3,2L Preta Efficient com Timer 1400W (EAF15)",
+    "preco": "R$ 260,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/air-fryer-electrolux-por-rita-lobo-32l-preta-efficient-com-timer-1400w--eaf15--3083686/p"
+  },
+  {
+    "termo": "AFN-40-BI",
+    "nome": "Fritadeira Air Fryer 4 Litros AFN-40-BI Mondial",
+    "preco": "R$ 379,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/fritadeira-air-fryer-4-litros-afn-40-bi-mondial-85459/p"
+  },
+  {
     "termo": "OFRT520",
     "nome": "Fritadeira Air Fryer 4.6L Inox Compact Oster OFRT520 Preta 127V",
     "preco": "R$ 332,40",
@@ -8,12 +368,12 @@
     "link": "https://www.casaevideo.com.br/fritadeira-air-fryer-4-6l-oster-ofrt520-preta-127v/p"
   },
   {
-    "termo": "EAF15",
-    "nome": "Air Fryer Electrolux por Rita Lobo 3,2L Preta Efficient com Timer 1400W (EAF15)",
-    "preco": "R$ 289,90",
+    "termo": "PFR15PI",
+    "nome": "Air Fryer Philco 4,4L Antiaderente Redstone 1500W PFR15PI",
+    "preco": "R$ 620,91",
     "loja": "Casa e Vídeo",
     "vendido": false,
-    "link": "https://www.casaevideo.com.br/air-fryer-electrolux-por-rita-lobo-32l-preta-efficient-com-timer-1400w--eaf15--3083686/p"
+    "link": "https://www.casaevideo.com.br/air-fryer-philco-44l-antiaderente-redstone-1500w-pfr15pi-4408299/p"
   },
   {
     "termo": "BFR2100",
@@ -34,7 +394,7 @@
   {
     "termo": "AFON-12L-BI",
     "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Oven 2 em 1 Mondial AFON-12L-BI 12L Digital  Preta/Inox",
-    "preco": "R$ 599,00",
+    "preco": "R$ 559,00",
     "loja": "Casa e Vídeo",
     "vendido": false,
     "link": "https://www.casaevideo.com.br/fritadeira-eletrica-sem-oleo-air-fryer-oven-2-em-1-mondial-afon-12l-bi-12l-digital--preta-inox-2474073/p"
@@ -54,5 +414,765 @@
     "loja": "Casa e Vídeo",
     "vendido": false,
     "link": "https://www.casaevideo.com.br/air-fryer-oven-philco-12l-4-em-1-1800w-pfr2200-4402700/p"
+  },
+  {
+    "termo": "FW009547",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BFE55P",
+    "nome": "Forno Elétrico Britânia BFE55P Dupla resistência 52L",
+    "preco": "R$ 584,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/forno-eletrico-britania-bfe55p-dupla-resistencia-52l-4403097/p"
+  },
+  {
+    "termo": "BFE50B",
+    "nome": "Forno Elétrico Britânia 50 Litros com Função Timer Branco BFE50B 127V",
+    "preco": "R$ 524,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/forno-eletrico-britania-50-litros-com-funcao-timer-branco-bfe50b-127v-2817234/p"
+  },
+  {
+    "termo": "FR-52",
+    "nome": "Forno Elétrico Mondial 52L Grand Family II - FR-52",
+    "preco": "R$ 549,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/forno-eletrico-mondial-52l-grand-family-ii---fr-52-1507198/p"
+  },
+  {
+    "termo": "PFE52P",
+    "nome": "Forno Elétrico 50L Philco PFE52P Preto 127V",
+    "preco": "R$ 474,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/forno-eletrico-50l-philco-pfe52p-preto-127v/p"
+  },
+  {
+    "termo": "PFE52B",
+    "nome": "Forno Elétrico Branco Philco 50L Dupla Resistência PFE52B",
+    "preco": "R$ 404,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/forno-eletrico-branco-philco-50l-dupla-resistencia-pfe52b-4402871/p"
+  },
+  {
+    "termo": "FE5011PT",
+    "nome": "Forno Elétrico de Bancada Suggar 50 litros Preto 110V FE5011PT",
+    "preco": "R$ 529,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/forno-eletrico-de-bancada-suggar-50-litros-preto-110v-fe5011pt-132526/p"
+  },
+  {
+    "termo": "APR 1001",
+    "nome": "Mini Processador Amvox 100w APR 1001 BLACK",
+    "preco": "R$ 129,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mini-processador-amvox-1000w-apr-1001-black-1226904/p"
+  },
+  {
+    "termo": "MP120-B2",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "2P",
+    "nome": "Extensão 2.5m 2P Ilumi 17831 Branca",
+    "preco": "R$ 16,99",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/extensao-2-5m-2p-17831-ilumi-branca/p"
+  },
+  {
+    "termo": "MPR520",
+    "nome": "Mini Processador 350ml Cadence Easy Cut MPR520 Preto 127V",
+    "preco": "R$ 94,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mini-processador-350ml-cadence-easy-cut-mpr520-preto-127v/p"
+  },
+  {
+    "termo": "PMP431",
+    "nome": "Mini Processador 350ml Lenoxx Pratic PMP431 Preto 127V",
+    "preco": "R$ 94,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mini-processador-350ml-lenoxx-pratic-pmp431-preto-127v/p"
+  },
+  {
+    "termo": "MP-16-B/R",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SAN400",
+    "nome": "Sanduicheira Click SAN400 Cadence Preta 127V",
+    "preco": "R$ 129,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/sanduicheira-cadence-click-san400-preta-127v/p"
+  },
+  {
+    "termo": "PGR25A",
+    "nome": "Sanduicheira e Grill Philco 2 em 1 Antiaderente 750W PGR25A",
+    "preco": "R$ 170,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/sanduicheira-e-grill-philco-2-em-1-antiaderente-750w-pgr25a-4414645/p"
+  },
+  {
+    "termo": "AMS 500",
+    "nome": "Sanduicheira e Grill LED ON/OFF 750W AMS 500 RED",
+    "preco": "R$ 109,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/sanduicheira-e-grill-led-on-off-750w-ams-500-red-1226960/p"
+  },
+  {
+    "termo": "BGR01PI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Crome Inox",
+    "nome": "Grill e Sanduicheira Britânia Crome Inox",
+    "preco": "R$ 85,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/grill-e-sanduicheira-britania-crome-inox-2204366/p"
+  },
+  {
+    "termo": "BGR16",
+    "nome": "Sanduicheira Grill Britânia BGR16 com Revestimento Redstone - Inox",
+    "preco": "R$ 109,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/sanduicheira-grill-britania-bgr16-com-revestimento-redstone---inox-2469115/p"
+  },
+  {
+    "termo": "ESG20",
+    "nome": "Sanduicheira Electrolux Efficient Inox Antiaderente (ESG20)",
+    "preco": "R$ 161,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/sanduicheira-electrolux-efficient-inox-antiaderente--esg20--3135228/p"
+  },
+  {
+    "termo": "S-20",
+    "nome": "Sanduicheira Mondial Master Grill S-20 - Preto/Inox",
+    "preco": "R$ 102,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/sanduicheira-mondial-master-grill-s-20---preto-inox-2204442/p"
+  },
+  {
+    "termo": "AMS 370",
+    "nome": "Sanduicheira e Grill Preta Amvox LED ON/OFF 750W AMS 370 BLACK",
+    "preco": "R$ 99,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/sanduicheira-e-grill-preta-amvox-led-on-off-750w-ams-370-black-1226910/p"
+  },
+  {
+    "termo": "BGR01P",
+    "nome": "Grill e Sanduicheira Britânia BGR01P Toast Preto 750W",
+    "preco": "R$ 143,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/grill-e-sanduicheira-britania-bgr01p-toast-preto-750w-4407996/p"
+  },
+  {
+    "termo": "SAN260",
+    "nome": "Sanduicheira Grill Cadence Tost e Grill SAN260 Preta 127V",
+    "preco": "R$ 85,49",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/sanduicheira-grill-cadence-tost-grill-san260-preta-127v/p"
+  },
+  {
+    "termo": "Break Time",
+    "nome": "Sanduicheira E Grill Break Time 127V 800W San20 Chapa Antiaderente Elgin",
+    "preco": "",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/sanduicheira-e-grill-break-time-127v-800w-san20-chapa-antiaderente-elgin-3907406/p"
+  },
+  {
+    "termo": "S-12",
+    "nome": "Sanduicheira Grill Mondial Fast S-12 Preta 127V",
+    "preco": "R$ 85,49",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/sanduicheira-grill-mondial-fast-s-12-preta-127v/p"
+  },
+  {
+    "termo": "CE043",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BSC2150",
+    "nome": "Secador de Cabelos Britânia Bivolt 2100W BSC2150",
+    "preco": "R$ 143,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-britania-bivolt-2100w-bsc2150-4411058/p"
+  },
+  {
+    "termo": "SP3100N",
+    "nome": "Secador de Cabelo Britânia SP3100N 127V",
+    "preco": "R$ 104,40",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelo-britania-sp3100n-127v/p"
+  },
+  {
+    "termo": "SEC560",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SC-13",
+    "nome": "Secador de Cabelos Mondial Power Shine Black SC-13 2000W - Preto",
+    "preco": "R$ 89,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-mondial-power-shine-black-sc-13-2000w---preto-2440660/p"
+  },
+  {
+    "termo": "SC-32",
+    "nome": "Secador de Cabelos Mondial Golden Rose SC-32",
+    "preco": "R$ 179,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-mondial-golden-rose-sc-32-78379/p"
+  },
+  {
+    "termo": "PSC2450",
+    "nome": "Secador de Cabelos Philco Tourmaline 2200W Bivolt PSC2450",
+    "preco": "R$ 179,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-philco-tourmaline-2200w-bivolt-psc2450-4414346/p"
+  },
+  {
+    "termo": "PH3700",
+    "nome": "Secador de Cabelos Philco PH3700 Pink Tourmaline 2200W",
+    "preco": "R$ 269,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-philco-ph3700-pink-tourmaline-2200w-4415691/p"
+  },
+  {
+    "termo": "Cherry 2100W",
+    "nome": "Secador de Cabelo Philco Cherry 2100W",
+    "preco": "R$ 287,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelo-philco-cherry-2100w-4403017/p"
+  },
+  {
+    "termo": "PH3700",
+    "nome": "Secador de Cabelos Philco PH3700 Pink Tourmaline 2200W",
+    "preco": "R$ 269,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-philco-ph3700-pink-tourmaline-2200w-4415691/p"
+  },
+  {
+    "termo": "PSC2300",
+    "nome": "Secador de Cabelos Philco PSC2300 com Motor DC Vermelho 2200W - Bivolt",
+    "preco": "R$ 129,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-philco-psc2300-com-motor-dc-vermelho-2200w---bivolt-3313294/p"
+  },
+  {
+    "termo": "PSC2350",
+    "nome": "Secador de Cabelos Philco Bivolt 2200W PSC2350 Íons Tourmaline",
+    "preco": "R$ 143,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-philco-bivolt-2200w-psc2350-ions-tourmaline-4402714/p"
+  },
+  {
+    "termo": "GAM-BECHD0000002793_PAI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GAM-BECHD0000002791_PAI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GAM-BECHD0000002810_PAI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GAM-BECHD0000002808_PA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SCP-JU-01",
+    "nome": "Secador de Cabelo By Juliette Mondial Golden Rose 2000W - SCP-JU-01",
+    "preco": "R$ 219,90",
+    "loja": "Casa e Vídeo",
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelo-by-juliette-mondial-golden-rose-2000w---scp-ju-01-1068709/p"
+  },
+  {
+    "termo": "PSA3250",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Style 2000W",
+    "nome": "Taiff Style Red 220v 2000w - Secador De Cabelo",
+    "preco": "R$ 436,57",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/taiff-style-red-220v-2000w---secador-de-cabelo-4171101/p"
+  },
+  {
+    "termo": "Tourmaline Íon 2100W",
+    "nome": "Secador de Cabelos Taiff Tourmaline Ion Motor AC Profissional 2100W - Preto",
+    "preco": "R$ 329,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-taiff-tourmaline-ion-motor-ac-profissional-2100w---preto-2046350/p"
+  },
+  {
+    "termo": "Easy 1700W",
+    "nome": "Secador de Cabelos Taiff Easy Motor AC Profissional 1700W  Preto",
+    "preco": "R$ 199,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-taiff-easy-motor-ac-profissional-1700w--preto-2049102/p"
+  },
+  {
+    "termo": "Black Íon",
+    "nome": "Secador de Cabelos Mondial Black Purple SCN-01 com Tourmaline Íon 2000W - Preto",
+    "preco": "R$ 119,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-mondial-black-purple-scn-01-com-tourmaline-ion-2000w---preto-2440658/p"
+  },
+  {
+    "termo": "BSC1200",
+    "nome": "Secador de Cabelo BSC1200 Britânia Preto Bivolt",
+    "preco": "R$ 104,40",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelo-britania-bsc1200-preto-bivolt/p"
+  },
+  {
+    "termo": "Easy Travel",
+    "nome": "Cabo Lightning 1.5m Easy Mobile Premium Preto",
+    "preco": "R$ 56,99",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/cabo-easy-mobile-lightning-1-5-metro-premium-preto/p"
+  },
+  {
+    "termo": "SEC185",
+    "nome": "Secador de Cabelos Cadence Rouge Style 2 Velocidades - SEC185",
+    "preco": "R$ 81,28",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-cadence-rouge-style-2-velocidades---sec185-2809429/p"
+  },
+  {
+    "termo": "Eolic Travel",
+    "nome": "Mala Macaíba Pequena Preta",
+    "preco": "R$ 533,61",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/mala-macaiba-pequena-preta-108229/p"
+  },
+  {
+    "termo": "SC-10",
+    "nome": "Secador de Cabelos Mondial Max Travel SC-10 1200W Bivolt - Preto/Vermelho",
+    "preco": "R$ 69,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelos-mondial-max-travel-sc-10-1200w-bivolt---preto-vermelho-2449990/p"
+  },
+  {
+    "termo": "Titanium Travel 750W",
+    "nome": "Secador de Cabelo Philco Titanium Travel 750W",
+    "preco": "R$ 98,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/secador-de-cabelo-philco-titanium-travel-750w-4403213/p"
+  },
+  {
+    "termo": "Travel Shine",
+    "nome": "Kit Travel Shine Rosa Philco Prancha + Secador Bivolt",
+    "preco": "R$ 373,14",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/kit-travel-shine-rosa-philco-prancha---secador-bivolt-4436780/p"
+  },
+  {
+    "termo": "BHC010/81",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-EB-01-B",
+    "nome": "Fone De Ouvido Earbud Aiwa Bluetooth - Aws-eb-01-b Earbud Aws-eb-01-b Bivolt",
+    "preco": "R$ 304,41",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fone-de-ouvido-earbud-aiwa-bluetooth---aws-eb-01-b-earbud-aws-eb-01-b-bivolt-2516457/p"
+  },
+  {
+    "termo": "AWS-EB-05-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-EB-04-B",
+    "nome": "Fone de Ouvido Earbud Aiwa AWS-EB-04-B Bluetooth IPX4 ANC - 26 Horas de Bateria",
+    "preco": "R$ 182,61",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fone-de-ouvido-earbud-aiwa-aws-eb-04-b-bluetooth-ipx4-anc---26-horas-de-bateria-3587362/p"
+  },
+  {
+    "termo": "AWS-EB-03-B",
+    "nome": "Fone de Ouvido Aiwa Earbud AWS-EB-03-B Bluetooth IPX5 ANC Modo Ambiente  Preto",
+    "preco": "R$ 177,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fone-de-ouvido-aiwa-earbud-aws-eb-03-b-bluetooth-ipx5-anc-modo-ambiente--preto-2898515/p"
+  },
+  {
+    "termo": "AWS-HP-05-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-HP-04-B",
+    "nome": "Fone De Ouvido Aws-hp-04-b Biv Fone De Ouvido Aws-hp-04-b",
+    "preco": "R$ 284,40",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fone-de-ouvido-aws-hp-04-b-biv-fone-de-ouvido-aws-hp-04-b-3308139/p"
+  },
+  {
+    "termo": "Tune Buds 2",
+    "nome": "Kit 2 Colchonetes Camping Solteiro Maringá 17693 Sortido",
+    "preco": "R$ 56,98",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/kit-2-colchonetes-camping-solteiro-maringa-17693-sortido/p"
+  },
+  {
+    "termo": "LIVE FREE 2 TWS",
+    "nome": "Kit 2 Colchonetes Camping Solteiro Maringá 17693 Sortido",
+    "preco": "R$ 56,98",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/kit-2-colchonetes-camping-solteiro-maringa-17693-sortido/p"
+  },
+  {
+    "termo": "Wave Beam 2",
+    "nome": "Kit 2 Colchonetes Camping Solteiro Maringá 17693 Sortido",
+    "preco": "R$ 56,98",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/kit-2-colchonetes-camping-solteiro-maringa-17693-sortido/p"
+  },
+  {
+    "termo": "Wave Buds 2",
+    "nome": "Kit 2 Colchonetes Camping Solteiro Maringá 17693 Sortido",
+    "preco": "R$ 56,98",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/kit-2-colchonetes-camping-solteiro-maringa-17693-sortido/p"
+  },
+  {
+    "termo": "Tour One M2",
+    "nome": "Banpresto One Piece Boa Hancock Girly Girls Black Dress",
+    "preco": "R$ 152,99",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/banpresto-one-piece-boa-hancock-girly-girls-black-dress-581243/p"
+  },
+  {
+    "termo": "LIVE FREE 2 TWS",
+    "nome": "Kit 2 Colchonetes Camping Solteiro Maringá 17693 Sortido",
+    "preco": "R$ 56,98",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/kit-2-colchonetes-camping-solteiro-maringa-17693-sortido/p"
+  },
+  {
+    "termo": "BHC010/81",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TAT1108BK/00",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TAT1209BK/00",
+    "nome": "Fone de Ouvido Bluetooth Philips TAT1209BK/00 com Microfone - Preto",
+    "preco": "R$ 143,33",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/fone-de-ouvido-bluetooth-philips-tat1209bk-00-com-microfone---preto-3237925/p"
+  },
+  {
+    "termo": "TAT3509GY/00",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TAT1109BK/00",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-SP-06-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GO 4",
+    "nome": "Tablet Infantil Multi Patrulha Canina Wi-Fi, Bluetooth, USB, Tela de 7, 64GB, 4GB de RAM, Android 13 GO, Processador Quad-Core",
+    "preco": "R$ 429,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/tablet-infantil-multi-patrulha-canina-wi-fi-bluetooth-usb-tela-de-7-64gb-4gb-de-ram-android-13-go-processador-quad-core-2525997/p"
+  },
+  {
+    "termo": "GO 4",
+    "nome": "Tablet Infantil Multi Patrulha Canina Wi-Fi, Bluetooth, USB, Tela de 7, 64GB, 4GB de RAM, Android 13 GO, Processador Quad-Core",
+    "preco": "R$ 429,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/tablet-infantil-multi-patrulha-canina-wi-fi-bluetooth-usb-tela-de-7-64gb-4gb-de-ram-android-13-go-processador-quad-core-2525997/p"
+  },
+  {
+    "termo": "AWS-SP-03",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Clip 5",
+    "nome": "5 Pçs Conector de Pesca Anti-Enrosco Luminosa com Clips",
+    "preco": "R$ 109,28",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/5-pcs-conector-de-pesca-anti-enrosco-luminosa-com-clips-3621184/p"
+  },
+  {
+    "termo": "XG2T",
+    "nome": "LG XBOOM XG2T Caixa De Som Bluetooth Portátil - Resistência Militar, À Prova D'Água IP67",
+    "preco": "R$ 299,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/lg-xboom-xg2t-caixa-de-som-bluetooth-portatil---resistencia-militar-a-prova-d-agua-ip67-4294691/p"
+  },
+  {
+    "termo": "AWS-SP-01",
+    "nome": "Caixa De Som Speaker Aiwa Bluetooth Luzes Multicores Ip65 Mini Speaker Aws-sp-01 Bivolt",
+    "preco": "R$ 340,94",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/caixa-de-som-speaker-aiwa-bluetooth-luzes-multicores-ip65-mini-speaker-aws-sp-01-bivolt-2477417/p"
+  },
+  {
+    "termo": "Flip Essential 2",
+    "nome": "Kit 2 Colchonetes Camping Solteiro Maringá 17693 Sortido",
+    "preco": "R$ 56,98",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/kit-2-colchonetes-camping-solteiro-maringa-17693-sortido/p"
+  },
+  {
+    "termo": "XG5S",
+    "nome": "Caixa de Som LG XBOOM GO XG5 com IP67 BT 20W RMS Bluetooth  Preto",
+    "preco": "R$ 469,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/caixa-de-som-lg-xboom-go-xg5-com-ip67-bt-20w-rms-bluetooth--preto-2809038/p"
+  },
+  {
+    "termo": "AWS-SP-05-LB",
+    "nome": "Caixa de Som Speaker AWS-SP-05-LB 30W Bluetooth IPX5 Bivolt",
+    "preco": "R$ 478,41",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/caixa-de-som-speaker-aws-sp-05-lb-30w-bluetooth-ipx5-bivolt-4454549/p"
+  },
+  {
+    "termo": "Flip 6",
+    "nome": "Prato Descartável Metalizado Marrom 22cm - 6 Unidades",
+    "preco": "R$ 10,43",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/prato-descartavel-metalizado-marrom-22cm---6-unidades-4169453/p"
+  },
+  {
+    "termo": "XBOOM GO XG5S",
+    "nome": "Caixa de Som LG XBOOM GO XG5 com IP67 BT 20W RMS Bluetooth  Preto",
+    "preco": "R$ 469,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/caixa-de-som-lg-xboom-go-xg5-com-ip67-bt-20w-rms-bluetooth--preto-2809038/p"
+  },
+  {
+    "termo": "AWS-SP-05-LB",
+    "nome": "Caixa de Som Speaker AWS-SP-05-LB 30W Bluetooth IPX5 Bivolt",
+    "preco": "R$ 478,41",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/caixa-de-som-speaker-aws-sp-05-lb-30w-bluetooth-ipx5-bivolt-4454549/p"
+  },
+  {
+    "termo": "Charge 5",
+    "nome": "Cabo de Carregamento de 1M para Fitbit Charge 5/6 e Luxe com Conector USB",
+    "preco": "R$ 129,91",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/cabo-de-carregamento-de-1m-para-fitbit-charge-5-6-e-luxe-com-conector-usb-3614578/p"
+  },
+  {
+    "termo": "XBOOM GO X75S",
+    "nome": "GO GRIPPERS VEHICLE OBALL -TEMA URBANO - 18M - BRIGHT STARTS",
+    "preco": "R$ 27,99",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/go-grippers-vehicle-oball--tema-urbano---18m---bright-starts-2541437/p"
+  },
+  {
+    "termo": "AWS-SP-07-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GO 4",
+    "nome": "Tablet Infantil Multi Patrulha Canina Wi-Fi, Bluetooth, USB, Tela de 7, 64GB, 4GB de RAM, Android 13 GO, Processador Quad-Core",
+    "preco": "R$ 429,00",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/tablet-infantil-multi-patrulha-canina-wi-fi-bluetooth-usb-tela-de-7-64gb-4gb-de-ram-android-13-go-processador-quad-core-2525997/p"
+  },
+  {
+    "termo": "GO 3",
+    "nome": "BABADOR DE MANGA COMPRIDA - GO TRAVEL - 0-3 ANOS",
+    "preco": "R$ 37,97",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/babador-de-manga-comprida---go-travel---0-3-anos-1069840/p"
+  },
+  {
+    "termo": "GO Essential",
+    "nome": "Moletom Oversized Essentials com Capuz e Logo de Silicone",
+    "preco": "R$ 588,55",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/moletom-oversized-essentials-com-capuz-e-logo-de-silicone-3627427/p"
+  },
+  {
+    "termo": "ACA1900",
+    "nome": "Caixa Acústica Bluetooth Amvox ACA1900 NEWX",
+    "preco": "R$ 1.449,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/caixa-acustica-bluetooth-amvox-aca1900-newx/p"
+  },
+  {
+    "termo": "TM-2200",
+    "nome": "Torre de Som Amplificada Mondial TM-2200 com Bluetooth, Função Passa Pasta e Integração com Guitarra e Microfone Bivolt - 2200W",
+    "preco": "R$ 1.792,90",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/torre-de-som-amplificada-mondial-tm-2200-com-bluetooth-funcao-passa-pasta-e-integracao-com-guitarra-e-microfone-bivolt---2200w-4459404/p"
+  },
+  {
+    "termo": "TAX5509",
+    "nome": "Caixa de Som Bluetooth Philips Party Speaker 2400W - TAX5509",
+    "preco": "R$ 1.812,79",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/caixa-de-som-bluetooth-philips-party-speaker-2400w---tax5509-3860438/p"
   }
 ]

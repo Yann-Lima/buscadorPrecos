@@ -1,11 +1,347 @@
 [
   {
-    "termo": "OFRT520",
-    "nome": "Fritadeira Elétrica Sem Óleo Oster Compact OFRT520 4,6L",
-    "preco": "R$ 359,10",
+    "termo": "PLQ1350",
+    "nome": "Liquidificador Philco PLQ1350 - Copo de Vidro, 12 Velocidades + Pulsar, 1200W, Preto",
+    "preco": "R$ 239,75",
     "loja": "Carrefour",
     "vendido": false,
-    "link": "https://www.carrefour.com.br/fritadeira-eletrica-sem-oleo-oster-compact-ofrt520-46l-mp931869700/p"
+    "link": "https://www.carrefour.com.br/liquidificador-philco-plq1350-copo-de-vidro-12-velocidades-pulsar-1200w-preto-mp930313188/p"
+  },
+  {
+    "termo": "L-28",
+    "nome": "Liquidificador Mondial Power 2 Black L-28 Liquidificador L-28 127v/60hz Power 2 Black",
+    "preco": "R$ 107,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-mondial-power-2-black-l28-liquidificador-l28-127v60hz-power-2-black-mp937089436/p"
+  },
+  {
+    "termo": "RI2112/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Flash Mix",
+    "nome": "Liquidificador Mallory Flash Mix 127v Branco/laranja",
+    "preco": "R$ 203,60",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-mallory-flash-mix-127v-brancolaranja-mp928730217/p"
+  },
+  {
+    "termo": "Flash Mix+",
+    "nome": "Mop Spray Esfregão Rodo Mágico com Reservatório de Água",
+    "preco": "R$ 59,53",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/mop-spray-esfregao-rodo-magico-com-reservatorio-de-agua-mp910384297/p"
+  },
+  {
+    "termo": "LQLF",
+    "nome": "Liquidificador Agratto Lqlf-01 Leitoso 850w Cristal 127v",
+    "preco": "R$ 221,54",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-agratto-lqlf01-leitoso-850w-cristal-127v-mp939977025/p"
+  },
+  {
+    "termo": "LQ10",
+    "nome": "Liquidificador Arno Power Mix Lq10 Copo De Plástico 2 Velocidades + Pulsar 550w Preto",
+    "preco": "R$ 128,42",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-arno-power-mix-lq10-copo-de-plastico-2-velocidades-pulsar-550w-preto-mp929107912/p"
+  },
+  {
+    "termo": "LIQ100",
+    "nome": "Liquidificador Cadence Twist, 1,5 Litros, 600w, Liq100",
+    "preco": "R$ 115,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-cadence-twist-15-litros-600w-liq100-mp938824803/p"
+  },
+  {
+    "termo": "FAST MIX 2",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-550-B",
+    "nome": "Liquidificador Mondial 1,5l Easy Power 550w L-550-b Liquidificador L-550-b 127v/60hz .",
+    "preco": "R$ 98,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-mondial-1-5l-easy-power-550w-l-550-b-liquidificador-l-550-b-127v-60hz-mp931240505/p"
+  },
+  {
+    "termo": "RI2110/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Flash Mix",
+    "nome": "Liquidificador Mallory Flash Mix 127v Branco/laranja",
+    "preco": "R$ 203,60",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-mallory-flash-mix-127v-brancolaranja-mp928730217/p"
+  },
+  {
+    "termo": "Flash Mix+",
+    "nome": "Mop Spray Esfregão Rodo Mágico com Reservatório de Água",
+    "preco": "R$ 59,53",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/mop-spray-esfregao-rodo-magico-com-reservatorio-de-agua-mp910384297/p"
+  },
+  {
+    "termo": "L-77",
+    "nome": "Scharzkopf Professional Igora Royal Fashion Lights - 60g - L-77 - Cobre Intenso",
+    "preco": "R$ 34,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/scharzkopf-professional-igora-royal-fashion-lights-60g-l-77-cobre-intenso-mp950984486/p"
+  },
+  {
+    "termo": "RI2112/90",
+    "nome": "Liquidificador Daily Jarra San Philips Walita Ri2112/90 600w 110v - Preto",
+    "preco": "R$ 149,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-daily-jarra-san-philips-walita-ri2112-90-600w-110v-preto-mp950103727/p"
+  },
+  {
+    "termo": "L-900 FB",
+    "nome": "Liquidificador Mondial Turbo Full L-900 FB, Jarra de San Cristal 2,7L, 900W, 5 Velocidades, Preto, 220V",
+    "preco": "R$ 119,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-mondial-turbo-full-l900-fb-jarra-de-san-cristal-27l-900w-5-velocidades-preto-220v-5268354/p"
+  },
+  {
+    "termo": "DIAMANTE PRETO 900W",
+    "nome": "Liquidificador Britânia Diamante 800 Preto 220V 2,65 Litros 900W 4 Velocidades",
+    "preco": "R$ 112,77",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/liquidificador-britania-diamante-800-preto-220v-265-litros-900w-4-velocidades-5137195/p"
+  },
+  {
+    "termo": "BLQ970P",
+    "nome": "Liquidificador Britânia Blq970p Turbo 900w110v",
+    "preco": "R$ 158,31",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-britania-blq970p-turbo-900w110v-mp952233429/p"
+  },
+  {
+    "termo": "LIQ200",
+    "nome": "Liquidificador Cadence Liq200 800w Preto 127v",
+    "preco": "R$ 288,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-cadence-liq200-800w-preto-127v-mp940669891/p"
+  },
+  {
+    "termo": "LN61",
+    "nome": "Liquidificador Power Max Ln61 700w Arno",
+    "preco": "R$ 512,78",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificadorpowermaxln61700warno-mp920251784/p"
+  },
+  {
+    "termo": "LQ35",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-97-W",
+    "nome": "Liquidificador Pratic Power Mondial Branco L-97-W 60Hz 127V",
+    "preco": "R$ 121,41",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-pratic-power-mondial-branco-l97w-60hz-127v-mp936756891/p"
+  },
+  {
+    "termo": "Flash Mix",
+    "nome": "Liquidificador Mallory Flash Mix 127v Branco/laranja",
+    "preco": "R$ 203,60",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-mallory-flash-mix-127v-brancolaranja-mp928730217/p"
+  },
+  {
+    "termo": "Flash Mix+",
+    "nome": "Mop Spray Esfregão Rodo Mágico com Reservatório de Água",
+    "preco": "R$ 59,53",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/mop-spray-esfregao-rodo-magico-com-reservatorio-de-agua-mp910384297/p"
+  },
+  {
+    "termo": "L-98-B",
+    "nome": "Liquidificador Pratic Turbo Mondial L-98-b 127v 60hz",
+    "preco": "R$ 139,41",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-pratic-turbo-mondial-l-98-b-127v-60hz-mp940207531/p"
+  },
+  {
+    "termo": "RI2110/90",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "RI2112/90",
+    "nome": "Liquidificador Daily Jarra San Philips Walita Ri2112/90 600w 110v - Preto",
+    "preco": "R$ 149,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-daily-jarra-san-philips-walita-ri2112-90-600w-110v-preto-mp950103727/p"
+  },
+  {
+    "termo": "LQ10",
+    "nome": "Liquidificador Arno Power Mix Lq10 Copo De Plástico 2 Velocidades + Pulsar 550w Preto",
+    "preco": "R$ 128,42",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-arno-power-mix-lq10-copo-de-plastico-2-velocidades-pulsar-550w-preto-mp929107912/p"
+  },
+  {
+    "termo": "L-99-FB",
+    "nome": "Liquidificador Mondial Turbo Power L-99-fb Liquidificador-127v-preto",
+    "preco": "R$ 116,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/liquidificador-mondial-turbo-power-l-99-fb-liquidificador-127v-preto-mp930655139/p"
+  },
+  {
+    "termo": "CMA20BB",
+    "nome": "Micro-ondas Consul 20 Litros com Função Descongelar Branco CMA20BB - 220V",
+    "preco": "R$ 544,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/microondas-consul-20-litros-com-funcao-descongelar-branco-cma20bb-220v-mp934160458/p"
+  },
+  {
+    "termo": "CMS46AR",
+    "nome": "Micro-ondas Consul 32 Litros Espelhado com Menu Fácil CMS46AR 110V",
+    "preco": "R$ 699,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/microondas-consul-32-litros-espelhado-com-menu-facil-cms46ar-110v-6558844/p"
+  },
+  {
+    "termo": "MTO30",
+    "nome": "Micro-ondas Electrolux 20L Branco com Função Tira Odor e Descongelar MTO30 110V",
+    "preco": "R$ 549,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/microondas-electrolux-20l-branco-com-funcao-tira-odor-e-descongelar-mto30-110v-6670547/p"
+  },
+  {
+    "termo": "MI41S",
+    "nome": "Micro-ondas Electrolux de Bancada 31 Litros Inox Espelhado com Painel Integrado, Função Tira Odor e Receitas via QR Code - MI41S 220V",
+    "preco": "R$ 849,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/microondas-electrolux-de-bancada-31-litros-inox-espelhado-com-painel-integrado-funcao-tira-odor-e-receitas-via-qr-code-mi41s-220v-9966749/p"
+  },
+  {
+    "termo": "MRAS21",
+    "nome": "Micro-ondas 20L Branco Porta Preta Minuto Fácil Midea MRAS21 - 127V",
+    "preco": "R$ 519,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/microondas-20l-branco-porta-preta-minuto-facil-midea-mras21-127v-mp932985719/p"
+  },
+  {
+    "termo": "MXSA35S1",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "MO-01-21-W",
+    "nome": "Micro-Ondas Mondial Branco 1200W MO-01-21-W 110V",
+    "preco": "R$ 497,26",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/microondas-mondial-branco-1200w-mo0121w-110v-3616100/p"
+  },
+  {
+    "termo": "MO-02-34-E",
+    "nome": "Micro-ondas Mondial de Mesa 34 Litros Espelhado MO-02-34-E Cinza 127V",
+    "preco": "R$ 616,55",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/microondas-mondial-de-mesa-34-litros-espelhado-mo0234e-cinza-127v-3171930/p"
+  },
+  {
+    "termo": "NN-ST25LWRU",
+    "nome": "Micro-ondas de Mesa Panasonic com 21 Litros de Capacidade Branco - NN-ST25LWRU - 220V",
+    "preco": "R$ 590,58",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/microondas-de-mesa-panasonic-com-21-litros-de-capacidade-branco-nnst25lwru-220v-mp908621949/p"
+  },
+  {
+    "termo": "ST67LSRU",
+    "nome": "Microondas Panasonic Tecnologia Antibacteriana Ag 34L Inox - ST67LSRU 220V Panasonic",
+    "preco": "R$ 998,13",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/microondas-panasonic-tecnologia-antibacteriana-ag-34l-inox-st67lsru-220v-panasonic-mp933479401/p"
+  },
+  {
+    "termo": "PMO23BB",
+    "nome": "Micro-ondas Philco Pmo23bb 20L Branco 110V - 20 Litros, Porta Transparente, Funções Descongelar e Manter Aquecido",
+    "preco": "R$ 497,26",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/microondas-philco-pmo23bb-20l-mesa-branco-110v-funcoes-descongelar-manter-aquecido-e-timer-644907w-6449077/p"
+  },
+  {
+    "termo": "PMO34EB",
+    "nome": "Micro-ondas Philco 34 Litros 1400w Espelhado Limpa Fácil - Pmo34eb",
+    "preco": "R$ 908,30",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/micro-ondas-philco-34-litros-1400w-espelhado-limpa-facil-pmo34eb-mp940557321/p"
+  },
+  {
+    "termo": "BFR11PG",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BFR38",
+    "nome": "Air Fryer Britânia 4,2l Dura Mais 1500w Bfr38 220v",
+    "preco": "R$ 277,11",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/air-fryer-britania-4-2l-dura-mais-1500w-bfr38-220v-mp952234079/p"
   },
   {
     "termo": "EAF15",
@@ -14,6 +350,30 @@
     "loja": "Carrefour",
     "vendido": false,
     "link": "https://www.carrefour.com.br/air-fryer-electrolux-32l-preta-efficient-com-timer-1400w-por-rita-lobo-eaf15-220v-mp934225048/p"
+  },
+  {
+    "termo": "AFN-40-BI",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Afn-40-Bi 1500W Vermelho/Inox 110V",
+    "preco": "R$ 269,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/fritadeira-eletrica-air-fryer-mondial-afn40bi-1500w-vermelhoinox-110v-643872w-6438725/p"
+  },
+  {
+    "termo": "OFRT520",
+    "nome": "Fritadeira Elétrica Sem Óleo Oster Compact OFRT520 4,6L",
+    "preco": "R$ 359,10",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fritadeira-eletrica-sem-oleo-oster-compact-ofrt520-46l-mp931869700/p"
+  },
+  {
+    "termo": "PFR15PI",
+    "nome": "Air Fryer Philco 4,4l Antiaderente Redstone 1500w Pfr15pi 110v",
+    "preco": "R$ 683,01",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/air-fryer-philco-4-4l-antiaderente-redstone-1500w-pfr15pi-110v-mp952233786/p"
   },
   {
     "termo": "BFR2100",
@@ -54,5 +414,765 @@
     "loja": "Carrefour",
     "vendido": false,
     "link": "https://www.carrefour.com.br/fritadeira-philco-air-fry-oven-pfr2200-preta-127v-mp920583289/p"
+  },
+  {
+    "termo": "FW009547",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BFE55P",
+    "nome": "Forno Elétrico Britânia BFE55P Dupla Resistência 52L Preto 220V",
+    "preco": "R$ 449,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/forno-eletrico-britania-bfe55p-dupla-resistencia-52l-preto-220v-3282538/p"
+  },
+  {
+    "termo": "BFE50B",
+    "nome": "Forno Elétrico Britânia BFE50B 50 Litros com Função Timer Branco BFE50B - 127V",
+    "preco": "R$ 508,78",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/forno-eletrico-britania-bfe50b-50-litros-com-funcao-timer-branco-bfe50b-127v-mp933930941/p"
+  },
+  {
+    "termo": "FR-52",
+    "nome": "Forno Elétrico Mondial 52L Grand Family II - FR-52 220V/60Hz",
+    "preco": "R$ 494,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/forno-eletrico-mondial-52l-grand-family-ii-fr52-220v60hz-mp937697154/p"
+  },
+  {
+    "termo": "PFE52P",
+    "nome": "Forno Elétrico Philco 50 Litros Pfe52p Dupla Resistência 127V",
+    "preco": "R$ 450,24",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/forno-eletrico-philco-50-litros-pfe52p-dupla-resistencia-127v-3282473/p"
+  },
+  {
+    "termo": "PFE52B",
+    "nome": "Forno Elétrico Philco Pfe52b Dupla Resistência 50L Branco 127V",
+    "preco": "R$ 449,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/forno-eletrico-philco-pfe52b-dupla-resistencia-50l-branco-127v-3282546/p"
+  },
+  {
+    "termo": "FE5011PT",
+    "nome": "Forno Elétrico de Bancada Suggar 50 Litros Preto 110V FE5011PT",
+    "preco": "R$ 539,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/forno-eletrico-de-bancada-suggar-50-litros-preto-110v-fe5011pt-mp11844126/p"
+  },
+  {
+    "termo": "APR 1001",
+    "nome": "Mini Processador Apr 1001 127v Amvox Preto",
+    "preco": "R$ 140,09",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/mini-processador-apr-1001-127v-amvox-preto-mp934126778/p"
+  },
+  {
+    "termo": "MP120-B2",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "2P",
+    "nome": "K-Othrine 2P Pó Saúde 1kg",
+    "preco": "R$ 79,46",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/kothrine-2p-po-saude-1kg-mp932604801/p"
+  },
+  {
+    "termo": "MPR520",
+    "nome": "Miniprocessador Cadence 100W Easy Cut MPR520 Preto",
+    "preco": "R$ 104,40",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/miniprocessador-cadence-100w-easy-cut-mpr520-preto-mv19980021/p"
+  },
+  {
+    "termo": "PMP431",
+    "nome": "Mini Processador Lenoxx Pratic Pmp431 Preto 220v",
+    "preco": "R$ 123,40",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/mini-processador-lenoxx-pratic-pmp431-preto-220v-mp952163812/p"
+  },
+  {
+    "termo": "MP-16-B/R",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SAN400",
+    "nome": "Sanduicheira Grill Cadence Click SAN400 com Botão Liga/Desliga",
+    "preco": "R$ 119,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/sanduicheira-grill-cadence-click-san400-com-botao-ligadesliga-mp950115245/p"
+  },
+  {
+    "termo": "PGR25A",
+    "nome": "Sanduicheira E Grill Philco 2 Em 1 Antiaderente 750w Pgr25a",
+    "preco": "R$ 139,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/sanduicheira-e-grill-philco-2-em-1-antiaderente-750w-pgr25a-mp951475804/p"
+  },
+  {
+    "termo": "AMS 500",
+    "nome": "Impressora 3d Bambu Lab X1 Combo Ams 500mm/s 300c 256mm",
+    "preco": "R$ 21.876,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/impressora-3d-bambu-lab-x1-combo-ams-500mm-s-300c-256mm-mp951218217/p"
+  },
+  {
+    "termo": "BGR01PI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Crome Inox",
+    "nome": "Grill E Sanduicheira Britânia Crome Inox 750w 220v (reembalado)",
+    "preco": "R$ 89,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/grill-e-sanduicheira-britania-crome-inox-750w-220v-reembalado-mp952328572/p"
+  },
+  {
+    "termo": "BGR16",
+    "nome": "Sanduicheira Grill Britânia Bgr16 Com Revestimento Redstone",
+    "preco": "R$ 114,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/sanduicheira-grill-britania-bgr16-com-revestimento-redstone-mp951270933/p"
+  },
+  {
+    "termo": "ESG20",
+    "nome": "Sanduicheira Electrolux Efficient Inox Antiaderente (ESG20) 127V",
+    "preco": "R$ 179,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/sanduicheira-electrolux-efficient-inox-antiaderente-esg20-127v-mp934469263/p"
+  },
+  {
+    "termo": "S-20",
+    "nome": "Sanduicheira Mondial Master Grill S-20",
+    "preco": "R$ 107,26",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/sanduicheira-mondial-master-grill-s20-mp927740288/p"
+  },
+  {
+    "termo": "AMS 370",
+    "nome": "Sanduicheira E Grill Amvox Ams 370 Cool Touch Preto 110v",
+    "preco": "R$ 71,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/sanduicheira-e-grill-amvox-ams-370-cool-touch-preto-110v-mp940679241/p"
+  },
+  {
+    "termo": "BGR01P",
+    "nome": "Sanduicheira/Grill Britânia Toast BGR01P 750W Preta 220V",
+    "preco": "R$ 110,64",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/sanduicheiragrill-britania-toast-bgr01p-750w-preta-220v-mp931384091/p"
+  },
+  {
+    "termo": "SAN260",
+    "nome": "Sanduicheira Elétrica Cadence Toast & Grill SAN260 750W",
+    "preco": "R$ 79,80",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/sanduicheira-eletrica-cadence-toast-grill-san260-750w-mp925361587/p"
+  },
+  {
+    "termo": "Break Time",
+    "nome": "Time Locking Container Kitchen Safe Break Maus Hábitos",
+    "preco": "R$ 994,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/time-locking-container-kitchen-safe-break-maus-habitos-mp951302024/p"
+  },
+  {
+    "termo": "S-12",
+    "nome": "Sanduicheira Elétrica Mondial S-12 750W 220V Preta",
+    "preco": "R$ 99,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/sanduicheira-eletrica-mondial-s12-750w-220v-preta-3216888/p"
+  },
+  {
+    "termo": "CE043",
+    "nome": "Sanduicheira Multilaser Gourmet Ce043 750w - Antiaderente",
+    "preco": "R$ 289,99",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/sanduicheira-multilaser-gourmet-ce043-750w-antiaderente-mp934723069/p"
+  },
+  {
+    "termo": "BSC2150",
+    "nome": "Secador de Cabelos Britânia BSC2150 Bivolt",
+    "preco": "R$ 119,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-britania-bsc2150-bivolt-3564258/p"
+  },
+  {
+    "termo": "SP3100N",
+    "nome": "Secador De Cabelos Britania Sp3100n 127v",
+    "preco": "R$ 336,40",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-britania-sp3100n-127v-mp940537438/p"
+  },
+  {
+    "termo": "SEC560",
+    "nome": "Kit Cadence Secador Sec560 E Escova Secadora Sec Diva",
+    "preco": "R$ 218,40",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/kit-cadence-secador-sec560-e-escova-secadora-sec-diva-mp951790571/p"
+  },
+  {
+    "termo": "SC-13",
+    "nome": "Secador de Cabelos Mondial Power Shine Black SC-13 2000W",
+    "preco": "R$ 89,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-mondial-power-shine-black-sc13-2000w-mp924748837/p"
+  },
+  {
+    "termo": "SC-32",
+    "nome": "Secador De Cabelos Mondial Golden Rose Sc-32 Golden Rose 220 V",
+    "preco": "R$ 143,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-mondial-golden-rose-sc32-golden-rose-220-v-mp937815740/p"
+  },
+  {
+    "termo": "PSC2450",
+    "nome": "Secador de Cabelo Philco Psc2450 Bivolt 2 Velocidades 3 Temperaturas",
+    "preco": "R$ 149,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/secador-de-cabelo-philco-psc2450-bivolt-2-velocidades-3-temperaturas-3564274/p"
+  },
+  {
+    "termo": "PH3700",
+    "nome": "Secador De Cabelos Ph3700 Pink 2200w Philco 127v",
+    "preco": "R$ 154,71",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-ph3700-pink-2200w-philco-127v-mp937196044/p"
+  },
+  {
+    "termo": "Cherry 2100W",
+    "nome": "Secador De Cabelos 2100w Cherry Philco 220v",
+    "preco": "R$ 128,61",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-2100w-cherry-philco-220v-mp940683104/p"
+  },
+  {
+    "termo": "PH3700",
+    "nome": "Secador De Cabelos Ph3700 Pink 2200w Philco 127v",
+    "preco": "R$ 154,71",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-ph3700-pink-2200w-philco-127v-mp937196044/p"
+  },
+  {
+    "termo": "PSC2300",
+    "nome": "Secador De Cabelos Philco Psc2300 Com Motor Dc 2200w",
+    "preco": "R$ 149,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-philco-psc2300-com-motor-dc-2200w-mp950304281/p"
+  },
+  {
+    "termo": "PSC2350",
+    "nome": "Secador De Cabelos Philco Bivolt 2200w Psc2350 Íons Tourmaline Bivolt",
+    "preco": "R$ 306,81",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-philco-bivolt-2200w-psc2350-ions-tourmaline-bivolt-mp952251546/p"
+  },
+  {
+    "termo": "GAM-BECHD0000002793_PAI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GAM-BECHD0000002791_PAI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GAM-BECHD0000002810_PAI",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GAM-BECHD0000002808_PA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SCP-JU-01",
+    "nome": "Secador De Cabelos Mondial By Juliette Scp-ju-01 - 220v",
+    "preco": "R$ 275,01",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-mondial-by-juliette-scpju01-220v-mp934530963/p"
+  },
+  {
+    "termo": "PSA3250",
+    "nome": "Secador De Cabelo Com Íons Tourmaline 2100w Philco Psa3250 220v",
+    "preco": "R$ 316,71",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelo-com-ions-tourmaline-2100w-philco-psa3250-220v-mp952261992/p"
+  },
+  {
+    "termo": "Style 2000W",
+    "nome": "Taiff Style Preto 2000w 220v - Secador De Cabelo",
+    "preco": "R$ 389,61",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/taiff-style-preto-2000w-220v-secador-de-cabelo-mp935917428/p"
+  },
+  {
+    "termo": "Tourmaline Íon 2100W",
+    "nome": "Secador De Cabelos Philco Star Bright Psc10 2100w 3 Temp. 2 Vel. Tourmaline Íon",
+    "preco": "R$ 196,30",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-philco-star-bright-psc10-2100w-3-temp-2-vel-tourmaline-ion-mp940558237/p"
+  },
+  {
+    "termo": "Easy 1700W",
+    "nome": "Secador de Cabelo Taiff Easy 1700W 220V",
+    "preco": "R$ 249,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/secador-de-cabelo-taiff-easy-1700w-220v-5841410/p"
+  },
+  {
+    "termo": "Black Íon",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/parafusadeira-furadeira-sem-fio-a-bateria-20v-max-ion-litio-38-pol-vvr-blackdecker-bcd702c1-mp930204155/p"
+  },
+  {
+    "termo": "BSC1200",
+    "nome": "Secador de Cabelo Britânia BSC1200 1200W Bivolt",
+    "preco": "R$ 89,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/secador-de-cabelo-britania-bsc1200-1200w-bivolt-3564240/p"
+  },
+  {
+    "termo": "Easy Travel",
+    "nome": "Travel System Burigotto Carrinho De Bebê Com Bebê Conforto Rio K + Touring Preto Mescla",
+    "preco": "R$ 1.139,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/travel-system-burigotto-carrinho-de-bebe-com-bebe-conforto-rio-k-touring-preto-mescla-mp921877957/p"
+  },
+  {
+    "termo": "SEC185",
+    "nome": "Secador De Cabelos Cadence Rouge Style 2 Velocidades - Sec185",
+    "preco": "R$ 80,50",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-cadence-rouge-style-2-velocidades-sec185-mp929882944/p"
+  },
+  {
+    "termo": "Eolic Travel",
+    "nome": "Secador Gama Eolic Travel - 1600w, Preto, Bivolt",
+    "preco": "R$ 138,59",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-gama-eolic-travel-1600w-preto-bivolt-mp950682358/p"
+  },
+  {
+    "termo": "SC-10",
+    "nome": "Secador de Cabelos Mondial Max Travel SC-10 1200W",
+    "preco": "R$ 69,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelos-mondial-max-travel-sc10-1200w-mp931517992/p"
+  },
+  {
+    "termo": "Titanium Travel 750W",
+    "nome": "Secador De Cabelo Philco Titanium Travel 750w Bivolt",
+    "preco": "R$ 188,01",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/secador-de-cabelo-philco-titanium-travel-750w-bivolt-mp952251349/p"
+  },
+  {
+    "termo": "Travel Shine",
+    "nome": "Kit Travel Shine Rosa Philco Prancha + Secador Bivolt",
+    "preco": "R$ 386,01",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/kit-travel-shine-rosa-philco-prancha-secador-bivolt-mp952270922/p"
+  },
+  {
+    "termo": "BHC010/81",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-EB-01-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-EB-05-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-EB-04-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fone-de-ouvido-earbud-aiwa-aws-eb-04-b-bluetooth-ipx4-anc-26-horas-de-bateria-mp950843421/p"
+  },
+  {
+    "termo": "AWS-EB-03-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-HP-05-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-HP-04-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Tune Buds 2",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LIVE FREE 2 TWS",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Wave Beam 2",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fone-de-ouvido-bluetooth-sem-fio-jbl-wave-beam-2-com-microfone-preto-mp951900727/p"
+  },
+  {
+    "termo": "Wave Buds 2",
+    "nome": "Fone De Ouvido Bluetooth Jbl Wave Buds 2 Nc In Ear Preto",
+    "preco": "R$ 309,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fone-de-ouvido-bluetooth-jbl-wave-buds-2-nc-in-ear-preto-mp951090475/p"
+  },
+  {
+    "termo": "Tour One M2",
+    "nome": "Fone De Ouvido Bluetooth Jbl Tour One M2",
+    "preco": "R$ 1.709,10",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fone-de-ouvido-bluetooth-jbl-tour-one-m2-mp936352635/p"
+  },
+  {
+    "termo": "LIVE FREE 2 TWS",
+    "nome": "Fones de Ouvido JBL Live Free 2 TWS Preto",
+    "preco": "R$ 449,10",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fones-de-ouvido-jbl-live-free-2-tws-preto-mp936432691/p"
+  },
+  {
+    "termo": "BHC010/81",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TAT1108BK/00",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TAT1209BK/00",
+    "nome": "Fone de Ouvido Bluetooth TAT1209BK/00 com Microfone Philips",
+    "preco": "R$ 249,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/fone-de-ouvido-bluetooth-tat1209bk00-com-microfone-philips-mp939583080/p"
+  },
+  {
+    "termo": "TAT3509GY/00",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TAT1109BK/00",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-SP-06-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GO 4",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/go-cam-camera-video-action-acao-wifi-4k-30m-estilo-gopro-mp931465157/p"
+  },
+  {
+    "termo": "GO 4",
+    "nome": "Go Cam Camera Vídeo Action Ação Wifi 4k 30m Estilo Gopro",
+    "preco": "R$ 188,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/go-cam-camera-video-action-acao-wifi-4k-30m-estilo-gopro-mp931465157/p"
+  },
+  {
+    "termo": "AWS-SP-03",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Clip 5",
+    "nome": "Clips Para Cabo De Aço 5/8&#39;&#39; Com 2 Vonder",
+    "preco": "R$ 50,31",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/clips-para-cabo-de-aco-583939-com-2-vonder-mp932125232/p"
+  },
+  {
+    "termo": "XG2T",
+    "nome": "Caixa De Som Bluetooth Lg Xboom Go Xg2t Portátil, Com Resistência Militar, Proteção Ip67 À Prova D`água, 10 Horas De Bateria",
+    "preco": "R$ 399,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/caixa-de-som-bluetooth-lg-xboom-go-xg2t-portatil-com-resistencia-militar-protecao-ip67-a-prova-d-agu-mp951189367/p"
+  },
+  {
+    "termo": "AWS-SP-01",
+    "nome": "Caixa De Som Speaker Aiwa Bluetooth Luzes Multicores Ip65 Aws-sp-01",
+    "preco": "R$ 339,90",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/caixa-de-som-speaker-aiwa-bluetooth-luzes-multicores-ip65-awssp01-mp937366147/p"
+  },
+  {
+    "termo": "Flip Essential 2",
+    "nome": "Caixa de Som Bluetooth JBL Flip Essential 2",
+    "preco": "R$ 503,10",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/caixa-de-som-bluetooth-jbl-flip-essential-2-mp935936265/p"
+  },
+  {
+    "termo": "XG5S",
+    "nome": "Caixa De Som Lg Xboom Go Xg5 Com Ip67 Bt 20w Rms Bluetooth",
+    "preco": "R$ 469,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/caixa-de-som-lg-xboom-go-xg5-com-ip67-bt-20w-rms-bluetooth-mp940724452/p"
+  },
+  {
+    "termo": "AWS-SP-05-LB",
+    "nome": "Caixa De Som Speaker Aws-sp-05-lb 30w Bluetooth Ipx5 Bivolt",
+    "preco": "R$ 494,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/caixa-de-som-speaker-aws-sp-05-lb-30w-bluetooth-ipx5-bivolt-mp952323284/p"
+  },
+  {
+    "termo": "Flip 6",
+    "nome": "Flip Flop Reef Cushion Court Women&#39;s Cloud Com Suporte De Arco 6",
+    "preco": "R$ 646,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/flip-flop-reef-cushion-court-womenand-39-s-cloud-com-suporte-de-arco-6-mp951981297/p"
+  },
+  {
+    "termo": "XBOOM GO XG5S",
+    "nome": "Caixa De Som Lg Xboom Go Xg5 Com Ip67 Bt 20w Rms Bluetooth",
+    "preco": "R$ 469,00",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/caixa-de-som-lg-xboom-go-xg5-com-ip67-bt-20w-rms-bluetooth-mp940724452/p"
+  },
+  {
+    "termo": "AWS-SP-05-LB",
+    "nome": "Caixa De Som Speaker Aws-sp-05-lb 30w Bluetooth Ipx5 Bivolt",
+    "preco": "R$ 494,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/caixa-de-som-speaker-aws-sp-05-lb-30w-bluetooth-ipx5-bivolt-mp952323284/p"
+  },
+  {
+    "termo": "Charge 5",
+    "nome": "Caixa De Som JBL Charge 5 Bluetooth, Wi-Fi 40W RMS",
+    "preco": "R$ 1.369,00",
+    "loja": "Carrefour",
+    "vendido": true,
+    "link": "https://www.carrefour.com.br/caixa-de-som-jbl-charge-5-bluetooth-wifi-40w-rms-3274195/p"
+  },
+  {
+    "termo": "XBOOM GO X75S",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.brhttps://www.carrefour.com.br/babador-baby-go-disney-rosa-1-pecas/p"
+  },
+  {
+    "termo": "AWS-SP-07-B",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GO 4",
+    "nome": "Go Cam Camera Vídeo Action Ação Wifi 4k 30m Estilo Gopro",
+    "preco": "R$ 188,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/go-cam-camera-video-action-acao-wifi-4k-30m-estilo-gopro-mp931465157/p"
+  },
+  {
+    "termo": "GO 3",
+    "nome": "Caixa de Som Bluetooth Harman Kardon Go + Play 3",
+    "preco": "R$ 1.979,10",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/caixa-de-som-bluetooth-harman-kardon-go-play-3-mp936323954/p"
+  },
+  {
+    "termo": "GO Essential",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/caixa-de-som-bluetooth-jbl-go-essential-preto-mp935966268/p"
+  },
+  {
+    "termo": "ACA1900",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TM-2200",
+    "nome": "Torre De Som Mondial Tm-2200 Luzes Bluetooth App Bivolt",
+    "preco": "R$ 1.799,91",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/torre-de-som-mondial-tm-2200-luzes-bluetooth-app-bivolt-mp951721324/p"
+  },
+  {
+    "termo": "TAX5509",
+    "nome": "Caixa De Som Bluetooth Philips Party Speaker 2400w - Tax5509",
+    "preco": "R$ 1.794,70",
+    "loja": "Carrefour",
+    "vendido": false,
+    "link": "https://www.carrefour.com.br/caixa-de-som-bluetooth-philips-party-speaker-2400w-tax5509-mp950170544/p"
   }
 ]

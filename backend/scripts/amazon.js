@@ -1,19 +1,25 @@
-const axios = require("axios");
-const cheerio = require("cheerio");
+const puppeteer = require("puppeteer-extra");
+const StealthPlugin = require("puppeteer-extra-plugin-stealth");
 const fs = require("fs");
 const path = require("path");
 
-const resultados = [];
+puppeteer.use(StealthPlugin());
 
+const resultados = [];
 const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "produtos.json"), "utf-8"));
-const listaProdutos = produtosJson.produtos;
+const listaProdutos = produtosJson.produtos.map(p => p.trim());
 
 async function executarBuscaEmTodos() {
-  console.log("[INFO] Iniciando verificação de todos os produtos na Amazon...\n");
+  console.error("[INFO] Iniciando verificação de todos os produtos na Amazon...\n");
+
+  const browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  const page = await browser.newPage();
+
+  await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36");
 
   for (const termo of listaProdutos) {
     try {
-      await buscarPrimeiroProdutoAmazon(termo);
+      await buscarPrimeiroProdutoAmazon(page, termo);
     } catch (err) {
       console.error(`[ERRO CRÍTICO] Falha na busca do produto "${termo}":`, err.message);
       resultados.push({
@@ -27,28 +33,30 @@ async function executarBuscaEmTodos() {
     }
   }
 
+  await browser.close();
+
   const outputPath = path.join(__dirname, "..", "results", "resultados_amazon.json");
   fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
-  console.log("\n[INFO] Fim da verificação.");
+  console.error("\n[INFO] Fim da verificação.");
 }
 
-async function buscarPrimeiroProdutoAmazon(termo) {
-  const termoBusca = termo.trim().replace(/\s+/g, '+');
+async function buscarPrimeiroProdutoAmazon(page, termo) {
+  const termoBusca = termo.replace(/\s+/g, "+");
   const urlBusca = `https://www.amazon.com.br/s?k=${termoBusca}&rh=p_6%3AA1ZZFT5FULY4LN`;
 
-  console.log("\n[INFO] ========== NOVA BUSCA ==========");
-  console.log("[DEBUG] Termo:", termo);
-  console.log("[DEBUG] URL:", urlBusca);
+  console.error("\n[INFO] ========== NOVA BUSCA ==========");
+  console.error("[DEBUG] Termo:", termo);
+  console.error("[DEBUG] URL:", urlBusca);
 
   try {
-    const resp = await axios.get(urlBusca, {
-      headers: { "User-Agent": "Mozilla/5.0" }
-    });
+    await page.goto(urlBusca, { waitUntil: "domcontentloaded", timeout: 60000 });
+    await new Promise(resolve => setTimeout(resolve, 2000)); // simula comportamento humano
 
-    const $ = cheerio.load(resp.data);
+    const links = await page.$$eval("a.a-link-normal.s-no-outline", els =>
+      els.map(el => el.getAttribute("href")).filter(href => href)
+    );
 
-    const primeiroLink = $("div[data-cy='image-container'] a.a-link-normal").first().attr("href");
-    if (!primeiroLink) {
+    if (!links.length) {
       console.warn("[WARN] Nenhum produto encontrado para:", termo);
       resultados.push({
         termo,
@@ -61,10 +69,10 @@ async function buscarPrimeiroProdutoAmazon(termo) {
       return;
     }
 
-    const urlProduto = `https://www.amazon.com.br${primeiroLink}`;
-    console.log("[DEBUG] Primeiro produto encontrado:", urlProduto);
+    const urlProduto = `https://www.amazon.com.br${links[0]}`;
+    console.error("[DEBUG] Primeiro produto encontrado:", urlProduto);
 
-    await extrairDetalhesProdutoAmazon(urlProduto, termo);
+    await extrairDetalhesProdutoAmazon(page, urlProduto, termo);
 
   } catch (err) {
     console.error("[ERRO] Falha ao buscar:", termo, "→", err.message);
@@ -79,33 +87,29 @@ async function buscarPrimeiroProdutoAmazon(termo) {
   }
 }
 
-async function extrairDetalhesProdutoAmazon(urlProduto, termoOriginal) {
-  console.log("[INFO] --- Acessando produto para:", termoOriginal);
+async function extrairDetalhesProdutoAmazon(page, urlProduto, termoOriginal) {
+  console.error("[INFO] --- Acessando página do produto");
 
   try {
-    const resp = await axios.get(urlProduto, {
-      headers: { "User-Agent": "Mozilla/5.0" }
+    await page.goto(urlProduto, { waitUntil: "domcontentloaded", timeout: 60000 });
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
+    const nome = await page.$eval("#productTitle", el => el.textContent.trim());
+
+    let precoInteiro = await page.$eval("span.a-price span.a-price-whole", el => el.textContent.trim()).catch(() => null);
+    let centavos = await page.$eval("span.a-price span.a-price-fraction", el => el.textContent.trim()).catch(() => null);
+    let preco = precoInteiro && centavos ? `R$ ${precoInteiro},${centavos}` : "Indisponível";
+
+    const vendidoPor = await page.$$eval("span", els => {
+      const encontrado = els.find(el => el.textContent.includes("Vendido por Amazon.com.br"));
+      return encontrado ? encontrado.textContent.trim() : "";
     });
-
-    const $ = cheerio.load(resp.data);
-
-    const nome = $("#productTitle").text().trim();
-
-    let preco = $("span.a-price span.a-price-whole").first().text().trim();
-    const centavos = $("span.a-price span.a-price-fraction").first().text().trim();
-    if (preco && centavos) {
-      preco = `R$ ${preco},${centavos}`;
-    } else {
-      preco = "Indisponível";
-    }
-
-    const vendidoPor = $("span:contains('Amazon.com.br')").first().text().trim();
     const vendidoAmazon = vendidoPor.includes("Amazon.com.br");
 
-    console.log(`[RESULTADO] Produto: ${nome}`);
-    console.log(`[RESULTADO] Preço à vista: ${preco}`);
-    console.log(`[RESULTADO] Vendido por Amazon: ${vendidoAmazon ? "✅ Sim" : "❌ Não"}`);
-    console.log(`[RESULTADO] Link: ${urlProduto}`);
+    console.error(`[RESULTADO] Produto: ${nome}`);
+    console.error(`[RESULTADO] Preço à vista: ${preco}`);
+    console.error(`[RESULTADO] Vendido por Amazon: ${vendidoAmazon ? "✅ Sim" : "❌ Não"}`);
+    console.error(`[RESULTADO] Link: ${urlProduto}`);
 
     resultados.push({
       termo: termoOriginal,
@@ -128,11 +132,20 @@ async function extrairDetalhesProdutoAmazon(urlProduto, termoOriginal) {
     });
   }
 
-  console.log("[INFO] --- Fim da verificação do produto ---\n");
+  console.error("[INFO] --- Fim da verificação do produto ---\n");
 }
 
 executarBuscaEmTodos()
   .then(() => {
+    const resultadoFinal = {};
+    for (const item of resultados) {
+      resultadoFinal[item.termo] = {
+        preco: item.vendido ? item.preco : null,
+        vendido: item.vendido
+      };
+    }
+    console.log(JSON.stringify(resultadoFinal));
+
     console.log("[INFO] Script Amazon finalizado com sucesso.");
     process.exit(0);
   })

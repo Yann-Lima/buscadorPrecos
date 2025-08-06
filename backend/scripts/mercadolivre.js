@@ -6,7 +6,7 @@ const path = require("path");
 const resultados = [];
 
 const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "produtos.json"), "utf-8"));
-const listaProdutos = produtosJson.produtos;
+const listaProdutos = produtosJson.produtos.map(p => p.trim());
 
 async function executarBuscaEmTodos() {
   console.log("[INFO] Iniciando verificação de todos os produtos no Mercado Livre...\n");
@@ -126,6 +126,15 @@ async function extrairDetalhesProdutoML(urlProduto, termoOriginal) {
 
 executarBuscaEmTodos()
   .then(() => {
+    const resultadoFinal = {};
+    for (const item of resultados) {
+      resultadoFinal[item.termo] = {
+        preco: item.vendido ? item.preco : null,
+        vendido: item.vendido
+      };
+    }
+    console.log(JSON.stringify(resultadoFinal));
+
     console.log("[INFO] Script Mercado Livre finalizado com sucesso.");
     process.exit(0);
   })

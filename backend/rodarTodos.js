@@ -75,15 +75,37 @@ function gerarExcel(tempoTotalEmMinutos) {
 
   // Linha extra: tempo total
   const ultimaLinha = new Array(header.length).fill("");
-  ultimaLinha[header.length - 1] = `Tempo total: ${tempoTotalEmMinutos} segundos`;
+  ultimaLinha[header.length - 1] = `Tempo total: ${tempoTotalEmMinutos} minutos`;
   data.push(ultimaLinha);
 
   const ws = xlsx.utils.aoa_to_sheet(data);
   const wb = xlsx.utils.book_new();
   xlsx.utils.book_append_sheet(wb, ws, "bancodedados");
-  xlsx.writeFile(wb, "bancodedados.xlsx");
 
-  console.log("📁 Excel gerado: bancodedados.xlsx");
+  // === TURNO AUTOMÁTICO ===
+  const horaAtual = new Date().getHours();
+  let turno = "";
+
+  if (horaAtual >= 5 && horaAtual < 12) {
+    turno = "MANHÃ";
+  } else if (horaAtual >= 12 && horaAtual < 18) {
+    turno = "TARDE";
+  } else {
+    turno = "NOITE";
+  }
+
+  const nomeArquivo = `PLANILHA_GERAL_${turno}.xlsx`;
+  const caminhoCompleto = path.join("C:", "Roberty", "P3", "v2", nomeArquivo);
+
+  // Cria a pasta se não existir
+  const pastaDestino = path.dirname(caminhoCompleto);
+  if (!fs.existsSync(pastaDestino)) {
+    fs.mkdirSync(pastaDestino, { recursive: true });
+  }
+
+  xlsx.writeFile(wb, caminhoCompleto);
+
+  console.log(`📁 Excel gerado automaticamente em: ${caminhoCompleto}`);
 }
 
 rodarSequencialmente();

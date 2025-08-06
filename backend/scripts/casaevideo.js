@@ -7,7 +7,7 @@ const resultados = [];
 
 // Lê o JSON com os produtos
 const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "produtos.json"), "utf-8"));
-const listaProdutos = produtosJson.produtos;
+const listaProdutos = produtosJson.produtos.map(p => p.trim());
 
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos...\n");
