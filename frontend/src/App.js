@@ -6,11 +6,15 @@ const lojas = [
   { label: "Casa e Vídeo", value: "casaevideo" },
   { label: "Le Biscuit", value: "leBiscuit" },
   { label: "eFácil", value: "eFacil" },
-  { label: "Carrefour", value: "carrefour" }
+  { label: "Carrefour", value: "carrefour" },
+  { label: "Amazon", value: "amazon" },
+  { label: "Gazin", value: "gazin" },
+  { label: "Mercado Livre", value: "mercadolivre" }
 ];
 
 function App() {
   const [produtos, setProdutos] = useState([]);
+  const [produtosSelecionados, setProdutosSelecionados] = useState([]);
   const [lojasSelecionadas, setLojasSelecionadas] = useState([]);
   const [formato, setFormato] = useState("xlsx");
   const [carregando, setCarregando] = useState(false);
@@ -75,43 +79,51 @@ function App() {
     }
   };
 
-  const handleSubmit = async () => {
-    if (!lojasSelecionadas.length) {
-      alert("Selecione ao menos uma loja.");
-      return;
+const handleSubmit = async () => {
+  if (!lojasSelecionadas.length) {
+    alert("Selecione ao menos uma loja.");
+    return;
+  }
+
+  console.log("📦 Enviando para o backend:");
+  console.log("→ Lojas selecionadas:", lojasSelecionadas);
+  console.log("→ Produtos selecionados:", produtosSelecionados);
+  console.log("→ Formato:", formato);
+
+  setCarregando(true);
+  setArquivo(null);
+  setTempoExecucao(null);
+  const inicio = Date.now();
+
+  const CancelToken = axios.CancelToken;
+  sourceRef.current = CancelToken.source();
+
+  try {
+    const res = await axios.post("http://localhost:4000/executar", {
+      lojasSelecionadas,
+      produtosSelecionados,
+      exportarComo: formato
+    }, {
+      cancelToken: sourceRef.current.token,
+    });
+
+    setArquivo(res.data.arquivo);
+    const duracaoSegundos = Math.floor((Date.now() - inicio) / 1000);
+    setTempoExecucao(duracaoSegundos);
+
+  } catch (err) {
+    if (axios.isCancel(err)) {
+      alert("Consulta cancelada pelo usuário.");
+    } else {
+      console.error("❌ Erro ao processar:", err.response?.data || err.message);
+      alert("Erro ao processar.");
     }
+  } finally {
+    setCarregando(false);
+    setTempoProcessando(0);
+  }
+};
 
-    setCarregando(true);
-    setArquivo(null);
-    setTempoExecucao(null);
-    const inicio = Date.now();
-
-    const CancelToken = axios.CancelToken;
-    sourceRef.current = CancelToken.source();
-
-    try {
-      const res = await axios.post("http://localhost:4000/executar", {
-        lojasSelecionadas,
-        exportarComo: formato
-      }, {
-        cancelToken: sourceRef.current.token,
-      });
-
-      setArquivo(res.data.arquivo);
-      const duracaoSegundos = Math.floor((Date.now() - inicio) / 1000);
-      setTempoExecucao(duracaoSegundos);
-
-    } catch (err) {
-      if (axios.isCancel(err)) {
-        alert("Consulta cancelada pelo usuário.");
-      } else {
-        alert("Erro ao processar.");
-      }
-    } finally {
-      setCarregando(false);
-      setTempoProcessando(0);
-    }
-  };
 
   const cancelarProcesso = async () => {
     if (sourceRef.current) {
@@ -124,7 +136,7 @@ function App() {
       console.error("Erro ao cancelar no backend:", err.message);
     }
   };
-  
+
   const handleNovoProdutoChange = (e) => {
     const { name, value, files } = e.target;
     if (name === "imagem") {
@@ -180,6 +192,9 @@ Imagem: ${novoProduto.imagem.name}`);
           isMulti
           options={produtos}
           placeholder="Pesquise ou selecione produtos..."
+          onChange={(selected) => {
+            setProdutosSelecionados(selected.map(p => p.value));
+          }}
         />
       </div>
 

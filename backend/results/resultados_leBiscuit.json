@@ -1,11 +1,11 @@
 [
   {
     "termo": "PLQ1350",
-    "nome": "Liquidificador Philco PLQ1350 Turbo Glass Pro Maxx 6 1200W",
-    "preco": "R$ 314,91",
+    "nome": null,
+    "preco": "Indisponível",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/liquidificador-philco-plq1350-turbo-glass-pro-maxx-6-1200w-2018312422/p"
+    "link": null
   },
   {
     "termo": "L-28",
@@ -26,7 +26,7 @@
   {
     "termo": "Flash Mix",
     "nome": "Caixa de Som Amplificada Bluetooth Philco 250W PCX3800 Flash Lights",
-    "preco": "R$ 299,91",
+    "preco": "R$ 259,37",
     "loja": "Le Biscuit",
     "vendido": true,
     "link": "https://www.lebiscuit.com.br/caixa-amplif-philco-pcx3800-250w-5179418/p"
@@ -34,7 +34,7 @@
   {
     "termo": "Flash Mix+",
     "nome": "Caixa de Som Amplificada Bluetooth Philco 250W PCX3800 Flash Lights",
-    "preco": "R$ 299,91",
+    "preco": "R$ 259,37",
     "loja": "Le Biscuit",
     "vendido": true,
     "link": "https://www.lebiscuit.com.br/caixa-amplif-philco-pcx3800-250w-5179418/p"
@@ -90,7 +90,7 @@
   {
     "termo": "Flash Mix",
     "nome": "Caixa de Som Amplificada Bluetooth Philco 250W PCX3800 Flash Lights",
-    "preco": "R$ 299,91",
+    "preco": "R$ 259,37",
     "loja": "Le Biscuit",
     "vendido": true,
     "link": "https://www.lebiscuit.com.br/caixa-amplif-philco-pcx3800-250w-5179418/p"
@@ -98,7 +98,7 @@
   {
     "termo": "Flash Mix+",
     "nome": "Caixa de Som Amplificada Bluetooth Philco 250W PCX3800 Flash Lights",
-    "preco": "R$ 299,91",
+    "preco": "R$ 259,37",
     "loja": "Le Biscuit",
     "vendido": true,
     "link": "https://www.lebiscuit.com.br/caixa-amplif-philco-pcx3800-250w-5179418/p"
@@ -121,11 +121,11 @@
   },
   {
     "termo": "L-900 FB",
-    "nome": "Liquidificador com Filtro 900W 2.7L Mondial Turbo L-900 FB 5 Velocidades Preto 127V",
-    "preco": "R$ 159,90",
+    "nome": "Liquidificador Turbo L-900 Fb Liquidificador-127v-preto",
+    "preco": "R$ 165,21",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/liquidificador-com-filtro-900w-2-7l-mondial-turbo-l-900-fb-5-velocidades-preto-127v-2012781649/p"
+    "link": "https://www.lebiscuit.com.br/liquidificador-turbo-l-900-fb-liquidificador-127v-preto-2016954064/p"
   },
   {
     "termo": "DIAMANTE PRETO 900W",
@@ -145,11 +145,11 @@
   },
   {
     "termo": "LIQ200",
-    "nome": "Liquidificador Cadence Hit LIQ200 Preto - 220V",
+    "nome": "Liquidificador Cadence Hit LIQ200 Preto - 127V",
     "preco": "R$ 132,90",
     "loja": "Le Biscuit",
     "vendido": true,
-    "link": "https://www.lebiscuit.com.br/liquidificador-cadence-hit-liq200-220v-5133833/p"
+    "link": "https://www.lebiscuit.com.br/liquidificador-cadence-hit-liq200-127v-5133836/p"
   },
   {
     "termo": "LN61",
@@ -178,7 +178,7 @@
   {
     "termo": "Flash Mix",
     "nome": "Caixa de Som Amplificada Bluetooth Philco 250W PCX3800 Flash Lights",
-    "preco": "R$ 299,91",
+    "preco": "R$ 259,37",
     "loja": "Le Biscuit",
     "vendido": true,
     "link": "https://www.lebiscuit.com.br/caixa-amplif-philco-pcx3800-250w-5179418/p"
@@ -186,7 +186,7 @@
   {
     "termo": "Flash Mix+",
     "nome": "Caixa de Som Amplificada Bluetooth Philco 250W PCX3800 Flash Lights",
-    "preco": "R$ 299,91",
+    "preco": "R$ 259,37",
     "loja": "Le Biscuit",
     "vendido": true,
     "link": "https://www.lebiscuit.com.br/caixa-amplif-philco-pcx3800-250w-5179418/p"
@@ -258,7 +258,7 @@
   {
     "termo": "MI41S",
     "nome": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor (MI41S)",
-    "preco": "R$ 772,59",
+    "preco": "R$ 764,10",
     "loja": "Le Biscuit",
     "vendido": false,
     "link": "https://www.lebiscuit.com.br/micro-ondas-electrolux-31l-cor-inox-espelhado-com-painel-integrado-e-funcao-tira-odor--mi41s--2014428149/p"
@@ -297,19 +297,19 @@
   },
   {
     "termo": "NN-ST25LWRU",
-    "nome": null,
-    "preco": "Indisponível",
+    "nome": "Microondas Panasonic Tecnologia Antibactéria Ag 21L Branco - NN-ST25LWRU 220V",
+    "preco": "R$ 573,33",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": null
+    "link": "https://www.lebiscuit.com.br/microondas-panasonic-tecnologia-antibacteria-ag-21l-branco---nn-st25lwru-220v-2014180234/p"
   },
   {
     "termo": "ST67LSRU",
-    "nome": "Micro-ondas Panasonic Tecnologia Antibactéria AG 34L Inox - ST67LSRU 220V",
+    "nome": "Micro-ondas Panasonic Tecnologia Antibactéria AG 34L Inox - ST67LSRU 110V",
     "preco": "R$ 895,23",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/micro-ondas-panasonic-tecnologia-antibacteria-ag-34l-inox---st67lsru-220v-2014158734/p"
+    "link": "https://www.lebiscuit.com.br/micro-ondas-panasonic-tecnologia-antibacteria-ag-34l-inox---st67lsru-110v-2014147833/p"
   },
   {
     "termo": "PMO23BB",
@@ -346,7 +346,7 @@
   {
     "termo": "EAF15",
     "nome": "Air Fryer Electrolux por Rita Lobo 3,2L Preta Efficient com Timer 1400W (EAF15)",
-    "preco": "R$ 289,90",
+    "preco": "R$ 260,91",
     "loja": "Le Biscuit",
     "vendido": false,
     "link": "https://www.lebiscuit.com.br/air-fryer-electrolux-por-rita-lobo-32l-preta-efficient-com-timer-1400w--eaf15--2014414482/p"
@@ -369,11 +369,11 @@
   },
   {
     "termo": "PFR15PI",
-    "nome": "Air Fryer Philco 4,4L Antiaderente Redstone 1500W PFR15PI",
-    "preco": "R$ 620,91",
+    "nome": "Air Fryer Philco 4,4L Antiaderente Redstone 1500W PFR15PI 110V",
+    "preco": "R$ 347,91",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/air-fryer-philco-44l-antiaderente-redstone-1500w-pfr15pi-2018287237/p"
+    "link": "https://www.lebiscuit.com.br/air-fryer-philco-44l-antiaderente-redstone-1500w-pfr15pi-110v-2018319736/p"
   },
   {
     "termo": "BFR2100",
@@ -385,16 +385,16 @@
   },
   {
     "termo": "EAF90",
-    "nome": null,
-    "preco": "Indisponível",
+    "nome": "Air Fryer Oven Electrolux por Rita Lobo 12L Digital Grafite Experience 1700W (EAF90)",
+    "preco": "R$ 746,91",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/fritadeira-eletrica-sem-oleo-air-fryer-oven-electrolux-experience-digital-por-rita-lobo-eaf90-12l-16k905685801y4q4/p"
+    "link": "https://www.lebiscuit.com.br/air-fryer-oven-electrolux-por-rita-lobo-12l-digital-grafite-experience-1700w--eaf90--2014409061/p"
   },
   {
     "termo": "AFON-12L-BI",
     "nome": "Fritadeira Elétrica Sem Óleo Air Fryer Oven 2 em 1 Mondial AFON-12L-BI 12L Digital",
-    "preco": "R$ 559,00",
+    "preco": "R$ 557,79",
     "loja": "Le Biscuit",
     "vendido": false,
     "link": "https://www.lebiscuit.com.br/fritadeira-eletrica-sem-oleo-air-fryer-oven-2-em-1-mondial-afon-12l-bi-12l-digital-2012839619/p"
@@ -570,7 +570,7 @@
   {
     "termo": "ESG20",
     "nome": "Sanduicheira Electrolux Efficient Inox Antiaderente (ESG20)",
-    "preco": "R$ 163,71",
+    "preco": "R$ 161,91",
     "loja": "Le Biscuit",
     "vendido": false,
     "link": "https://www.lebiscuit.com.br/sanduicheira-electrolux-efficient-inox-antiaderente--esg20--2014491961/p"
@@ -578,7 +578,7 @@
   {
     "termo": "S-20",
     "nome": "Sanduicheira e Grill Mondial Master S-20 Preto/Inox - 750W 220V",
-    "preco": "R$ 124,90",
+    "preco": "R$ 99,90",
     "loja": "Le Biscuit",
     "vendido": true,
     "link": "https://www.lebiscuit.com.br/san-mastergrill-mondial-s20-pt-inox-220v-5133847/p"
@@ -586,7 +586,7 @@
   {
     "termo": "AMS 370",
     "nome": "Grill e Sanduicheira Elétrica Amvox AMS 370 Black - 750W 220V",
-    "preco": "R$ 89,99",
+    "preco": "R$ 79,90",
     "loja": "Le Biscuit",
     "vendido": true,
     "link": "https://www.lebiscuit.com.br/sanduicheira-amvox-ams-370-black-220v-5120571/p"
@@ -809,11 +809,11 @@
   },
   {
     "termo": "Easy Travel",
-    "nome": "Fritadeira Elétrica Air Fryer Arno Easy Fry EZFP 3,2L Preta - 127V",
-    "preco": "R$ 189,90",
+    "nome": "Secador de Cabelo Mondial Max Travel SC10 Vermelho - 1200W",
+    "preco": "R$ 85,49",
     "loja": "Le Biscuit",
     "vendido": true,
-    "link": "https://www.lebiscuit.com.br/fritadeira-arno-ezfp-3-2l-preta-127v-5130399/p"
+    "link": "https://www.lebiscuit.com.br/secador-mondial-max-travel-sc10-biv-5087566/p"
   },
   {
     "termo": "SEC185",
@@ -825,11 +825,11 @@
   },
   {
     "termo": "Eolic Travel",
-    "nome": "Secador de Cabelo Mondial Max Travel SC10 Vermelho - 1200W",
-    "preco": "R$ 94,90",
+    "nome": "Secador de Cabelo GA.MA Italy 2 Vel EOLIC TRAVEL Black Bivolt Manual",
+    "preco": "R$ 193,05",
     "loja": "Le Biscuit",
-    "vendido": true,
-    "link": "https://www.lebiscuit.com.br/secador-mondial-max-travel-sc10-biv-5087566/p"
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/secador-de-cabelo-ga-ma-italy-2-vel-eolic-travel-black-bivolt-manual-2018005996/p"
   },
   {
     "termo": "SC-10",
@@ -889,11 +889,11 @@
   },
   {
     "termo": "AWS-EB-03-B",
-    "nome": "Fone de Ouvido Aiwa Earbud AWS-EB-03-B Bluetooth IPX5 ANC Modo Ambiente",
-    "preco": "R$ 177,00",
+    "nome": "Fone de Ouvido Earbud AIWA AWS-EB-03-B BT IPX5 ANC Modo Ambiente",
+    "preco": "R$ 299,90",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/fone-de-ouvido-aiwa-earbud-aws-eb-03-b-bluetooth-ipx5-anc-modo-ambiente-2017800486/p"
+    "link": "https://www.lebiscuit.com.br/fone-de-ouvido-earbud-aiwa-aws-eb-03-b-bt-ipx5-anc-modo-ambiente-2012925095/p"
   },
   {
     "termo": "AWS-HP-05-B",
@@ -905,19 +905,19 @@
   },
   {
     "termo": "AWS-HP-04-B",
-    "nome": "Fone De Ouvido Aws-hp-04-b Biv Fone De Ouvido Aws-hp-04-b",
-    "preco": "R$ 284,40",
+    "nome": "FONE DE OUVIDO AWS-HP-04-B BIV",
+    "preco": "R$ 326,90",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/fone-de-ouvido-aws-hp-04-b-biv-fone-de-ouvido-aws-hp-04-b-2015076839/p"
+    "link": "https://www.lebiscuit.com.br/fone-de-ouvido-aws-hp-04-b-biv-2014931328/p"
   },
   {
     "termo": "Tune Buds 2",
-    "nome": "Fone De Ouvido Bluetooth Sem Fio JBL Tune Buds 2 - Branco",
-    "preco": "R$ 424,15",
+    "nome": "Fone De Ouvido Bluetooth Sem Fio JBL Tune Buds 2 - Preto",
+    "preco": "R$ 419,16",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/fone-de-ouvido-bluetooth-sem-fio-jbl-tune-buds-2---branco-2018088918/p"
+    "link": "https://www.lebiscuit.com.br/fone-de-ouvido-bluetooth-sem-fio-jbl-tune-buds-2---preto-2018082367/p"
   },
   {
     "termo": "LIVE FREE 2 TWS",
@@ -930,7 +930,7 @@
   {
     "termo": "Wave Beam 2",
     "nome": "Fone De Ouvido Bluetooth Sem Fio JBL Wave Beam 2 Com Microfone - Branco",
-    "preco": "R$ 262,65",
+    "preco": "R$ 259,56",
     "loja": "Le Biscuit",
     "vendido": false,
     "link": "https://www.lebiscuit.com.br/fone-de-ouvido-bluetooth-sem-fio-jbl-wave-beam-2-com-microfone---branco-2018077702/p"
@@ -938,7 +938,7 @@
   {
     "termo": "Wave Buds 2",
     "nome": "Fone De Ouvido Bluetooth Sem Fio JBL Wave Buds 2 - Preto",
-    "preco": "R$ 262,65",
+    "preco": "R$ 259,56",
     "loja": "Le Biscuit",
     "vendido": false,
     "link": "https://www.lebiscuit.com.br/fone-de-ouvido-bluetooth-sem-fio-jbl-wave-buds-2---preto-2018071095/p"
@@ -981,7 +981,7 @@
     "preco": "R$ 143,33",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/fone-de-ouvido-bluetooth-tat1209bk-00-com-microfone-philips-2017808265/p"
+    "link": "https://www.lebiscuit.com.br/fone-de-ouvido-bluetooth-tat1209bk-00-com-microfone-philips-2014025383/p"
   },
   {
     "termo": "TAT3509GY/00",

@@ -76,14 +76,20 @@ app.post("/executar", async (req, res) => {
     casaevideo: "node scripts/casaevideo.js",
     leBiscuit: "node scripts/leBiscuit.js",
     eFacil: "node scripts/eFacil.js",
-    carrefour: "node scripts/carrefour.js"
+    carrefour: "node scripts/carrefour.js",
+    amazon: "node scripts/amazon.js",
+    gazin: "node scripts/gazin.js",
+    mercadolivre: "node scripts/mercadolivre.js"
   };
 
   const lojasMap = {
     casaevideo: "Casa e Vídeo",
     leBiscuit: "Le Biscuit",
     eFacil: "eFácil",
-    carrefour: "Carrefour"
+    carrefour: "Carrefour",
+    amazon: "Amazon",
+    gazin: "Gazin",
+    mercadolivre: "Mercado Livre"
   };
 
   const scripts = lojasSelecionadas.map(loja => scriptsMap[loja]).filter(Boolean);
@@ -95,29 +101,36 @@ app.post("/executar", async (req, res) => {
   console.log("🟢 Rodando scripts:", scripts);
 
   // Roda os scripts sequencialmente
-for (let i = 0; i < scripts.length; i++) {
-  console.log(`🔄 Rodando: ${scripts[i]}`);
-  await new Promise((resolve, reject) => {
-    const processo = exec(scripts[i]);
-    processosAtivos.push(processo); // guarda o processo
+  for (let i = 0; i < scripts.length; i++) {
+    console.log(`🔄 Rodando: ${scripts[i]}`);
+    await new Promise((resolve, reject) => {
+      const processo = exec(scripts[i]);
+      processosAtivos.push(processo); // guarda o processo
 
-    processo.stdout.on("data", data => process.stdout.write(data));
-    processo.stderr.on("data", data => process.stderr.write(data));
+      processo.stdout.on("data", data => process.stdout.write(data));
+      processo.stderr.on("data", data => process.stderr.write(data));
 
-    processo.on("close", code => {
-      console.log(`✅ Finalizado: ${scripts[i]} (code ${code})`);
-      // Remove da lista de processos ativos
-      processosAtivos = processosAtivos.filter(p => p !== processo);
-      if (code === 0) resolve();
-      else reject(new Error(`Erro no script ${scripts[i]}`));
+      processo.on("close", code => {
+        console.log(`✅ Finalizado: ${scripts[i]} (code ${code})`);
+        // Remove da lista de processos ativos
+        processosAtivos = processosAtivos.filter(p => p !== processo);
+        if (code === 0) resolve();
+        else reject(new Error(`Erro no script ${scripts[i]}`));
+      });
     });
-  });
-}
+  }
 
   try {
+    const produtos = req.body.produtosSelecionados;
+
+    if (!Array.isArray(produtos) || produtos.length === 0) {
+      return res.status(400).json({ erro: "Lista de produtos não fornecida ou vazia." });
+    }
+
+    // (salva os produtos no JSON caso seus scripts ainda dependam disso)
     const produtosPath = path.join(__dirname, "scripts", "produtos.json");
-    const produtosJson = JSON.parse(fs.readFileSync(produtosPath, "utf8"));
-    const produtos = produtosJson.produtos;
+    fs.writeFileSync(produtosPath, JSON.stringify({ produtos }, null, 2));
+
 
     const resultadosPorLoja = {};
     for (const loja of lojasSelecionadas) {
