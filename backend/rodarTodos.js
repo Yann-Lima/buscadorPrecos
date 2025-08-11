@@ -71,10 +71,11 @@ function gerarExcel(tempoTotalEmMinutos) {
     "Produto",
     "amazon",
     "carrefour",
-    "casasbahia",
     "casaevideo",
     "efacil",
-    "lebiscuit"
+    "gazin",
+    "lebiscuit",
+    "mercadolivre"
   ];
 
   data.push(header);
@@ -129,3 +130,23 @@ function gerarExcel(tempoTotalEmMinutos) {
 }
 
 rodarSequencialmente();
+
+executarBuscaEmTodos()
+  .then(() => {
+    console.error("[INFO] Script Carrefour finalizado com sucesso.");
+
+    const { exec } = require("child_process");
+    exec("node criarAux.js", (err, stdout, stderr) => {
+      if (err) {
+        console.error("[ERRO] Falha ao rodar criarAux.js:", err.message);
+        return;
+      }
+      console.log(stdout);
+      console.error(stderr);
+    });
+  })
+  .catch(err => {
+    console.error("[ERRO FATAL] Falha inesperada no script Carrefour:", err.message);
+    process.exit(1);
+  });
+
