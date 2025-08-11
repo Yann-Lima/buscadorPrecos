@@ -9,50 +9,58 @@
   },
   {
     "termo": "EAF15",
-    "nome": "Fritadeira Elétrica AirFryer Electrolux Family Efficient 5L 1700W EAF50",
-    "preco": "R$ 569,90",
-    "loja": "Gazin",
-    "vendido": true,
-    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-airfryer-electrolux-family-efficient-5l-1700w-eaf50/6358/dark-red/110-volts"
-  },
-  {
-    "termo": "BFR2100",
-    "nome": "Fritadeira Elétrica Britânia Oven BFR2100 12L 1800W 2 em 1",
-    "preco": "R$ 669,90",
-    "loja": "Gazin",
-    "vendido": true,
-    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-britania-oven-bfr2100-12l-1800w-2-em-1/5903/preto/220-volts"
-  },
-  {
-    "termo": "EAF90",
-    "nome": "Fritadeira Elétrica AirFryer Electrolux Oven Digital 12L 1700W EAF90",
-    "preco": "R$ 976,50",
-    "loja": "Gazin",
-    "vendido": true,
-    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-airfryer-electrolux-oven-digital-12l-1700w-eaf90/6990/grafite/110-volts"
-  },
-  {
-    "termo": "AFON-12L-BI",
-    "nome": "Fritadeira Elétrica Air Fryer Mondial Oven AFO-12L-BI 12L 2000W",
-    "preco": "R$ 719,90",
-    "loja": "Gazin",
-    "vendido": true,
-    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-oven-afo-12l-bi-12l-2000w/8112/pretoinox/110-volts"
-  },
-  {
-    "termo": "OFRT780",
-    "nome": "Fritadeira Elétrica Air Fryer Oster Oven OFRT780 12L 1800W Com Luz Interna",
+    "nome": "Fritadeira Elétrica Air Fryer Electrolux Efficient Rita Lobo EAF-15 3,2L",
     "preco": "",
     "loja": "Gazin",
     "vendido": true,
-    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-oster-oven-ofrt780-12l-1800w-com-luz-interna/6685/preto/110-volts"
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-electrolux-efficient-rita-lobo-eaf-15-32l/8649/preto/110-volts"
   },
   {
-    "termo": "PFR2200",
-    "nome": "Fritadeira Elétrica Philco Air Fryer Gourmet Black 4,4L 1500W PFR15PG",
-    "preco": "R$ 351,23",
+    "termo": "FAST MIX 2",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-550-B",
+    "nome": "Kit Liquidificador L-28 e Batedeira B50-B Mondial",
+    "preco": "",
     "loja": "Gazin",
     "vendido": true,
-    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-philco-air-fryer-gourmet-black-44l-1500w-pfr15pg/6987/preto/110-volts"
+    "link": "https://www.gazin.com.br/produto/kit-liquidificador-l-28-e-batedeira-b50-b-mondial/3748/preto/110-volts"
+  },
+  {
+    "termo": "RI2110/90",
+    "nome": "Liquidificador Philips Walita Série 5000 RI2242 3L 12 Velocidades 1200W",
+    "preco": "R$ 279,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-serie-5000-ri2242-3l-12-velocidades-1200w/7225/preto/110-volts"
+  },
+  {
+    "termo": "Flash Mix",
+    "nome": "Liquidificador Mallory Flash Mix + 2,1L 2 Velocidades 450W B9120174",
+    "preco": "",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mallory-flash-mix-21l-2-velocidades-450w-b9120174/6108/branco/110-volts"
+  },
+  {
+    "termo": "Flash Mix+",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-77",
+    "nome": "Geladeira Brastemp 447L Frost Free Inverse BRE57FK",
+    "preco": "R$ 5.709,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/geladeira-brastemp-447l-frost-free-inverse-bre57fk/8589/inox/110-volts"
   }
 ]

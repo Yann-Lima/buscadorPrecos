@@ -8,16 +8,27 @@ const scriptsDir = path.join(__dirname, "scripts");
 const produtosJson = require("./scripts/produtos.json");
 
 // Pega todos os arquivos .js da pasta scripts/
-const scripts = fs.readdirSync(scriptsDir)
+/*const scripts = fs.readdirSync(scriptsDir)
   .filter(file => file.endsWith(".js"))
-  .map(file => `node scripts/${file}`);
+  .map(file => `node scripts/${file}`);*/
 
 const resultados = {};
 const produtos = produtosJson.produtos;
 
+const scriptsFixos = [
+  "amazon.js",
+  "carrefour.js",
+  "casaevideo.js",
+  "efacil.js",
+  "gazin.js",
+  "lebiscuit.js",
+  "mercadolivre.js"
+];
+const scripts = scriptsFixos.map(file => `node scripts/${file}`);
+
 function rodarSequencialmente(i = 0) {
   if (i >= scripts.length) {
-   const tempoTotalEmMinutos = ((Date.now() - inicio) / 1000 / 60).toFixed(2);
+    const tempoTotalEmMinutos = ((Date.now() - inicio) / 1000 / 60).toFixed(2);
     console.log(`✅ Todos os scripts foram executados em ${tempoTotalEmMinutos} minutos.`);
     gerarExcel(tempoTotalEmMinutos);
     return;
@@ -55,15 +66,24 @@ function gerarExcel(tempoTotalEmMinutos) {
   const data = [];
 
   // Cabeçalho: Produto + nome dos scripts
-  const header = ["Produto", ...Object.keys(resultados)];
+  //const header = ["Produto", ...Object.keys(resultados)];
+  const header = [
+    "Produto",
+    "amazon",
+    "carrefour",
+    "casasbahia",
+    "casaevideo",
+    "efacil",
+    "lebiscuit"
+  ];
+
   data.push(header);
 
   // Dados dos produtos
   for (const produto of produtos) {
     const row = [produto];
-    for (const site of Object.keys(resultados)) {
-      const dadosProduto = resultados[site][produto];
-
+    for (const site of header.slice(1)) { // Pula a coluna "Produto"
+      const dadosProduto = resultados[site]?.[produto];
       if (dadosProduto && dadosProduto.vendido && dadosProduto.preco) {
         row.push(dadosProduto.preco);
       } else {
@@ -94,7 +114,7 @@ function gerarExcel(tempoTotalEmMinutos) {
     turno = "NOITE";
   }
 
-  const nomeArquivo = `PLANILHA_GERAL_${turno}.xlsx`;
+  const nomeArquivo = `planilhaAtualizada.xlsx`;
   const caminhoCompleto = path.join("C:", "Roberty", "P3", "v2", nomeArquivo);
 
   // Cria a pasta se não existir

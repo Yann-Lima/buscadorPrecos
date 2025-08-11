@@ -146,7 +146,7 @@ executarBuscaEmTodos()
     }
     console.log(JSON.stringify(resultadoFinal));
 
-    console.log("[INFO] Script Amazon finalizado com sucesso.");
+    console.error("[INFO] Script Amazon finalizado com sucesso.");
     process.exit(0);
   })
   .catch(err => {

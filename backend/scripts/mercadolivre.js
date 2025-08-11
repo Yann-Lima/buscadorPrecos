@@ -9,7 +9,7 @@ const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "produtos.j
 const listaProdutos = produtosJson.produtos.map(p => p.trim());
 
 async function executarBuscaEmTodos() {
-  console.log("[INFO] Iniciando verificação de todos os produtos no Mercado Livre...\n");
+  console.error("[INFO] Iniciando verificação de todos os produtos no Mercado Livre...\n");
 
   for (const termo of listaProdutos) {
     try {
@@ -36,9 +36,9 @@ async function buscarPrimeiroProdutoML(termo) {
   const termoBusca = termo.trim().replace(/\s+/g, '-');
   const urlBusca = `https://lista.mercadolivre.com.br/${termoBusca}#D[A:${termo}]`;
 
-  console.log("\n[INFO] ========== NOVA BUSCA ==========");
-  console.log("[DEBUG] Termo:", termo);
-  console.log("[DEBUG] URL:", urlBusca);
+  console.error("\n[INFO] ========== NOVA BUSCA ==========");
+  console.error("[DEBUG] Termo:", termo);
+  console.error("[DEBUG] URL:", urlBusca);
 
   try {
     const resp = await axios.get(urlBusca, {
@@ -61,7 +61,7 @@ async function buscarPrimeiroProdutoML(termo) {
       return;
     }
 
-    console.log("[DEBUG] Primeiro produto encontrado:", linkProduto);
+    console.error("[DEBUG] Primeiro produto encontrado:", linkProduto);
     await extrairDetalhesProdutoML(linkProduto, termo);
 
   } catch (err) {
@@ -78,7 +78,7 @@ async function buscarPrimeiroProdutoML(termo) {
 }
 
 async function extrairDetalhesProdutoML(urlProduto, termoOriginal) {
-  console.log("[INFO] --- Acessando produto para:", termoOriginal);
+  console.error("[INFO] --- Acessando produto para:", termoOriginal);
 
   try {
     const resp = await axios.get(urlProduto, {
@@ -95,10 +95,10 @@ async function extrairDetalhesProdutoML(urlProduto, termoOriginal) {
     const infoVendedor = $(".ui-pdp-seller__label-text-with-icon").text();
     const vendidoML = infoVendedor.toLowerCase().includes("mercado livre");
 
-    console.log(`[RESULTADO] Produto: ${nome}`);
-    console.log(`[RESULTADO] Preço à vista: ${preco}`);
-    console.log(`[RESULTADO] Vendido por Mercado Livre: ${vendidoML ? "✅ Sim" : "❌ Não"}`);
-    console.log(`[RESULTADO] Link: ${urlProduto}`);
+    console.error(`[RESULTADO] Produto: ${nome}`);
+    console.error(`[RESULTADO] Preço à vista: ${preco}`);
+    console.error(`[RESULTADO] Vendido por Mercado Livre: ${vendidoML ? "✅ Sim" : "❌ Não"}`);
+    console.error(`[RESULTADO] Link: ${urlProduto}`);
 
     resultados.push({
       termo: termoOriginal,
@@ -121,7 +121,7 @@ async function extrairDetalhesProdutoML(urlProduto, termoOriginal) {
     });
   }
 
-  console.log("[INFO] --- Fim da verificação do produto ---\n");
+  console.error("[INFO] --- Fim da verificação do produto ---\n");
 }
 
 executarBuscaEmTodos()
@@ -135,7 +135,7 @@ executarBuscaEmTodos()
     }
     console.log(JSON.stringify(resultadoFinal));
 
-    console.log("[INFO] Script Mercado Livre finalizado com sucesso.");
+    console.error("[INFO] Script Mercado Livre finalizado com sucesso.");
     process.exit(0);
   })
   .catch(err => {
