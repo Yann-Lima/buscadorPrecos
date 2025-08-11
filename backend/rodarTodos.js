@@ -131,7 +131,7 @@ function gerarExcel(tempoTotalEmMinutos) {
 
 rodarSequencialmente();
 
-executarBuscaEmTodos()
+/*executarBuscaEmTodos()
   .then(() => {
     console.error("[INFO] Script Carrefour finalizado com sucesso.");
 
@@ -148,5 +148,5 @@ executarBuscaEmTodos()
   .catch(err => {
     console.error("[ERRO FATAL] Falha inesperada no script Carrefour:", err.message);
     process.exit(1);
-  });
+  });*/
 
