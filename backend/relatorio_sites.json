@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Magazine Luiza",
+    "dominio": "https://www.magazineluiza.com.br",
+    "robotsBloqueia": true,
+    "termosProibem": true
+  },
+  {
+    "nome": "Gazin",
+    "dominio": "https://www.gazin.com.br",
+    "robotsBloqueia": true,
+    "termosProibem": null
+  },
+  {
+    "nome": "eFacil",
+    "dominio": "https://www.efacil.com.br",
+    "robotsBloqueia": true,
+    "termosProibem": null
+  },
+  {
+    "nome": "Casas Bahia",
+    "dominio": "https://www.casasbahia.com.br",
+    "robotsBloqueia": null,
+    "termosProibem": null
+  },
+  {
+    "nome": "Amazon",
+    "dominio": "https://www.amazon.com.br",
+    "robotsBloqueia": true,
+    "termosProibem": null
+  },
+  {
+    "nome": "Mercado Livre",
+    "dominio": "https://www.mercadolivre.com.br",
+    "robotsBloqueia": true,
+    "termosProibem": null
+  },
+  {
+    "nome": "Le Biscuit",
+    "dominio": "https://www.lebiscuit.com.br",
+    "robotsBloqueia": false,
+    "termosProibem": null
+  },
+  {
+    "nome": "Casa e Vídeo",
+    "dominio": "https://www.casaevideo.com.br",
+    "robotsBloqueia": false,
+    "termosProibem": null
+  }
+]

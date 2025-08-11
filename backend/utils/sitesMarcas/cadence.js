@@ -7,49 +7,48 @@ const resultados = [];
 
 const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "catalogoProdutos.json"), "utf-8"));
 const listaProdutos = produtosJson
-  .filter(p => (p.marca || "").trim().toUpperCase() === "MONDIAL")
+  .filter(p => (p.marca || "").trim().toUpperCase() === "CADENCE")
   .map(p => p.produto.trim());
 
-async function executarBuscaMondial() {
-  console.error("[INFO] Iniciando verificação de todos os produtos no site da Mondial...\n");
+async function executarBuscaCadence() {
+  console.error("[INFO] Iniciando verificação de todos os produtos no site da Cadence...\n");
 
   for (const termo of listaProdutos) {
     try {
-      await buscarPrimeiroProdutoMondial(termo);
+      await buscarPrimeiroProdutoCadence(termo);
     } catch (err) {
       console.error(`[ERRO CRÍTICO] Falha na busca do produto "${termo}":`, err.message);
       resultados.push({
         termo,
         nome: null,
         preco: "Indisponível",
-        loja: "Mondial",
+        precoParcelado: "Indisponível",
+        loja: "Cadence",
         link: null,
       });
     }
   }
 
-  const outputPath = path.join(__dirname, "..", "results", "resultados_mondial.json");
+  const outputPath = path.join(__dirname, "..", "results", "resultados_cadence.json");
   fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
-  console.error("\n[INFO] Fim da verificação.\n");
 
-  // Mostra JSON simplificado no stdout para uso em planilhas
   const resultadoFinal = {};
   for (const item of resultados) {
     resultadoFinal[item.termo] = {
       preco: item.preco,
+      precoParcelado: item.precoParcelado,
       link: item.link
     };
   }
 
   console.log(JSON.stringify(resultadoFinal));
-
-  console.error("[INFO] Script Mondial finalizado com sucesso.");
+  console.error("[INFO] Script Cadence finalizado com sucesso.");
   process.exit(0);
 }
 
-async function buscarPrimeiroProdutoMondial(termo) {
+async function buscarPrimeiroProdutoCadence(termo) {
   const termoBusca = encodeURIComponent(termo.trim());
-  const urlBusca = `https://www.mondial.com.br/${termoBusca}?_q=${termoBusca}&map=ft`;
+  const urlBusca = `https://www.cadence.com.br/${termoBusca}`;
 
   console.error("\n[INFO] ========== NOVA BUSCA ==========");
   console.error("[DEBUG] Termo:", termo);
@@ -61,24 +60,23 @@ async function buscarPrimeiroProdutoMondial(termo) {
     });
 
     const $ = cheerio.load(resp.data);
-    const linkRelativo = $("a.vtex-product-summary-2-x-clearLink").first().attr("href");
+    const linkProduto = $("a.product-image").first().attr("href");
 
-    if (!linkRelativo) {
+    if (!linkProduto) {
       console.warn("[WARN] Nenhum produto encontrado para:", termo);
       resultados.push({
         termo,
         nome: null,
         preco: "Indisponível",
-        loja: "Mondial",
+        precoParcelado: "Indisponível",
+        loja: "Cadence",
         link: null,
       });
       return;
     }
 
-    const urlProduto = "https://www.mondial.com.br" + linkRelativo;
-    console.error("[DEBUG] Primeiro produto encontrado:", urlProduto);
-
-    await extrairDetalhesProdutoMondial(urlProduto, termo);
+    console.error("[DEBUG] Primeiro produto encontrado:", linkProduto);
+    await extrairDetalhesProdutoCadence(linkProduto, termo);
 
   } catch (err) {
     console.error("[ERRO] Falha ao buscar:", termo, "→", err.message);
@@ -86,13 +84,14 @@ async function buscarPrimeiroProdutoMondial(termo) {
       termo,
       nome: null,
       preco: "Indisponível",
-      loja: "Mondial",
+      precoParcelado: "Indisponível",
+      loja: "Cadence",
       link: null,
     });
   }
 }
 
-async function extrairDetalhesProdutoMondial(urlProduto, termoOriginal) {
+async function extrairDetalhesProdutoCadence(urlProduto, termoOriginal) {
   console.error("[INFO] --- Acessando produto para:", termoOriginal);
 
   try {
@@ -103,22 +102,28 @@ async function extrairDetalhesProdutoMondial(urlProduto, termoOriginal) {
     const $ = cheerio.load(resp.data);
     const nome = $("h1").first().text().trim();
 
-    let preco = $("div.vtex-price-percent-vitrine span.vtex-price-percent-text")
-      .first()
-      .text()
-      .trim();
+    // Preço parcelado
+    let precoParcelado = $("strong.skuBestPrice").first().text().trim();
+    if (!precoParcelado || !precoParcelado.includes("R$")) precoParcelado = "Indisponível";
 
-    if (!preco || !preco.includes("R$")) preco = "Indisponível";
+    // Preço à vista = 10% menos
+    let precoAvista = "Indisponível";
+    if (precoParcelado !== "Indisponível") {
+      const valor = parseFloat(precoParcelado.replace("R$", "").replace(".", "").replace(",", "."));
+      precoAvista = `R$ ${ (valor * 0.9).toFixed(2).replace(".", ",") }`;
+    }
 
     console.error(`[RESULTADO] Produto: ${nome}`);
-    console.error(`[RESULTADO] Preço à vista: ${preco}`);
+    console.error(`[RESULTADO] Preço à vista: ${precoAvista}`);
+    console.error(`[RESULTADO] Preço parcelado: ${precoParcelado}`);
     console.error(`[RESULTADO] Link: ${urlProduto}`);
 
     resultados.push({
       termo: termoOriginal,
       nome,
-      preco,
-      loja: "Mondial",
+      preco: precoAvista,
+      precoParcelado,
+      loja: "Cadence",
       link: urlProduto
     });
 
@@ -128,7 +133,8 @@ async function extrairDetalhesProdutoMondial(urlProduto, termoOriginal) {
       termo: termoOriginal,
       nome: null,
       preco: "Indisponível",
-      loja: "Mondial",
+      precoParcelado: "Indisponível",
+      loja: "Cadence",
       link: urlProduto
     });
   }
@@ -136,7 +142,7 @@ async function extrairDetalhesProdutoMondial(urlProduto, termoOriginal) {
   console.error("[INFO] --- Fim da verificação do produto ---\n");
 }
 
-executarBuscaMondial().catch(err => {
-  console.error("[ERRO FATAL] Falha inesperada no script Mondial:", err.message);
+executarBuscaCadence().catch(err => {
+  console.error("[ERRO FATAL] Falha inesperada no script Cadence:", err.message);
   process.exit(1);
 });
