@@ -9,17 +9,53 @@ const resultados = [];
 const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "produtos.json"), "utf-8"));
 const listaProdutos = produtosJson.produtos.map(p => p.trim());
 
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function delayAleatorio(min, max) {
+  return delay(Math.floor(Math.random() * (max - min + 1)) + min);
+}
+
+async function scrollLento(page) {
+  await page.evaluate(async () => {
+    await new Promise(resolve => {
+      let totalHeight = 0;
+      const distance = 300;
+      const timer = setInterval(() => {
+        window.scrollBy(0, distance);
+        totalHeight += distance;
+        if (totalHeight >= document.body.scrollHeight) {
+          clearInterval(timer);
+          resolve();
+        }
+      }, 300);
+    });
+  });
+}
+
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos na Amazon...\n");
 
   const browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'] });
   const page = await browser.newPage();
 
-  await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36");
-
   for (const termo of listaProdutos) {
     try {
+      // Troca de User-Agent a cada busca
+      const userAgentBase = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)";
+      const chromeVersion = `Chrome/${100 + Math.floor(Math.random() * 20)}.0.0.0 Safari/537.36`;
+      await page.setUserAgent(`${userAgentBase} ${chromeVersion}`);
+
       await buscarPrimeiroProdutoAmazon(page, termo);
+
+      // Limpa cookies e cache para reduzir rastreamento
+      const client = await page.target().createCDPSession();
+      await client.send('Network.clearBrowserCookies');
+      await client.send('Network.clearBrowserCache');
+
+      // Delay humano aleatório entre buscas (3-7s)
+      await delayAleatorio(3000, 7000);
     } catch (err) {
       console.error(`[ERRO CRÍTICO] Falha na busca do produto "${termo}":`, err.message);
       resultados.push({
@@ -50,7 +86,8 @@ async function buscarPrimeiroProdutoAmazon(page, termo) {
 
   try {
     await page.goto(urlBusca, { waitUntil: "domcontentloaded", timeout: 60000 });
-    await new Promise(resolve => setTimeout(resolve, 2000)); // simula comportamento humano
+    await scrollLento(page);
+    await delayAleatorio(2000, 5000); // espera extra
 
     const links = await page.$$eval("a.a-link-normal.s-no-outline", els =>
       els.map(el => el.getAttribute("href")).filter(href => href)
@@ -92,7 +129,8 @@ async function extrairDetalhesProdutoAmazon(page, urlProduto, termoOriginal) {
 
   try {
     await page.goto(urlProduto, { waitUntil: "domcontentloaded", timeout: 60000 });
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await scrollLento(page);
+    await delayAleatorio(2000, 5000);
 
     const nome = await page.$eval("#productTitle", el => el.textContent.trim());
 

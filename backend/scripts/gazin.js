@@ -10,6 +10,24 @@ const resultados = [];
 const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "produtos.json"), "utf-8"));
 const listaProdutos = produtosJson.produtos.map(p => p.trim());
 
+// Funções utilitárias para simular humano
+async function delay(min, max) {
+  const tempo = Math.floor(Math.random() * (max - min + 1)) + min;
+  await new Promise(resolve => setTimeout(resolve, tempo));
+}
+
+async function rolarPagina(page) {
+  await page.evaluate(() => {
+    window.scrollBy(0, Math.floor(Math.random() * 500) + 200);
+  });
+}
+
+async function moverMouseAleatorio(page) {
+  const x = Math.floor(Math.random() * 800) + 100;
+  const y = Math.floor(Math.random() * 600) + 100;
+  await page.mouse.move(x, y, { steps: Math.floor(Math.random() * 5) + 1 });
+}
+
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no Gazin...\n");
 
@@ -27,6 +45,8 @@ async function executarBuscaEmTodos() {
         link: null,
       });
     }
+    // Delay aleatório entre buscas para evitar padrão
+    await delay(3000, 7000);
   }
 
   const outputPath = path.join(__dirname, "..", "results", "resultados_gazin.json");
@@ -42,12 +62,17 @@ async function buscarPrimeiroProdutoGAZIN(termo) {
   console.error("[DEBUG] Termo:", termo);
   console.error("[DEBUG] URL:", urlBusca);
 
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'] });
   const page = await browser.newPage();
-  await page.setUserAgent("Mozilla/5.0");
+  await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36");
 
   try {
-    await page.goto(urlBusca, { waitUntil: "networkidle2" });
+    await page.goto(urlBusca, { waitUntil: "networkidle2", timeout: 60000 });
+
+    // Simulação de humano
+    await delay(1000, 3000);
+    await moverMouseAleatorio(page);
+    await rolarPagina(page);
 
     await page.waitForSelector("a[href^='/produto/']", { timeout: 10000 });
 
@@ -78,11 +103,14 @@ async function buscarPrimeiroProdutoGAZIN(termo) {
         link: null,
       });
     } else {
-      // Agora vamos acessar a página do produto
       console.error("[INFO] Acessando página do produto:", produto.link);
-      await page.goto(produto.link, { waitUntil: "networkidle2" });
+      await page.goto(produto.link, { waitUntil: "networkidle2", timeout: 60000 });
 
-      // Espera seletor do vendedor
+      // Mais comportamento humano
+      await delay(1000, 3000);
+      await moverMouseAleatorio(page);
+      await rolarPagina(page);
+
       await page.waitForSelector("p.chakra-text.css-1ktt7uz", { timeout: 10000 });
 
       const vendedor = await page.$eval("p.chakra-text.css-1ktt7uz", el => el.textContent.trim());
@@ -117,7 +145,6 @@ async function buscarPrimeiroProdutoGAZIN(termo) {
     await browser.close();
   }
 }
-
 
 executarBuscaEmTodos()
   .then(() => {
