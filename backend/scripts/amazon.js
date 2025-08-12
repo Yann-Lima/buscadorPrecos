@@ -6,7 +6,17 @@ const path = require("path");
 puppeteer.use(StealthPlugin());
 
 const resultados = [];
-const produtosJson = JSON.parse(fs.readFileSync(path.join(__dirname, "produtos.json"), "utf-8"));
+// Caminhos dos arquivos
+const produtosTempPath = path.join(__dirname, "produtos_temp.json");
+const produtosFixosPath = path.join(__dirname, "produtos.json");
+
+if (fs.existsSync(produtosTempPath)) {
+  produtosJson = JSON.parse(fs.readFileSync(produtosTempPath, "utf-8"));
+  console.error("[INFO] Usando produtos do arquivo temporário produtos_temp.json");
+} else {
+  produtosJson = JSON.parse(fs.readFileSync(produtosFixosPath, "utf-8"));
+  console.error("[INFO] Usando produtos do arquivo padrão produtos.json");
+}
 const listaProdutos = produtosJson.produtos.map(p => p.trim());
 
 function delay(ms) {
@@ -179,7 +189,8 @@ executarBuscaEmTodos()
     for (const item of resultados) {
       resultadoFinal[item.termo] = {
         preco: item.vendido ? item.preco : null,
-        vendido: item.vendido
+        vendido: item.vendido,
+        link: item.link
       };
     }
     console.log(JSON.stringify(resultadoFinal));

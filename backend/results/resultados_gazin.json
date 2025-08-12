@@ -1,66 +1,10 @@
 [
   {
-    "termo": "OFRT520",
-    "nome": "Fritadeira Elétrica Air Fryer Oster OFRT520 4,6L 1500W",
-    "preco": "R$ 619,90",
-    "loja": "Gazin",
-    "vendido": true,
-    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-oster-ofrt520-46l-1500w/6693/preto-inox/110-volts"
-  },
-  {
-    "termo": "EAF15",
-    "nome": "Fritadeira Elétrica Air Fryer Electrolux Efficient Rita Lobo EAF-15 3,2L",
-    "preco": "",
-    "loja": "Gazin",
-    "vendido": true,
-    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-electrolux-efficient-rita-lobo-eaf-15-32l/8649/preto/110-volts"
-  },
-  {
-    "termo": "FAST MIX 2",
+    "termo": "PLQ1350",
     "nome": null,
     "preco": "Indisponível",
     "loja": "Gazin",
     "vendido": false,
     "link": null
-  },
-  {
-    "termo": "L-550-B",
-    "nome": "Kit Liquidificador L-28 e Batedeira B50-B Mondial",
-    "preco": "",
-    "loja": "Gazin",
-    "vendido": true,
-    "link": "https://www.gazin.com.br/produto/kit-liquidificador-l-28-e-batedeira-b50-b-mondial/3748/preto/110-volts"
-  },
-  {
-    "termo": "RI2110/90",
-    "nome": "Liquidificador Philips Walita Série 5000 RI2242 3L 12 Velocidades 1200W",
-    "preco": "R$ 279,90",
-    "loja": "Gazin",
-    "vendido": true,
-    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-serie-5000-ri2242-3l-12-velocidades-1200w/7225/preto/110-volts"
-  },
-  {
-    "termo": "Flash Mix",
-    "nome": "Liquidificador Mallory Flash Mix + 2,1L 2 Velocidades 450W B9120174",
-    "preco": "",
-    "loja": "Gazin",
-    "vendido": true,
-    "link": "https://www.gazin.com.br/produto/liquidificador-mallory-flash-mix-21l-2-velocidades-450w-b9120174/6108/branco/110-volts"
-  },
-  {
-    "termo": "Flash Mix+",
-    "nome": null,
-    "preco": "Indisponível",
-    "loja": "Gazin",
-    "vendido": false,
-    "link": null
-  },
-  {
-    "termo": "L-77",
-    "nome": "Geladeira Brastemp 447L Frost Free Inverse BRE57FK",
-    "preco": "R$ 5.709,90",
-    "loja": "Gazin",
-    "vendido": true,
-    "link": "https://www.gazin.com.br/produto/geladeira-brastemp-447l-frost-free-inverse-bre57fk/8589/inox/110-volts"
   }
 ]

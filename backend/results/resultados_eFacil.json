@@ -1,66 +1,10 @@
 [
   {
-    "termo": "OFRT520",
-    "nome": "Fritadeira Elétrica Sem Óleo Oster 1500W 4,6 Litros 220V OFRT520-220",
-    "preco": "R$ 445.00",
-    "loja": "eFácil",
-    "vendido": false,
-    "link": "https://www.efacil.com.br/loja/produto/fritadeira-eletrica-sem-oleo-oster-1500w-4-6-litros-ofrt520-220-p301250010112000012-00023/"
-  },
-  {
-    "termo": "EAF15",
-    "nome": "Fritadeira  Air Fryer Electrolux EAF50 - 5 Litros, Grafite, 110V",
-    "preco": "R$ 459.90",
+    "termo": "PLQ1350",
+    "nome": "Liquidificador Philco PLQ1350 - Copo de Vidro, 12 Velocidades + Pulsar, 1200W, Preto",
+    "preco": "R$ 229.00",
     "loja": "eFácil",
     "vendido": true,
-    "link": "https://www.efacil.com.br/loja/produto/fritadeira-sem-oleo-electrolux-air-fryer-eaf50-5-litros-grafite-p2222119/"
-  },
-  {
-    "termo": "FAST MIX 2",
-    "nome": "Liquidificador Mallory Fast Mix - Copo Polipropileno, 2 Velocidades + Pulsar, Preto",
-    "preco": "R$ 89.90",
-    "loja": "eFácil",
-    "vendido": true,
-    "link": "https://www.efacil.com.br/loja/produto/liquidificador-mallory-fast-mix-copo-pp-2-velocidades-pulsar-520w-preto-p2222454/"
-  },
-  {
-    "termo": "L-550-B",
-    "nome": "Liquidificador Mondial L-550B 1,5L, Copo Leitoso, 550W, Preto",
-    "preco": "R$ 100.60",
-    "loja": "eFácil",
-    "vendido": true,
-    "link": "https://www.efacil.com.br/loja/produto/liquidificador-mondial-l-550b-2-2l-copo-leitoso-550w-preto-p2220144/"
-  },
-  {
-    "termo": "RI2110/90",
-    "nome": "Fritadeira Airfryer Digital Serie 3000 Philips Walita 4,1 Litros Preta 1400W RI9252/90 - 220V",
-    "preco": "R$ 484.50",
-    "loja": "eFácil",
-    "vendido": false,
-    "link": "https://www.efacil.com.br/loja/produto/fritadeira-airfryer-digital-serie-3000-philips-walita-4-1-litros-preta-1400w-ri9252-90-p74622-00048/"
-  },
-  {
-    "termo": "Flash Mix",
-    "nome": "Liquidificador Mallory Flash Mix - Copo de Acrílico, 2 Velocidades + Pulsar, 450W, Branco",
-    "preco": "R$ 99.00",
-    "loja": "eFácil",
-    "vendido": true,
-    "link": "https://www.efacil.com.br/loja/produto/liquidificador-mallory-flash-mix-copo-de-acrilico-2-velocidades-pulsar-450w-branco-p2219208/"
-  },
-  {
-    "termo": "Flash Mix+",
-    "nome": "Liquidificador Mallory Flash Mix - Copo de Acrílico, 2 Velocidades + Pulsar, 450W, Branco",
-    "preco": "R$ 99.00",
-    "loja": "eFácil",
-    "vendido": true,
-    "link": "https://www.efacil.com.br/loja/produto/liquidificador-mallory-flash-mix-copo-de-acrilico-2-velocidades-pulsar-450w-branco-p2219208/"
-  },
-  {
-    "termo": "L-77",
-    "nome": "Mesa de Canto Decorativo Grimaldi Base Aço com Detalhe em Couro Preto G77 - Gran Belo",
-    "preco": "R$ 489.90",
-    "loja": "eFácil",
-    "vendido": false,
-    "link": "https://www.efacil.com.br/loja/produto/mesa-de-canto-decorativo-grimaldi-base-aco-com-detalhe-em-couro-preto-g77-gran-belo-p79343-00030/"
+    "link": "https://www.efacil.com.br/loja/produto/liquidificador-philco-plq1350-copo-de-vidro-12-velocidades-pulsar-1200w-preto-p2220795/"
   }
 ]
