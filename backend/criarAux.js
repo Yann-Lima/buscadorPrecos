@@ -1,11 +1,8 @@
-// atualizarAuxComparativo.js
-// Requisitos: Windows + Excel instalado
-// Uso: node atualizarAuxComparativo.js
-
 const fs = require("fs");
 const os = require("os");
 const path = require("path");
 const { spawn } = require("child_process");
+const axios = require("axios"); // 🔹 para chamar o webhook
 
 const SRC_XLSX = "C:\\Roberty\\P3\\v2\\planilhaAtualizada.xlsx"; // origem (bancodedados)
 const DEST_XLSX = "C:\\Roberty\\P3\\COMPARATIVO_GERAL.xlsx";    // destino (Aux)
@@ -70,7 +67,6 @@ try {
   $wbDest = $excel.Workbooks.Open($destPath)
   $workbooks += $wbDest
 
-  # Remove aba Aux se existir
   try {
     $wsExisting = $wbDest.Worksheets.Item($destSheetName)
     if ($wsExisting) {
@@ -79,7 +75,6 @@ try {
     }
   } catch {}
 
-  # Cria nova aba Aux
   $wsAux = $wbDest.Worksheets.Add()
   $wsAux.Name = $destSheetName
 
@@ -103,6 +98,27 @@ finally {
 }
 `;
 
+async function chamarWebhookRoberty() {
+  const url = "https://api.roberty.app/main/public/webhook/request";
+  const token = "H0xSW9RE2hlthQ2Q602FL";
+
+  try {
+    const response = await axios.post(
+      url,
+      { name: "inicio" },
+      {
+        headers: {
+          "x-roberty-token": token,
+          "Content-Type": "application/json"
+        }
+      }
+    );
+    console.log("[INFO] Webhook do Roberty chamado com sucesso:", response.data);
+  } catch (error) {
+    console.error("[ERRO] Falha ao chamar webhook do Roberty:", error.message);
+  }
+}
+
 (async () => {
   const psPath = path.join(os.tmpdir(), `atualizarAux_${Date.now()}.ps1`);
   fs.writeFileSync(psPath, psScript, "utf8");
@@ -114,10 +130,13 @@ finally {
     "-File", psPath
   ], { stdio: "inherit" });
 
-  child.on("exit", (code) => {
+  child.on("exit", async (code) => {
     try { fs.unlinkSync(psPath); } catch {}
     if (code === 0) {
       console.log("🎉 Finalizado. Verifique:", DEST_XLSX);
+
+      // 🔹 Chama o webhook aqui no final de tudo
+      await chamarWebhookRoberty();
     } else {
       console.error("⚠️ PowerShell retornou código", code);
     }

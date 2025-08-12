@@ -1,10 +1,26 @@
 [
   {
-    "termo": "PLQ1350",
-    "nome": null,
-    "preco": "Indisponível",
+    "termo": "BAP23 BRITÂNIA",
+    "nome": "Aparador de Pelos Britânia Multi Groom BAP03 7 em 1",
+    "preco": "R$ 2.089,90",
     "loja": "Gazin",
-    "vendido": false,
-    "link": null
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/aparador-de-pelos-britania-multi-groom-bap03-7-em-1/3685/preto/bivolt"
+  },
+  {
+    "termo": "BG-09 MONDIAL",
+    "nome": "Aparador de Pelos Mondial Super Groom 10 BG-03 9 Pentes",
+    "preco": "R$ 145,08",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/aparador-de-pelos-mondial-super-groom-10-bg-03-9-pentes/3331/preto/bivolt"
+  },
+  {
+    "termo": "PAP03 PHILCO",
+    "nome": "Mini System Philco PHS1900BT 1900W Bluetooth USB MP3",
+    "preco": "R$ 2.089,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/mini-system-philco-phs1900bt-1900w-bluetooth-usb-mp3/3870/sem-cor/sem-voltagem"
   }
 ]

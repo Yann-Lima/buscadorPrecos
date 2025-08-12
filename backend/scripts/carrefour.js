@@ -1,25 +1,54 @@
 const puppeteer = require("puppeteer-extra");
 const StealthPlugin = require("puppeteer-extra-plugin-stealth");
-const fs = require("fs");
-const path = require("path");
 const axios = require("axios");
 const cheerio = require("cheerio");
+const fs = require("fs");
+const path = require("path");
 
 puppeteer.use(StealthPlugin());
 
 const resultados = [];
-// Caminhos dos arquivos
-const produtosTempPath = path.join(__dirname, "produtos_temp.json");
-const produtosFixosPath = path.join(__dirname, "produtos.json");
 
-if (fs.existsSync(produtosTempPath)) {
-  produtosJson = JSON.parse(fs.readFileSync(produtosTempPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo temporário produtos_temp.json");
-} else {
-  produtosJson = JSON.parse(fs.readFileSync(produtosFixosPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo padrão produtos.json");
+const catalogoPath = path.join(__dirname, "catalogoProdutos.json");
+
+if (!fs.existsSync(catalogoPath)) {
+  console.error("[ERRO] Arquivo catalogoProdutos.json não encontrado ao lado deste script.");
+  process.exit(1);
 }
-const listaProdutos = produtosJson.produtos.map(p => p.trim());
+
+let produtosJson;
+try {
+  produtosJson = JSON.parse(fs.readFileSync(catalogoPath, "utf-8"));
+  console.error("[INFO] Usando produtos do arquivo catalogoProdutos.json");
+} catch (e) {
+  console.error("[ERRO] Não foi possível ler/parsear catalogoProdutos.json:", e.message);
+  process.exit(1);
+}
+
+const listaProdutos = (produtosJson.produtos || [])
+  .map((p, i) => {
+    const produto = (p.produto ?? p.codigo ?? p.id ?? "").toString().trim();
+    const marca = (p.marca ?? p.brand ?? "").toString().trim();
+
+    let termo = [produto, marca].filter(Boolean).join(" ").trim();
+
+    if (!termo && p.descricao) {
+      termo = p.descricao.toString().trim();
+      console.error(`[WARN] Item ${i}: faltam 'produto'/'marca'. Usando 'descricao' como termo.`);
+    }
+
+    if (!termo) {
+      console.error(`[ERRO] Item ${i}: sem dados suficientes (produto/marca/descricao). Será ignorado.`);
+      return null;
+    }
+    return termo;
+  })
+  .filter(Boolean);
+
+if (!listaProdutos.length) {
+  console.error("[ERRO] Nenhum termo de busca válido encontrado no catálogo.");
+  process.exit(1);
+}
 
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no Carrefour...\n");
@@ -33,7 +62,7 @@ async function executarBuscaEmTodos() {
     try {
       await buscarPrimeiroProdutoCarrefour(page, termo);
     } catch (err) {
-      console.error(`[ERRO CRÍTICO] Falha na busca do produto "${termo}":`, err.message);
+      console.error(`[ERRO CRÍTICO] Falha inesperada na busca do produto "${termo}":`, err.message);
       resultados.push({
         termo,
         nome: null,
@@ -60,8 +89,22 @@ async function buscarPrimeiroProdutoCarrefour(page, termo) {
 
   try {
     const resp = await axios.get(urlBusca, { headers: { "User-Agent": "Mozilla/5.0" } });
+
+    if (resp.status >= 400) {
+      console.error(`[ERRO] Falha ao buscar: ${termo} → HTTP ${resp.status}`);
+      resultados.push({
+        termo,
+        nome: null,
+        preco: "Indisponível",
+        loja: "Carrefour",
+        vendido: false,
+        link: null,
+      });
+      return;
+    }
+
     const $ = cheerio.load(resp.data);
-    const relativeLink = $('a[data-testid="search-product-card"]').first().attr("href");
+    let relativeLink = $('a[data-testid="search-product-card"]').first().attr("href");
 
     if (!relativeLink) {
       console.warn("[WARN] Nenhum produto encontrado para:", termo);
@@ -76,11 +119,12 @@ async function buscarPrimeiroProdutoCarrefour(page, termo) {
       return;
     }
 
-    const urlProduto = `https://www.carrefour.com.br${relativeLink}`;
-    console.error("[DEBUG] Primeiro produto encontrado:", urlProduto);
+    if (!relativeLink.startsWith("http")) {
+      relativeLink = `https://www.carrefour.com.br${relativeLink}`;
+    }
+    console.error("[DEBUG] Primeiro produto encontrado:", relativeLink);
 
-    await extrairDetalhesProdutoCarrefour(page, urlProduto, termo);
-
+    await extrairDetalhesProdutoCarrefour(page, relativeLink, termo);
   } catch (err) {
     console.error("[ERRO] Falha ao buscar:", termo, "→", err.message);
     resultados.push({
@@ -95,24 +139,29 @@ async function buscarPrimeiroProdutoCarrefour(page, termo) {
 }
 
 async function extrairDetalhesProdutoCarrefour(page, urlProduto, termoOriginal) {
-  console.error("[INFO] --- Acessando página do produto");
+  console.error("[INFO] --- Acessando produto para:", termoOriginal);
 
   try {
     await page.goto(urlProduto, { waitUntil: "domcontentloaded", timeout: 60000 });
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise((r) => setTimeout(r, 2000));
 
-    const nome = await page.$eval('h2[data-testid="pdp-product-name"]', el => el.textContent.trim());
+    const nome = await page.$eval('h2[data-testid="pdp-product-name"]', (el) => el.textContent.trim());
 
-    const preco = await page.$eval('span.text-2xl.font-bold.text-default', el => el.textContent.trim()).catch(() => "Indisponível");
+    const preco = await page
+      .$eval('span.text-2xl.font-bold.text-default', (el) => el.textContent.trim())
+      .catch(() => "Indisponível");
 
-    const entreguePor = await page.$$eval('p', els => {
-      const match = els.find(el => el.textContent.includes("Vendido e entregue por"));
-      return match ? match.textContent.trim() : "";
-    });
-    const vendidoPorCarrefour = entreguePor.includes("Carrefour");
+    const entreguePor = await page
+      .$$eval("p", (els) => {
+        const match = els.find((el) => el.textContent.includes("Vendido e entregue por"));
+        return match ? match.textContent.trim() : "";
+      })
+      .catch(() => "");
+
+    const vendidoPorCarrefour = entreguePor.toLowerCase().includes("carrefour");
 
     console.error(`[RESULTADO] Produto: ${nome}`);
-    console.error(`[RESULTADO] Preço à vista: ${preco}`);
+    console.error(`[RESULTADO] Preço: ${preco}`);
     console.error(`[RESULTADO] Vendido por Carrefour: ${vendidoPorCarrefour ? "✅ Sim" : "❌ Não"}`);
     console.error(`[RESULTADO] Link: ${urlProduto}`);
 
@@ -122,9 +171,8 @@ async function extrairDetalhesProdutoCarrefour(page, urlProduto, termoOriginal) 
       preco,
       loja: "Carrefour",
       vendido: vendidoPorCarrefour,
-      link: urlProduto
+      link: urlProduto,
     });
-
   } catch (err) {
     console.error("[ERRO] Erro ao extrair produto:", err.message);
     resultados.push({
@@ -133,29 +181,37 @@ async function extrairDetalhesProdutoCarrefour(page, urlProduto, termoOriginal) 
       preco: "Indisponível",
       loja: "Carrefour",
       vendido: false,
-      link: urlProduto
+      link: urlProduto,
     });
   }
 
   console.error("[INFO] --- Fim da verificação do produto ---\n");
 }
 
-executarBuscaEmTodos()
-  .then(() => {
+(async () => {
+  try {
+    await executarBuscaEmTodos();
+
     const resultadoFinal = {};
     for (const item of resultados) {
       resultadoFinal[item.termo] = {
         preco: item.vendido ? item.preco : null,
         vendido: item.vendido,
-        link: item.link
+        link: item.link,
       };
     }
+
+    // Só o JSON final vai para o stdout (console.log)
     console.log(JSON.stringify(resultadoFinal));
 
     console.error("[INFO] Script Carrefour finalizado com sucesso.");
-    process.exit(0);
-  })
-  .catch(err => {
+
+    // Dá um tempinho para garantir o flush do stdout antes de encerrar
+    await new Promise((r) => setTimeout(r, 100));
+
+    // Não chama process.exit(), Node termina naturalmente
+  } catch (err) {
     console.error("[ERRO FATAL] Falha inesperada no script Carrefour:", err.message);
     process.exit(1);
-  });
+  }
+})();

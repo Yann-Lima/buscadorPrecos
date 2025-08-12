@@ -1,38 +1,31 @@
-const axios = require("axios"); 
+const axios = require("axios");
 
-async function chamarWebhookRoberty(nome) {
-  const url = "https://api.roberty.app/prod/1/customer/robot/webhookCall";
-  const token = "eJqCETr5o_nex0FSV830P";
+async function chamarWebhookRoberty() {
+  const url = "https://api.roberty.app/main/public/webhook/request";
+  const token = "H0xSW9RE2hlthQ2Q602FL";
 
   try {
-    const response = await axios.post(url, {
-      args: { nome }, // você pode adicionar mais argumentos aqui
-      token
-    });
+    const response = await axios.post(
+      url,
+      { name: "inicio" }, // body
+      {
+        headers: {
+          "x-roberty-token": token,
+          "Content-Type": "application/json"
+        }
+      }
+    );
 
-    const webhookCallId = response.data.webhookCallId;
-    console.log("[INFO] Webhook do Roberty chamado com sucesso. ID:", webhookCallId);
-
-    return webhookCallId;
+    console.log("[INFO] Webhook do Roberty chamado com sucesso:", response.data);
+    return response.data;
   } catch (error) {
     console.error("[ERRO] Falha ao chamar webhook do Roberty:", error.message);
     return null;
   }
 }
-async function consultarRespostaWebhookRoberty(webhookCallId) {
-  const url = `https://api.roberty.app/prod/1/customer/robot/webhookResponse/${webhookCallId}`;
 
-  try {
-    const response = await axios.get(url);
-    console.log("[INFO] Resposta do Robô:", response.data);
-    return response.data;
-  } catch (error) {
-    console.error("[ERRO] Falha ao consultar resposta do Robô:", error.message);
-    return null;
-  }
+module.exports = { chamarWebhookRoberty };
+
+if (require.main === module) {
+  chamarWebhookRoberty();
 }
-module.exports = {
-  chamarWebhookRoberty,
-  consultarRespostaWebhookRoberty
-};
-

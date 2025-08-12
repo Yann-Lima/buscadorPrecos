@@ -1,10 +1,26 @@
 [
   {
-    "termo": "PLQ1350",
-    "nome": "Liquidificador Philco PLQ1350 - Copo de Vidro, 12 Velocidades + Pulsar, 1200W, Preto",
-    "preco": "R$ 229.00",
+    "termo": "BAP23 BRITÂNIA",
+    "nome": "Bomba Periférica Pratik 1/2CV BAP500",
+    "preco": "R$ 172.90",
     "loja": "eFácil",
     "vendido": true,
-    "link": "https://www.efacil.com.br/loja/produto/liquidificador-philco-plq1350-copo-de-vidro-12-velocidades-pulsar-1200w-preto-p2220795/"
+    "link": "https://www.efacil.com.br/loja/produto/bomba-periferica-pratik-1-2cv-bap500-p408974/"
+  },
+  {
+    "termo": "BG-09 MONDIAL",
+    "nome": "Aparador De Pelos Mondial BG-05 - Body Groom, Preto/Prata, Bivolt",
+    "preco": "R$ 139.90",
+    "loja": "eFácil",
+    "vendido": true,
+    "link": "https://www.efacil.com.br/loja/produto/aparador-de-pelos-mondial-bg-05-body-groom-preto-prata-bivolt-p2223785/"
+  },
+  {
+    "termo": "PAP03 PHILCO",
+    "nome": "Aparador De Pelos Philco PAP16 MULTIGROOM - Sem fio, 8 Em 1, Chumbo, Bivolt",
+    "preco": "R$ 139.90",
+    "loja": "eFácil",
+    "vendido": true,
+    "link": "https://www.efacil.com.br/loja/produto/aparador-de-pelos-philco-pap16-multigroom-sem-fio-8-em-1-chumbo-bivolt-p2223532/"
   }
 ]

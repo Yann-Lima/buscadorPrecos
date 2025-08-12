@@ -5,18 +5,23 @@ const path = require("path");
 
 const resultados = [];
 
-// Caminhos dos arquivos
-const produtosTempPath = path.join(__dirname, "produtos_temp.json");
-const produtosFixosPath = path.join(__dirname, "produtos.json");
+// Tratamento para erros não capturados
+process.on('uncaughtException', (err) => {
+  console.error('[ERRO FATAL] Exceção não capturada:', err);
+  process.exit(1);
+});
+process.on('unhandledRejection', (err) => {
+  console.error('[ERRO FATAL] Rejeição não capturada:', err);
+  process.exit(1);
+});
 
-if (fs.existsSync(produtosTempPath)) {
-  produtosJson = JSON.parse(fs.readFileSync(produtosTempPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo temporário produtos_temp.json");
-} else {
-  produtosJson = JSON.parse(fs.readFileSync(produtosFixosPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo padrão produtos.json");
-}
-const listaProdutos = produtosJson.produtos.map(p => p.trim());
+// Caminho fixo para o catalogoProdutos.json
+const catalogoProdutosPath = path.join(__dirname, "catalogoProdutos.json");
+
+// Carrega os produtos do catalogoProdutos.json
+const produtosJson = JSON.parse(fs.readFileSync(catalogoProdutosPath, "utf-8"));
+const listaProdutos = produtosJson.produtos.map(p => `${p.produto} ${p.marca}`.trim());
+
 
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no eFácil...\n");
@@ -164,7 +169,6 @@ async function extrairDetalhesProdutoEFACIL(urlProduto, termoOriginal) {
 
 executarBuscaEmTodos()
   .then(() => {
-    // Apenas o JSON final deve ir para o stdout
     const resultadoFinal = {};
     for (const item of resultados) {
       resultadoFinal[item.termo] = {
@@ -173,23 +177,31 @@ executarBuscaEmTodos()
         link: item.link
       };
     }
-    console.log(JSON.stringify(resultadoFinal));
 
-    // Todas as outras mensagens são só informativas
-    console.error("[INFO] Script eFacil finalizado com sucesso.");
-    process.exit(0);
+
+    // Só imprimimos o JSON final no stdout, logs em stderr
+    console.error("[DEBUG] Imprimindo JSON final no stdout");
+
+    // Imprime JSON final no stdout
+    const jsonString = JSON.stringify(resultadoFinal) + '\n';
+
+    // Usa write e espera o flush com drain event para garantir a saída completa
+    if (!process.stdout.write(jsonString)) {
+      process.stdout.once('drain', () => {
+        console.error("[INFO] Script eFacil finalizado com sucesso.");
+        // Não chama exit aqui para evitar matar o processo antes do pai ler tudo
+        // Apenas termina normalmente
+      });
+    } else {
+      // Se escreveu tudo de primeira, aguarda um tick para logar e sair
+      setImmediate(() => {
+        console.error("[INFO] Script eFacil finalizado com sucesso.");
+        // Não chama exit aqui para evitar truncamento
+      });
+    }
   })
   .catch(err => {
     console.error("[ERRO FATAL] Falha inesperada no script eFacil:", err.message);
     process.exit(1);
   });
 
-/*executarBuscaEmTodos()
-  .then(() => {
-    console.error("[INFO] Script eFácil finalizado com sucesso.");
-    process.exit(0);
-  })
-  .catch(err => {
-    console.error("[ERRO FATAL] Falha inesperada no script eFácil:", err.message);
-    process.exit(1);
-  });*/

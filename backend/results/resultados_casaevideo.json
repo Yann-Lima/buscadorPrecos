@@ -1,10 +1,26 @@
 [
   {
-    "termo": "PLQ1350",
-    "nome": "Liquidificador Philco Turbo Glass 12 Velocidades e Pulsar 1200W PLQ1350",
-    "preco": "R$ 266,28",
+    "termo": "BAP23 BRITÂNIA",
+    "nome": "Aparador de Pelos Britânia BAP23 Multigroom 11 em 1 Bivolt",
+    "preco": "R$ 179,91",
     "loja": "Casa e Vídeo",
     "vendido": false,
-    "link": "https://www.casaevideo.com.br/liquidificador-philco-turbo-glass-12-velocidades-e-pulsar-1200w-plq1350-2809689/p"
+    "link": "https://www.casaevideo.com.br/aparador-de-pelos-britania-bap23-multigroom-11-em-1-bivolt-4414442/p"
+  },
+  {
+    "termo": "BG-09 MONDIAL",
+    "nome": "Aparador De Pelos Praticgroom Mondial Preto 6W BG-09 Bivolt",
+    "preco": "R$ 156,51",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/aparador-de-pelos-praticgroom-mondial-preto-6w-bg-09-bivolt-4205877/p"
+  },
+  {
+    "termo": "PAP03 PHILCO",
+    "nome": "Aparador De Pelos Philco Multi Groom Aqua 12 Em 1 Pap03 Bivolt",
+    "preco": "R$ 200,01",
+    "loja": "Casa e Vídeo",
+    "vendido": false,
+    "link": "https://www.casaevideo.com.br/aparador-de-pelos-philco-multi-groom-aqua-12-em-1-pap03-bivolt-4435614/p"
   }
 ]

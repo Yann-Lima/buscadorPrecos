@@ -7,23 +7,23 @@ puppeteer.use(StealthPlugin());
 
 const resultados = [];
 
-// Caminhos dos arquivos
-const produtosTempPath = path.join(__dirname, "produtos_temp.json");
-const produtosFixosPath = path.join(__dirname, "produtos.json");
+// Caminho para o catalogoProdutos.json (apenas este será usado)
+const catalogoProdutosPath = path.join(__dirname, "catalogoProdutos.json");
 
-if (fs.existsSync(produtosTempPath)) {
-  produtosJson = JSON.parse(fs.readFileSync(produtosTempPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo temporário produtos_temp.json");
-} else {
-  produtosJson = JSON.parse(fs.readFileSync(produtosFixosPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo padrão produtos.json");
+// Carrega o catálogo diretamente
+const produtosJson = JSON.parse(fs.readFileSync(catalogoProdutosPath, "utf-8"));
+
+// Monta lista com "produto + marca"
+const listaProdutos = produtosJson.produtos.map(p => `${p.produto} ${p.marca}`.trim());
+
+// === Utilitários ===
+function removeAcentos(str = "") {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
-const listaProdutos = produtosJson.produtos.map(p => p.trim());
 
-// Funções utilitárias para simular humano
-async function delay(min, max) {
-  const tempo = Math.floor(Math.random() * (max - min + 1)) + min;
-  await new Promise(resolve => setTimeout(resolve, tempo));
+async function delay(minMs, maxMs) {
+  const tempo = Math.floor(Math.random() * (maxMs - minMs + 1)) + minMs;
+  await new Promise(r => setTimeout(r, tempo));
 }
 
 async function rolarPagina(page) {
@@ -41,13 +41,13 @@ async function moverMouseAleatorio(page) {
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no Gazin...\n");
 
-  for (const termo of listaProdutos) {
+  for (const termoOriginal of listaProdutos) {
     try {
-      await buscarPrimeiroProdutoGAZIN(termo);
+      await buscarPrimeiroProdutoGAZIN(termoOriginal);
     } catch (err) {
-      console.error(`[ERRO CRÍTICO] Falha na busca do produto "${termo}":`, err.message);
+      console.error(`[ERRO CRÍTICO] Falha na busca do produto "${termoOriginal}":`, err.message);
       resultados.push({
-        termo,
+        termo: termoOriginal,
         nome: null,
         preco: "Indisponível",
         loja: "Gazin",
@@ -64,87 +64,154 @@ async function executarBuscaEmTodos() {
   console.error("\n[INFO] Fim da verificação.");
 }
 
-async function buscarPrimeiroProdutoGAZIN(termo) {
-  const termoBusca = encodeURIComponent(termo.trim());
+async function buscarPrimeiroProdutoGAZIN(termoOriginal) {
+  // Remover acentos antes de montar a URL de busca
+  const termoSemAcento = removeAcentos(termoOriginal.trim());
+  const termoBusca = encodeURIComponent(termoSemAcento);
   const urlBusca = `https://www.gazin.com.br/busca/${termoBusca}`;
 
   console.error("\n[INFO] ========== NOVA BUSCA ==========");
-  console.error("[DEBUG] Termo:", termo);
+  console.error("[DEBUG] Termo original:", termoOriginal);
+  console.error("[DEBUG] Termo sem acento:", termoSemAcento);
   console.error("[DEBUG] URL:", urlBusca);
 
-  const browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  const browser = await puppeteer.launch({
+    headless: "new",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
   const page = await browser.newPage();
-  await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36");
+  await page.setUserAgent(
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+  );
 
   try {
     await page.goto(urlBusca, { waitUntil: "networkidle2", timeout: 60000 });
 
     // Simulação de humano
-    await delay(1000, 3000);
+    await delay(1000, 2500);
     await moverMouseAleatorio(page);
     await rolarPagina(page);
 
-    await page.waitForSelector("a[href^='/produto/']", { timeout: 10000 });
+    // Garante que há pelo menos um card dentro de <a> (o primeiro resultado)
+    await page.waitForSelector("a .chakra-stack", { timeout: 15000 });
 
-    const produtos = await page.$$eval("a[href^='/produto/']", (elements, termoOriginal) => {
-      return elements.map(el => {
-        const nome = el.querySelector("span.chakra-text.css-8cltlq")?.innerText || "";
-        const preco = el.querySelector("span.chakra-text.css-1sgshui")?.innerText || "";
-        const href = el.getAttribute("href");
-        return {
-          nome,
-          preco,
-          link: href ? `https://www.gazin.com.br${href}` : null,
-          match: nome.toLowerCase().includes(termoOriginal.toLowerCase())
-        };
-      }).filter(p => p.link);
-    }, termo);
+    // Pega exatamente o primeiro card e extrai dados a partir do <a> pai
+    const produto = await page.$eval("a .chakra-stack", el => {
+      // Sobe até o <a> mais próximo
+      const a = el.closest("a");
+      const href = a ? a.getAttribute("href") : null;
 
-    const produto = produtos.find(p => p.match) || produtos[12];
+      // Tenta pegar o nome pelo seletor mais específico; fallback genérico
+      const nome =
+        el.querySelector("span.chakra-text.css-8cltlq")?.innerText?.trim() ||
+        el.querySelector("span.chakra-text")?.innerText?.trim() ||
+        (a?.getAttribute("title") || "").trim();
 
-    if (!produto) {
-      console.warn("[WARN] Nenhum produto válido encontrado para:", termo);
+      // Tenta capturar preço do card (No Pix / preço principal)
+      const precoDireto =
+        el.querySelector("span.chakra-text.css-1sgshui")?.innerText?.trim() || "";
+      // Fallback: algum span com “R$”
+      const precoFallback =
+        Array.from(el.querySelectorAll("span.chakra-text"))
+          .map(s => (s.innerText || "").trim())
+          .find(t => /^R\$\s*\d/.test(t)) || "";
+
+      const precoCard = precoDireto || precoFallback || "";
+
+      return {
+        nome: nome || "",
+        preco: precoCard || "",
+        link: href ? `https://www.gazin.com.br${href}` : null,
+      };
+    });
+
+    if (!produto || !produto.link) {
+      console.error("[WARN] Nenhum produto válido encontrado para:", termoOriginal);
       resultados.push({
-        termo,
+        termo: termoOriginal,
         nome: null,
         preco: "Indisponível",
         loja: "Gazin",
         vendido: false,
         link: null,
       });
-    } else {
-      console.error("[INFO] Acessando página do produto:", produto.link);
-      await page.goto(produto.link, { waitUntil: "networkidle2", timeout: 60000 });
-
-      // Mais comportamento humano
-      await delay(1000, 3000);
-      await moverMouseAleatorio(page);
-      await rolarPagina(page);
-
-      await page.waitForSelector("p.chakra-text.css-1ktt7uz", { timeout: 10000 });
-
-      const vendedor = await page.$eval("p.chakra-text.css-1ktt7uz", el => el.textContent.trim());
-      const vendidoPorGazin = vendedor.toLowerCase().includes("gazin");
-
-      console.error("[DEBUG] Produto encontrado:", produto.nome);
-      console.error("[DEBUG] Preço:", produto.preco);
-      console.error("[DEBUG] Vendido por:", vendedor);
-      console.error("[DEBUG] Vendido por Gazin:", vendidoPorGazin ? "✅ Sim" : "❌ Não");
-
-      resultados.push({
-        termo,
-        nome: produto.nome,
-        preco: vendidoPorGazin ? produto.preco : null,
-        loja: "Gazin",
-        vendido: vendidoPorGazin,
-        link: produto.link,
-      });
+      await browser.close();
+      return;
     }
 
-  } catch (err) {
-    console.error("[ERRO] Falha ao buscar:", termo, "→", err.message);
+    console.error("[INFO] Produto escolhido (primeiro da busca):");
+    console.error("       Nome:", produto.nome || "(sem título)");
+    console.error("       Preço (card):", produto.preco || "(não encontrado no card)");
+    console.error("       Link:", produto.link);
+
+    // Abre a página do produto e captura preço/vendedor com seletores robustos
+    await page.goto(produto.link, { waitUntil: "networkidle2", timeout: 60000 });
+
+    await delay(1000, 2500);
+    await moverMouseAleatorio(page);
+    await rolarPagina(page);
+
+    // Vendedor (classe pode mudar; usar fallback)
+    let vendedor = "";
+    try {
+      vendedor =
+        (await page.$eval("p.chakra-text.css-1ktt7uz", el => el.textContent.trim())) ||
+        "";
+    } catch {
+      try {
+        vendedor =
+          (await page.$eval("p.chakra-text", el => el.textContent.trim())) || "";
+      } catch {
+        vendedor = "";
+      }
+    }
+    const vendidoPorGazin = vendedor.toLowerCase().includes("gazin");
+
+    // Preço no detalhe – múltiplos seletores/fallbacks
+    let precoDetalhe = "";
+    const seletoresPreco = [
+      "p.chakra-text.css-3zremp",          // ex.: R$ 92,90
+      "span.chakra-text.css-1sgshui",     // "No Pix"
+      "div.css-py8g8m p.chakra-text",
+      "span[data-testid='price']",
+      "[data-testid='price'] .chakra-text",
+      "p[class*='chakra-text'][class*='price']",
+      "span[class*='chakra-text'][class*='price']",
+    ];
+
+    for (const sel of seletoresPreco) {
+      try {
+        const val = await page.$eval(sel, el => (el.textContent || "").trim());
+        if (val && /^R\$\s*\d/.test(val)) {
+          precoDetalhe = val;
+          break;
+        }
+      } catch {
+        // tenta próximo seletor
+      }
+    }
+
+    // Se não achar no detalhe, usa o do card
+    const precoFinal =
+      precoDetalhe || (produto.preco && /^R\$\s*\d/.test(produto.preco) ? produto.preco : "Indisponível");
+
+    console.error("[DEBUG] Vendedor:", vendedor || "(não identificado)");
+    console.error("[DEBUG] Vendido por Gazin:", vendidoPorGazin ? "✅ Sim" : "❌ Não");
+    console.error("[DEBUG] Preço (detalhe):", precoDetalhe || "(não encontrado)");
+    console.error("[DEBUG] Preço usado:", precoFinal);
+
     resultados.push({
-      termo,
+      termo: termoOriginal,
+      nome: produto.nome || null,
+      preco: precoFinal,
+      loja: "Gazin",
+      vendido: vendidoPorGazin,
+      link: produto.link,
+    });
+  } catch (err) {
+    console.error("[ERRO] Falha ao buscar:", termoOriginal, "→", err.message);
+    resultados.push({
+      termo: termoOriginal,
       nome: null,
       preco: "Indisponível",
       loja: "Gazin",
@@ -161,11 +228,12 @@ executarBuscaEmTodos()
     const resultadoFinal = {};
     for (const item of resultados) {
       resultadoFinal[item.termo] = {
-        preco: item.vendido ? item.preco : null,
+        preco: item.preco || null,   // NÃO depende de "vendido"
         vendido: item.vendido,
-        link: item.link
+        link: item.link,
       };
     }
+    // stdout apenas JSON; logs em stderr
     console.log(JSON.stringify(resultadoFinal));
     console.error("[INFO] Script Gazin finalizado com sucesso.");
     process.exit(0);

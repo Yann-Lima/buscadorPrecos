@@ -5,19 +5,14 @@ const path = require("path");
 
 const resultados = [];
 
-// Caminhos dos arquivos
-const produtosTempPath = path.join(__dirname, "produtos_temp.json");
-const produtosFixosPath = path.join(__dirname, "produtos.json");
+// Caminho para o catalogoProdutos.json (apenas este será usado)
+const catalogoProdutosPath = path.join(__dirname, "catalogoProdutos.json");
 
-if (fs.existsSync(produtosTempPath)) {
-  produtosJson = JSON.parse(fs.readFileSync(produtosTempPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo temporário produtos_temp.json");
-} else {
-  produtosJson = JSON.parse(fs.readFileSync(produtosFixosPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo padrão produtos.json");
-}
+// Carrega o catálogo diretamente, ignorando os arquivos antigos
+const produtosJson = JSON.parse(fs.readFileSync(catalogoProdutosPath, "utf-8"));
 
-const listaProdutos = produtosJson.produtos.map(p => p.trim());
+// Extrai o termo da descrição para buscar no Le Biscuit
+const listaProdutos = produtosJson.produtos.map(p => p.produto.trim());
 
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no Le Biscuit...\n");
@@ -141,6 +136,7 @@ async function extrairDetalhesProdutoLeBiscuit(urlProduto, termoOriginal) {
 
   console.error("[INFO] --- Fim da verificação do produto ---\n");
 }
+
 executarBuscaEmTodos()
   .then(() => {
     // Apenas o JSON final deve ir para o stdout
@@ -154,7 +150,6 @@ executarBuscaEmTodos()
     }
     console.log(JSON.stringify(resultadoFinal));
 
-
     // Todas as outras mensagens são só informativas
     console.error("[INFO] Script Le Biscuit finalizado com sucesso.");
     process.exit(0);
@@ -163,13 +158,3 @@ executarBuscaEmTodos()
     console.error("[ERRO FATAL] Falha inesperada no script Le Biscuit:", err.message);
     process.exit(1);
   });
-
-/*executarBuscaEmTodos()
-  .then(() => {
-    console.log("[INFO] Script Le Biscuit finalizado com sucesso.");
-    process.exit(0);
-  })
-  .catch(err => {
-    console.error("[ERRO FATAL] Falha inesperada no script Le Biscuit:", err.message);
-    process.exit(1);
-  });*/

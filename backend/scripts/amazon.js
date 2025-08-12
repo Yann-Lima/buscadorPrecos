@@ -6,21 +6,55 @@ const path = require("path");
 puppeteer.use(StealthPlugin());
 
 const resultados = [];
-// Caminhos dos arquivos
-const produtosTempPath = path.join(__dirname, "produtos_temp.json");
-const produtosFixosPath = path.join(__dirname, "produtos.json");
 
-if (fs.existsSync(produtosTempPath)) {
-  produtosJson = JSON.parse(fs.readFileSync(produtosTempPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo temporário produtos_temp.json");
-} else {
-  produtosJson = JSON.parse(fs.readFileSync(produtosFixosPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo padrão produtos.json");
+const catalogoPath = path.join(__dirname, "catalogoProdutos.json");
+
+if (!fs.existsSync(catalogoPath)) {
+  console.error("[ERRO] Arquivo catalogoProdutos.json não encontrado ao lado deste script.");
+  process.exit(1);
 }
-const listaProdutos = produtosJson.produtos.map(p => p.trim());
+
+let produtosJson;
+try {
+  produtosJson = JSON.parse(fs.readFileSync(catalogoPath, "utf-8"));
+  console.error("[INFO] Usando produtos do arquivo catalogoProdutos.json");
+} catch (e) {
+  console.error("[ERRO] Não foi possível ler/parsear catalogoProdutos.json:", e.message);
+  process.exit(1);
+}
+
+// Função para remover acentos e normalizar string
+function removerAcentos(str) {
+  return (str || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toUpperCase();
+}
+
+// Monta lista com "produto + marca" com marca sem acento
+const listaProdutos = (produtosJson.produtos || [])
+  .map((p, i) => {
+    const produto = (p.produto ?? p.codigo ?? p.id ?? "").toString().trim();
+    const marcaRaw = (p.marca ?? p.brand ?? "").toString().trim();
+    const marca = removerAcentos(marcaRaw);
+
+    let termo = [produto, marca].filter(Boolean).join(" ").trim();
+
+    if (!termo && p.descricao) {
+      termo = p.descricao.toString().trim();
+      console.error(`[WARN] Item ${i}: faltam 'produto'/'marca'. Usando 'descricao' como termo.`);
+    }
+
+    if (!termo) {
+      console.error(`[ERRO] Item ${i}: sem dados suficientes (produto/marca/descricao). Será ignorado.`);
+      return null;
+    }
+    return termo;
+  })
+  .filter(Boolean);
 
 function delay(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function delayAleatorio(min, max) {
@@ -29,7 +63,7 @@ function delayAleatorio(min, max) {
 
 async function scrollLento(page) {
   await page.evaluate(async () => {
-    await new Promise(resolve => {
+    await new Promise((resolve) => {
       let totalHeight = 0;
       const distance = 300;
       const timer = setInterval(() => {
@@ -47,7 +81,7 @@ async function scrollLento(page) {
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos na Amazon...\n");
 
-  const browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  const browser = await puppeteer.launch({ headless: "new", args: ["--no-sandbox", "--disable-setuid-sandbox"] });
   const page = await browser.newPage();
 
   for (const termo of listaProdutos) {
@@ -61,8 +95,8 @@ async function executarBuscaEmTodos() {
 
       // Limpa cookies e cache para reduzir rastreamento
       const client = await page.target().createCDPSession();
-      await client.send('Network.clearBrowserCookies');
-      await client.send('Network.clearBrowserCache');
+      await client.send("Network.clearBrowserCookies");
+      await client.send("Network.clearBrowserCache");
 
       // Delay humano aleatório entre buscas (3-7s)
       await delayAleatorio(3000, 7000);
@@ -82,12 +116,20 @@ async function executarBuscaEmTodos() {
   await browser.close();
 
   const outputPath = path.join(__dirname, "..", "results", "resultados_amazon.json");
-  fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
+  try {
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
+  } catch (e) {
+    console.error("[WARN] Não foi possível salvar resultados_amazon.json:", e.message);
+  }
+
   console.error("\n[INFO] Fim da verificação.");
 }
 
 async function buscarPrimeiroProdutoAmazon(page, termo) {
+  // Substitui espaços por '+' para URL
   const termoBusca = termo.replace(/\s+/g, "+");
+  // Usando o parâmetro fixo para vendedor Amazon (p_6:A1ZZFT5FULY4LN) como no seu original
   const urlBusca = `https://www.amazon.com.br/s?k=${termoBusca}&rh=p_6%3AA1ZZFT5FULY4LN`;
 
   console.error("\n[INFO] ========== NOVA BUSCA ==========");
@@ -99,8 +141,8 @@ async function buscarPrimeiroProdutoAmazon(page, termo) {
     await scrollLento(page);
     await delayAleatorio(2000, 5000); // espera extra
 
-    const links = await page.$$eval("a.a-link-normal.s-no-outline", els =>
-      els.map(el => el.getAttribute("href")).filter(href => href)
+    const links = await page.$$eval("a.a-link-normal.s-no-outline", (els) =>
+      els.map((el) => el.getAttribute("href")).filter(Boolean)
     );
 
     if (!links.length) {
@@ -120,7 +162,6 @@ async function buscarPrimeiroProdutoAmazon(page, termo) {
     console.error("[DEBUG] Primeiro produto encontrado:", urlProduto);
 
     await extrairDetalhesProdutoAmazon(page, urlProduto, termo);
-
   } catch (err) {
     console.error("[ERRO] Falha ao buscar:", termo, "→", err.message);
     resultados.push({
@@ -134,6 +175,46 @@ async function buscarPrimeiroProdutoAmazon(page, termo) {
   }
 }
 
+function normalizar(txt) {
+  return (txt || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toUpperCase()
+    .trim();
+}
+
+function isAmazonSeller(texto) {
+  const t = normalizar(texto);
+  // Casos comuns na Amazon BR
+  return (
+    t.includes("AMAZON.COM.BR") ||
+    t.includes("AMAZON SERVICOS DE VAREJO DO BRASIL") ||
+    // fallback amplo (cuidado, mas útil quando a Amazon mostra apenas "Amazon")
+    /\bAMAZON\b/.test(t)
+  );
+}
+
+async function obterVendedorAmazon(page) {
+  // 1) Container ODF (mais confiável)
+  const odfSel = '[offer-display-feature-name="desktop-merchant-info"] .offer-display-feature-text-message';
+  let vendedor = await page.$eval(odfSel, el => el.textContent.trim()).catch(() => null);
+
+  // 2) Fallback: bloco clássico
+  if (!vendedor) {
+    vendedor = await page.$eval("#merchantInfo", el => el.textContent.trim()).catch(() => null);
+  }
+
+  // 3) Fallback: procura “Vendido por” ou “Sold by” em elementos de texto
+  if (!vendedor) {
+    vendedor = await page.$$eval("div,span", els => {
+      const alvo = els.find(el => /Vendido por|Vendido e entregue por|Sold by/i.test(el.textContent));
+      return alvo ? alvo.textContent.trim() : "";
+    }).catch(() => "");
+  }
+
+  return vendedor || "";
+}
+
 async function extrairDetalhesProdutoAmazon(page, urlProduto, termoOriginal) {
   console.error("[INFO] --- Acessando página do produto");
 
@@ -142,17 +223,16 @@ async function extrairDetalhesProdutoAmazon(page, urlProduto, termoOriginal) {
     await scrollLento(page);
     await delayAleatorio(2000, 5000);
 
-    const nome = await page.$eval("#productTitle", el => el.textContent.trim());
+    const nome = await page.$eval("#productTitle", (el) => el.textContent.trim());
 
-    let precoInteiro = await page.$eval("span.a-price span.a-price-whole", el => el.textContent.trim()).catch(() => null);
-    let centavos = await page.$eval("span.a-price span.a-price-fraction", el => el.textContent.trim()).catch(() => null);
+    let precoInteiro = await page.$eval("span.a-price span.a-price-whole", (el) => el.textContent.trim()).catch(() => null);
+    let centavos = await page.$eval("span.a-price span.a-price-fraction", (el) => el.textContent.trim()).catch(() => null);
     let preco = precoInteiro && centavos ? `R$ ${precoInteiro},${centavos}` : "Indisponível";
 
-    const vendidoPor = await page.$$eval("span", els => {
-      const encontrado = els.find(el => el.textContent.includes("Vendido por Amazon.com.br"));
-      return encontrado ? encontrado.textContent.trim() : "";
-    });
-    const vendidoAmazon = vendidoPor.includes("Amazon.com.br");
+    const vendidoPor = await obterVendedorAmazon(page);
+    const vendidoAmazon = isAmazonSeller(vendidoPor);
+
+    console.error(`[DEBUG] Vendedor bruto: ${vendidoPor || "(não encontrado)"}`);
 
     console.error(`[RESULTADO] Produto: ${nome}`);
     console.error(`[RESULTADO] Preço à vista: ${preco}`);
@@ -165,9 +245,8 @@ async function extrairDetalhesProdutoAmazon(page, urlProduto, termoOriginal) {
       preco,
       loja: "Amazon",
       vendido: vendidoAmazon,
-      link: urlProduto
+      link: urlProduto,
     });
-
   } catch (err) {
     console.error("[ERRO] Erro ao extrair produto:", err.message);
     resultados.push({
@@ -176,29 +255,34 @@ async function extrairDetalhesProdutoAmazon(page, urlProduto, termoOriginal) {
       preco: "Indisponível",
       loja: "Amazon",
       vendido: false,
-      link: urlProduto
+      link: urlProduto,
     });
   }
 
   console.error("[INFO] --- Fim da verificação do produto ---\n");
 }
 
-executarBuscaEmTodos()
-  .then(() => {
+(async () => {
+  try {
+    await executarBuscaEmTodos();
+
     const resultadoFinal = {};
     for (const item of resultados) {
       resultadoFinal[item.termo] = {
         preco: item.vendido ? item.preco : null,
         vendido: item.vendido,
-        link: item.link
+        link: item.link,
       };
     }
     console.log(JSON.stringify(resultadoFinal));
 
     console.error("[INFO] Script Amazon finalizado com sucesso.");
-    process.exit(0);
-  })
-  .catch(err => {
+
+    await new Promise((r) => setTimeout(r, 100));
+
+    // Não chama process.exit(), deixa o Node finalizar naturalmente
+  } catch (err) {
     console.error("[ERRO FATAL] Falha inesperada no script Amazon:", err.message);
     process.exit(1);
-  });
+  }
+})();

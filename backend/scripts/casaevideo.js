@@ -5,18 +5,48 @@ const path = require("path");
 
 const resultados = [];
 
-// Caminhos dos arquivos
-const produtosTempPath = path.join(__dirname, "produtos_temp.json");
-const produtosFixosPath = path.join(__dirname, "produtos.json");
+// === Arquivo único de catálogo ===
+const catalogoPath = path.join(__dirname, "catalogoProdutos.json");
 
-if (fs.existsSync(produtosTempPath)) {
-  produtosJson = JSON.parse(fs.readFileSync(produtosTempPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo temporário produtos_temp.json");
-} else {
-  produtosJson = JSON.parse(fs.readFileSync(produtosFixosPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo padrão produtos.json");
+if (!fs.existsSync(catalogoPath)) {
+  console.error("[ERRO] Arquivo catalogoProdutos.json não encontrado ao lado deste script.");
+  process.exit(1);
 }
-const listaProdutos = produtosJson.produtos.map(p => p.trim());
+
+let produtosJson;
+try {
+  produtosJson = JSON.parse(fs.readFileSync(catalogoPath, "utf-8"));
+  console.error("[INFO] Usando produtos do arquivo catalogoProdutos.json");
+} catch (e) {
+  console.error("[ERRO] Não foi possível ler/parsear catalogoProdutos.json:", e.message);
+  process.exit(1);
+}
+
+// === Montagem da lista de termos (robusta a variações) ===
+const listaProdutos = (produtosJson.produtos || [])
+  .map((p, i) => {
+    const produto = (p.produto ?? p.codigo ?? p.id ?? "").toString().trim();
+    const marca   = (p.marca   ?? p.brand  ?? "").toString().trim();
+
+    let termo = [produto, marca].filter(Boolean).join(" ").trim();
+
+    if (!termo && p.descricao) {
+      termo = p.descricao.toString().trim();
+      console.error(`[WARN] Item ${i}: faltam 'produto'/'marca'. Usando 'descricao' como termo.`);
+    }
+
+    if (!termo) {
+      console.error(`[ERRO] Item ${i}: sem dados suficientes (produto/marca/descricao). Será ignorado.`);
+      return null;
+    }
+    return termo;
+  })
+  .filter(Boolean);
+
+if (!listaProdutos.length) {
+  console.error("[ERRO] Nenhum termo de busca válido encontrado no catálogo.");
+  process.exit(1);
+}
 
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos...\n");
@@ -25,9 +55,7 @@ async function executarBuscaEmTodos() {
     try {
       await buscarPrimeiroProdutoCasaEV(termo);
     } catch (err) {
-      // Loga o erro, mas não para o loop
       console.error(`[ERRO CRÍTICO] Falha inesperada na busca do produto "${termo}":`, err.message);
-      // Opcional: pode adicionar no resultados como indisponível
       resultados.push({
         termo,
         nome: null,
@@ -39,9 +67,14 @@ async function executarBuscaEmTodos() {
     }
   }
 
-  // 💾 Escreve o arquivo JSON só depois de tudo
+  // 💾 Salva um espelho com todos os resultados detalhados (opcional)
   const outputPath = path.join(__dirname, "..", "results", "resultados_casaevideo.json");
-  fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
+  try {
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
+  } catch (e) {
+    console.error("[WARN] Não foi possível salvar resultados_casaevideo.json:", e.message);
+  }
 
   console.error("\n[INFO] Fim da verificação.");
 }
@@ -56,11 +89,37 @@ async function buscarPrimeiroProdutoCasaEV(termo) {
 
   try {
     const resp = await axios.get(urlBusca, {
-      headers: { "User-Agent": "Mozilla/5.0" }
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+        "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      },
+      // timeout opcional:
+      timeout: 20000,
+      validateStatus: (s) => s >= 200 && s < 500, // para logar 404/410 etc
     });
 
+    if (resp.status >= 400) {
+      console.error(`[ERRO] Falha ao buscar: ${termo} → HTTP ${resp.status}`);
+      resultados.push({
+        termo,
+        nome: null,
+        preco: "Indisponível",
+        loja: "Casa e Vídeo",
+        vendido: false,
+        link: null,
+      });
+      return;
+    }
+
     const $ = cheerio.load(resp.data);
-    const linkProduto = $("a[id^='product-card']").first().attr("href");
+
+    // Seletores mais comuns para o primeiro card de produto (deixe múltiplos fallbacks)
+    let linkProduto =
+      $("a[id^='product-card']").first().attr("href") ||
+      $("a[data-testid='product-card']").first().attr("href") ||
+      $("a[href^='/produto/']").first().attr("href") ||
+      $("a[href^='/p/']").first().attr("href");
 
     if (!linkProduto) {
       console.warn("[WARN] Nenhum produto encontrado para:", termo);
@@ -75,11 +134,12 @@ async function buscarPrimeiroProdutoCasaEV(termo) {
       return;
     }
 
-    const urlProduto = `https://www.casaevideo.com.br${linkProduto}`;
-    console.error("[DEBUG] Primeiro produto encontrado:", urlProduto);
+    if (!linkProduto.startsWith("http")) {
+      linkProduto = `https://www.casaevideo.com.br${linkProduto}`;
+    }
+    console.error("[DEBUG] Primeiro produto encontrado:", linkProduto);
 
-    await extrairDetalhesProdutoCasaEV(urlProduto, termo);
-
+    await extrairDetalhesProdutoCasaEV(linkProduto, termo);
   } catch (err) {
     console.error("[ERRO] Falha ao buscar:", termo, "→", err.message);
     resultados.push({
@@ -93,30 +153,72 @@ async function buscarPrimeiroProdutoCasaEV(termo) {
   }
 }
 
+function normalizar(txt) {
+  return (txt || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // remove acentos
+    .replace(/&/g, "E")
+    .replace(/[^\w\s]/g, " ") // remove pontuação
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+}
+
+function ehCasaEVendedor(texto) {
+  const t = normalizar(texto);
+  // Casos comuns: "Vendido e entregue por CASA & VIDEO", "CASA E VIDEO", "CASA E VÍDEO"
+  // às vezes aparece "Vendido por" / "Loja oficial Casa & Video"
+  return (
+    /CASA E VIDEO/.test(t) ||
+    /CASA VIDEO/.test(t) // fallback mais solto
+  );
+}
+
 async function extrairDetalhesProdutoCasaEV(urlProduto, termoOriginal) {
   console.error("[INFO] --- Acessando produto para:", termoOriginal);
 
+  let nome = null;
+  let preco = null;
+  let entreguePor = "";
+
   try {
     const resp = await axios.get(urlProduto, {
-      headers: { "User-Agent": "Mozilla/5.0" }
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+        "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      },
+      timeout: 20000,
     });
 
     const $ = cheerio.load(resp.data);
-    const nome = $("h1").first().text().trim();
 
-    const preco = $("span.h5-bold, span.md\\:h4-bold")
-      .filter((_, el) => $(el).text().includes("R$"))
-      .first()
-      .text()
-      .trim();
+    // Nome do produto
+    nome = ($("h1").first().text() || "").trim();
 
-    const entreguePor = $("p:contains('Vendido e entregue por')").first().text().trim();
+    // Preço (múltiplos seletores comuns)
+    preco =
+      $("span.h5-bold, span.md\\:h4-bold")
+        .filter((_, el) => $(el).text().includes("R$"))
+        .first()
+        .text()
+        .trim() ||
+      $("span:contains('R$')").first().text().trim();
 
-    const vendidoCasaEV = entreguePor.includes("CASA E VIDEO") || entreguePor.includes("MERCADO FÁCIL");
+    // "Vendido e entregue por ..."
+    // Procura textos que contenham "Vendido" e "entregue"
+    entreguePor =
+      $("p:contains('Vendido')").first().text().trim() ||
+      $("div:contains('Vendido')").first().text().trim() ||
+      "";
 
-    console.error(`[RESULTADO] Produto: ${nome}`);
-    console.error(`[RESULTADO] Preço: ${preco}`);
-    console.error(`[RESULTADO] Vendido por Casa e Vídeo: ${vendidoCasaEV ? "✅ Sim" : "❌ Não"}`);
+    const vendidoCasaEV = ehCasaEVendedor(entreguePor);
+
+    console.error(`[RESULTADO] Produto: ${nome || "(sem título)"}`);
+    console.error(`[RESULTADO] Preço: ${preco || "(não encontrado)"}`);
+    console.error(
+      `[RESULTADO] Vendido por Casa e Vídeo: ${vendidoCasaEV ? "✅ Sim" : "❌ Não"}`
+    );
     console.error(`[RESULTADO] Link: ${urlProduto}`);
 
     resultados.push({
@@ -125,18 +227,17 @@ async function extrairDetalhesProdutoCasaEV(urlProduto, termoOriginal) {
       preco,
       loja: "Casa e Vídeo",
       vendido: vendidoCasaEV,
-      link: urlProduto
+      link: urlProduto,
     });
-
   } catch (err) {
     console.error("[ERRO] Erro ao extrair produto:", err.message);
     resultados.push({
       termo: termoOriginal,
-      nome: null,
+      nome,
       preco: "Indisponível",
       loja: "Casa e Vídeo",
       vendido: false,
-      link: urlProduto
+      link: urlProduto,
     });
   }
 
@@ -146,32 +247,20 @@ async function extrairDetalhesProdutoCasaEV(urlProduto, termoOriginal) {
 // 🚀 Executa tudo
 executarBuscaEmTodos()
   .then(() => {
-    // Apenas o JSON final deve ir para o stdout
+    // Apenas o JSON final deve ir para o stdout (mapeado por termo)
     const resultadoFinal = {};
     for (const item of resultados) {
       resultadoFinal[item.termo] = {
-        preco: item.vendido ? item.preco : null,
+        preco: item.vendido ? item.preco : null, // só retorna preço se for vendido pela loja oficial
         vendido: item.vendido,
-        link: item.link
+        link: item.link,
       };
     }
     console.log(JSON.stringify(resultadoFinal));
-
-    // Todas as outras mensagens são só informativas
-    console.error("[INFO] Script Casa e video finalizado com sucesso.");
+    console.error("[INFO] Script Casa e Vídeo finalizado com sucesso.");
     process.exit(0);
   })
-  .catch(err => {
-    console.error("[ERRO FATAL] Falha inesperada no script Casa e video:", err.message);
+  .catch((err) => {
+    console.error("[ERRO FATAL] Falha inesperada no script Casa e Vídeo:", err.message);
     process.exit(1);
   });
-
-/*executarBuscaEmTodos()
-  .then(() => {
-    console.log("[INFO] Script finalizado com sucesso.");
-    process.exit(0); // encerra com sucesso
-  })
-  .catch(err => {
-    console.error("[ERRO FATAL] Falha inesperada:", err.message);
-    process.exit(1); // encerra com erro, só se algo crítico ocorrer fora dos try/catch
-  });*/

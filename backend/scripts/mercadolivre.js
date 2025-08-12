@@ -5,18 +5,14 @@ const path = require("path");
 
 const resultados = [];
 
-// Caminhos dos arquivos
-const produtosTempPath = path.join(__dirname, "produtos_temp.json");
-const produtosFixosPath = path.join(__dirname, "produtos.json");
+// Caminho fixo para o arquivo catalogoProdutos.json
+const catalogoPath = path.join(__dirname, "catalogoProdutos.json");
 
-if (fs.existsSync(produtosTempPath)) {
-  produtosJson = JSON.parse(fs.readFileSync(produtosTempPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo temporário produtos_temp.json");
-} else {
-  produtosJson = JSON.parse(fs.readFileSync(produtosFixosPath, "utf-8"));
-  console.error("[INFO] Usando produtos do arquivo padrão produtos.json");
-}
-const listaProdutos = produtosJson.produtos.map(p => p.trim());
+// Carrega o JSON direto SEM IF/ELSE
+const produtosJson = JSON.parse(fs.readFileSync(catalogoPath, "utf-8"));
+
+// Monta lista com "produto + marca"
+const listaProdutos = produtosJson.produtos.map(p => `${p.produto} ${p.marca}`.trim());
 
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no Mercado Livre...\n");
@@ -39,7 +35,7 @@ async function executarBuscaEmTodos() {
 
   const outputPath = path.join(__dirname, "..", "results", "resultados_mercado_livre.json");
   fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
-  console.log("\n[INFO] Fim da verificação.");
+  console.error("\n[INFO] Fim da verificação.");
 }
 
 async function buscarPrimeiroProdutoML(termo) {
@@ -102,8 +98,8 @@ async function extrairDetalhesProdutoML(urlProduto, termoOriginal) {
     let preco = $("meta[itemprop='price']").attr("content");
     preco = preco ? `R$ ${parseFloat(preco).toFixed(2).replace('.', ',')}` : "Indisponível";
 
-    const infoVendedor = $(".ui-pdp-seller__label-text-with-icon").text();
-    const vendidoML = infoVendedor.toLowerCase().includes("mercado livre");
+    const infoVendedor = $(".ui-pdp-seller__label-text-with-icon").text().toLowerCase();
+    const vendidoML = infoVendedor.includes("mercado livre") || infoVendedor.includes("full") || infoVendedor.includes("vendido por") || infoVendedor.trim() !== "";
 
     console.error(`[RESULTADO] Produto: ${nome}`);
     console.error(`[RESULTADO] Preço à vista: ${preco}`);

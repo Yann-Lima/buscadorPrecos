@@ -4,46 +4,32 @@ const { exec } = require("child_process");
 const xlsx = require("xlsx");
 
 const inicio = Date.now();
-const produtosJson = require("./scripts/catalogoProdutos.json");
-
+const produtosJson = require("./scripts/produtos.json");
 
 const resultados = {};
 const produtos = produtosJson.produtos;
 
+// Aqui todos os scripts que você terá
 const scriptsFixos = [
-  "amazon.js",
-  /*"carrefour.js",
+  /*"amazon.js",
+  "carrefour.js",
   "casaevideo.js",
   "efacil.js",
-  "gazin.js",
-  "lebiscuit.js",
-  "mercadolivre.js"*/
+  "gazin.js",*/
+  "lebiscuit.js"
+  //"mercadolivre.js"
 ];
 
-// Mapeamento fixo do site para índice da coluna na planilha (1-based)
-const colunasFixas = {
-  amazon: 2,       // coluna B
-  carrefour: 3,    // coluna C
-  casaevideo: 4,   // coluna D
-  efacil: 5,       // coluna E
-  gazin: 6,        // coluna F
-  lebiscuit: 7,    // coluna G
-  mercadolivre: 8, // coluna H
-};
-
-const nomesSitesFixos = Object.keys(colunasFixas);
-const header = ["Produto", ...nomesSitesFixos.map(site => site.charAt(0).toUpperCase() + site.slice(1))];
-
-
+// Nomes simples para usar no cabeçalho da planilha
 const nomesSites = scriptsFixos.map(f => path.basename(f, ".js"));
 
 const scripts = scriptsFixos.map(file => `node scripts/${file}`);
 
-function rodarSequencialmente(i = 0, callback) {
+function rodarSequencialmente(i = 0) {
   if (i >= scripts.length) {
     const tempoTotalEmMinutos = ((Date.now() - inicio) / 1000 / 60).toFixed(2);
     console.log(`✅ Todos os scripts foram executados em ${tempoTotalEmMinutos} minutos.`);
-    gerarExcel(tempoTotalEmMinutos, callback); // passa callback para gerarExcel
+    gerarExcel(tempoTotalEmMinutos);
     return;
   }
 
@@ -71,42 +57,39 @@ function rodarSequencialmente(i = 0, callback) {
       console.error(`❌ Erro ao parsear output de ${scriptName}:`, e);
     }
 
-    rodarSequencialmente(i + 1, callback);
+    rodarSequencialmente(i + 1);
   });
 }
 
-function gerarExcel(tempoTotalEmMinutos, callback) {
+function gerarExcel(tempoTotalEmMinutos) {
   const data = [];
 
+  // Cabeçalho: Produto + nomes dos sites (mesmo que só tenha um rodando)
   const header = [
     "Produto",
-    ...nomesSitesFixos.map(site => site.charAt(0).toUpperCase() + site.slice(1))
+    ...nomesSites
   ];
 
   data.push(header);
 
   for (const produto of produtos) {
+    // Termo usado para busca e chave dos resultados:
     const termoChave = `${produto.produto} ${produto.marca}`.trim();
-    const row = new Array(header.length).fill(""); // já preenche tudo vazio
 
-    row[0] = termoChave; // primeira coluna Produto
+    const row = [termoChave];
 
-    for (const site of nomesSitesFixos) {
-      if (resultados[site]) {
-        const dados = resultados[site][termoChave];
-        const colIdx = colunasFixas[site] - 1; // índice zero-based
-
-        if (dados && dados.vendido === true && dados.preco && dados.preco !== "Indisponível") {
-          row[colIdx] = dados.preco;
-        } else {
-          row[colIdx] = "Indisponível";
-        }
+    for (const site of nomesSites) {
+      const dados = resultados[site]?.[termoChave];
+      if (dados && dados.vendido && dados.preco) {
+        row.push(dados.preco);
+      } else {
+        row.push("Indisponível");
       }
     }
-
     data.push(row);
   }
 
+  // Linha extra: tempo total
   const ultimaLinha = new Array(header.length).fill("");
   ultimaLinha[header.length - 1] = `Tempo total: ${tempoTotalEmMinutos} minutos`;
   data.push(ultimaLinha);
@@ -126,23 +109,6 @@ function gerarExcel(tempoTotalEmMinutos, callback) {
   xlsx.writeFile(wb, caminhoCompleto);
 
   console.log(`📁 Excel gerado automaticamente em: ${caminhoCompleto}`);
-
-  // Agora que tudo terminou, roda o criarAux.js
-  if (callback) callback();
 }
 
-// Início da execução
-rodarSequencialmente(0, () => {
-  console.log("🔄 Iniciando executar criarAux.js...");
-
-  exec("node criarAux.js", (error, stdout, stderr) => {
-    if (error) {
-      console.error(`❌ Erro ao executar criarAux.js: ${error.message}`);
-      return;
-    }
-    if (stderr) {
-      console.error(`stderr criarAux.js: ${stderr}`);
-    }
-    console.log(`✅ criarAux.js executado com sucesso:\n${stdout}`);
-  });
-});
+rodarSequencialmente();

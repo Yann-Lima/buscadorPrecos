@@ -1,10 +1,26 @@
 [
   {
-    "termo": "PLQ1350",
-    "nome": "Liquidificador Philco PLQ1350 Turbo Glass Pro Maxx 6 1200W",
-    "preco": "R$ 314,91",
+    "termo": "BAP23",
+    "nome": "Aparador de Pelos Britânia BAP23 Multigroom 11 em 1 Bivolt",
+    "preco": "R$ 179,91",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/liquidificador-philco-plq1350-turbo-glass-pro-maxx-6-1200w-2018312422/p"
+    "link": "https://www.lebiscuit.com.br/aparador-de-pelos-britania-bap23-multigroom-11-em-1-bivolt-2014645965/p"
+  },
+  {
+    "termo": "BG-09",
+    "nome": "Aparador de Pelos PraticGroom Mondial Preto 6W Bivolt - BG-09",
+    "preco": "R$ 179,90",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/aparador-de-pelos-praticgroom-mondial-preto-6w-bivolt---bg-09-2018077522/p"
+  },
+  {
+    "termo": "PAP03",
+    "nome": "Aparador de Pelos Philco Multi Groom Aqua 12 em 1 PAP03",
+    "preco": "R$ 287,91",
+    "loja": "Le Biscuit",
+    "vendido": false,
+    "link": "https://www.lebiscuit.com.br/aparador-de-pelos-philco-multi-groom-aqua-12-em-1-pap03-2012738632/p"
   }
 ]
