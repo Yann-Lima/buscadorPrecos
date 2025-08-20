@@ -50,17 +50,83 @@ if (!listaProdutos.length) {
   process.exit(1);
 }
 
+function normalizar(texto) {
+  return texto
+    .toString()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9 ]/g, "")
+    .trim();
+}
+
+// NOVA FUNÇÃO: validação flexível por palavras
+function validarProdutoPorPalavras(produtoOriginal, marcaOriginal, nomeEncontrado, descricaoEncontrada, limiteAcerto = 0.9) {
+  const referencia = normalizar(produtoOriginal + " " + marcaOriginal).split(" ");
+  const texto = normalizar(nomeEncontrado + " " + descricaoEncontrada).split(" ");
+
+  let contagem = 0;
+  for (const palavra of referencia) {
+    if (palavra && texto.includes(palavra)) contagem++;
+  }
+
+  const proporcao = contagem / referencia.length;
+  return proporcao >= limiteAcerto; // se >= 60% das palavras baterem, considera verdadeiro
+}
+
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no Carrefour...\n");
 
-  const browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'] });
-  const page = await browser.newPage();
+  let browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  let page = await browser.newPage();
+  let userAgentBase = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36";
+  await page.setUserAgent(userAgentBase);
 
-  await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36");
+  let falhasConsecutivas = 0;
 
-  for (const termo of listaProdutos) {
+  for (let i = 0; i < listaProdutos.length; i++) {
+    const termo = listaProdutos[i];
+
     try {
       await buscarPrimeiroProdutoCarrefour(page, termo);
+
+      // checa se o último resultado foi negativo
+      const ultimoResultado = resultados[resultados.length - 1];
+      if (!ultimoResultado.vendido) {
+        falhasConsecutivas++;
+      } else {
+        falhasConsecutivas = 0;
+      }
+
+      // se atingiu 5 falhas consecutivas, reinicia navegador
+      if (falhasConsecutivas >= 5) {
+        console.warn("[WARN] 5 produtos consecutivos não encontrados. Reiniciando navegador e limpando cookies...");
+
+        await page.close();
+        await browser.close();
+
+        // delay antes de reiniciar
+        await new Promise(r => setTimeout(r, 5000));
+
+        // reinicia navegador
+        browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+        page = await browser.newPage();
+
+        // muda user-agent para simular outro navegador
+        const novoUA = userAgentBase.replace(/Chrome\/\d+\./, `Chrome/${119 + Math.floor(Math.random() * 10)}.`);
+        await page.setUserAgent(novoUA);
+
+        // limpa cookies
+        const client = await page.target().createCDPSession();
+        await client.send('Network.clearBrowserCookies');
+
+        falhasConsecutivas = 0;
+        console.info("[INFO] Navegador reiniciado. Continuando as buscas...");
+      }
+
+      // pequeno delay entre buscas para reduzir risco de bloqueio
+      await new Promise(r => setTimeout(r, 1500));
+
     } catch (err) {
       console.error(`[ERRO CRÍTICO] Falha inesperada na busca do produto "${termo}":`, err.message);
       resultados.push({
@@ -71,11 +137,12 @@ async function executarBuscaEmTodos() {
         vendido: false,
         link: null,
       });
+      falhasConsecutivas++;
     }
   }
 
+  await page.close();
   await browser.close();
-
   console.error("\n[INFO] Fim da verificação.");
 }
 
@@ -137,7 +204,6 @@ async function buscarPrimeiroProdutoCarrefour(page, termo) {
     });
   }
 }
-
 async function extrairDetalhesProdutoCarrefour(page, urlProduto, termoOriginal) {
   console.error("[INFO] --- Acessando produto para:", termoOriginal);
 
@@ -146,6 +212,10 @@ async function extrairDetalhesProdutoCarrefour(page, urlProduto, termoOriginal) 
     await new Promise((r) => setTimeout(r, 2000));
 
     const nome = await page.$eval('h2[data-testid="pdp-product-name"]', (el) => el.textContent.trim());
+
+    const descricao = await page
+      .$eval('div.lg\\:block.hidden.reset-styles.text-sm.text-\\[\\#666\\]', el => el.textContent.trim())
+      .catch(() => "");
 
     const preco = await page
       .$eval('span.text-2xl.font-bold.text-default', (el) => el.textContent.trim())
@@ -160,19 +230,31 @@ async function extrairDetalhesProdutoCarrefour(page, urlProduto, termoOriginal) 
 
     const vendidoPorCarrefour = entreguePor.toLowerCase().includes("carrefour");
 
-    console.error(`[RESULTADO] Produto: ${nome}`);
-    console.error(`[RESULTADO] Preço: ${preco}`);
-    console.error(`[RESULTADO] Vendido por Carrefour: ${vendidoPorCarrefour ? "✅ Sim" : "❌ Não"}`);
-    console.error(`[RESULTADO] Link: ${urlProduto}`);
+    // NOVA VALIDAÇÃO
+    const produtoValido = validarProdutoPorPalavras(
+      termoOriginal,
+      "", // marca separada se você tiver, coloque aqui
+      nome,
+      descricao
+    );
+
+    const vendidoFinal = vendidoPorCarrefour && produtoValido;
 
     resultados.push({
       termo: termoOriginal,
       nome,
       preco,
       loja: "Carrefour",
-      vendido: vendidoPorCarrefour,
+      vendido: vendidoFinal,
       link: urlProduto,
     });
+
+    console.error(`[RESULTADO] Produto válido: ${produtoValido ? "✅ Sim" : "❌ Não"}`);
+    console.error(`[RESULTADO] Produto: ${nome}`);
+    console.error(`[RESULTADO] Preço: ${preco}`);
+    console.error(`[RESULTADO] Vendido por Carrefour: ${vendidoPorCarrefour ? "✅ Sim" : "❌ Não"}`);
+    console.error(`[RESULTADO] Link: ${urlProduto}`);
+
   } catch (err) {
     console.error("[ERRO] Erro ao extrair produto:", err.message);
     resultados.push({
@@ -201,15 +283,16 @@ async function extrairDetalhesProdutoCarrefour(page, urlProduto, termoOriginal) 
       };
     }
 
-    // Só o JSON final vai para o stdout (console.log)
-    console.log(JSON.stringify(resultadoFinal));
+    // Salva o JSON em arquivo
+    const outputPath = path.join(__dirname,  "..", "results", "resultados_carrefour.json");
+    fs.writeFileSync(outputPath, JSON.stringify(resultadoFinal, null, 2));
+    console.error(`[INFO] JSON salvo em: ${outputPath}`);
+
+    // Também envia para o console
+    console.log(JSON.stringify(resultadoFinal, null, 2));
 
     console.error("[INFO] Script Carrefour finalizado com sucesso.");
-
-    // Dá um tempinho para garantir o flush do stdout antes de encerrar
     await new Promise((r) => setTimeout(r, 100));
-
-    // Não chama process.exit(), Node termina naturalmente
   } catch (err) {
     console.error("[ERRO FATAL] Falha inesperada no script Carrefour:", err.message);
     process.exit(1);

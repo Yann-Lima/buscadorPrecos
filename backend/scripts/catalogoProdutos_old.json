@@ -1,0 +1,530 @@
+[
+  {
+    "produto": "BAP23",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "BG-09",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "PAP03",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "MG3711/15",
+    "marca": "PHILIPS"
+  },
+  {
+    "produto": "AWS-T2W-02",
+    "marca": "AIWA"
+  },
+  {
+    "produto": "AWS-SP-01",
+    "marca": "AIWA"
+  },
+  {
+    "produto": "AWS-T1W-02",
+    "marca": "AIWA"
+  },
+  {
+    "produto": "BOOMBOX 3",
+    "marca": "JBL"
+  },
+  {
+    "produto": "XBOOM XG9S",
+    "marca": "LG"
+  },
+  {
+    "produto": "RNC9",
+    "marca": "LG"
+  },
+  {
+    "produto": "RNC7",
+    "marca": "LG"
+  },
+  {
+    "produto": "RNC5",
+    "marca": "LG"
+  },
+  {
+    "produto": "HYPERBOOM 1000",
+    "marca": "WAAW"
+  },
+  {
+    "produto": "MCE-01-AL",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "BVSTEM7300",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "BVSTEM8100",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "EP1220",
+    "marca": "WALITA"
+  },
+  {
+    "produto": "EP2230",
+    "marca": "WALITA"
+  },
+  {
+    "produto": "EP5441",
+    "marca": "WALITA"
+  },
+  {
+    "produto": "CESP",
+    "marca": "ARNO"
+  },
+  {
+    "produto": "BCF33",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "C-20-EC",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "BVSTEM7200",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "OCAF900-127 / OCAF900-220",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "COFFEE EXPRESS",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "C-28-ECL",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "BVSTEM6603SS",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "BVSTEM6701SS",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "BVSTEM6801M",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "PCF21P",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "ACA 221 GIGANTE II",
+    "marca": "AMVOX"
+  },
+  {
+    "produto": "ACA 255 HIT",
+    "marca": "AMVOX"
+  },
+  {
+    "produto": "ACA  251  NEW X",
+    "marca": "AMVOX"
+  },
+  {
+    "produto": "ACA 480 VIPER II",
+    "marca": "AMVOX"
+  },
+  {
+    "produto": "ACA 680 FANTASY",
+    "marca": "AMVOX"
+  },
+  {
+    "produto": "ACA 550 STRONDO II",
+    "marca": "AMVOX"
+  },
+  {
+    "produto": "ACA 880",
+    "marca": "AMVOX"
+  },
+  {
+    "produto": "CM-150",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "CM-250",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "CM-400",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "CM-550",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "SP402E",
+    "marca": "PULSE"
+  },
+  {
+    "produto": "BDJ77BE",
+    "marca": "BRASTEMP"
+  },
+  {
+    "produto": "400000363",
+    "marca": "DAKO"
+  },
+  {
+    "produto": "IE60P",
+    "marca": "ELECTROLUX"
+  },
+  {
+    "produto": "29850-220V-[29850-71205]",
+    "marca": "FISCHER"
+  },
+  {
+    "produto": "CIMAS2003",
+    "marca": "ITATIAIA"
+  },
+  {
+    "produto": "CTI-03",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "400000461",
+    "marca": "DAKO"
+  },
+  {
+    "produto": "IC30",
+    "marca": "ELECTROLUX"
+  },
+  {
+    "produto": "CIMID2002",
+    "marca": "ITATIAIA"
+  },
+  {
+    "produto": "CTI-02",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "MCI162BG1",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "CP31",
+    "marca": "ARNO"
+  },
+  {
+    "produto": "BELLAGIO",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "BELLAGIO MAXX",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "BELLAGIO 350",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "ECP10",
+    "marca": "ELETROLUX"
+  },
+  {
+    "produto": "E-02",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "3481",
+    "marca": "AGRATTO"
+  },
+  {
+    "produto": "TURBO PRO 260W",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "E-10",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "VFA1110",
+    "marca": "BLACK & DECKER"
+  },
+  {
+    "produto": "F300",
+    "marca": "BLACK & DECKER"
+  },
+  {
+    "produto": "IRO101",
+    "marca": "CADENCE"
+  },
+  {
+    "produto": "IRON FORCE PLUS",
+    "marca": "ELGIN"
+  },
+  {
+    "produto": "PFF603",
+    "marca": "LENOXX"
+  },
+  {
+    "produto": "FSN-55-B",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "PFE01P RETRÔ",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "HD1172",
+    "marca": "WALITA"
+  },
+  {
+    "produto": "BLACK 3",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "LIQ100",
+    "marca": "CADENCE"
+  },
+  {
+    "produto": "FAST MIX 2",
+    "marca": "MALLORY"
+  },
+  {
+    "produto": "LQ651",
+    "marca": "MULTI"
+  },
+  {
+    "produto": "LQLF",
+    "marca": "AGRATTO"
+  },
+  {
+    "produto": "LQ31",
+    "marca": "ARNO"
+  },
+  {
+    "produto": "BLQ920P",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "LIQ347",
+    "marca": "CADENCE"
+  },
+  {
+    "produto": "L-1100-BI",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "BLQ1280P",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "OLIQ606",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "PLQ1411P",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "BLST3B-R2T",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "LQ1111",
+    "marca": "MULTI"
+  },
+  {
+    "produto": "BLQ1380P",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "L-1200-BI",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "PH900 PRETO",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "PLQ2100PI",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "RI2242_90",
+    "marca": "WALITA"
+  },
+  {
+    "produto": "RI2240_90",
+    "marca": "WALITA"
+  },
+  {
+    "produto": "EBS30",
+    "marca": "ELECTROLUX"
+  },
+  {
+    "produto": "L-1400-GI",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "BLSTMG-BR8",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "OLIQ520",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "OLIQ501",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "PLQ1350",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "L-28",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "RI2112/90",
+    "marca": "WALITA"
+  },
+  {
+    "produto": "FLASH MIX",
+    "marca": "MALLORY"
+  },
+  {
+    "produto": "FLASH MIX+",
+    "marca": "MALLORY"
+  },
+  {
+    "produto": "LQ10",
+    "marca": "ARNO"
+  },
+  {
+    "produto": "L-550-B",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "RI2110/90",
+    "marca": "WALITA"
+  },
+  {
+    "produto": "L-77",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "L-900 FB",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "DIAMANTE PRETO 900W",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "BLQ970P",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "LIQ200",
+    "marca": "CADENCE"
+  },
+  {
+    "produto": "LN61",
+    "marca": "ARNO"
+  },
+  {
+    "produto": "LQ35",
+    "marca": "ARNO"
+  },
+  {
+    "produto": "L-97-W",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "L-98-B",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "L-99-FB",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "CMA20BB",
+    "marca": "CONSUL"
+  },
+  {
+    "produto": "CMS46AR",
+    "marca": "CONSUL"
+  },
+  {
+    "produto": "MTO30",
+    "marca": "ELECTROLUX"
+  },
+  {
+    "produto": "MI41S",
+    "marca": "ELECTROLUX"
+  },
+  {
+    "produto": "MRAS21",
+    "marca": "MIDEA"
+  },
+  {
+    "produto": "MXSA35S1",
+    "marca": "MIDEA"
+  },
+  {
+    "produto": "MO-01-21-W",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "MO-02-34-E",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "NN-ST25LWRU",
+    "marca": "PANASONIC"
+  },
+  {
+    "produto": "ST67LSRU",
+    "marca": "PANASONIC"
+  },
+  {
+    "produto": "PMO23BB",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "PMO34EB",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "BFR11PG",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "BFR38",
+    "marca": "BRITANIA"
+  },
+  {
+    "produto": "EAF15",
+    "marca": "ELECTROLUX"
+  },
+  {
+    "produto": "AFN-40-BI",
+    "marca": "MONDIAL"
+  },
+  {
+    "produto": "OFRT520",
+    "marca": "OSTER"
+  },
+  {
+    "produto": "PFR15PI",
+    "marca": "PHILCO"
+  },
+  {
+    "produto": "BFR2100",
+    "marca": "BRITANIA"
+  }
+]

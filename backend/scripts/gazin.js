@@ -21,6 +21,79 @@ function removeAcentos(str = "") {
   return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
+
+function normalizar(txt) {
+  return (txt || "")
+    .normalize("NFD") // remove acentos
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, "E")
+    .replace(/[^\w\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+}
+
+// === Nova função: valida usando descrição/ficha técnica ===
+async function descricaoConfere(page, marca, produto) {
+  try {
+    // Pega descrição (se existir)
+    const descricao = await page.$eval("div#descricao", el => el.innerText.trim()).catch(() => "");
+    // Pega ficha técnica inteira (se existir)
+    const fichaTecnica = await page.$eval("div#ficha-tecnica", el => el.innerText.trim()).catch(() => "");
+
+    const texto = normalizar(`${descricao} ${fichaTecnica}`);
+
+    const marcaNorm = normalizar(marca);
+    const produtoNorm = normalizar(produto);
+
+    if (!texto.includes(marcaNorm)) {
+      console.log("❌ Marca não encontrada na descrição/ficha técnica:", marca);
+      return false;
+    }
+
+    const palavrasProduto = produtoNorm.split(/\s+/).filter(Boolean);
+    let count = 0;
+    for (const p of palavrasProduto) if (texto.includes(p)) count++;
+    const proporcao = count / palavrasProduto.length;
+
+    if (proporcao >= 0.9) {
+      console.log("✅ Descrição confere com produto:", produto);
+      return true;
+    } else {
+      console.log("❌ Descrição não bate com produto:", produto);
+      return false;
+    }
+  } catch (e) {
+    console.log("[WARN] Não foi possível validar pela descrição/ficha técnica");
+    return false;
+  }
+}
+
+
+function tituloConfere(tituloOriginal, marca, produto) {
+  if (!tituloOriginal) return false;
+
+  const titulo = normalizar(tituloOriginal);
+  const marcaNorm = normalizar(marca);
+  const produtoNorm = normalizar(produto);
+
+  // Marca tem que estar presente no título
+  if (!titulo.includes(marcaNorm)) {
+    console.log("❌ Marca não encontrada no título:", marca);
+    return false;
+  }
+
+  // Código do produto precisa ser 100% igual (case-insensitive e sem acento)
+  if (!titulo.includes(produtoNorm)) {
+    console.log("❌ Código não encontrado no título:", produto);
+    return false;
+  }
+
+  console.log("✅ Título confere com produto:", produto);
+  return true;
+}
+
+
 async function delay(minMs, maxMs) {
   const tempo = Math.floor(Math.random() * (maxMs - minMs + 1)) + minMs;
   await new Promise(r => setTimeout(r, tempo));
@@ -125,6 +198,8 @@ async function buscarPrimeiroProdutoGAZIN(termoOriginal) {
       };
     });
 
+    
+
     if (!produto || !produto.link) {
       console.error("[WARN] Nenhum produto válido encontrado para:", termoOriginal);
       resultados.push({
@@ -143,6 +218,31 @@ async function buscarPrimeiroProdutoGAZIN(termoOriginal) {
     console.error("       Nome:", produto.nome || "(sem título)");
     console.error("       Preço (card):", produto.preco || "(não encontrado no card)");
     console.error("       Link:", produto.link);
+
+   // Extrai marca e produto do JSON original
+const produtoJson = produtosJson.produtos.find(
+  p => `${p.produto} ${p.marca}`.trim() === termoOriginal.trim()
+);
+
+const produtoOriginal = produtoJson?.produto || "";
+const marcaOriginal = produtoJson?.marca || "";
+
+// === Validação pelo título ===
+const valido = tituloConfere(produto.nome, marcaOriginal, produtoOriginal);
+
+if (!valido) {
+  console.warn("[WARN] ❌ Título não confere com:", termoOriginal);
+  resultados.push({
+    termo: termoOriginal,
+    nome: produto.nome || null,
+    preco: "Indisponível",
+    loja: "Gazin",
+    vendido: false,
+    link: produto.link,
+  });
+  await browser.close();
+  return;
+}
 
     // Abre a página do produto e captura preço/vendedor com seletores robustos
     await page.goto(produto.link, { waitUntil: "networkidle2", timeout: 60000 });

@@ -18,21 +18,43 @@ process.on('unhandledRejection', (err) => {
 // Caminho fixo para o catalogoProdutos.json
 const catalogoProdutosPath = path.join(__dirname, "catalogoProdutos.json");
 
+// Caminho fixo para termos customizados
+const termosCustomizadosPath = path.join(__dirname, "termosCustomizados.json");
+
+// Carrega termos customizados
+let termosCustomizados = {};
+if (fs.existsSync(termosCustomizadosPath)) {
+  termosCustomizados = JSON.parse(fs.readFileSync(termosCustomizadosPath, "utf-8"));
+}
+
 // Carrega os produtos do catalogoProdutos.json
 const produtosJson = JSON.parse(fs.readFileSync(catalogoProdutosPath, "utf-8"));
-const listaProdutos = produtosJson.produtos.map(p => `${p.produto} ${p.marca}`.trim());
+
+// Monta a lista de termos
+const listaProdutos = produtosJson.produtos.map(p => {
+  const termoBusca = termosCustomizados[p.produto]
+    ? termosCustomizados[p.produto]
+    : `${p.produto} ${p.marca}`;
+
+  return {
+    produto: p.produto,
+    marca: p.marca,
+    termoBusca
+  };
+});
+
 
 
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no eFácil...\n");
 
-  for (const termo of listaProdutos) {
+  for (const item of listaProdutos) {
     try {
-      await buscarPrimeiroProdutoEFACIL(termo);
+      await buscarPrimeiroProdutoEFACIL(item);
     } catch (err) {
-      console.error(`[ERRO CRÍTICO] Falha na busca do produto "${termo}":`, err.message);
+      console.error(`[ERRO CRÍTICO] Falha na busca do produto "${item.termoBusca}":`, err.message);
       resultados.push({
-        termo,
+        termo: item.termoBusca,
         nome: null,
         preco: "Indisponível",
         loja: "eFácil",
@@ -47,26 +69,79 @@ async function executarBuscaEmTodos() {
   console.error("\n[INFO] Fim da verificação.");
 }
 
-async function buscarPrimeiroProdutoEFACIL(termo) {
-  const termoBusca = termo.trim().replace(/\s+/g, '+');
-  const urlBusca = `https://www.efacil.com.br/loja/busca/?searchTerm=${termoBusca}`;
+function tituloConfere(tituloOriginal, marca, produto) {
+  if (!tituloOriginal) return false;
+
+  const titulo = normalizar(tituloOriginal);
+  const marcaNorm = normalizar(marca);
+  const produtoNorm = normalizar(produto);
+
+  // Marca deve aparecer no título
+  if (!titulo.includes(marcaNorm)) {
+    console.log("❌ Marca não encontrada no título:", marca);
+    return false;
+  }
+
+  // Produto deve aparecer no título (verifica pelo menos 50% das palavras)
+  const palavrasProduto = produtoNorm.split(/\s+/).filter(Boolean);
+  if (!palavrasProduto.length) return true;
+
+  let count = 0;
+  for (const p of palavrasProduto) if (titulo.includes(p)) count++;
+
+  const proporcao = count / palavrasProduto.length;
+  if (proporcao >= 0.9) {
+    console.log("✅ Título confere com produto:", produto);
+    return true;
+  } else {
+    console.log("❌ Título não bate com produto:", produto);
+    return false;
+  }
+}
+
+function normalizar(txt) {
+  return (txt || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, "E")
+    .replace(/[^\w\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+}
+
+
+function normalizar(txt) {
+  return (txt || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, "E")
+    .replace(/[^\w\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
+}
+
+
+async function buscarPrimeiroProdutoEFACIL(item) {
+  const termoBuscaUrl = item.termoBusca.trim().replace(/\s+/g, '+');
+  const urlBusca = `https://www.efacil.com.br/loja/busca/?searchTerm=${termoBuscaUrl}`;
 
   console.error("\n[INFO] ========== NOVA BUSCA ==========");
-  console.error("[DEBUG] Termo:", termo);
+  console.error("[DEBUG] Termo de busca:", item.termoBusca);
+  console.error("[DEBUG] Produto original:", item.produto);
+  console.error("[DEBUG] Marca original:", item.marca);
   console.error("[DEBUG] URL:", urlBusca);
 
   try {
-    const resp = await axios.get(urlBusca, {
-      headers: { "User-Agent": "Mozilla/5.0" }
-    });
-
+    const resp = await axios.get(urlBusca, { headers: { "User-Agent": "Mozilla/5.0" } });
     const $ = cheerio.load(resp.data);
     const linkProduto = $("a[id^='btn_skuP']").first().attr("href");
 
     if (!linkProduto) {
-      console.warn("[WARN] Nenhum produto encontrado para:", termo);
+      console.warn("[WARN] Nenhum produto encontrado para:", item.termoBusca);
       resultados.push({
-        termo,
+        termo: item.termoBusca,
         nome: null,
         preco: "Indisponível",
         loja: "eFácil",
@@ -79,12 +154,12 @@ async function buscarPrimeiroProdutoEFACIL(termo) {
     const urlProduto = "https://www.efacil.com.br" + linkProduto;
     console.error("[DEBUG] Primeiro produto encontrado:", urlProduto);
 
-    await extrairDetalhesProdutoEFACIL(urlProduto, termo);
+    await extrairDetalhesProdutoEFACIL(urlProduto, item);
 
   } catch (err) {
-    console.error("[ERRO] Falha ao buscar:", termo, "→", err.message);
+    console.error("[ERRO] Falha ao buscar:", item.termoBusca, "→", err.message);
     resultados.push({
-      termo,
+      termo: item.termoBusca,
       nome: null,
       preco: "Indisponível",
       loja: "eFácil",
@@ -94,28 +169,42 @@ async function buscarPrimeiroProdutoEFACIL(termo) {
   }
 }
 
-async function extrairDetalhesProdutoEFACIL(urlProduto, termoOriginal) {
-  console.error("[INFO] --- Acessando produto para:", termoOriginal);
+
+async function extrairDetalhesProdutoEFACIL(urlProduto, item) {
+  console.error("[INFO] --- Acessando produto para:", item.termoBusca);
 
   try {
-    const resp = await axios.get(urlProduto, {
-      headers: { "User-Agent": "Mozilla/5.0" }
-    });
-
+    const resp = await axios.get(urlProduto, { headers: { "User-Agent": "Mozilla/5.0" } });
     const $ = cheerio.load(resp.data);
+
     const nome = $("h1").first().text().trim();
 
-    // Preço à vista vindo do elemento com data-testid="spot-price"
-    let preco = null;
+    // validação com base na marca e produto originais
+    const tituloValido = tituloConfere(nome, item.marca, item.produto);
 
-    // Primeiro, tenta pegar o preço visível
-    preco = $("div[data-testid='spot-price'] span")
+    if (!tituloValido) {
+      console.warn("[WARN] ❌ Título não confere com marca/produto:", item.produto, item.marca);
+      resultados.push({
+        termo: item.termoBusca,
+        nome,
+        preco: "Indisponível",
+        loja: "eFácil",
+        vendido: false,
+        link: urlProduto,
+      });
+      return;
+    }
+
+    // ... resto igual (preço, vendido, etc.)
+
+
+    // Agora pega preço
+    let preco = $("div[data-testid='spot-price'] span")
       .filter((i, el) => $(el).text().includes("R$"))
       .first()
       .text()
       .trim();
 
-    // Se ainda estiver vazio, tenta via JSON-LD
     if (!preco) {
       const ldJsonScript = $("script[type='application/ld+json']").html();
       if (ldJsonScript) {
@@ -166,6 +255,7 @@ async function extrairDetalhesProdutoEFACIL(urlProduto, termoOriginal) {
 
   console.error("[INFO] --- Fim da verificação do produto ---\n");
 }
+
 
 executarBuscaEmTodos()
   .then(() => {

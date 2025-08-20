@@ -22,11 +22,43 @@ try {
   process.exit(1);
 }
 
+function descricaoConfere(descricaoOriginal, marca, produto) {
+  if (!descricaoOriginal) return false;
+
+  const descricao = normalizar(descricaoOriginal); // Remove acentos, maiúsc/minúsc
+  const marcaNorm = normalizar(marca);
+  const produtoNorm = normalizar(produto);
+
+  // 1️⃣ Verifica se a marca aparece na descrição
+  if (!descricao.includes(marcaNorm)) {
+    console.log("❌ Marca não encontrada na descrição:", marca);
+    return false;
+  }
+
+  // 2️⃣ Verifica se a maioria das palavras do produto aparece na descrição
+  const palavrasProduto = produtoNorm.split(/\s+/).filter(Boolean);
+  if (!palavrasProduto.length) return true; // sem palavras, apenas marca já valida
+
+  let count = 0;
+  for (const p of palavrasProduto) {
+    if (descricao.includes(p)) count++;
+  }
+
+  const proporcao = count / palavrasProduto.length;
+  if (proporcao >= 0.9) {
+    console.log("✅ Descrição confere com produto:", produto);
+    return true;
+  } else {
+    console.log("❌ Descrição não bate com produto:", produto);
+    return false;
+  }
+}
+
 // === Montagem da lista de termos (robusta a variações) ===
 const listaProdutos = (produtosJson.produtos || [])
   .map((p, i) => {
     const produto = (p.produto ?? p.codigo ?? p.id ?? "").toString().trim();
-    const marca   = (p.marca   ?? p.brand  ?? "").toString().trim();
+    const marca = (p.marca ?? p.brand ?? "").toString().trim();
 
     let termo = [produto, marca].filter(Boolean).join(" ").trim();
 
@@ -196,6 +228,25 @@ async function extrairDetalhesProdutoCasaEV(urlProduto, termoOriginal) {
     // Nome do produto
     nome = ($("h1").first().text() || "").trim();
 
+    // Pega a descrição resumida
+    const descricao = $('span.small-regular.hidden.md\\:block > div.h-14').text().trim();
+
+    // Aqui você já pode verificar se a descrição bate com a marca e produto
+    const [produtoOriginal, marcaOriginal] = termoOriginal.split(" "); // Ajuste conforme seu termo
+    const descricaoValida = descricaoConfere(descricao, marcaOriginal, produtoOriginal);
+
+    if (!descricaoValida) {
+      console.warn("[WARN] ❌ Descrição não confere com marca/produto:", termoOriginal);
+      resultados.push({
+        termo: termoOriginal,
+        nome,
+        preco: "Indisponível",
+        loja: "Casa e Vídeo",
+        vendido: false,
+        link: urlProduto,
+      });
+      return; // ignora produto
+    }
     // Preço (múltiplos seletores comuns)
     preco =
       $("span.h5-bold, span.md\\:h4-bold")
