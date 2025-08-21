@@ -47,7 +47,7 @@ function tituloConfere(tituloOriginal, marca, produto) {
     return false;
   }
 
-  // Produto: pelo menos 50% das palavras precisam estar no título
+  // Produto: pelo menos 90% das palavras precisam estar no título (mantido)
   const palavrasProduto = produtoNorm.split(/\s+/).filter(Boolean);
   let count = 0;
   for (const p of palavrasProduto) if (titulo.includes(p)) count++;
@@ -62,30 +62,62 @@ function tituloConfere(tituloOriginal, marca, produto) {
   }
 }
 
-
-// Caminho fixo para o arquivo catalogoProdutos.json
+// Caminhos de arquivos
 const catalogoPath = path.join(__dirname, "catalogoProdutos.json");
+// NOVO: termos customizados (opcional)
+const termosCustomizadosPath = path.join(__dirname, "termosCustomizados.json");
 
-// Carrega o JSON direto SEM IF/ELSE
+// Carrega catálogo
 const produtosJson = JSON.parse(fs.readFileSync(catalogoPath, "utf-8"));
+// Carrega termos customizados (se existir)
+let termosCustomizados = {};
+if (fs.existsSync(termosCustomizadosPath)) {
+  try {
+    termosCustomizados = JSON.parse(fs.readFileSync(termosCustomizadosPath, "utf-8"));
+    console.error("[INFO] termosCustomizados.json carregado.");
+  } catch (e) {
+    console.error("[WARN] Não foi possível ler/parsear termosCustomizados.json:", e.message);
+  }
+}
 
-// Monta lista com "produto + marca"
-const listaProdutos = produtosJson.produtos.map(p => `${p.produto} ${p.marca}`.trim());
+// === NOVO: Monta lista com termo original (validação/JSON) e termo de busca (custom se houver) ===
+const listaProdutos = (produtosJson.produtos || [])
+  .map((p, i) => {
+    const produto = (p.produto ?? p.codigo ?? p.id ?? "").toString().trim();
+    const marca = (p.marca ?? p.brand ?? "").toString().trim();
+
+    const originalTerm = `${produto} ${marca}`.trim();
+    if (!originalTerm) {
+      console.error(`[ERRO] Item ${i}: sem dados suficientes (produto/marca). Será ignorado.`);
+      return null;
+    }
+
+    const searchTerm = termosCustomizados[produto]
+      ? String(termosCustomizados[produto]).trim()
+      : originalTerm;
+
+    if (termosCustomizados[produto]) {
+      console.error(`[INFO] Usando termo customizado para produto ${produto}: "${searchTerm}"`);
+    }
+
+    return { originalTerm, searchTerm, produto, marca };
+  })
+  .filter(Boolean);
 
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no Mercado Livre...\n");
 
-  for (const termo of listaProdutos) {
+  for (const item of listaProdutos) {
     try {
-      await buscarPrimeiroProdutoML(termo);
+      await buscarPrimeiroProdutoML(item);
 
       // Delay aleatório entre buscas (2s a 5s)
       await delayAleatorio(2000, 5000);
 
     } catch (err) {
-      console.error(`[ERRO CRÍTICO] Falha na busca do produto "${termo}":`, err.message);
+      console.error(`[ERRO CRÍTICO] Falha na busca do produto "${item.originalTerm}":`, err.message);
       resultados.push({
-        termo,
+        termo: item.originalTerm,
         nome: null,
         preco: "Indisponível",
         loja: "Mercado Livre",
@@ -100,26 +132,36 @@ async function executarBuscaEmTodos() {
   console.error("\n[INFO] Fim da verificação.");
 }
 
-async function buscarPrimeiroProdutoML(termo) {
-  const termoBusca = termo.trim().replace(/\s+/g, '-');
-  const urlBusca = `https://lista.mercadolivre.com.br/${termoBusca}#D[A:${termo}]`;
+// === ALTERADO: recebe { originalTerm, searchTerm } e usa searchTerm na URL ===
+// dentro de buscarPrimeiroProdutoML
+async function buscarPrimeiroProdutoML(item) {
+  const termoEncoded = encodeURIComponent(item.searchTerm.trim());
+  const urlBusca = `https://lista.mercadolivre.com.br/${termoEncoded}`;
 
   console.error("\n[INFO] ========== NOVA BUSCA ==========");
-  console.error("[DEBUG] Termo:", termo);
+  console.error("[DEBUG] Termo (original p/ validação/JSON):", item.originalTerm);
+  console.error("[DEBUG] Termo (usado na BUSCA):", item.searchTerm);
   console.error("[DEBUG] URL:", urlBusca);
 
   try {
     const resp = await axios.get(urlBusca, {
-      headers: { "User-Agent": userAgents[Math.floor(Math.random() * userAgents.length)] }
+      headers: { "User-Agent": userAgents[Math.floor(Math.random() * userAgents.length)] },
+      // 🔹 Forçar "modo incógnito" (sem cache/cookies)
+      cache: "no-store"
     });
 
     const $ = cheerio.load(resp.data);
-    const linkProduto = $("li.ui-search-layout__item a").first().attr("href");
 
-    if (!linkProduto) {
-      console.warn("[WARN] Nenhum produto encontrado para:", termo);
+    // pega até os 3 primeiros links de produtos reais
+    const linksProdutos = $("div.ui-search-result__wrapper div.poly-card a.poly-component__title")
+      .filter(function() { return !($(this).attr("href") || "").includes("brand_ads"); })
+      .slice(0, 3);
+
+    if (!linksProdutos.length) {
+      console.warn("[WARN] Nenhum produto encontrado para:", item.searchTerm);
+
       resultados.push({
-        termo,
+        termo: item.originalTerm,
         nome: null,
         preco: "Indisponível",
         loja: "Mercado Livre",
@@ -129,17 +171,42 @@ async function buscarPrimeiroProdutoML(termo) {
       return;
     }
 
-    console.error("[DEBUG] Primeiro produto encontrado:", linkProduto);
+    // ... resto igual
+    const produtoNorm = normalizar(item.produto);
+    let linkSelecionado = null;
+    linksProdutos.each(function() {
+      const titulo = normalizar($(this).text());
+      if (titulo.includes(produtoNorm) && !linkSelecionado) {
+        linkSelecionado = $(this).attr("href");
+      }
+    });
 
-    // Delay aleatório antes de abrir o produto (500ms a 1500ms)
+    if (!linkSelecionado) {
+      linkSelecionado = linksProdutos.first().attr("href");
+      console.warn("[WARN] Nenhum título bateu com o produto, usando o primeiro link disponível.");
+    } else {
+      console.log("[INFO] Produto encontrado pelo código:", linkSelecionado);
+    }
+
     await delayAleatorio(500, 1500);
-
-    await extrairDetalhesProdutoML(linkProduto, termo);
+    await extrairDetalhesProdutoML(linkSelecionado, item.originalTerm);
 
   } catch (err) {
-    console.error("[ERRO] Falha ao buscar:", termo, "→", err.message);
+    console.error("[ERRO] Falha ao buscar:", item.searchTerm, "→", err.message);
+
+    // 🔎 salva HTML também em caso de erro
+    if (err.response && err.response.data) {
+      const debugPath = path.join(__dirname, `debug_ml_error_${normalizar(item.searchTerm)}.html`);
+      try {
+        fs.writeFileSync(debugPath, err.response.data);
+        console.error(`[DEBUG] HTML de erro salvo em: ${debugPath}`);
+      } catch (e) {
+        console.error("[DEBUG] Falha ao salvar HTML de erro:", e.message);
+      }
+    }
+
     resultados.push({
-      termo,
+      termo: item.originalTerm,
       nome: null,
       preco: "Indisponível",
       loja: "Mercado Livre",
@@ -154,7 +221,9 @@ async function extrairDetalhesProdutoML(urlProduto, termoOriginal) {
 
   try {
     const resp = await axios.get(urlProduto, {
-      headers: { "User-Agent": userAgents[Math.floor(Math.random() * userAgents.length)] }
+      headers: { "User-Agent": userAgents[Math.floor(Math.random() * userAgents.length)] },
+      // 🔹 idem aqui: "modo incógnito"
+      cache: "no-store"
     });
 
     // Simula tempo de leitura da página antes de pegar dados
@@ -164,7 +233,7 @@ async function extrairDetalhesProdutoML(urlProduto, termoOriginal) {
 
     const nome = $("h1.ui-pdp-title").first().text().trim();
 
-    // Extrai marca e produto do termo original
+    // Extrai marca e produto do termo original (mantido)
     const [produtoOriginal, marcaOriginal] = termoOriginal.split(" ");
 
     // Valida título
