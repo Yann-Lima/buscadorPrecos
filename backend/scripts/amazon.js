@@ -102,7 +102,12 @@ const listaProdutos = (produtosJson.produtos || [])
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos na Amazon...\n");
 
-  const browser = await puppeteer.launch({ headless: "new", args: ["--no-sandbox", "--disable-setuid-sandbox"] });
+ const browser = await puppeteer.launch({
+  headless: true,
+  protocolTimeout: 120000,                 // ↑ dá mais fôlego ao CDP
+  args: ["--no-sandbox", "--disable-setuid-sandbox"]
+});
+
   const page = await browser.newPage();
 
   for (const termoObj of listaProdutos) {
@@ -151,18 +156,31 @@ async function buscarPrimeiroProdutoAmazon(page, termoObj) {
     await scrollLento(page);
     await delayAleatorio(2000, 5000);
 
-    const links = await page.$$eval("a.a-link-normal.s-no-outline", els =>
-      els.map(el => el.getAttribute("href")).filter(Boolean)
-    );
+   const produtos = await page.$$("div.s-main-slot div[data-asin]:not([data-asin=''])");
 
-    if (!links.length) {
-      console.warn("[WARN] Nenhum produto encontrado para:", termoObj.termoBusca);
-      resultados.push({ termo: termoObj.termoBusca, nome: null, preco: "Indisponível", loja: "Amazon", vendido: false, link: null });
-      return;
-    }
+let linkSelecionado = null;
 
-    const urlProduto = `https://www.amazon.com.br${links[0]}`;
-    console.error("[DEBUG] Primeiro produto encontrado:", urlProduto);
+for (let i = 0; i < produtos.length; i++) {
+  const patrocinado = await produtos[i].$eval(
+    ".puis-label-popover span.a-color-secondary",
+    el => el.innerText.includes("Patrocinado")
+  ).catch(() => false);
+
+  if (!patrocinado) {
+    // Encontrou um produto não patrocinado, pega o link <a>
+    linkSelecionado = await produtos[i].$eval("a.a-link-normal.s-no-outline", el => el.getAttribute("href")).catch(() => null);
+    if (linkSelecionado) break;
+  }
+}
+
+if (!linkSelecionado) {
+  console.warn("[WARN] Nenhum produto não patrocinado encontrado para:", termoObj.termoBusca);
+  resultados.push({ termo: termoObj.termoBusca, nome: null, preco: "Indisponível", loja: "Amazon", vendido: false, link: null });
+  return;
+}
+
+const urlProduto = `https://www.amazon.com.br${linkSelecionado}`;
+console.error("[DEBUG] Produto selecionado (não patrocinado):", urlProduto);
 
     const [codigoProduto, ...restoMarca] = termoObj.produto.split(" ");
     const marcaProduto = restoMarca.join(" ").trim();
@@ -191,7 +209,7 @@ async function extrairDetalhesProdutoAmazon(page, urlProduto, termoOriginal, cod
     const marcaNormalizada = normalizar(marcaProduto);
 
     let similaridade = jaroWinkler(descricaoNormalizada, termoOriginal.toUpperCase());
-    let produtoConfere = descricaoNormalizada.includes(marcaNormalizada) && similaridade >= 0.3;
+    let produtoConfere = descricaoNormalizada.includes(marcaNormalizada) && similaridade >= 0.9;
 
     if (!produtoConfere) {
       produtoConfere =
