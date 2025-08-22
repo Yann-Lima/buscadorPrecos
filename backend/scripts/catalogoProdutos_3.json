@@ -1,0 +1,19 @@
+{
+  "produtos": [
+    {
+      "produto": "BAP23",
+      "marca": "BRITÂNIA",
+      "descricao": "Aparador de Pelos Britânia BAP23 Multigroom 11 em 1 Bivolt"
+    },
+    {
+      "produto": "BG-09",
+      "marca": "MONDIAL",
+      "descricao": "Aparador de Pelos BodyGroom 8 em 1 Mondial Painel Digital Bivolt – BG-09"
+    },
+    {
+      "produto": "PAP03",
+      "marca": "PHILCO",
+      "descricao": "Aparador de Pelos Philco Multi Groom Aqua 12 em 1 PAP03"
+    }
+  ]
+}
