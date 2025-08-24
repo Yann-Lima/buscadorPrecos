@@ -11,7 +11,7 @@ const resultados = [];
 const catalogoPath = path.join(__dirname, "catalogoProdutos.json");
 const termosCustomizadosPath = path.join(__dirname, "termosCustomizados.json");
 
-const palavrasProibidasMagalu = ["BOTAO", "COPO", "CONJUNTO LAMINA", "BANDEJA DE ASSAR", "3 BOTÕES LIGA", "DISPLAY DO PAINEL", "AGULHA ORIGINAL", "RESERVATÓRIO ÁGUA", "FILTRO EXPRESSO"];
+const palavrasProibidasMagalu = ["BOTAO", "KIT", "CONJUNTO LAMINA", "BANDEJA DE ASSAR", "3 BOTÕES LIGA", "DISPLAY DO PAINEL", "AGULHA ORIGINAL", "RESERVATÓRIO ÁGUA", "FILTRO EXPRESSO"];
 
 // Carrega termos customizados
 let termosCustomizados = {};
