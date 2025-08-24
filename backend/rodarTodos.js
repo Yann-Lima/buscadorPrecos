@@ -12,12 +12,12 @@ const produtos = produtosJson.produtos;
 
 const scriptsFixos = [
   "amazon.js",
-  /*"carrefour.js",
+  "carrefour.js",
   "casaevideo.js",
   "efacil.js",
   "gazin.js",
   "lebiscuit.js",
-  "mercadolivre.js"*/
+  "mercadolivre.js"
 ];
 
 // Mapeamento fixo do site para índice da coluna na planilha (1-based)

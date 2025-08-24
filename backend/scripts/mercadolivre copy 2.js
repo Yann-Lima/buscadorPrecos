@@ -29,9 +29,11 @@ if (fs.existsSync(termosCustomizadosPath)) {
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
 function delayAleatorio(min, max) {
   return delay(Math.floor(Math.random() * (max - min + 1)) + min);
 }
+
 function normalizar(txt) {
   return (txt || "")
     .normalize("NFD")
@@ -42,6 +44,7 @@ function normalizar(txt) {
     .trim()
     .toUpperCase();
 }
+
 function tituloConfere(tituloOriginal, marca, produto) {
   if (!tituloOriginal) return false;
   const titulo = normalizar(tituloOriginal);
@@ -73,11 +76,27 @@ const userAgents = [
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15"
 ];
 
+// Função para iniciar o navegador com login manual
+async function iniciarLoginManual() {
+  const browser = await puppeteer.launch({ headless: false }); // Modo visível para login
+  const page = await browser.newPage();
+  await page.goto("https://www.mercadolivre.com.br", { waitUntil: "domcontentloaded" });
+
+  console.error("[INFO] Navegador aberto. Por favor, faça o login manual.");
+
+  // Espera 25 minutos para você completar o login
+  await delay(25 * 60 * 1000); // 25 minutos de delay
+
+  console.error("[INFO] 25 minutos passaram. Continuando com o navegador fechado.");
+
+  await browser.close(); // Fecha o navegador após o tempo de login
+}
+
 // Função principal para buscar produto
 async function buscarProdutoML(item, tentativas = 0) {
   const maxTentativas = 3;
   try {
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({ headless: true }); // Modo headless para continuar sem abrir o navegador
     const page = await browser.newPage();
 
     await page.setUserAgent(userAgents[tentativas % userAgents.length]);
@@ -107,9 +126,7 @@ async function buscarProdutoML(item, tentativas = 0) {
       });
     });
 
-    // Palavras proibidas (pode editar facilmente)
-    const palavrasProibidas = ["BOTAO", "COPO", "CONJUNTO LAMINA", "BANDEJA DE ASSAR", "3 BOTÕES LIGA", "DISPLAY DO PAINEL", "AGULHA ORIGINAL", "RESERVATÓRIO ÁGUA", "FILTRO EXPRESSO"];
-
+    // Filtro de produtos
     const links = await page.$$eval(
       "div.ui-search-result__wrapper div.poly-card",
       els => els.map(el => {
@@ -121,30 +138,9 @@ async function buscarProdutoML(item, tentativas = 0) {
       }).filter(Boolean)
     );
 
-    // Filtro: remove patrocinados e palavras proibidas
-    const linksFiltrados = links.filter(l => {
-      const tituloNorm = l.titulo.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
-      if (l.patrocinado) return false;
-      for (const palavra of palavrasProibidas) {
-        if (tituloNorm.includes(palavra)) return false;
-      }
-      return true;
-    });
-
-
     if (!links.length) throw new Error("Nenhum produto encontrado");
 
-    let linkSelecionado = null;
-    const produtoNorm = normalizar(item.produto);
-    for (const l of linksFiltrados) {
-      if (normalizar(l.titulo).includes(produtoNorm)) {
-        linkSelecionado = l.href;
-        break;
-      }
-    }
-    if (!linkSelecionado && linksFiltrados.length > 0) {
-      linkSelecionado = linksFiltrados[0].href;
-    }
+    let linkSelecionado = links[0].href;
 
     await delayAleatorio(500, 1500);
     await extrairDetalhesProdutoML(page, linkSelecionado, item);
@@ -157,55 +153,13 @@ async function buscarProdutoML(item, tentativas = 0) {
       return buscarProdutoML(item, tentativas + 1);
     }
     console.error(`[ERRO] Falha definitiva ao buscar "${item.searchTerm}":`, err.message);
-    resultados.push({
-      termo: item.originalTerm,
-      nome: null,
-      preco: "Indisponível",
-      loja: "Mercado Livre",
-      vendido: false,
-      link: null,
-    });
   }
 }
 
-// Extrair detalhes do produto
-async function extrairDetalhesProdutoML(page, urlProduto, item) {
-  try {
-    await page.goto(urlProduto, { waitUntil: "domcontentloaded", timeout: 60000 });
-    await delayAleatorio(800, 2000);
-
-    const nome = await page.$eval("h1.ui-pdp-title", el => el.innerText.trim());
-    let preco = await page.$eval("meta[itemprop='price']", el => el.content).catch(() => "Indisponível");
-    preco = preco !== "Indisponível" ? `R$ ${parseFloat(preco).toFixed(2).replace(".", ",")}` : "Indisponível";
-
-    const infoVendedor = await page.$eval(".ui-pdp-seller__label-text-with-icon", el => el.innerText.toLowerCase()).catch(() => "");
-    const vendidoML = infoVendedor.includes("mercado livre") || infoVendedor.includes("full") || infoVendedor.includes("vendido por") || infoVendedor.trim() !== "";
-
-    resultados.push({
-      termo: item.originalTerm,
-      nome,
-      preco,
-      loja: "Mercado Livre",
-      vendido: vendidoML,
-      link: urlProduto
-    });
-
-    console.error(`[RESULTADO] ${nome} | ${preco} | Vendido ML: ${vendidoML ? "✅" : "❌"}`);
-  } catch (err) {
-    console.error("[ERRO] Falha ao extrair detalhes:", err.message);
-    resultados.push({
-      termo: item.originalTerm,
-      nome: null,
-      preco: "Indisponível",
-      loja: "Mercado Livre",
-      vendido: false,
-      link: urlProduto
-    });
-  }
-}
-
-// Executa busca de todos produtos
+// Executa a busca e depois do login
 async function executarBuscaEmTodos() {
+  await iniciarLoginManual(); // Primeiro executa o login manual
+
   for (const item of listaProdutos) {
     await buscarProdutoML(item);
     await delayAleatorio(2000, 5000);
