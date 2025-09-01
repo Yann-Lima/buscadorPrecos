@@ -1,26 +1,10 @@
 [
   {
-    "termo": "BAP23 BRITÂNIA",
-    "nome": "Aparador de Pelos Britânia BAP23 Multigroom 11 em 1 Bivolt",
-    "preco": "R$ 179,91",
+    "termo": "VSP-40-B MONDIAL",
+    "nome": "Ventilador de Mesa 40Cm 6 Pás Preto Mondial VSP40 127V",
+    "preco": "R$ 151,90",
     "loja": "Casa e Vídeo",
-    "vendido": false,
-    "link": "https://www.casaevideo.com.br/aparador-de-pelos-britania-bap23-multigroom-11-em-1-bivolt-4414442/p"
-  },
-  {
-    "termo": "BG-09 MONDIAL",
-    "nome": "Aparador De Pelos Praticgroom Mondial Preto 6W BG-09 Bivolt",
-    "preco": "R$ 156,51",
-    "loja": "Casa e Vídeo",
-    "vendido": false,
-    "link": "https://www.casaevideo.com.br/aparador-de-pelos-praticgroom-mondial-preto-6w-bg-09-bivolt-4205877/p"
-  },
-  {
-    "termo": "PAP03 PHILCO",
-    "nome": "Aparador De Pelos Philco Multi Groom Aqua 12 Em 1 Pap03 Bivolt",
-    "preco": "R$ 200,01",
-    "loja": "Casa e Vídeo",
-    "vendido": false,
-    "link": "https://www.casaevideo.com.br/aparador-de-pelos-philco-multi-groom-aqua-12-em-1-pap03-bivolt-4435614/p"
+    "vendido": true,
+    "link": "https://www.casaevideo.com.br/ventilador-de-mesa-40-mondial-vsp40b-6p-pt-127v-/p"
   }
 ]

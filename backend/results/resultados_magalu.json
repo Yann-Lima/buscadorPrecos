@@ -1,8 +1,8 @@
 {
   "AFN-40-BI MONDIAL": {
-    "preco": null,
-    "vendido": false,
-    "link": "https://www.magazineluiza.com.br/air-fryer-mondial-family-afn-40-bi-preto-4l-com-timer/p/228887000/ep/efso/"
+    "preco": "R$ 243,87",
+    "vendido": true,
+    "link": "https://www.magazineluiza.com.br/air-fryer-mondial-family-afn-40-bi-preto-4l-com-timer/p/228887100/ep/efso/?ads=patrocinado&seller_id=magazineluiza"
   },
   "BFR11PG BRITÂNIA": {
     "preco": null,
@@ -15,9 +15,9 @@
     "link": null
   },
   "PFR15PI PHILCO": {
-    "preco": "R$ 399,90",
+    "preco": "R$ 198,70",
     "vendido": true,
-    "link": "https://www.magazineluiza.com.br/air-fryer-philco-44l-antiaderente-redstone-1500w-pfr15pi/p/kffke3h88g/ep/efso/"
+    "link": "https://www.magazineluiza.com.br/cesto-com-puxador-fritadeira-air-fryer-philco-pfr15pi-redsto/p/ha7k91a44g/ep/ctfe/"
   },
   "OFRT520 OSTER": {
     "preco": null,
@@ -27,7 +27,7 @@
   "EAF15 ELECTROLUX": {
     "preco": "R$ 255,55",
     "vendido": true,
-    "link": "https://www.magazineluiza.com.br/air-fryer-electrolux-efficient-rita-lobo-eaf15-preta-com-timer-32l/p/237751500/ep/efso/"
+    "link": "https://www.magazineluiza.com.br/air-fryer-electrolux-efficient-rita-lobo-eaf15-preta-com-timer-32l/p/237751500/ep/efso/?ads=patrocinado&seller_id=magazineluiza"
   },
   "BFR2100 BRITÂNIA": {
     "preco": null,
@@ -35,34 +35,34 @@
     "link": null
   },
   "EAF90 ELECTROLUX": {
-    "preco": "R$ 739,00",
+    "preco": "R$ 797,91",
     "vendido": true,
-    "link": "https://www.magazineluiza.com.br/air-fryer-oven-electrolux-eaf90-digital-grafite-experience-12l-1700w-por-rita-lobo/p/236784800/ep/efso/"
+    "link": "https://www.magazineluiza.com.br/air-fryer-oven-electrolux-eaf90-digital-grafite-experience-12l-1700w-por-rita-lobo/p/236784700/ep/efso/?ads=patrocinado&seller_id=magazineluiza"
   },
   "AFON-12L-BI MONDIAL": {
     "preco": "R$ 529,00",
     "vendido": true,
-    "link": "https://www.magazineluiza.com.br/air-fryer-mondial-forno-oven-afon-12l-bi-preta-12l/p/237219400/ep/efso/"
+    "link": "https://www.magazineluiza.com.br/air-fryer-mondial-forno-oven-afon-12l-bi-preta-12l/p/237219400/ep/efso/?ads=patrocinado&seller_id=magazineluiza"
   },
   "OFRT780 OSTER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/air-fryer-oster-oven-preta-com-forno-12l/p/235654800/ep/efso/"
+    "link": null
   },
   "PFR2200 PHILCO": {
-    "preco": "R$ 499,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/air-fryer-oven-philco-12l-4-em-1-1800w-pfr2200/p/ga1kjaf4d4/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "FW009547 WAP": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fritadeira-eletrica-wap-air-fryer-oven-digital-12l-110v/p/chh20f79a8/ep/efso/"
+    "link": null
   },
   "VSP-40C-NB MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-coluna-mondial-vsp-40c-super-power-com-3-velocidades-modo-silencioso-preto-prata/p/ecc53358da/ar/arvl/"
+    "link": null
   },
   "BVT450 BRITÂNIA": {
     "preco": null,
@@ -72,27 +72,27 @@
   "VTX-40C-8P MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-coluna-mondial-vtx-40c-8p-cr-40cm-3-velocidades-controle-remoto/p/224369300/ar/arvl/"
+    "link": null
   },
   "VFC4 ARNO": {
-    "preco": "R$ 361,10",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/vent-arno-40cm-coluna-turbo-force-vfc4-vfc4-110v-mobilar-eletro/p/dceae72h54/ar/arvc/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "VB4C ARNO": {
-    "preco": "R$ 419,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-arno-coluna-40cm-xtreme-force-preto-vb4c-127v/p/cakfc2bf3d/ar/arvl/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "NVT-40C-8P-B MONDIAL": {
-    "preco": "R$ 209,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-coluna-mondial-nvt-40c-8p-b-turbo-40cm-8-pas-preto-127v-3799-01/p/fak12754g6/ar/arvl/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "VSP-30-B MONDIAL": {
-    "preco": "R$ 109,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-mondial-super-power-vsp-30-b-30cm-6-pas-3-velocidades-60w/p/231203700/ar/arvm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BVT301 BRITÂNIA": {
     "preco": null,
@@ -105,29 +105,29 @@
     "link": null
   },
   "TS30 MALLORY": {
-    "preco": "R$ 23,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/base-plastica-grafite-do-ventilador-mallory-ts30-linha-30cm/p/ka8c774aj9/ar/acve/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "VTR560 CADENCE": {
-    "preco": "R$ 145,50",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/motor-ventilador-cadence-vtr560-e-windy-220v/p/ecff0690h1/ar/acve/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "VSP-40-B MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/ventilador-mondial-super-power-40cm-6-pas-3-velocidades-140w/p/231203900/ar/arvc/"
+    "link": null
   },
   "VB40 ARNO": {
-    "preco": "R$ 227,82",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-mesa-arno-xtreme-force-breeze-vb40-40cm-6-pas-3-velocidades-preto-e-azul/p/235629500/ar/arvm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "VF42 ARNO": {
-    "preco": "R$ 199,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-mesa-2-em-1-arno-40cm-vf42-turbo-force-preto-127v/p/kg3c9f855a/ar/arvp/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BVT400 BRITÂNIA": {
     "preco": null,
@@ -135,34 +135,34 @@
     "link": null
   },
   "VTX-40-8P MONDIAL": {
-    "preco": "R$ 193,41",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-mesa-mondial-vtx-40-8p-turbo-40cm-3-velocidades/p/224370100/ar/arvm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "FW009218 WAP": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/grade-traseira-ventilador-wap-flow-turbo-original-fw009140/p/eaeehe5e58/au/crng/"
+    "link": null
   },
   "VTR409 CADENCE": {
-    "preco": "R$ 143,10",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-cadence-preto-vtr409-220-volts/p/cege2bg1j6/ar/arvm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "NVT-40-8P-B MONDIAL": {
-    "preco": "R$ 179,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-mesa-mondial-turbo-nvt-40-8p-b-40cm-8-pas-3-velocidades-preto-e-prata/p/238534300/ar/arvm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "VE70 ARNO": {
-    "preco": "R$ 259,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-mesa-arno-40cm-ve70-x-treme-7-preto-e-azul-escuro-220v/p/db9g5kk603/ar/arvm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "VTR410 CADENCE": {
-    "preco": "R$ 135,70",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-mesa-cadence-refresh-turbo-6-pas-vtr410-40cm-127v/p/bb9342ga74/ar/arvm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BVT401 BRITÂNIA": {
     "preco": null,
@@ -172,7 +172,7 @@
   "VTX-50-8P MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/ventilador-mondial-super-turbo-vtx-50c-8p-50-cm-8-pas-150-watts-220v-50-60-hz-preto-com-prata/p/cjgk9gh1ge/ar/arvl/"
+    "link": null
   },
   "BVT500 BRITÂNIA": {
     "preco": null,
@@ -180,14 +180,14 @@
     "link": null
   },
   "VB50 ARNO": {
-    "preco": "R$ 311,91",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-mesa-arno-xtreme-force-breeze-50cm-preto-vb50-127v/p/kc28a627a7/ar/arvm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "TURBO 6 VENTISOL": {
-    "preco": "R$ 219,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-coluna-ventisol-turbo-6-pas-50cm-3-velocidades-oscilante/p/dh2kdk96k9/ar/arvl/?ads=patrocinado&seller_id=techshop"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BVT510 BRITÂNIA": {
     "preco": null,
@@ -197,7 +197,7 @@
   "VT-30C-NB MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/ventilador-30-cm-mondial-vt-30-nb-127v-60hz-turbo/p/kc5b6c3bad/ar/arvm/"
+    "link": null
   },
   "BVT350 BRITÂNIA": {
     "preco": null,
@@ -205,14 +205,14 @@
     "link": null
   },
   "Coluna 30cm VENTISOL": {
-    "preco": "R$ 134,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ventilador-de-coluna-preto-30cm-turbo-6-pas-oscilante-ventisol-127v/p/dd64c00k7b/ar/arvl/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "L-99-FB MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/liquidificador-mondial-turbo-power-l-99-fb-preto-com-filtro-3-velocidades-550w/p/021756700/ep/liqu/"
+    "link": null
   },
   "Black 3 BRITÂNIA": {
     "preco": null,
@@ -222,27 +222,27 @@
   "LQ651 MULTI": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/liquidificador-turbo-1000w-127v-multi-home-lq1001-preto/p/fb7c605dh8/ep/liqu/"
+    "link": null
   },
   "LQ31 ARNO": {
-    "preco": "R$ 221,40",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-power-mix-limpa-facil-lq31-ln286bb1-cinza-claro-127v-arno/p/cg4653h06k/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BLQ920P BRITANIA": {
-    "preco": "R$ 219,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-britania-blq920p-turbo-facas-inox-26l-600w/p/hf8kk9a3aa/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "LIQ347 CADENCE": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/motor-liquidificador-cadence-liq341/p/ke57k282ah/ep/aclq/"
+    "link": null
   },
   "L-550-B MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/furadeira-de-impacto-mondial-550w-2-pecas-fi-09/p/238941300/fs/otfs/?ads=patrocinado&seller_id=magazineluiza"
+    "link": null
   },
   "RI2110/90 PHILLIPS WALITA": {
     "preco": null,
@@ -250,34 +250,34 @@
     "link": null
   },
   "LQ10 ARNO": {
-    "preco": "R$ 137,75",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-power-mix-lq10-preto-arno-550w/p/gh1ck28hb8/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "LIQ100 CADENCE": {
-    "preco": "R$ 110,35",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-cadence-twist-15-litros-600w-liq100/p/bk30fej8a3/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "FAST MIX 2 MALLORY": {
-    "preco": "R$ 89,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-mallory-fast-mix-1-5l-2-velocidades-520w-com-funcao-pulsar/p/gf0j808hek/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "LQLF AGRATTO": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/liquidificador-agratto-lqlf-01-leitoso-850w-cristal-127v-f002/p/hb54g75dh9/ep/liqu/"
+    "link": null
   },
   "L-97-W MONDIAL": {
-    "preco": "R$ 94,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-mondial-pratic-power-l-97-w-2-velocidades-pulsar-550w-branco/p/238229400/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "L-900 FB MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/liquidificador-mondial-turbo-l-900-fr-copo-vermelho-com-filtro-05-velocidades-900w/p/021722800/ep/lqac/"
+    "link": null
   },
   "DIAMANTE PRETO 900W BRITÂNIA": {
     "preco": null,
@@ -290,24 +290,24 @@
     "link": null
   },
   "LIQ200 CADENCE": {
-    "preco": "R$ 130,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-cadence-hit-preto-127v800w-liq200/p/hhh0j11b37/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "LN61 ARNO": {
-    "preco": "R$ 228,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/copo-do-liquidificador-arno-power-max-limpa-facil-700w-ln60-ln61-sem-faca-sem-tampa-em-acrilico-original/p/gg3gf90cka/ep/cpli/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "LQ35 ARNO": {
-    "preco": "R$ 217,55",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-arno-power-mix-lq35-15-velocidades-700w-preto/p/238023900/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "L-1100-BI MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/liquidificador-mondial-turbo-inox-l-1100-bi-preto-com-filtro-12-velocidades-1100w/p/021756300/ep/liqu/"
+    "link": null
   },
   "BLQ1280P BRITÂNIA": {
     "preco": null,
@@ -317,12 +317,12 @@
   "OLIQ606 OSTER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/liquidificador-oster-1100-full-32l-1100w-prata-oliq606127v/p/bhj8d9ch3j/ep/liqu/"
+    "link": null
   },
   "PLQ1411P PHILCO": {
-    "preco": "R$ 209,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-philco-plq1411p-1150w-12-velocidades/p/fec5b36979/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BLST3B-R2T OSTER": {
     "preco": null,
@@ -330,14 +330,14 @@
     "link": null
   },
   "LQ1111 MULTI": {
-    "preco": "R$ 149,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-turbo-26l-8-velocidades-1100w-127v-cinza-multi-home-lq1111/p/bkc19hj4gf/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "L-28 MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/escova-secadora-mondial-es-28-1200w-3-velocidades-turmalina/p/236598600/pf/esse/?ads=patrocinado&seller_id=magazineluiza"
+    "link": null
   },
   "RI2112/90 PHILLIPS WALITA": {
     "preco": null,
@@ -345,39 +345,39 @@
     "link": null
   },
   "Flash Mix MALLORY": {
-    "preco": "R$ 49,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/copo-para-liquidificador-mallory-tornado-modelo-novo-vita-mais-flash-mix-450w/p/hc4ah0eagc/ep/cpli/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Flash Mix+ MALLORY": {
-    "preco": "R$ 49,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/copo-para-liquidificador-mallory-tornado-modelo-novo-vita-mais-flash-mix-450w/p/hc4ah0eagc/ep/cpli/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "L-1200-BI MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/escova-secadora-mondial-es-02-bi-1200w-3-niveis-de-temperatura-tourmaline-ion/p/237252900/pf/esse/?ads=patrocinado&seller_id=magazineluiza"
+    "link": null
   },
   "PH900 Preto PHILCO": {
-    "preco": "R$ 138,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-philco-ph900-preto-com-filtro-12-velocidades-1200w/p/021749000/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "RI2242_90 PHILLIPS WALITA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/liquidificador-philips-walita-serie-5000-ri2242-91-preto-12-velocidades-pulsar-1200w/p/021734000/ep/liqu/"
+    "link": null
   },
   "PLQ2100PI PHILCO": {
-    "preco": "R$ 170,05",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-philco-plq2100pi-com-filtro-12-velocidades-1400w-preto/p/236753300/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "RI2240_90 PHILLIPS WALITA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/lamina-para-liquidificador-philips-walita-ri2240-id-53543/p/fh1ecj48ah/ep/cpli/"
+    "link": null
   },
   "BLQ1380P BRITÂNIA": {
     "preco": null,
@@ -387,22 +387,22 @@
   "L-1400-GI MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/liquidificador-mondial-turbo-glass-l-1400-gi-copo-de-vidro-12-velocidades-1400w-preto/p/237634100/ep/liqu/"
+    "link": null
   },
   "BLSTMG-BR8 OSTER": {
-    "preco": "R$ 229,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-oster-super-chef-750w-15-litros-preto-127v-blstmg-br8/p/fg83jk7aak/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PLQ1350 PHILCO": {
-    "preco": "R$ 230,67",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-philco-plq1350-copo-de-vidro-12-velocidades-pulsar-1200w-preto/p/ed53kck0a7/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "OLIQ520 OSTER": {
-    "preco": "R$ 279,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/liquidificador-power-oster-oliq520-preto-22l-copo-de-vidro-1250w-110v/p/heej7bbb77/ep/liqu/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "EBS30 ELECTROLUX": {
     "preco": null,
@@ -422,7 +422,7 @@
   "L-77 MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/5-arraste-acoplador-copo-liquidificador-mondial-l-60-l-66-l-61-l-63-l-67-l-77/p/bk08h59f6h/ep/cpli/"
+    "link": null
   },
   "AFN-50-BI MONDIAL": {
     "preco": null,
@@ -440,109 +440,109 @@
     "link": null
   },
   "PAF55A PHILCO": {
-    "preco": "R$ 349,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-eletrica-air-fryer-philco-paf55a-55-l-1500w-110v/p/bcaa2ffgk5/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "EAF40 ELECTROLUX": {
-    "preco": "R$ 349,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-airfryer-electrolux-eaf40-efficient-56l-1400w-grafite-127v/p/cceee50741/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Fryer Space ELGIN": {
-    "preco": "R$ 219,12",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-eletrica-air-fryer-elgin-space-5-5l-1700w-preto/p/fdcbadbbhf/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "FRB50P1 MIDEA": {
-    "preco": "R$ 310,20",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-frb50p1-midea-5-l-127v-pt/p/gfc9h09fbf/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AFN-60-BI MONDIAL": {
-    "preco": "R$ 361,77",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/air-fryer-mondial-grand-family-afn-60-bi-preta-6l/p/237893900/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AFN-60-RI MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fritadeira-eletrica-sem-oleo-air-fryer-mondial-grand-family-inox-afn-50-bi-preto-5l-com-timer/p/023371000/ep/efso/"
+    "link": null
   },
   "EAF50 ELECTROLUX": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/air-fryer-electrolux-family-efficient-eaf51-dark-red-5l-com-timer/p/236323100/ep/efso/"
+    "link": null
   },
   "RI9280 WALITA": {
-    "preco": "R$ 939,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-airfryer-xl-conectada-philips-walita-preta-ri9280/p/kah65787g7/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PFR67PI PHILCO": {
-    "preco": "R$ 369,22",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-air-fryer-pfr67pi-antiaderente-6l-philco-127v-britania/p/ha5h2a2ebj/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MAD600010APKW1 MIDEA": {
-    "preco": "R$ 669,78",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-air-fryer-6l-smart-chef-plus-midea-mad600010apkw1-127v-cor-preta/p/db7jg2fj4b/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AFD6 ARNO": {
-    "preco": "R$ 1082,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-sem-oleo-arno-airfry-grill-expert-maxx-digital-afd6-arno/p/ag26kh03ae/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AFN-80-BI MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/air-fryer-mondial-forno-oven-afon-12l-bi-preta-12l/p/237219400/ep/efso/"
+    "link": null
   },
   "AFN-80-RI MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fritadeira-eletrica-air-fryer-mondial-afn80bi-8l-1900w/p/ddjfc7jdkh/ep/efso/"
+    "link": null
   },
   "AFN-80-FB MONDIAL": {
-    "preco": "R$ 581,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-eletrica-air-fryer-8l-mondial-afn-80-fb-127v/p/fa313ea49f/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PFR13P PHILCO": {
-    "preco": "R$ 406,85",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-air-fryer-philco-jumbo-pfr13p-81-litros-preto/p/jbed92jj5j/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Chrome Fry ELGIN": {
-    "preco": "R$ 339,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fritadeira-eletrica-elgin-chrome-fry-afc80-8l-1900w-cromado-220v/p/hf7k28jja2/ep/efso/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Gran Fry ELGIN": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fritadeira-eletrica-air-fryer-petit-fry-elgin-3-7-litros-110v/p/je28a1k9f8/ep/efso/"
+    "link": null
   },
   "FWM85P1 MIDEA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/ar-condicionado-midea-12000-btus-frio-220v-r32/p/ba0021d8ef/ar/arar/"
+    "link": null
   },
   "AFDO-25L-FD MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fritadeira-air-fryer-forno-digital-25l-mondial-afo-25l-bi/p/gc19jb5be2/ep/efso/"
+    "link": null
   },
   "AF-250FD2 Labravia": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/air-fryer-mondial-family-iv-af-30i-preta-35l-com-timer/p/023338100/ep/efso/"
+    "link": null
   },
   "TSSTTVFDMAF OSTER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/samsung-smart-tv-58-crystal-uhd-4k-u8500f-2025-samsung-smart-tv-50-crystal-uhd-4k-u8100f-2025/p/fgejd7h6c7/et/tv4k/"
+    "link": null
   },
   "BAP23 BRITÂNIA": {
     "preco": null,
@@ -550,14 +550,14 @@
     "link": null
   },
   "BG-09 MONDIAL": {
-    "preco": "R$ 175,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/aparador-de-pelos-bodygroom-8-em-1-mondial-painel-digital-bivolt-bg-09/p/jgkechk85e/pf/papp/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PAP03 PHILCO": {
-    "preco": "R$ 158,01",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/aparador-de-pelos-philco-multi-groom-aqua-pap03-12-em-1-com-acessorios-1-velocidade/p/233383300/pf/papp/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MG3711/15 PHILIPS": {
     "preco": null,
@@ -565,84 +565,84 @@
     "link": null
   },
   "AWS-T2W-02 AIWA": {
-    "preco": "R$ 1689,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-torre-aiwa-aws-t2w-02-bluetooth-2300w-rms-amplificada/p/238676000/ea/cxsm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AWS-SP-01 AIWA": {
-    "preco": "R$ 225,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-speaker-aiwa-bluetooth-luzes-multicores-ip65-aws-sp-01/p/db6g5ckhf3/ea/cxsm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AWS-T1W-02 AIWA": {
-    "preco": "R$ 1627,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/torre-de-som-aiwa-aws-t1w-02-1600w-1-woofer-tws-bluetooth/p/bee6ed612d/ea/eami/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BOOMBOX 3 JBL": {
-    "preco": "R$ 2041,55",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-jbl-boombox-3-bluetooth-amplificada-portatil-80w-rms/p/238017600/ea/jbla/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "XBOOM XG9S LG": {
-    "preco": "R$ 1499,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-bluetooth-boombox-lg-xboom-go-xg9s-power-80w-40w-rms-sound-boost-ip67-preto-bivolt/p/jch72819e6/ea/cxsm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "RNC9 LG": {
-    "preco": "R$ 1797,93",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-torre-lg-rnc9-xboom-multi-bluetooth-usb-e-optical/p/237451100/ea/cxsm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "RNC7 LG": {
-    "preco": "R$ 1407,12",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-lg-xboom-rnc7-multi-bluetooth-8-com-tweeter-2-usb-e-optical/p/237451000/ea/cxsm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "RNC5 LG": {
-    "preco": "R$ 1150,82",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-lg-xboom-rnc5-multi-bluetooth-8-usb-e-optical/p/237450900/ea/cxsm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Hyperboom 1000 WAAW": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-torre-amvox-aca-1000-new-x-bluetooth-1000w-rms-amplificada/p/237877800/ea/cxsm/"
+    "link": null
   },
   "MCE-01-AL MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/batedor-massa-leve-original-de-batedeira-planetaria-mondial-b-48-b-sl-bp-01-bp-02-e-bp-03-bps/p/jcgk9d45de/ep/bate/"
+    "link": null
   },
   "BVSTEM7300 OSTER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/cafeteira-espresso-oster-xpert-perfect-brew-220v/p/kaj4cacb20/ep/cfex/"
+    "link": null
   },
   "BVSTEM8100 OSTER": {
-    "preco": "R$ 236,55",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/bico-da-saida-do-leite-da-cafeteira-oster-bvstem8100-id57716/p/kd6b0b9862/au/pmau/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "EP1220 WALITA": {
-    "preco": "R$ 2949,50",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cafeteira-espresso-superautomatica-serie-1200-philips-walita-preta-1400w-ep1220/p/ah61aa9f6k/ep/otep/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "EP2230 WALITA": {
-    "preco": "R$ 64,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/tampinha-acrilica-do-adicionamento-de-po-cafe-para-sua-maquina-lattego-ep1220-ep2230-ep5441-philips-walita/p/cgh272k73e/ed/oted/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "EP5441 WALITA": {
-    "preco": "R$ 64,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/tampinha-acrilica-do-adicionamento-de-po-cafe-para-sua-maquina-lattego-ep1220-ep2230-ep5441-philips-walita/p/cgh272k73e/ed/oted/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "CESP ARNO": {
-    "preco": "R$ 1529,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cafeteira-eletrica-arno-espresso-steam-pump-inox-1l-cesp/p/ffb76db38d/ep/otep/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BCF33 BRITÂNIA": {
     "preco": null,
@@ -650,14 +650,14 @@
     "link": null
   },
   "C-20-EC MONDIAL": {
-    "preco": "R$ 609,65",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cafeteira-eletrica-mondial-c-20-ec-espresso-20-bar-1200w/p/da578076ed/ep/cafe/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BVSTEM7200 OSTER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/cafeteira-espresso-oster-compacta-perfect-brew/p/ad6g1250c7/ep/cfex/"
+    "link": null
   },
   "OCAF900-127 / OCAF900-220 OSTER": {
     "preco": null,
@@ -665,154 +665,154 @@
     "link": null
   },
   "Coffee Express PHILCO": {
-    "preco": "R$ 539,91",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cafeteira-philco-coffee-express-15-bar-filtro-permanente/p/bfj10e1hjc/ep/cfex/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "C-28-ECL MONDIAL": {
-    "preco": "R$ 1069,61",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cafeteira-espresso-mondial-dolce-latte-1350w-preto-inox-220v-c-28-ecl/p/ab0a1d1f4k/ep/cafe/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BVSTEM6603SS OSTER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/cafeteira-espresso-oster-nova-primalatte-inox-para-capsula-po-e-sache/p/dk97639bb5/ep/cafe/"
+    "link": null
   },
   "BVSTEM6701SS OSTER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/filtro-expresso-curto-p-cafeteira-oster-bvstem6701ss-46842/p/fehc4fh5c3/ep/acae/"
+    "link": null
   },
   "BVSTEM6801M OSTER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/cafeteira-espresso-oster-primalatte-touch-para-capsula-po-e-sache/p/jae7efkag3/ep/cafe/"
+    "link": null
   },
   "PCF21P PHILCO": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/cafeteira-eletrica-philco-pcf20a-preta/p/238802300/ep/cafe/"
+    "link": null
   },
   "ACA 221 Gigante II AMVOX": {
-    "preco": "R$ 348,42",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-portatil-bluetooth-amvox-aca-221-gigante-ii-com-02-microfones/p/bh2ae658j6/ea/easm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "ACA 255 HIT AMVOX": {
-    "preco": "R$ 259,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-amplificada-preta-bivolt-bluetooth-aca-255-hit-250w-amvox/p/hkhj88g08c/ea/cxsm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "ACA  251  New X AMVOX": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-amplificada-bluetooth-amvox-aca-251-new-x-250w-8-usb-com-tweeter/p/237997400/ea/easm/"
+    "link": null
   },
   "ACA 480 VIPER II AMVOX": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-acustica-bluetooth-480w-aca480-viper-ii-amvox-preta/p/ae3624cdc0/ea/cxsm/"
+    "link": null
   },
   "ACA 680 Fantasy AMVOX": {
-    "preco": "R$ 699,80",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-amplificada-aca-680-fantasy-bluetooth-680w-bivolt-amvox/p/cff4fjkcfc/ea/easm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "ACA 550 Strondo II AMVOX": {
-    "preco": "R$ 489,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-amvox-aca-550-strondo-ii-bluetooth-amplificada-550w-12-usb-com-tweeter/p/jg09afc4fa/ea/cxsm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "ACA 880 AMVOX": {
-    "preco": "R$ 779,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-amvox-power-x-aca-880-bluetooth-ativa-880w/p/238036200/ea/easm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "CM-150 MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/escova-alisadora-black-rose-mondial-ea-07-cabo-giratorio-bivolt/p/jf7hjb0dk2/pf/eali/"
+    "link": null
   },
   "CM-250 MONDIAL": {
-    "preco": "R$ 284,05",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-mondial-connect-party-plus-cm-250-bluetooth-amplificada-portatil-250w-8-usb/p/234960100/ea/cxsm/?ads=patrocinado&seller_id=magazineluiza"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "CM-400 MONDIAL": {
-    "preco": "R$ 426,55",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-mondial-cm-400-bluetooth-portatil-amplificada-400w-usb/p/030214300/ea/easm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "CM-550 MONDIAL": {
-    "preco": "R$ 569,05",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-amplificada-connect-power-mondial-cm-550/p/230398700/ea/easm/?ads=patrocinado&seller_id=magazineluiza"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "SP402E PULSE": {
-    "preco": "R$ 294,42",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-pulse-burst-250w-rms-8pol-bt-aux-usb-fm-sp402e/p/jjdg40cf6a/ea/easm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "BDJ77BE BRASTEMP": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/cooktop-de-inducao-4-bocas-7200w-220v-brastemp-bdj77bebna/p/kg1ff1f9j5/ed/ck4b/"
+    "link": null
   },
   "400000363 DAKO": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fogao-5-bocas-dako-branco-supreme/p/240119100/ed/fg4b/"
+    "link": null
   },
   "IE60P ELECTROLUX": {
-    "preco": "R$ 3103,03",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cooktop-4-bocas-de-inducao-electrolux-experience-com-unicook-e-timer-ie60p/p/eh1bhk7d5k/ed/ck4b/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "29850-220V-[29850-71205] FISCHER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/cooktop-de-inducao-fischer-4-bocas-smartzone-com-booster-vitroceramica-220v-preto-29850-71205/p/eedjd2c1hk/ed/ck2b/"
+    "link": null
   },
   "CIMAS2003 ITATIAIA": {
-    "preco": "R$ 1419,21",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cooktop-itatiaia-master-4-bocas-vidro-preto-inducao-220v-cimas2003/p/gk2j6g1b0b/ed/ck4b/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "CTI-03 MONDIAL": {
-    "preco": "R$ 1439,10",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cooktop-4-bocas-inducao-mondial-touch-preto-acendimento-automatico-cti-03/p/240012500/ed/ck4b/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "400000461 DAKO": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fogao-5-bocas-dako-branco-supreme/p/240119100/ed/fg4b/"
+    "link": null
   },
   "IC30 ELECTROLUX": {
-    "preco": "R$ 1699,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cooktop-2-bocas-de-inducao-electrolux-com-unicook-e-painel-touch-ic30/p/694292500/ed/ck4b/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "CIMID2002 ITATIAIA": {
-    "preco": "R$ 889,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cooktop-itatiaia-midi-2-bocas-vidro-preto-inducao-220v-cimid2002/p/fd79jeek35/ed/fg6b/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "CTI-02 MONDIAL": {
-    "preco": "R$ 719,10",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cooktop-2-bocas-inducao-mondial-touch-preto-acendimento-automatico-cti-02/p/240012600/ed/ck2b/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MCI162BG1 PHILCO": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/smart-tv-58-philco-led-4k-google-tv-hdr10-p58kga-preto/p/agaaf5b6j0/et/elit/"
+    "link": null
   },
   "CP31 ARNO": {
-    "preco": "R$ 151,91",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/espremedor-de-frutas-arno-suco-express-cp31-eletrico-40w-750ml/p/021808100/ep/espe/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Bellagio BRITÂNIA": {
     "preco": null,
@@ -832,152 +832,152 @@
   "ECP10 ELETROLUX": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/espremedor-de-frutas-electrolux-ecp10-preto-e-prata-30w-800ml/p/236783900/ep/cent/"
+    "link": null
   },
   "E-02 MONDIAL": {
-    "preco": "R$ 62,61",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/espremedor-frutas-preto-220v-e-02-mondial/p/bkjdk49hj5/ep/espe/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "3481 AGRATTO": {
-    "preco": "R$ 271,16",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/extrator-de-suco-300w-bivolt-ref-3481-agratto-ventisol/p/geefjj97jk/ep/cent/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Turbo Pro 260W BRITANIA": {
-    "preco": "R$ 368,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/espremedor-e-extrator-britania-laranja-limao-turbo-pro-260w-preto-inox-bivolt/p/kd8fcbd24b/ep/espe/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "E-10 MONDIAL": {
-    "preco": "R$ 14,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/cone-laranja-p-extrator-mondial-e10-100-original-e10-maior/p/ffjha55dhb/ep/ccpc/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "VFA1110 BLACK & DECKER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/ferro-de-passar-roupa-a-seco-black-decker-vfa-1110-preto/p/021910200/ep/elfs/"
+    "link": null
   },
   "F300 BLACK & DECKER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/ferro-de-passar-roupa-a-seco-black-decker-antiaderente-127v-1000w-vermelho/p/hh3f4jc757/ep/elfs/"
+    "link": null
   },
   "IRO101 CADENCE": {
-    "preco": "R$ 67,41",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ferro-de-passar-roupa-a-seco-cadence-petit-100-iro101-bege-e-branco/p/ak19593je2/ep/elfs/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Iron Force Plus ELGIN": {
-    "preco": "R$ 52,16",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ferro-de-passar-antiaderente-elgin-iron-force-plus-1200w-220v/p/cf4k5ffc2c/ep/elfs/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PFF603 LENOXX": {
-    "preco": "R$ 61,92",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ferro-de-passar-a-seco-lenoxx-fast-pratic-pff603-127v-1250w/p/kb7ecf583h/ep/ferr/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "FSN-55-B MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/ferro-de-passar-roupa-a-seco-mondial-base-de-aluminio-polido-127v-fsn-55-bl/p/ad3gk3akka/ep/elfs/"
+    "link": null
   },
   "PFE01P Retrô PHILCO": {
-    "preco": "R$ 89,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/ferro-de-passar-roupa-a-seco-philco-retro-pfe01p-preto/p/236753700/ep/elfs/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "HD1172 WALITA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/ferro-de-passar-roupa-a-seco-philips-walita-classic-hd1172-80-cinza/p/gg1e2k4gce/ep/elfs/"
+    "link": null
   },
   "CMA20BB CONSUL": {
-    "preco": "R$ 198,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/placa-original-microondas-consul-127v-20l-cm020bf-cma20bb/p/ee47b00j04/ed/acmi/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "CMS46AR CONSUL": {
-    "preco": "R$ 679,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/micro-ondas-consul-32-litros-com-funcao-tira-odor-cms46ar-cinza-com-frente-espelhada-110v/p/djg02b9g16/ed/mond/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MTO30 ELECTROLUX": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/micro-ondas-electrolux-34l-meo44-branco/p/011398601/ed/mond/"
+    "link": null
   },
   "MI41S ELECTROLUX": {
-    "preco": "R$ 849,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/micro-ondas-electrolux-31l-mi41s/p/011339100/ed/mond/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MRAS21 MIDEA": {
-    "preco": "R$ 448,61",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/micro-ondas-20-litros-midea-mras21-com-funcao-tira-odor-e-eco-branco-com-porta-preta-110v/p/hd65k00gjc/ed/mond/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MXSA35S1 MIDEA": {
-    "preco": "R$ 1157,78",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/forno-micro-ondas-midea-35-litros-espelhado-prata-127v-mxsa35s1/p/kj15fk1bhd/ed/forn/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MO-01-21-W MONDIAL": {
-    "preco": "R$ 480,01",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/micro-ondas-mondial-21l-branco-mo-01-21-w/p/236538100/ed/mond/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MO-02-34-E MONDIAL": {
-    "preco": "R$ 620,91",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/micro-ondas-mondial-34l-espelhado-mo-02-34-e/p/236537700/ed/mond/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "NN-ST25LWRU PANASONIC": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/micro-ondas-panasonic-21lt-220v-branco-nn-st25lwruk/p/kg08112jfk/ed/mond/"
+    "link": null
   },
   "ST67LSRU PANASONIC": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/micro-ondas-panasonic-34l-nn-st67lsrun/p/227507900/ed/mond/"
+    "link": null
   },
   "PMO23BB PHILCO": {
-    "preco": "R$ 499,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/micro-ondas-philco-20l-multifuncoes-limpa-facil-pmo23bb-branco/p/011395700/ed/mond/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PMO34EB PHILCO": {
-    "preco": "R$ 871,57",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/micro-ondas-philco-34-litros-1400w-espelhado-limpa-facil-pmo34eb/p/he4h06k6d4/ed/mond/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "APR 1001 AMVOX": {
-    "preco": "R$ 77,50",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/mini-processador-de-alimentos-eletrico-110v-350ml-2-laminas-preto-amvox-apr-1001-black-127v/p/bg139403kb/ud/prcm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MP120-B2 BLACK & DECKER": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/mini-processador-black-decker-mp120-branco-120w/p/ed29156999/ud/prcm/"
+    "link": null
   },
   "2P BRITANIA": {
-    "preco": "R$ 33,24",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/copo-jarra-mini-processador-de-alimentos-britania-2p-360ml-britania-philco/p/fcd13k0j5b/ep/tprs/?ads=patrocinado&seller_id=afximportoficial"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MPR520 CADENCE": {
-    "preco": "R$ 94,05",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/mini-processador-de-alimentos-cadence-mpr520-127v/p/fgja6e1ak0/ud/tttp/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PMP431 LENOXX": {
-    "preco": "R$ 108,13",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/mini-processador-de-alimentos-pratic-preto-127v-pmp431-lenoxx/p/bh7j4d30jg/ud/prcm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "MP-16-B/R MONDIAL": {
     "preco": null,
@@ -985,19 +985,19 @@
     "link": null
   },
   "SAN400 CADENCE": {
-    "preco": "R$ 109,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/grill-sanduicheira-cadence-click-san400-750w-duplo-aquecimento/p/fcf55ce0j4/ep/epgr/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PGR25A PHILCO": {
-    "preco": "R$ 119,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/sanduicheira-grill-philco-preta-antiaderente-pgr25a-750w/p/238801800/ep/gset/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AMS 500 AMVOXX": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/sanduicheira-amvox-ams-500-preta-750w-antiaderente/p/235234000/ep/gset/"
+    "link": null
   },
   "BGR01PI BRITÂNIA": {
     "preco": null,
@@ -1017,17 +1017,17 @@
   "ESG20 ELETROLUX": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/sanduicheira-eletrica-misteira-grill-electrolux-750w-inox/p/cf9jfeda1d/ep/gset/"
+    "link": null
   },
   "S-20 MONDIAL": {
-    "preco": "R$ 103,32",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/sanduicheira-master-grill-mondial-inox-s-20-110v-60hz/p/gd5kjffkgd/ep/gset/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AMS 370 AMVOXX": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/sanduicheira-amvox-ams-370-preta-750w-antiaderente/p/235233800/ep/gset/"
+    "link": null
   },
   "BGR01P BRITÂNIA": {
     "preco": null,
@@ -1037,22 +1037,22 @@
   "SAN260 CADENCE": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/sanduicheira-eletrica-cadence-toast-grill/p/dj7ebf849k/ep/gset/"
+    "link": null
   },
   "Break Time ELGIN": {
-    "preco": "R$ 91,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/sanduicheira-antiaderente-grill-break-time-elgin-preta-127v/p/jjdhg00b5j/ep/gset/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "S-12 MONDIAL": {
-    "preco": "R$ 79,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/grill-e-sanduicheira-mondial-fast-grill-s12-preta-750w-220v/p/ead584afa5/ep/epgr/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "CE043 MULTI": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/sanduicheira-minigrill-chapa-antiaderente-dupla-127v-750w-multilaser-preta-ce043/p/dj83b88hkd/ep/gset/"
+    "link": null
   },
   "BSC2150 BRITÂNIA": {
     "preco": null,
@@ -1067,77 +1067,77 @@
   "SEC560 CADENCE": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-cadence-rouge-style-ii/p/fca00hbkd1/pf/psec/"
+    "link": null
   },
   "SC-13 MONDIAL": {
-    "preco": "R$ 267,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-com-difusor-de-cachos-2000w-mondial-sc-13-power-shine-black-ion/p/fk1ja35kcc/pf/psec/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "SC-32 MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-mondial-golden-rose-scn-32-ions-turmalina-2000w-2-velocidades/p/237455500/pf/psec/"
+    "link": null
   },
   "PSC2450 PHILCO": {
-    "preco": "R$ 122,13",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelos-philco-psc2450/p/jda6g2ac33/pf/psec/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PH3700 PHILCO": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelos-philco-profissional-2200w-com-difusor-ar-frio-e-quente/p/hf730bgkk8/pf/psec/"
+    "link": null
   },
   "Cherry 2100W PHILCO": {
-    "preco": "R$ 142,41",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-philco-cherry-2100w-2-velocidades/p/216627600/pf/psec/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PSC2300 PHILCO": {
-    "preco": "R$ 141,71",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-philco-ions-tourmaline-cherry-2200w-2-velocidades-psc2300/p/238497300/pf/psec/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "PSC2350 PHILCO": {
-    "preco": "R$ 139,41",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-philco-ions-tourmaline-cherry-2200w-2-velocidades-psc2350/p/238498100/pf/psec/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "GAM-BECHD0000002793_PAI GAMA ITALY": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-ga-ma-italy-ceramic-ion-preto-2100w-2-velocidades-professional-eleganza-plus/p/237879100/pf/psec/"
+    "link": null
   },
   "GAM-BECHD0000002791_PAI GAMA ITALY": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-ga-ma-italy-ceramic-ion-preto-2100w-2-velocidades-professional-eleganza-plus/p/237879100/pf/psec/"
+    "link": null
   },
   "GAM-BECHD0000002810_PAI GAMA ITALY": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-ga-ma-italy-ceramic-ion-preto-2100w-2-velocidades-professional-eleganza-plus/p/237879100/pf/psec/"
+    "link": null
   },
   "GAM-BECHD0000002808_PA GAMA ITALY": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-ga-ma-italy-ceramic-ion-preto-2100w-2-velocidades-professional-eleganza-plus/p/237879100/pf/psec/"
+    "link": null
   },
   "SCP-JU-01 MONDIAL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-mondial-juliette-golden-rose-ceramica-2000w-2-velocidades/p/236574900/pf/psec/"
+    "link": null
   },
   "PSA3250 PHILCO": {
-    "preco": "R$ 139,41",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-com-ions-tourmaline-2100w-philco-psa3250/p/akagab5j0b/pf/psec/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Style 2000W TAIFF": {
-    "preco": "R$ 214,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-taiff-style-red-vermelho-2000w-2-velocidades/p/108515500/pf/psec/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Tourmaline Íon 2100W TAIFF": {
     "preco": null,
@@ -1145,9 +1145,9 @@
     "link": null
   },
   "Easy 1700W TAIFF": {
-    "preco": "R$ 748,36",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-profissional-easy-1700w-taiff-cor-preto/p/ck7d76fckg/pf/pscp/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Black Íon TAIFF": {
     "preco": null,
@@ -1165,29 +1165,29 @@
     "link": null
   },
   "SEC185 CADENCE": {
-    "preco": "R$ 77,22",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelos-cadence-rouge-style-2-velocidades-sec185-oster/p/ajk6d5k662/pf/psec/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Eolic Travel GAMA ITALY": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/kit-portatil-secador-eolic-travel-e-prancha-mini-bivolt-ga-ma-italy/p/kgfjj44864/pf/psec/"
+    "link": null
   },
   "SC-10 MONDIAL": {
-    "preco": "R$ 254,88",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelos-mondial-max-travel-sc-10-congratulations-store/p/ak2f9ekfb0/pf/psec/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Titanium Travel 750W PHILCO": {
-    "preco": "R$ 92,91",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/secador-de-cabelo-philco-titanium-travel-750w/p/bdb98cjh96/pf/psec/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Travel Shine PHILCO": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/kit-secador-e-chapinha-de-viagem-philco-travel-shine/p/108504600/pf/kiap/"
+    "link": null
   },
   "BHC010/81 PHILIPS": {
     "preco": null,
@@ -1197,57 +1197,57 @@
   "AWS-EB-01-B AIWA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fone-de-ouvido-aws-eb-01-b-bluetooth-ipx5-anc-aiwa/p/bh6hh4a4kk/ea/focf/"
+    "link": null
   },
   "AWS-EB-05-B AIWA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-aiwa-boombox-plus-aws-bbs-01-b-bluetooth-amplificada-200w-usb/p/238640500/ea/easm/"
+    "link": null
   },
   "AWS-EB-04-B AIWA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fone-de-ouvido-eardbud-aiwa-aws-eb-04-p-bluetooth-ipx4-lilas/p/fdgh4j5bh2/ea/fobt/"
+    "link": null
   },
   "AWS-EB-03-B AIWA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/gabinete-gamer-rise-mode-zeus-glass-03-mid-tower-leds-frontal-e-lateral-customizaveis-lateral-em-vidro-preto-e-branco-rm-ca-ze-03-bw/p/bjdj2e7j1e/in/gbgm/"
+    "link": null
   },
   "AWS-HP-05-B AIWA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fone-de-ouvido-headphone-aiwa-hp-05-hi-fi-anc-nfc-bt-app/p/aea88fb196/ea/fngm/"
+    "link": null
   },
   "AWS-HP-04-B AIWA": {
-    "preco": "R$ 229,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/headphone-aiwa-bluetooth-5-4-cancelamento-de-ruido-anc-preto-aws-hp-04-b/p/facg9d645c/ea/frdf/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Tune Buds 2 JBL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fone-de-ouvido-jbl-tune-buds-bluetooth-bateria-ate-10-horas-branco-jbltbudswht/p/hk18f6049e/ea/fobt/"
+    "link": null
   },
   "LIVE FREE 2 TWS JBL": {
-    "preco": "R$ 449,10",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fones-de-ouvido-jbl-live-free-2-tws-cinza/p/ah59k7ha6d/ea/focf/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Wave Beam 2 JBL": {
-    "preco": "R$ 270,99",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fone-de-ouvido-bluetooth-sem-fio-jbl-wave-beam-2-com-microfone-preto/p/bc5da15bf5/ea/fobt/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "Wave Buds 2 JBL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/fone-de-ouvido-wave-buds-2-jblharman-preto-tws/p/de8ahe30eg/ea/focf/"
+    "link": null
   },
   "Tour One M2 JBL": {
-    "preco": "R$ 1196,10",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fone-de-ouvido-sem-fio-jbl-bl-tour-one-m2-bluetooth-cancelamento-de-ruido-preto-jbltouronem2blk/p/fj8he2af18/ea/fobt/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "TAT1108BK/00 PHILIPS": {
     "preco": null,
@@ -1272,47 +1272,47 @@
   "AWS-SP-06-B AIWA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-aiwa-mini-speaker-rgb-ipx4-bluetooth-5-3-bivolt-preto-aws-sp-03-b/p/hdk32857eb/ea/cxsm/"
+    "link": null
   },
   "GO 4 JBL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-jbl-go4-bluetooth-ativa-portatil-a-prova-de-agua-ip67-42w/p/237283000/ea/jbla/"
+    "link": null
   },
   "AWS-SP-03 AIWA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-aiwa-mini-speaker-aws-sp-03-b-bateria-15w-rms-preto/p/eh787jf49a/ea/easm/"
+    "link": null
   },
   "Clip 5 JBL": {
-    "preco": "R$ 364,47",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/jbl-clip-5-portatil-com-bluetooth-resistente-a-agua-e-ao-po-ip67-harman/p/kfd78e3egg/ea/jbla/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "XG2T JBL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-jbl-boombox-3-bluetooth-amplificada-portatil-80w-rms/p/238017600/ea/jbla/"
+    "link": null
   },
   "Flip Essential 2 JBL": {
-    "preco": "R$ 503,10",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-bluetooth-jbl-flip-essential-2/p/dg861e92kh/ea/jbla/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "XG5S LG": {
-    "preco": "R$ 472,63",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-portatil-lg-xboom-go-xg5s-bluetooth-20w-rms-ip67-ate-18h-de-bateria-fibra-de-carbono-preto/p/jgb28gg6bg/ea/cxsm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AWS-SP-05-LB AIWA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-speaker-aiwa-sp-05-lb-30w-bluetooth-ipx5/p/haf6fdhjb0/ea/easm/"
+    "link": null
   },
   "Flip 6 JBL": {
-    "preco": "R$ 722,65",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-bluetooth-jbl-flip-6-a-prova-dagua-azul-jblflip6blu/p/fekj38kh1a/ea/jbla/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "XBOOM GO XG5S LG": {
     "preco": null,
@@ -1320,88 +1320,88 @@
     "link": null
   },
   "Charge 5 JBL": {
-    "preco": "R$ 1079,10",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-bluetooth-jbl-charge-5-40w-rms-ate-20h-de-bateria-original/p/cf0c5b9j53/ea/easm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "XBOOM GO X75S LG": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-lg-xboom-go-xg5s-bluetooth-portatil-20w-usb/p/237283600/ea/cxsm/"
+    "link": null
   },
   "AWS-SP-07-B AIWA": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-aiwa-mini-speaker-rgb-ipx4-bluetooth-5-3-bivolt-preto-aws-sp-03-b/p/hdk32857eb/ea/cxsm/"
+    "link": null
   },
   "GO 3 JBL": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-bluetooth-jbl-go-4-rosa-harman/p/be70a317af/ea/jbla/"
+    "link": null
   },
   "GO Essential JBL": {
-    "preco": "R$ 197,10",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-portatil-jbl-go-essential-bluetooth-a-prova-d-agua-azul-jblgoesblu/p/bgca806913/ea/jbla/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "ACA1900 AMVOX": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-torre-amvox-aca-1900-new-x-sfm-bluetooth-1900w-amplificada/p/236698000/ea/cxsm/"
+    "link": null
   },
   "TM-2200 MONDIAL": {
-    "preco": "R$ 1511,91",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-mondial-torre-tm-2200-2200w-bluetooth/p/eb9bgc4fh7/ea/easm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "TAX5509 PHILIPS": {
     "preco": null,
     "vendido": false,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-torre-philips-tax5509-78-party-speaker-2400w/p/238933900/ea/phla/"
+    "link": null
   },
   "SP508 PULSE": {
-    "preco": "R$ 1549,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/caixa-de-som-pulse-super-torre-double-sp508-2300w-rms-bluetooth/p/ad9g255f5d/ea/easm/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AWS-TV-32-BL-02-A AIWA": {
-    "preco": "R$ 869,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/smart-tv-aiwa-32-android-hd-borda-ultrafina-wi-fi-hdr10-aws-tv-32-bl-02-a/p/fdkdb644fj/et/tves/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "AWS-TV-43-BL-02-A AIWA": {
-    "preco": "R$ 1425,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/smart-tv-aiwa-43-android-full-hd-borda-ultrafina-wi-fi-hdr10-aws-tv-43-bl-02-a-8843-01/p/beg3h6f780/et/tves/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "32LR650BPSA LG": {
-    "preco": "R$ 1359,05",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/smart-tv-lg-32-hd-32lr650bpsa-wifi-5-bluetooth-5-0-hdr10-pro-thinq-ai-alexa-sistema-operacional-webos-23/p/dea0g418fk/et/tv4k/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "43UT8000PSA LG": {
-    "preco": "R$ 1909,90",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/smart-tv-lg-43-polegadas-4k-ut80-comando-de-voz-43ut8000psa/p/ejh40fk5j8/et/tv4k/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "UN32T4300 SAMSUNG": {
-    "preco": "R$ 116,91",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/fonte-bringit-para-tv-32-compativel-com-samsung-un32t4300-19v-3-42a/p/gkj40dh944/in/fpnt/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "F6000F SAMSUNG": {
-    "preco": "R$ 1709,05",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/smart-tv-43-polegadas-samsung-hd-fhd-xbox-cloud-gaming-canais-gratuitos-hd-f6000f-samsung-som-imagem/p/fc94bh95a8/et/tves/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "32S5400AF TCL": {
-    "preco": "R$ 999,00",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/smart-tv-tcl-led-32-polegadas-full-hd-wi-fi-android-tv-comando-de-voz-32s5400af/p/gf58jb5312/et/tled/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   },
   "43S5400A TCL": {
-    "preco": "R$ 1511,45",
-    "vendido": true,
-    "link": "https://www.magazineluiza.com.br/smart-tv-43-full-hd-led-tcl-43s5400a-android-wi-fi-bluetooth-google-assistente-2-hdmi-1-usb/p/237862800/et/tves/"
+    "preco": null,
+    "vendido": false,
+    "link": null
   }
 }

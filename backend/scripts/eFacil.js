@@ -185,7 +185,7 @@ async function extrairDetalhesProdutoEFACIL(urlProduto, item) {
     if (!tituloValido) {
       console.warn("[WARN] ❌ Título não confere com marca/produto:", item.produto, item.marca);
       resultados.push({
-        termo: item.termoBusca,
+        termo: item.produto,   // ✅ usa o código original
         nome,
         preco: "Indisponível",
         loja: "eFácil",
@@ -194,9 +194,6 @@ async function extrairDetalhesProdutoEFACIL(urlProduto, item) {
       });
       return;
     }
-
-    // ... resto igual (preço, vendido, etc.)
-
 
     // Agora pega preço
     let preco = $("div[data-testid='spot-price'] span")
@@ -233,7 +230,7 @@ async function extrairDetalhesProdutoEFACIL(urlProduto, item) {
     console.error(`[RESULTADO] Link: ${urlProduto}`);
 
     resultados.push({
-      termo: termoOriginal,
+      termo: item.produto,   // ✅ usa o código original
       nome,
       preco,
       loja: "eFácil",
@@ -244,7 +241,7 @@ async function extrairDetalhesProdutoEFACIL(urlProduto, item) {
   } catch (err) {
     console.error("[ERRO] Erro ao extrair produto:", err.message);
     resultados.push({
-      termo: termoOriginal,
+      termo: item.produto,   // ✅ idem aqui
       nome: null,
       preco: "Indisponível",
       loja: "eFácil",
@@ -255,7 +252,6 @@ async function extrairDetalhesProdutoEFACIL(urlProduto, item) {
 
   console.error("[INFO] --- Fim da verificação do produto ---\n");
 }
-
 
 executarBuscaEmTodos()
   .then(() => {
@@ -294,4 +290,3 @@ executarBuscaEmTodos()
     console.error("[ERRO FATAL] Falha inesperada no script eFacil:", err.message);
     process.exit(1);
   });
-

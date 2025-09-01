@@ -95,7 +95,7 @@ async function executarBuscaEmTodos() {
 
 async function buscarPrimeiroProdutoLeBiscuit({ termoBusca, produto, marca }) {
   const termoEncoded = encodeURIComponent(termoBusca);
-  const urlBusca = `https://www.lebiscuit.com.br/search?q=${termoEncoded}`;
+  const urlBusca = `https://www.lebiscuit.com.br/search?q=${termoEncoded}&filter.sellername=lojas-le-biscuit-s-a`;
 
   console.error("\n[INFO] ========== NOVA BUSCA ==========");
   console.error("[DEBUG] Termo:", termoBusca);

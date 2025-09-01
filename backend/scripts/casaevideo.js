@@ -7,6 +7,19 @@ const resultados = [];
 
 // === Arquivo único de catálogo ===
 const catalogoPath = path.join(__dirname, "catalogoProdutos.json");
+// NOVO: arquivo de termos customizados (opcional)
+const termosCustomizadosPath = path.join(__dirname, "termosCustomizados.json");
+
+// Carrega termos customizados se existir
+let termosCustomizados = {};
+if (fs.existsSync(termosCustomizadosPath)) {
+  try {
+    termosCustomizados = JSON.parse(fs.readFileSync(termosCustomizadosPath, "utf-8"));
+    console.error("[INFO] termosCustomizados.json carregado.");
+  } catch (e) {
+    console.error("[WARN] Não foi possível ler/parsear termosCustomizados.json:", e.message);
+  }
+}
 
 if (!fs.existsSync(catalogoPath)) {
   console.error("[ERRO] Arquivo catalogoProdutos.json não encontrado ao lado deste script.");
@@ -54,137 +67,6 @@ function descricaoConfere(descricaoOriginal, marca, produto) {
   }
 }
 
-// === Montagem da lista de termos (robusta a variações) ===
-const listaProdutos = (produtosJson.produtos || [])
-  .map((p, i) => {
-    const produto = (p.produto ?? p.codigo ?? p.id ?? "").toString().trim();
-    const marca = (p.marca ?? p.brand ?? "").toString().trim();
-
-    let termo = [produto, marca].filter(Boolean).join(" ").trim();
-
-    if (!termo && p.descricao) {
-      termo = p.descricao.toString().trim();
-      console.error(`[WARN] Item ${i}: faltam 'produto'/'marca'. Usando 'descricao' como termo.`);
-    }
-
-    if (!termo) {
-      console.error(`[ERRO] Item ${i}: sem dados suficientes (produto/marca/descricao). Será ignorado.`);
-      return null;
-    }
-    return termo;
-  })
-  .filter(Boolean);
-
-if (!listaProdutos.length) {
-  console.error("[ERRO] Nenhum termo de busca válido encontrado no catálogo.");
-  process.exit(1);
-}
-
-async function executarBuscaEmTodos() {
-  console.error("[INFO] Iniciando verificação de todos os produtos...\n");
-
-  for (const termo of listaProdutos) {
-    try {
-      await buscarPrimeiroProdutoCasaEV(termo);
-    } catch (err) {
-      console.error(`[ERRO CRÍTICO] Falha inesperada na busca do produto "${termo}":`, err.message);
-      resultados.push({
-        termo,
-        nome: null,
-        preco: "Indisponível",
-        loja: "Casa e Vídeo",
-        vendido: false,
-        link: null,
-      });
-    }
-  }
-
-  // 💾 Salva um espelho com todos os resultados detalhados (opcional)
-  const outputPath = path.join(__dirname, "..", "results", "resultados_casaevideo.json");
-  try {
-    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-    fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
-  } catch (e) {
-    console.error("[WARN] Não foi possível salvar resultados_casaevideo.json:", e.message);
-  }
-
-  console.error("\n[INFO] Fim da verificação.");
-}
-
-async function buscarPrimeiroProdutoCasaEV(termo) {
-  const termoBusca = encodeURIComponent(termo);
-  const urlBusca = `https://www.casaevideo.com.br/search?q=${termoBusca}`;
-
-  console.error("\n[INFO] ========== NOVA BUSCA ==========");
-  console.error("[DEBUG] Termo:", termo);
-  console.error("[DEBUG] URL:", urlBusca);
-
-  try {
-    const resp = await axios.get(urlBusca, {
-      headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
-        "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-      },
-      // timeout opcional:
-      timeout: 20000,
-      validateStatus: (s) => s >= 200 && s < 500, // para logar 404/410 etc
-    });
-
-    if (resp.status >= 400) {
-      console.error(`[ERRO] Falha ao buscar: ${termo} → HTTP ${resp.status}`);
-      resultados.push({
-        termo,
-        nome: null,
-        preco: "Indisponível",
-        loja: "Casa e Vídeo",
-        vendido: false,
-        link: null,
-      });
-      return;
-    }
-
-    const $ = cheerio.load(resp.data);
-
-    // Seletores mais comuns para o primeiro card de produto (deixe múltiplos fallbacks)
-    let linkProduto =
-      $("a[id^='product-card']").first().attr("href") ||
-      $("a[data-testid='product-card']").first().attr("href") ||
-      $("a[href^='/produto/']").first().attr("href") ||
-      $("a[href^='/p/']").first().attr("href");
-
-    if (!linkProduto) {
-      console.warn("[WARN] Nenhum produto encontrado para:", termo);
-      resultados.push({
-        termo,
-        nome: null,
-        preco: "Indisponível",
-        loja: "Casa e Vídeo",
-        vendido: false,
-        link: null,
-      });
-      return;
-    }
-
-    if (!linkProduto.startsWith("http")) {
-      linkProduto = `https://www.casaevideo.com.br${linkProduto}`;
-    }
-    console.error("[DEBUG] Primeiro produto encontrado:", linkProduto);
-
-    await extrairDetalhesProdutoCasaEV(linkProduto, termo);
-  } catch (err) {
-    console.error("[ERRO] Falha ao buscar:", termo, "→", err.message);
-    resultados.push({
-      termo,
-      nome: null,
-      preco: "Indisponível",
-      loja: "Casa e Vídeo",
-      vendido: false,
-      link: null,
-    });
-  }
-}
-
 function normalizar(txt) {
   return (txt || "")
     .normalize("NFD")
@@ -204,6 +86,159 @@ function ehCasaEVendedor(texto) {
     /CASA E VIDEO/.test(t) ||
     /CASA VIDEO/.test(t) // fallback mais solto
   );
+}
+
+// === NOVO: Montagem da lista com termo original (validação/JSON) e termo de busca (custom) ===
+const listaProdutos = (produtosJson.produtos || [])
+  .map((p, i) => {
+    const produto = (p.produto ?? p.codigo ?? p.id ?? "").toString().trim();
+    const marca = (p.marca ?? p.brand ?? "").toString().trim();
+
+    // termo original (igual ao comportamento anterior)
+    let originalTerm = [produto, marca].filter(Boolean).join(" ").trim();
+
+    if (!originalTerm && p.descricao) {
+      originalTerm = p.descricao.toString().trim();
+      console.error(`[WARN] Item ${i}: faltam 'produto'/'marca'. Usando 'descricao' como termo original.`);
+    }
+
+    if (!originalTerm) {
+      console.error(`[ERRO] Item ${i}: sem dados suficientes (produto/marca/descricao). Será ignorado.`);
+      return null;
+    }
+
+    // termo usado na BUSCA: se houver custom para o "produto", usa-o; senão usa o original
+    const searchTerm = termosCustomizados[produto]
+      ? String(termosCustomizados[produto]).trim()
+      : originalTerm;
+
+    if (termosCustomizados[produto]) {
+      console.error(`[INFO] Usando termo customizado para produto ${produto}: "${searchTerm}"`);
+    }
+
+    return { originalTerm, searchTerm, produto, marca };
+  })
+  .filter(Boolean);
+
+if (!listaProdutos.length) {
+  console.error("[ERRO] Nenhum termo de busca válido encontrado no catálogo.");
+  process.exit(1);
+}
+
+async function executarBuscaEmTodos() {
+  console.error("[INFO] Iniciando verificação de todos os produtos...\n");
+
+  for (const item of listaProdutos) {
+    try {
+      await buscarPrimeiroProdutoCasaEV(item);
+    } catch (err) {
+      console.error(
+        `[ERRO CRÍTICO] Falha inesperada na busca do produto "${item.originalTerm}":`,
+        err.message
+      );
+      resultados.push({
+        termo: item.originalTerm, // mantém chave exatamente como antes
+        nome: null,
+        preco: "Indisponível",
+        loja: "Casa e Vídeo",
+        vendido: false,
+        link: null,
+      });
+    }
+  }
+
+  const outputPath = path.join(__dirname, "..", "results", "resultados_casaevideo.json");
+  try {
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
+  } catch (e) {
+    console.error("[WARN] Não foi possível salvar resultados_casaevideo.json:", e.message);
+  }
+
+  console.error("\n[INFO] Fim da verificação.");
+}
+
+// === Customizações exclusivas para Casa & Vídeo ===
+const termosCasaEV = {
+  "VSP-40-B": "Ventilador de Mesa 40Cm 6 Pás Preto Mondial VSP40",
+  // Futuramente: "OUTRO-CODIGO": "Outra descrição customizada"
+};
+
+async function buscarPrimeiroProdutoCasaEV(item) {
+  // 🔥 Ordem de prioridade para o termo de busca:
+  // 1. termosCasaEV > 2. termosCustomizados (já está em item.searchTerm) > 3. originalTerm
+  const termoFinalBusca = termosCasaEV[item.produto] || item.searchTerm || item.originalTerm;
+
+  const termoBusca = encodeURIComponent(termoFinalBusca);
+  const urlBusca = `https://www.casaevideo.com.br/search?q=${termoBusca}&filter.sellername=casa---video`;
+
+  console.error("\n[INFO] ========== NOVA BUSCA ==========");
+  console.error("[DEBUG] Termo (original p/ validação/JSON):", item.originalTerm);
+  console.error("[DEBUG] Termo (final usado na BUSCA - Casa&Vídeo):", termoFinalBusca);
+  console.error("[DEBUG] URL:", urlBusca);
+
+  try {
+    const resp = await axios.get(urlBusca, {
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+        "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
+      },
+      timeout: 20000,
+      validateStatus: (s) => s >= 200 && s < 500, // para logar 404/410 etc
+    });
+
+    if (resp.status >= 400) {
+      console.error(`[ERRO] Falha ao buscar: ${termoFinalBusca} → HTTP ${resp.status}`);
+      resultados.push({
+        termo: item.originalTerm,
+        nome: null,
+        preco: "Indisponível",
+        loja: "Casa e Vídeo",
+        vendido: false,
+        link: null,
+      });
+      return;
+    }
+
+    const $ = cheerio.load(resp.data);
+
+    let linkProduto =
+      $("a[id^='product-card']").first().attr("href") ||
+      $("a[data-testid='product-card']").first().attr("href") ||
+      $("a[href^='/produto/']").first().attr("href") ||
+      $("a[href^='/p/']").first().attr("href");
+
+    if (!linkProduto) {
+      console.warn("[WARN] Nenhum produto encontrado para:", termoFinalBusca);
+      resultados.push({
+        termo: item.originalTerm,
+        nome: null,
+        preco: "Indisponível",
+        loja: "Casa e Vídeo",
+        vendido: false,
+        link: null,
+      });
+      return;
+    }
+
+    if (!linkProduto.startsWith("http")) {
+      linkProduto = `https://www.casaevideo.com.br${linkProduto}`;
+    }
+    console.error("[DEBUG] Primeiro produto encontrado:", linkProduto);
+
+    await extrairDetalhesProdutoCasaEV(linkProduto, item.originalTerm);
+  } catch (err) {
+    console.error("[ERRO] Falha ao buscar:", termoFinalBusca, "→", err.message);
+    resultados.push({
+      termo: item.originalTerm,
+      nome: null,
+      preco: "Indisponível",
+      loja: "Casa e Vídeo",
+      vendido: false,
+      link: null,
+    });
+  }
 }
 
 async function extrairDetalhesProdutoCasaEV(urlProduto, termoOriginal) {
@@ -232,7 +267,7 @@ async function extrairDetalhesProdutoCasaEV(urlProduto, termoOriginal) {
     const descricao = $('span.small-regular.hidden.md\\:block > div.h-14').text().trim();
 
     // Aqui você já pode verificar se a descrição bate com a marca e produto
-    const [produtoOriginal, marcaOriginal] = termoOriginal.split(" "); // Ajuste conforme seu termo
+    const [produtoOriginal, marcaOriginal] = termoOriginal.split(" "); // (mantido do seu código)
     const descricaoValida = descricaoConfere(descricao, marcaOriginal, produtoOriginal);
 
     if (!descricaoValida) {
@@ -247,6 +282,7 @@ async function extrairDetalhesProdutoCasaEV(urlProduto, termoOriginal) {
       });
       return; // ignora produto
     }
+
     // Preço (múltiplos seletores comuns)
     preco =
       $("span.h5-bold, span.md\\:h4-bold")
@@ -257,7 +293,6 @@ async function extrairDetalhesProdutoCasaEV(urlProduto, termoOriginal) {
       $("span:contains('R$')").first().text().trim();
 
     // "Vendido e entregue por ..."
-    // Procura textos que contenham "Vendido" e "entregue"
     entreguePor =
       $("p:contains('Vendido')").first().text().trim() ||
       $("div:contains('Vendido')").first().text().trim() ||
@@ -273,7 +308,7 @@ async function extrairDetalhesProdutoCasaEV(urlProduto, termoOriginal) {
     console.error(`[RESULTADO] Link: ${urlProduto}`);
 
     resultados.push({
-      termo: termoOriginal,
+      termo: termoOriginal, // mantém a chave/termo no array de resultados
       nome,
       preco,
       loja: "Casa e Vídeo",

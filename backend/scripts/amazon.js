@@ -102,15 +102,15 @@ const listaProdutos = (produtosJson.produtos || [])
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos na Amazon...\n");
 
- const browser = await puppeteer.launch({
-  headless: true,
-  protocolTimeout: 120000,                 // ↑ dá mais fôlego ao CDP
-  args: ["--no-sandbox", "--disable-setuid-sandbox"]
-});
+  let browser = await puppeteer.launch({
+    headless: true,
+    protocolTimeout: 120000,
+    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+  });
+  let page = await browser.newPage();
 
-  const page = await browser.newPage();
-
-  for (const termoObj of listaProdutos) {
+  for (let idx = 0; idx < listaProdutos.length; idx++) {
+    const termoObj = listaProdutos[idx];
     try {
       const userAgentBase = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)";
       const chromeVersion = `Chrome/${100 + Math.floor(Math.random() * 20)}.0.0.0 Safari/537.36`;
@@ -118,6 +118,7 @@ async function executarBuscaEmTodos() {
 
       await buscarPrimeiroProdutoAmazon(page, termoObj);
 
+      // Limpa sessão
       const client = await page.target().createCDPSession();
       await client.send("Network.clearBrowserCookies");
       await client.send("Network.clearBrowserCache");
@@ -125,7 +126,23 @@ async function executarBuscaEmTodos() {
       await delayAleatorio(3000, 7000);
     } catch (err) {
       console.error(`[ERRO CRÍTICO] Falha na busca do produto "${termoObj.termoBusca}":`, err.message);
+
+      // Marca como indisponível
       resultados.push({ termo: termoObj.termoBusca, nome: null, preco: "Indisponível", loja: "Amazon", vendido: false, link: null });
+
+      // -------- CONTORNO --------
+      // Se o erro for timeout do CDP → fecha e reabre o browser
+      if (err.message.includes("setUserAgentOverride") || err.message.includes("timeout")) {
+        console.error("[INFO] Reiniciando navegador para recuperar sessão...");
+        try { await browser.close(); } catch {}
+        browser = await puppeteer.launch({
+          headless: true,
+          protocolTimeout: 120000,
+          args: ["--no-sandbox", "--disable-setuid-sandbox"]
+        });
+        page = await browser.newPage();
+        // Continua do próximo item (sem reiniciar toda a lista)
+      }
     }
   }
 

@@ -9,18 +9,51 @@ const resultados = [];
 
 // Caminho para o catalogoProdutos.json (apenas este será usado)
 const catalogoProdutosPath = path.join(__dirname, "catalogoProdutos.json");
+// NOVO: caminho para termos customizados (opcional)
+const termosCustomizadosPath = path.join(__dirname, "termosCustomizados.json");
 
 // Carrega o catálogo diretamente
 const produtosJson = JSON.parse(fs.readFileSync(catalogoProdutosPath, "utf-8"));
 
-// Monta lista com "produto + marca"
-const listaProdutos = produtosJson.produtos.map(p => `${p.produto} ${p.marca}`.trim());
+// Carrega termos customizados (se existir)
+let termosCustomizados = {};
+if (fs.existsSync(termosCustomizadosPath)) {
+  try {
+    termosCustomizados = JSON.parse(fs.readFileSync(termosCustomizadosPath, "utf-8"));
+    console.error("[INFO] termosCustomizados.json carregado.");
+  } catch (e) {
+    console.error("[WARN] Não foi possível ler/parsear termosCustomizados.json:", e.message);
+  }
+}
+
+// === Monta lista com termo original (para validação/JSON) e termo de busca (custom se existir) ===
+const listaProdutos = (produtosJson.produtos || [])
+  .map((p, i) => {
+    const produto = (p.produto ?? p.codigo ?? p.id ?? "").toString().trim();
+    const marca = (p.marca ?? p.brand ?? "").toString().trim();
+
+    const originalTerm = `${produto} ${marca}`.trim();
+    if (!originalTerm) {
+      console.error(`[ERRO] Item ${i}: sem dados suficientes (produto/marca). Será ignorado.`);
+      return null;
+    }
+
+    const searchTerm = termosCustomizados[produto]
+      ? String(termosCustomizados[produto]).trim()
+      : originalTerm;
+
+    if (termosCustomizados[produto]) {
+      console.error(`[INFO] Usando termo customizado para produto ${produto}: "${searchTerm}"`);
+    }
+
+    return { originalTerm, searchTerm, produto, marca };
+  })
+  .filter(Boolean);
 
 // === Utilitários ===
 function removeAcentos(str = "") {
   return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
-
 
 function normalizar(txt) {
   return (txt || "")
@@ -36,13 +69,10 @@ function normalizar(txt) {
 // === Nova função: valida usando descrição/ficha técnica ===
 async function descricaoConfere(page, marca, produto) {
   try {
-    // Pega descrição (se existir)
     const descricao = await page.$eval("div#descricao", el => el.innerText.trim()).catch(() => "");
-    // Pega ficha técnica inteira (se existir)
     const fichaTecnica = await page.$eval("div#ficha-tecnica", el => el.innerText.trim()).catch(() => "");
 
     const texto = normalizar(`${descricao} ${fichaTecnica}`);
-
     const marcaNorm = normalizar(marca);
     const produtoNorm = normalizar(produto);
 
@@ -54,7 +84,7 @@ async function descricaoConfere(page, marca, produto) {
     const palavrasProduto = produtoNorm.split(/\s+/).filter(Boolean);
     let count = 0;
     for (const p of palavrasProduto) if (texto.includes(p)) count++;
-    const proporcao = count / palavrasProduto.length;
+    const proporcao = palavrasProduto.length ? count / palavrasProduto.length : 0;
 
     if (proporcao >= 0.9) {
       console.log("✅ Descrição confere com produto:", produto);
@@ -63,36 +93,35 @@ async function descricaoConfere(page, marca, produto) {
       console.log("❌ Descrição não bate com produto:", produto);
       return false;
     }
-  } catch (e) {
+  } catch {
     console.log("[WARN] Não foi possível validar pela descrição/ficha técnica");
     return false;
   }
 }
 
-
 function tituloConfere(tituloOriginal, marca, produto) {
   if (!tituloOriginal) return false;
+
+    if (/kit/i.test(tituloOriginal)) {
+    console.log("❌ Produto descartado por conter 'KIT' no título:", tituloOriginal);
+    return false;
+  }
 
   const titulo = normalizar(tituloOriginal);
   const marcaNorm = normalizar(marca);
   const produtoNorm = normalizar(produto);
 
-  // Marca tem que estar presente no título
   if (!titulo.includes(marcaNorm)) {
     console.log("❌ Marca não encontrada no título:", marca);
     return false;
   }
-
-  // Código do produto precisa ser 100% igual (case-insensitive e sem acento)
   if (!titulo.includes(produtoNorm)) {
     console.log("❌ Código não encontrado no título:", produto);
     return false;
   }
-
   console.log("✅ Título confere com produto:", produto);
   return true;
 }
-
 
 async function delay(minMs, maxMs) {
   const tempo = Math.floor(Math.random() * (maxMs - minMs + 1)) + minMs;
@@ -114,13 +143,13 @@ async function moverMouseAleatorio(page) {
 async function executarBuscaEmTodos() {
   console.error("[INFO] Iniciando verificação de todos os produtos no Gazin...\n");
 
-  for (const termoOriginal of listaProdutos) {
+  for (const item of listaProdutos) {
     try {
-      await buscarPrimeiroProdutoGAZIN(termoOriginal);
+      await buscarPrimeiroProdutoGAZIN(item);
     } catch (err) {
-      console.error(`[ERRO CRÍTICO] Falha na busca do produto "${termoOriginal}":`, err.message);
+      console.error(`[ERRO CRÍTICO] Falha na busca do produto "${item.originalTerm}":`, err.message);
       resultados.push({
-        termo: termoOriginal,
+        termo: item.originalTerm,
         nome: null,
         preco: "Indisponível",
         loja: "Gazin",
@@ -128,8 +157,7 @@ async function executarBuscaEmTodos() {
         link: null,
       });
     }
-    // Delay aleatório entre buscas para evitar padrão
-    await delay(3000, 7000);
+    await delay(3000, 7000); // delay entre buscas
   }
 
   const outputPath = path.join(__dirname, "..", "results", "resultados_gazin.json");
@@ -137,14 +165,16 @@ async function executarBuscaEmTodos() {
   console.error("\n[INFO] Fim da verificação.");
 }
 
-async function buscarPrimeiroProdutoGAZIN(termoOriginal) {
-  // Remover acentos antes de montar a URL de busca
-  const termoSemAcento = removeAcentos(termoOriginal.trim());
+// === ALTERADO: recebe { originalTerm, searchTerm } e usa searchTerm na URL ===
+async function buscarPrimeiroProdutoGAZIN(item) {
+  // Remover acentos no termo de BUSCA (custom se existir)
+  const termoSemAcento = removeAcentos(item.searchTerm.trim());
   const termoBusca = encodeURIComponent(termoSemAcento);
   const urlBusca = `https://www.gazin.com.br/busca/${termoBusca}`;
 
   console.error("\n[INFO] ========== NOVA BUSCA ==========");
-  console.error("[DEBUG] Termo original:", termoOriginal);
+  console.error("[DEBUG] Termo (original p/ validação/JSON):", item.originalTerm);
+  console.error("[DEBUG] Termo (usado na BUSCA):", item.searchTerm);
   console.error("[DEBUG] Termo sem acento:", termoSemAcento);
   console.error("[DEBUG] URL:", urlBusca);
 
@@ -170,20 +200,16 @@ async function buscarPrimeiroProdutoGAZIN(termoOriginal) {
 
     // Pega exatamente o primeiro card e extrai dados a partir do <a> pai
     const produto = await page.$eval("a .chakra-stack", el => {
-      // Sobe até o <a> mais próximo
       const a = el.closest("a");
       const href = a ? a.getAttribute("href") : null;
 
-      // Tenta pegar o nome pelo seletor mais específico; fallback genérico
       const nome =
         el.querySelector("span.chakra-text.css-8cltlq")?.innerText?.trim() ||
         el.querySelector("span.chakra-text")?.innerText?.trim() ||
         (a?.getAttribute("title") || "").trim();
 
-      // Tenta capturar preço do card (No Pix / preço principal)
       const precoDireto =
         el.querySelector("span.chakra-text.css-1sgshui")?.innerText?.trim() || "";
-      // Fallback: algum span com “R$”
       const precoFallback =
         Array.from(el.querySelectorAll("span.chakra-text"))
           .map(s => (s.innerText || "").trim())
@@ -198,12 +224,10 @@ async function buscarPrimeiroProdutoGAZIN(termoOriginal) {
       };
     });
 
-    
-
     if (!produto || !produto.link) {
-      console.error("[WARN] Nenhum produto válido encontrado para:", termoOriginal);
+      console.error("[WARN] Nenhum produto válido encontrado para:", item.originalTerm);
       resultados.push({
-        termo: termoOriginal,
+        termo: item.originalTerm,
         nome: null,
         preco: "Indisponível",
         loja: "Gazin",
@@ -219,30 +243,29 @@ async function buscarPrimeiroProdutoGAZIN(termoOriginal) {
     console.error("       Preço (card):", produto.preco || "(não encontrado no card)");
     console.error("       Link:", produto.link);
 
-   // Extrai marca e produto do JSON original
-const produtoJson = produtosJson.produtos.find(
-  p => `${p.produto} ${p.marca}`.trim() === termoOriginal.trim()
-);
+    // Extrai marca e produto do JSON original
+    const produtoJson = (produtosJson.produtos || []).find(
+      p => `${p.produto} ${p.marca}`.trim() === item.originalTerm.trim()
+    );
+    const produtoOriginal = produtoJson?.produto || "";
+    const marcaOriginal = produtoJson?.marca || "";
 
-const produtoOriginal = produtoJson?.produto || "";
-const marcaOriginal = produtoJson?.marca || "";
+    // === Validação pelo título (mesma regra) ===
+    const valido = tituloConfere(produto.nome, marcaOriginal, produtoOriginal);
 
-// === Validação pelo título ===
-const valido = tituloConfere(produto.nome, marcaOriginal, produtoOriginal);
-
-if (!valido) {
-  console.warn("[WARN] ❌ Título não confere com:", termoOriginal);
-  resultados.push({
-    termo: termoOriginal,
-    nome: produto.nome || null,
-    preco: "Indisponível",
-    loja: "Gazin",
-    vendido: false,
-    link: produto.link,
-  });
-  await browser.close();
-  return;
-}
+    if (!valido) {
+      console.warn("[WARN] ❌ Título não confere com:", item.originalTerm);
+      resultados.push({
+        termo: item.originalTerm,
+        nome: produto.nome || null,
+        preco: "Indisponível",
+        loja: "Gazin",
+        vendido: false,
+        link: produto.link,
+      });
+      await browser.close();
+      return;
+    }
 
     // Abre a página do produto e captura preço/vendedor com seletores robustos
     await page.goto(produto.link, { waitUntil: "networkidle2", timeout: 60000 });
@@ -255,8 +278,7 @@ if (!valido) {
     let vendedor = "";
     try {
       vendedor =
-        (await page.$eval("p.chakra-text.css-1ktt7uz", el => el.textContent.trim())) ||
-        "";
+        (await page.$eval("p.chakra-text.css-1ktt7uz", el => el.textContent.trim())) || "";
     } catch {
       try {
         vendedor =
@@ -291,7 +313,6 @@ if (!valido) {
       }
     }
 
-    // Se não achar no detalhe, usa o do card
     const precoFinal =
       precoDetalhe || (produto.preco && /^R\$\s*\d/.test(produto.preco) ? produto.preco : "Indisponível");
 
@@ -301,17 +322,17 @@ if (!valido) {
     console.error("[DEBUG] Preço usado:", precoFinal);
 
     resultados.push({
-      termo: termoOriginal,
+      termo: item.originalTerm,
       nome: produto.nome || null,
-      preco: precoFinal,
+      preco: precoFinal,           // (mantido: aqui o JSON final não depende de vendido)
       loja: "Gazin",
       vendido: vendidoPorGazin,
       link: produto.link,
     });
   } catch (err) {
-    console.error("[ERRO] Falha ao buscar:", termoOriginal, "→", err.message);
+    console.error("[ERRO] Falha ao buscar:", item.originalTerm, "→", err.message);
     resultados.push({
-      termo: termoOriginal,
+      termo: item.originalTerm,
       nome: null,
       preco: "Indisponível",
       loja: "Gazin",
@@ -328,7 +349,7 @@ executarBuscaEmTodos()
     const resultadoFinal = {};
     for (const item of resultados) {
       resultadoFinal[item.termo] = {
-        preco: item.preco || null,   // NÃO depende de "vendido"
+        preco: item.preco || null,   // NÃO depende de "vendido" (mantido)
         vendido: item.vendido,
         link: item.link,
       };

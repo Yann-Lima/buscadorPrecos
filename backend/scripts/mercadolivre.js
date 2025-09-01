@@ -54,17 +54,45 @@ function tituloConfere(tituloOriginal, marca, produto) {
   return count / palavrasProduto.length >= 0.9;
 }
 
-// Monta lista de produtos
+// --- Monta lista de produtos ---
 const listaProdutos = (produtosJson.produtos || [])
   .map((p, i) => {
     const produto = (p.produto ?? p.codigo ?? p.id ?? "").toString().trim();
     const marca = (p.marca ?? p.brand ?? "").toString().trim();
-    if (!produto || !marca) return null;
-    const originalTerm = `${produto} ${marca}`;
-    const searchTerm = termosCustomizados[produto] ?? originalTerm;
+
+    let originalTerm = [produto, marca].filter(Boolean).join(" ").trim();
+
+    if (!originalTerm && p.descricao) {
+      originalTerm = p.descricao.toString().trim();
+      console.error(`[WARN] Item ${i}: faltam 'produto'/'marca'. Usando 'descricao'.`);
+    }
+
+    if (!originalTerm) {
+      console.error(`[ERRO] Item ${i}: sem dados suficientes. Ignorando.`);
+      return null;
+    }
+
+    const termoBase = termosCustomizados[produto];
+    const searchTerm = (termoBase !== undefined && termoBase !== null && termoBase !== "")
+      ? String(termoBase).trim()
+      : originalTerm;
+
+    if (termoBase !== undefined) {
+      console.error(`[INFO] Usando termo customizado para produto ${produto}: "${searchTerm}"`);
+    }
+
+    if (!searchTerm) {
+      console.error(`[DEBUG] Produto sem searchTerm válido:`, { produto, marca, originalTerm });
+    }
+
     return { originalTerm, searchTerm, produto, marca };
   })
   .filter(Boolean);
+
+if (!listaProdutos.length) {
+  console.error("[ERRO] Nenhum termo de busca válido encontrado no catálogo.");
+  process.exit(1);
+}
 
 // Lista de user-agents
 const userAgents = [
@@ -74,18 +102,19 @@ const userAgents = [
 ];
 
 // Função principal para buscar produto
-async function buscarProdutoML(item, tentativas = 0) {
+async function buscarProdutoML(page, item, tentativas = 0) {
   const maxTentativas = 3;
   try {
-    const browser = await puppeteer.launch({ headless: true });
-    const page = await browser.newPage();
-
     await page.setUserAgent(userAgents[tentativas % userAgents.length]);
     const client = await page.target().createCDPSession();
     await client.send("Network.clearBrowserCookies");
     await client.send("Network.clearBrowserCache");
 
+    if (!item.searchTerm) {
+      throw new Error(`Item sem searchTerm válido: ${JSON.stringify(item)}`);
+    }
     const termoEncoded = encodeURIComponent(item.searchTerm.trim());
+
     const urlBusca = `https://lista.mercadolivre.com.br/${termoEncoded}`;
     console.error(`[INFO] Buscando produto: ${item.searchTerm}`);
 
@@ -107,7 +136,7 @@ async function buscarProdutoML(item, tentativas = 0) {
       });
     });
 
-    // Palavras proibidas (pode editar facilmente)
+    // Palavras proibidas
     const palavrasProibidas = ["BOTAO", "COPO", "CONJUNTO LAMINA", "BANDEJA DE ASSAR", "3 BOTÕES LIGA", "DISPLAY DO PAINEL", "AGULHA ORIGINAL", "RESERVATÓRIO ÁGUA", "FILTRO EXPRESSO"];
 
     const links = await page.$$eval(
@@ -131,7 +160,6 @@ async function buscarProdutoML(item, tentativas = 0) {
       return true;
     });
 
-
     if (!links.length) throw new Error("Nenhum produto encontrado");
 
     let linkSelecionado = null;
@@ -149,12 +177,11 @@ async function buscarProdutoML(item, tentativas = 0) {
     await delayAleatorio(500, 1500);
     await extrairDetalhesProdutoML(page, linkSelecionado, item);
 
-    await browser.close();
   } catch (err) {
     if (tentativas < maxTentativas) {
       console.warn(`[WARN] Tentativa ${tentativas + 1} falhou, retry...`);
       await delayAleatorio(2000, 5000);
-      return buscarProdutoML(item, tentativas + 1);
+      return buscarProdutoML(page, item, tentativas + 1);
     }
     console.error(`[ERRO] Falha definitiva ao buscar "${item.searchTerm}":`, err.message);
     resultados.push({
@@ -206,14 +233,30 @@ async function extrairDetalhesProdutoML(page, urlProduto, item) {
 
 // Executa busca de todos produtos
 async function executarBuscaEmTodos() {
-  for (const item of listaProdutos) {
-    await buscarProdutoML(item);
-    await delayAleatorio(2000, 5000);
-  }
+  const batchSize = 50;
+  resultados.length = 0;
 
   const outputPath = path.join(__dirname, "..", "results", "resultados_mercado_livre.json");
-  fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
-  console.error("[INFO] Busca finalizada com sucesso.");
+
+  const browser = await puppeteer.launch({
+    headless: "new",
+    args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"]
+  });
+  const page = await browser.newPage();
+
+  for (let i = 0; i < listaProdutos.length; i++) {
+    const item = listaProdutos[i];
+    await buscarProdutoML(page, item);
+    await delayAleatorio(2000, 5000);
+
+    if ((i + 1) % batchSize === 0 || i === listaProdutos.length - 1) {
+      fs.writeFileSync(outputPath, JSON.stringify(resultados, null, 2));
+      console.error(`[INFO] Progresso salvo (${i + 1}/${listaProdutos.length}).`);
+    }
+  }
+
+  await browser.close();
+  console.error("[INFO] Busca finalizada com sucesso. Arquivo sobrescrito.");
 }
 
 // Início

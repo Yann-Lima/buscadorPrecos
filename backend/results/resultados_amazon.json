@@ -1,26 +1,2418 @@
 [
   {
-    "termo": "BAP23 BRITANIA",
-    "nome": "Mixer Britânia 3 em 1 BMX400P Preto 400W",
-    "preco": "R$ 179,,90",
+    "termo": "AFN-40-BI MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BFR11PG BRITANIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BFR38 BRITANIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PFR15PI PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "OFRT520 OSTER",
+    "nome": "Fritadeira Sem Óleo Oster 127V - OFRT520, PRETO",
+    "preco": "R$ 345,00",
     "loja": "Amazon",
     "vendido": true,
-    "link": "https://www.amazon.com.br/Mixer-velocidades-Bmx400-Preto-Brit%C3%A2nia/dp/B08YHR9C4S/ref=sr_1_1?dib=eyJ2IjoiMSJ9.BBXlav42nKGr2fZAvHO0hAtyCj5jfdDcNLKVJzlYyNQFwpFNjKUDfWOhhltKQLKUtZDUKVxPBd6sWB7U_-Zu29LXIgPPeHAcHNudb_Ctp-UjUsA6-BwYHBvQwMKATcx_D5yjlVkShdbP-7n0b6tk5iHgLcpFIocqaRcSZd2kujauHDZDSnygS1PRy8ngF9mHMjnTUMXLfYWRNq0g1a4W69q_Z3SO39J1cDaoSlBqFJ1oxLYPTiExX6d5Son2rqOKT22lyMyGOl7afT51bdXEoCZPIvLZ33TtfO5bZQee0XQ.UzVWFOA-FvBkRLtNUrEde8a9p2eeXLRcrSPwlSl5Wms&dib_tag=se&keywords=BAP23+BRITANIA&m=A1ZZFT5FULY4LN&qid=1755012135&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+    "link": "https://www.amazon.com.br/Fritadeira-Sem-%C3%93leo-Oster-127V/dp/B0B72QZXCC/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Mz3OX2yxBNbT0noiH_1rkA19_FPmveUiPuz9x1hYD5R5b-gWg39SK-LjXnFm79ZzbdpHfNpCL9UrOwCHXfaSAw.YsFLsOifZudy_f34LUxA5Hm-AU_vxFQUA5ChDtndjg0&dib_tag=se&keywords=OFRT520+OSTER&m=A1ZZFT5FULY4LN&qid=1756595509&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "EAF15 ELECTROLUX",
+    "nome": "Air Fryer Electrolux por Rita Lobo 3,2L Preta Efficient com Timer 1400W (EAF15) - 127V",
+    "preco": "R$ 289,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fryer-Electrolux-Preta-Efficient-Timer/dp/B0CC3ZW7Q4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.PLbPAfY5rYxm0ILz7pRGJXAs2TC4zbaTg7-sDoFyNNM3W1gsT_39aWQAPVAigzF5khYHw1-T_8ljgASA8mQWbNQFYcrfbGTBf27WRARzLf0.Az_YViK6wObJSAF9N428b_gxeyO2YPjXoXHpbuzfFFc&dib_tag=se&keywords=EAF15+ELECTROLUX&m=A1ZZFT5FULY4LN&qid=1756595542&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "BFR2100 BRITANIA",
+    "nome": "Fritadeira Air Fry Oven BFR2100P, Britania, 127v",
+    "preco": "R$ 565,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Oven-BFR2100P-Britania-127v/dp/B08R91HYY2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.C1-mV9yuDIcA_A0vbrSGQxBMr7EV6xfQR2BVAz7qtBPLRyeXwzx2BPUxJ-65LmJDmDWFFkutPQ73Sybu06EMcY07LHt2EFrpL-dO-b57sMZC8nR3G9mxIWRhMqqCcouWn6389GjFZg7fcZtcM6kZJeru9RjatxZSz6eEFUVKOkJwz3MioK8EHMu95vYY7h6pzCZnmitFYBNXgBACQguvTtaGXZmpemlJUpF4p6MEyUPtUFZ5-zZK5rlxZ_p0_LQ-TvQ7E686_UJmEzOMC8vIg0nqH62DCDdBqdsItnwb8h0.-Vp3vOiPj2VFNx1Ev7ycBcLCyOj0cOs3YIhizv_SKYs&dib_tag=se&keywords=BFR2100+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756595576&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "EAF90 ELECTROLUX",
+    "nome": "Fritadeira Elétrica sem oleo Forno Oven Airfryer 12L digital receita programada 2 bandejas espeto giratório 1700W Electrolux EAF90 Grafite 127v por Rita Lobo",
+    "preco": "R$ 731,61",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-El%C3%A9trica-programada-girat%C3%B3rio-Electrolux/dp/B0BYK9KP3W/ref=sr_1_1?dib=eyJ2IjoiMSJ9.YKddQjErUQWpJcNws2k3h0t11uoo14oKqjGFfq_cmXE3W1gsT_39aWQAPVAigzF5-yFNJN9mQC9zpw3ohlxkwfAN0mMrxPN6wrchphgtgeGliNaBkyCOR3nKBn_EiHnpzYNR9VjPx_IOaESa2TneJlN858oH9aqHiWknN7_bC9HvZHOWX9GqpClXf_z55sk8bkgLMs96Ci0PtdUl3LhrjrxaT72DfegrfyTezQ9qUFg.0amJtAUWvmVgUBfst4J_B8DslZt8TmR3wxeIEHILoSY&dib_tag=se&keywords=EAF90+ELECTROLUX&m=A1ZZFT5FULY4LN&qid=1756595617&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "AFON-12L-BI MONDIAL",
+    "nome": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 220V - AFON-12L-BI",
+    "preco": "R$ 529,01",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Forno-Mondial-Preto/dp/B0BZJDB39Z/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FY0peobK3LnAdbj9UGeqlarBO77kE8tvz11RdCSrd2DGjHj071QN20LucGBJIEps.KXPcDVYLK3PrXyl1yK2Pf40vRz_25QUSNaRCQrxT9cw&dib_tag=se&keywords=AFON-12L-BI+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756595657&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "OFRT780 OSTER",
+    "nome": "Fritadeira Oven Fryer 12L Oster 3 em 1-127V",
+    "preco": "R$ 579,00",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Fritadeira-forno-Oster-127V-OFRT780-127V/dp/B0B726S9S3/ref=sr_1_1?dib=eyJ2IjoiMSJ9.3HHuIUomcIgdF-J9B4hPCJ5yqx25GP-H7MyonhqfWAItrsMREP8yUkzWkCV5Fb0OGF89fK8VqDrJYr9U8eqB-psc-eaCKpaJUACSFpvDRDn4PXDzZwHeA5-dMF4GLqmOkm2Vxow5Jey5_BpL9iQalw.HW3O1Oz04uQ9GXAErJW_pXioTT-9wzW0VJqwEMdD8WA&dib_tag=se&keywords=OFRT780+OSTER&m=A1ZZFT5FULY4LN&qid=1756595689&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "PFR2200 PHILCO",
+    "nome": "FRITADEIRA AIR FRYER PHILCO 12L PT PFR2200P 220V",
+    "preco": "R$ 489,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Oven-PFR2200P-Philco-220v/dp/B08R91NTHY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.H6R9FSFZSI5E_dxJTdYrQTyS2Swe_dMWHsakoqb6G3MTlfmsfvZNHIQfrjE8bbRGGV-3Rz69aSAFEvb2hWBUQEa8oJYgEFdEXE5AZMvJUgH71g-IGX2y10_DFIINY9Rc0iwFWJXl6iiBUk5Rb9MBpTBspBiSdNU7iMieP514L9kPwpZofk3C7c8wSV6QLQwKMPSWFfHVUWVvNiZ5qoRyHjeNVGGo-ElBKvMsofF-bgCugtYJOy9a7u1NsVkhpeONi9KKxa_SaZEo8q96TFOBwi8vti3qA8nuADtTsZRAEds.MBQ3QdysBl11I9ILbPYTwahba1yJf0HfYWk8YAMjmG0&dib_tag=se&keywords=PFR2200+PHILCO&m=A1ZZFT5FULY4LN&qid=1756595721&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "FW009547 WAP",
+    "nome": "WAP Desobstruidora e Lavadora de Alta Pressão OUSADA PLUS ULTRA 2200, 342L/h, com Mangueira de Desobstrução, 1500W 127V",
+    "preco": "R$ 494,99",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Lavadora-Press%C3%83%C2%A3-Ousada-Ultra-Potencia/dp/B08DH78TK4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.VZtBzG_K-2fXVqlDbKu4h3YGZaPtzPD5F2P_B1ZROpVbpNE7QCVtHRtaUOmrGQAiV-xj4d7pXFZ19CrlEL8EQd1c_HOHL2hEywICGFBwOvk9QKqepb8r8-CL2fv0E4WWvYrQ6gGp8HPKiwpzTqPVtg3LHuMOvvdJLeAHIDaJBvmouIkZXFoeX_XkztZvhWB47dqI2LGBYEsaWEC1KEsHNsqCgnTzQBGbrRVzy1XfFjcFUpgw6u8X40Vme8eTHdRT.G2bgkWkNUfpe7u52e0WprOc_PQxzSH0xLMsBsQncnXw&dib_tag=se&keywords=FW009547+WAP&m=A1ZZFT5FULY4LN&qid=1756595765&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "VSP-40C-NB MONDIAL",
+    "nome": "Ventilador Coluna 40cm Super Power, Mondial, Preto/Prata, 140W, 220V - VSP-40C-NB",
+    "preco": "R$ 206,91",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Coluna-Super-Power-Mondial/dp/B0CHFZ8462/ref=sr_1_1?dib=eyJ2IjoiMSJ9.WI2urlTzFKK99brqs6OXfGmjztKgWAjxIXgIhE4Y9WFjkYxELCNNRCijnoMg8yxbpbDATZynSLTU_U2mmJwagw2oOuUiy8ZwN7Alh9C-Eotoa79pf5FzUaK9aQy4yiWyhiH-9-AcUJIKZneSnbfs2qINJsfYveERbVK5Cp4wG6L-kSV-hvTCh1deAxB2E4yVoJ4QJp-PWV761B-lQFVLur3-pqsOiX0KgsBeVX6Xb9Q.FLqHwxRpUaH8L9CdgfHi-QHLYZgtXV9LlsHwsuEm4Vs&dib_tag=se&keywords=VSP-40C-NB+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756595803&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "BVT450 BRITANIA",
+    "nome": "Ventilador de Coluna Britânia BVT450 Maxx Force 160W 127V",
+    "preco": "R$ 181,21",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Coluna-Brit%C3%A2nia-BVT450-Force/dp/B0CH8ZG6LC/ref=sr_1_1?dib=eyJ2IjoiMSJ9._eFMyG-zlBDaktw95_Rmv4NM0rG6jZ5bq7u0QPq_hPqoLW4ftJDysKEIk9czDLd79ErgyzCiMWQxPYTo4qZmQCo2lsTbkhMDKjlvkNuL2KkovSqFYMdlQB5zWT5cqOTdJSn4SLJg5cpys56ygUMg3YceLS51fGxUm67zVxO8J_iqybi0RybeTT-TZKNXiunVYwUKiwa5OojVN2q7OtH-3SJzp25vAyfgAJVskAYVawSymJ4UtxbwzsuqUdfuXEIJqy0NThDBlm5xQ9_SxK85gGGpj6hysd_o2o37BnQD3kU.ZuyYzY6y4QWFlDgFHoXhc_d0o0IzUHwAF-H38-lzAos&dib_tag=se&keywords=BVT450+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756595839&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "VTX-40C-8P MONDIAL",
+    "nome": "Ventilador Coluna 40cm Super Turbo 8 Pás, Mondial, Preto/Prata, 140W, 110V - VTX-40C-8P",
+    "preco": "R$ 241,81",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Turbo-Mondial-Preto-Prata/dp/B07YSS57X5/ref=sr_1_1?dib=eyJ2IjoiMSJ9.kRtTh0MLJQ9OctqieRY9F_VavcMZgPCbo6OwhgqznwGg8KZNOHct_xub-R-Hk1-0wSZZ4re3OfrGPtHcFB_vVZs9GMCJ7HlRT3tLcC0cf3qUG2HCDDrW9C26-bL62pHkTMWA5VsLUMZdB55LkId6McpD5sP6mroOBx9mZKRoriz9E1TO3O05zdl1nIPDuMiJ.h3oaCL5b7nFDH4w8m09G8fDEHjIW_VUlUIqENOJKto4&dib_tag=se&keywords=VTX-40C-8P+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756595882&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "VFC4 ARNO",
+    "nome": "Ventilador de Coluna Arno Xtreme Force Breeze 50cm VB52, 126W, 6 Pás, 3 Velocidades, Oscilação 80º, Power Zone, Modo Sono Tranquilo, Altura Ajustável de até 1,5m, 110V",
+    "preco": "R$ 369,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Ventilador-Coluna-Desmont%C3%A1vel-Arno-Xtreme/dp/B0B7284ZSC/ref=sr_1_1?dib=eyJ2IjoiMSJ9.cGGct_Ip_elFLeMINieGa2EIY2UMedZ9ldET5fznX6mQTt1vJ-JMe-bqzMnnv55sx-FLgbEw9QMUM3MeLxLEZEJ4G5eHZIb5PTLQ27dF0DAm3wb3G9hM3dm9sBC2i6ntbzOChMzJuI4QC24tSjwiMmeFu1a1wTrOwzqZqGjlzoQ0gPe9Zvn_R0FkJC45RJS21xR7-aSQXFawrIJu2BmBVSA8c4OFvNd7UME5WmNLUO_-QoHbB90s97UeN95rU1rji31assXpBI0fuldmn94n7SEdv1GPaRMTgovGt7megyM.-W8aERA7MrMIMKpQlh4hnYVDTI9ioie3GBCJVVxwXlQ&dib_tag=se&keywords=VFC4+ARNO&m=A1ZZFT5FULY4LN&qid=1756595918&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.4bb5663b-6f7d-4772-84fa-7c7f565ec65b"
+  },
+  {
+    "termo": "VB4C ARNO",
+    "nome": "Ventilador de Coluna Arno 40cm X-Treme 7 Preto VE7C – 127 Volts",
+    "preco": "R$ 338,31",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Ventilador-Coluna-Arno-X-Treme-VE7C/dp/B0DFXDRWH8/ref=sr_1_1?dib=eyJ2IjoiMSJ9.QslVuW80dZmdkx1IAXMH4tO-38QuAl59DOU-sFwRNRY_JdeIZc4XIZS5TtMG0_yuqBeRXKmcWap6wEsigcoa2QXJeFDbtx9xEuBFzlfEagjf2X8FiFAFspR9-VKfnyFxzU_FdDaqMa_RRX5ZJ4Mdq2eFu1a1wTrOwzqZqGjlzoQ5k1czlBsO7C6NIUvuOlLbJxA8UwJCwZ6xmEKbQ30zVXG3Hop59ktEep392ggXtKDZ8lGJOFL0m7Mae1V71ee6dRL3vEBjtLxawCiIk_kiMNEVxFK9g1nX8EjgQW9iu-w.RHJVYvek1S1DZer3uN93-kvoZiqDLpKU7zZwg-c5XY4&dib_tag=se&keywords=VB4C+ARNO&m=A1ZZFT5FULY4LN&qid=1756595964&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.4bb5663b-6f7d-4772-84fa-7c7f565ec65b"
+  },
+  {
+    "termo": "NVT-40C-8P-B MONDIAL",
+    "nome": "Ventilador de Coluna 40cm Turbo, Mondial, Preto/Prata, 140W, 220V - NVT-40C-8P-B",
+    "preco": "R$ 236,62",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Coluna-Turbo-Mondial-Preto/dp/B0D9C2GQ9D/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Tp_diosFrCOyYEniuD33dSd_RPymRMC4wb0gV_6ytcA9UQhl2UvKjEFhYbaox3ceGByWa78r5bPpIrsejR6Mxw.n7z4ziYhii-iczQ_6nun0evWfymEkJChKva7VejoZ7U&dib_tag=se&keywords=NVT-40C-8P-B+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756596011&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "VSP-30-B MONDIAL",
+    "nome": "Ventilador de Mesa 30cm Super Power, Mondial, Preto, 60W, 220V - VSP-30-B",
+    "preco": "R$ 116,30",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Mesa-MONDIAL-Super-Power/dp/B09B17MQLC/ref=sr_1_1?dib=eyJ2IjoiMSJ9.2zXbr1e__Fcg_8q9YaY_T-yOxEhyik74gYspbyDWV-N-hNtu42ppgyxXfAd2D5MaoZDYkFosgFHtYtZZmcRu4-nYR8DqvieqHECrr_IrrWbHgrk1bRs68WKuy6aCTGDo.eQFtfMrR7DzzCF1EJlSFc_HsQttxxKdAdJb8NX6xp3Y&dib_tag=se&keywords=VSP-30-B+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756596044&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "BVT301 BRITANIA",
+    "nome": "Ventilador Britânia BVT301 Tecnologia Maxx Force 60W 127V",
+    "preco": "R$ 127,76",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-BVT301-Tecnologia-Force/dp/B0CHBR96GK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.P6OStuMYjZM728Be9iC_b0fpauyVCA2Pq0KIvD4fUXk3fezjXilZr4KQPn0Hb-x_393PRwNM-ck42ywIHVyc_YY5SNB-NKcSSmxnHzPSD0J7kcAwGf4Lk6ESd-iXQyoyWOqoW0SBp7tZs6Yq9tgSkmXd5xozw9BlWFAE0vhpcojXe4TYMrmeeHR0xLvorGKWgUuWmpogu576niosN46XqYxTqu8wAofu9Fyylwz6tmucVocvqDWLSGdx9LXJVn2b4606rEVgrA9KLp4TWG8mVMeN9T9HW26_SesmkfCro_c.0hsffdZMrgGhhbIDW59zraGRqcSmEsi4VIVjK-09_t4&dib_tag=se&keywords=BVT301+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756596076&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "PROTECT 30 SIX BRITANIA",
+    "nome": "Ventilador, Protect 30, 220v, Preto, Britânia",
+    "preco": "R$ 99,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-Protect-Velocidades-Preto/dp/B07623NGP4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Fb4_1i8fhsyn00xm7VyppQ.Co-2XLDRo_insbfyBBwU4Eg_itXGuXBe6gWZw_Ta-Wc&dib_tag=se&keywords=PROTECT+30+SIX+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756596118&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "Ventilador Mallory TS30",
+    "nome": "Ventilador de Mesa Mallory Turbo Compact 30 cm, Silencioso, Hélice de 6 pás, Grade Especial em Sistema TS, Máxima Vazão e Mínimo Ruído - 220V",
+    "preco": "R$ 109,00",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Ventilador-Mallory-Turbo-Compact-Preto/dp/B0C7YJXYT5/ref=sr_1_1?dib=eyJ2IjoiMSJ9._iTifEcIm1RCZecI1070y25FzLHxQesSCEiItyawGnG_o9vTz3Z2uEZ-TUjCp2tb6P8n_xFs2Qxbib9HpDG8ymU6vcYYhxuPD6F5rwrtl5PVOx1uOMvQ9fBBcK77pi93b8CKSrKV_T1OCerb_7H_ou0xLRKUkIGZUCvnM_UhfxKbv7UX_rXjLaK27IDU5KskR17l6DGa0AS67iHKHnQR0h-KHp2lVY4z-iHvOTto36k.RCQWeahl4FTFvVIwRs85Uk4WwrQvo4iQKBXRJJ9zPKs&dib_tag=se&keywords=Ventilador+Mallory+TS30&m=A1ZZFT5FULY4LN&qid=1756596146&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "VTR560 CADENCE",
+    "nome": "Ventilador Cadence New Windy, 220V, Preto e Azul, VTR560",
+    "preco": "R$ 149,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Windy-Preto-Azul-Cadence/dp/B07YNJHV6M/ref=sr_1_1?dib=eyJ2IjoiMSJ9.QjTPAC0XscA1X3tWi0RQ0QLHpKRVRzI2-I9dGjrW0ngO3UwCbStI3ubZr8mMVW8M9t_41xd--gDohp6sSw3Aha7Zho21Oa_doxMPzNoIh73CPq9EOBf_2D5p-X02uvxygN6PZg2ZTzkF0HR71QRJFXH7z43vlbzm6_eexmmSZ06xsl38BR2xVEG4YvFNwEfzsGCSn6uMbYLpZtLi2AkrWJBfyH0SrOsISCkA6gdJBCDLHc6jB2zSD1AY9lAitT0kaP3Pmx894qVZqGZ1SoRm_7wVxEmdVFym5TP8TLS6ZL8.c0Hnvv9lVhZyQ31odn4vtlbT4UD_Ty3VA65c5RsjkHo&dib_tag=se&keywords=VTR560+CADENCE&m=A1ZZFT5FULY4LN&qid=1756596176&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "Ventilador de mesa vsp-40-b",
+    "nome": "Ventilador de Mesa Mondial 220V, 40cm, 6 pás, Super Power - VSP-40-B",
+    "preco": "R$ 142,20",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Mesa-Mondial-Super-Power/dp/B09B15RWPS/ref=sr_1_1?dib=eyJ2IjoiMSJ9.chm7eVte8mQS_RulVnUCHxkWnrMD1MsRN4UTN-QYncg3GYA4V7F1AL6RguZaIanC5QGDvKd0_2rGT6ybUVZg-BlgAX-ioDGYJkg9UdTaW0h4zOXfquyIGJ0NnzPWPvM90jwm3BakBCxexBZ20VkijfidQFs0svXnnSfZWkIdDVl7ySv-cNeuLRrbln9IUNjOHTy1z83SKHBrLFXtqHdfOCqqFCryM8_6_SDTlHx_3T0MPmAIDRWnabEB9ehS9bQggpUqY2SM_my2SNB6uWNJYPUPrkGjnXWKpCGwYmqLkx0.yEgxzquVKpua0kZQpFJBcS7qyNfMrNbTzyw7OeN2psc&dib_tag=se&keywords=Ventilador+de+mesa+vsp-40-b&m=A1ZZFT5FULY4LN&qid=1756596220&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "VB40 ARNO",
+    "nome": "Ventilador de Mesa Arno X-TREME 7 40cm VE70, 150W, 7 Pás, 3 Velocidades, Oscilação 80º, Power Zone, Modo Sono Tranquilo, 110V",
+    "preco": "R$ 238,99",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Ventilador-Arno-X-treme-Mesa-40cm/dp/B0CPGR4PXN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.YEQCrJxOtlWQmfYGA8Hops-lbmRnffs72Zz7vzpfpZm-gvKXVDa85op6KJ_6WxPwUYNEztbjI_q1QymnZYT_xb9lHy06Sxp6kA8swaN2XAXHJs2LcmZjgGqgt6SfzqwLv_b186D5wTUwI-11Q2qhCszOOvEMejvSzhkCU3p9ZiSCszU0UaoKhDFUnMKzb5rm9PAAC8-8UmpC3b5HHfhFh9OBujrE3asvc80Fyb_Zgqzn77Af7yRNyB0HIgyeysC-hWuui0vaXNHU444vaEk8hgmNV9bMbp1-CiokaPQ3Zdc.MYiFjg73ucCMmnPCwmaiZaoRo3T_4qY_oxWio3Tieaw&dib_tag=se&keywords=VB40+ARNO&m=A1ZZFT5FULY4LN&qid=1756596266&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "VF42 ARNO",
+    "nome": "Ventilador de Mesa Arno X-TREME 7 40cm VE70, 150W, 7 Pás, 3 Velocidades, Oscilação 80º, Power Zone, Modo Sono Tranquilo, 110V",
+    "preco": "R$ 238,99",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Ventilador-Arno-X-treme-Mesa-40cm/dp/B0CPGR4PXN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.gqXzddt842SIwv_Oy0Ns-UrnYXSmvNwgcDQ5ENBEtm58N-vDTgn20BAr5iLG36QGAHaidZu-UjXi4oCo96JsWC3GFR6wgtcj5ko2SlDQ56up5Mhx-mSSv-ur13L9yiM2TXeIP3s8hg7OIkktus1ClvoLRiBfvH-7e3Fj6BBEHzkn2h-z7hzv-3vN1X3P-3IKiRWwd-K7qLkEs7Meu8YEr4oYjeVo9kavqkjNueUEjl9TPpE0gwiqbdrh54sTrrgY.qcaqWyEflJePPO9QDSv7s_o8jZXwUCbbSkhm_4fVY9s&dib_tag=se&keywords=VF42+ARNO&m=A1ZZFT5FULY4LN&qid=1756596315&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "BVT400 BRITANIA",
+    "nome": "Ventilador Britânia 2 em 1 BVT400 Maxx Force 150W 127V",
+    "preco": "R$ 137,58",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-BVT400-Maxx-Force/dp/B0CH45G658/ref=sr_1_1?dib=eyJ2IjoiMSJ9.KwkQdPqiV5NKb2IgO2aVb_mhjX9LLqv0IZWsixO1t9_S_PcY4DljYh-tCs_2bznWuIOPKaThvPzUx6CCK7GYhDC18dubIr09P_rbtISMspvv4cVA-aqnD01uBHFZ9sV9R7IeYpEpxkXb0-bCds7yTP4rZvhE6mHZqxAKW9UGGlbUoKn_KZtJ8Qa33AkYkiK2tyddqBeKtpphlqF6Hyo7ULYrWgbb-sGEAYjCfTtMjcdBPjlJ980mI_AwzUOnQJUKnqkM1KchBKoRfFxxfH_hbZJM_HtOM2a0Hgo9jJHYWGs._IxWVMWZXLKT44YPATwNniGCSRzndu9kafKBJH-_sFo&dib_tag=se&keywords=BVT400+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756596353&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "VTX-40-8P MONDIAL",
+    "nome": "Ventilador 40cm Super Turbo 8 Pás, Mondial, Preto/Prata, 140W, 110V - VTX-40-8P",
+    "preco": "R$ 143,72",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Turbo-Velocidades-Mondial-VTX-40-8P/dp/B07YL7P5XY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.oME4LtenGxH2xNen1PAeT8fw_wKCFW9_VPMsX327XBZtN7lwFnzyBlI0C-IGLdJxDpPP_tYsYqF0zj8OXOQ1b6iXeUnX91C9KEmzmjnvxTWfxOCi8lebDW3vv9NUHFyilv1qxdo4lpwZ41WUlsILBsO4FNMPOgs0e3AK0UYBCnRC4smpQLIKhpErAar8BSC2.z94HplDKd1zsw5lmIQ6zF7Se96449nzmGlvDFK_xt_s&dib_tag=se&keywords=VTX-40-8P+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756596400&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "FW009218 WAP",
+    "nome": "WAP Ventilador de Coluna Profissional RAJADA PRO 60, com 5 Pás e 3 Velocidades, 135W Bivolt",
+    "preco": "R$ 239,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Ventilador-Coluna-Rajada-Pro-Bivolt/dp/B08641ZFF2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.7xhpaIm_Zw_QXye4Yx_zrfHL1VqPUWb8eoJr7D4q78M4XOQiPfHd1WAUQYyrkflLknjIdJz5ehJakt2hJpm8_RU8qfNqahyRrLprdx7ag1ziEUZL66kpZUf0e3DgpT0FJB4RYnrVZKN0Ahlf_LnHMRNEcNcLf0duw8rlbJCz_8lvyPaWDWUNV1hx9zxWbQIcMt9sXSbb21Sn-Lfs-DTt0S86VbMy5WfSA7auRJnkONMiEBpqsQzB7qPy8VLLqe4y.3njPlDB70iO8pXPbLwetkqg6UAiPETHmmCwo4ngCwJo&dib_tag=se&keywords=FW009218+WAP&m=A1ZZFT5FULY4LN&qid=1756596435&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "VTR409 CADENCE",
+    "nome": "Ventilador Cadence Eros Turbo, 110V Preto e Azul, VTR409",
+    "preco": "R$ 282,43",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Eros-Turbo-Preto-Cadence/dp/B08GZ1JSV1/ref=sr_1_1?dib=eyJ2IjoiMSJ9.xOGWrzMDua350akqZ212oqSpicvAF5XVhK10WjFkxgBbbXFR9zrBYBrQL3XL4VOSirHdBQ4t_uAksFJn1GQuZ4oixrtP9ZRdhO1e__Xw3zlqBLkzbnZI5f7o49YUWrkXQQJQs2OjiicwiFqZhyQFTYC-_TsJfQ5IwHxm9aGayxgCqqzSooQqF9LT5Vf8fy-9QzDvPvovJQZT5z8jFfxdHboDpg9VKoVRm6LV7zgwGrH-z7s62IuLq1abPo7Y1cc8C5hOTEt1x5iPA58kNPuUrUlgMzcb6rc5qkyhDFbksm0.GDbVLMWmBvRzRrwQKqrTayr8QKz2_EI0OVUEWZy8QBY&dib_tag=se&keywords=VTR409+CADENCE&m=A1ZZFT5FULY4LN&qid=1756596470&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "NVT-40-8P-B MONDIAL",
+    "nome": "Ventilador de Mesa 40cm Turbo, Mondial, Preto/Prata, 140W, 220V - NVT-40-8P-B",
+    "preco": "R$ 169,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Turbo-Mondial-Preto-Prata/dp/B0D98MZ2JT/ref=sr_1_1?dib=eyJ2IjoiMSJ9.l0EmiY8-Bp2qAvqeUqrXjAXhSjb5mHCJklS1YypzuGofBZJUlyxT8GQfogyvEPf0aS0tjlv-tDvlhgmGeBHujFQ6vzzQ6wqbaPdtbeI845nJS-hbGOtd4l85AvsKtU3oblWHeL7cOP3s36xv-7yz6OsQuEvIAWhPym66BOGrtIrYGF8B9I8_aodYFK0cAIZj.LMkKcxyBNvWHXEA29TdmOy7u79eLn5TfgTINxNS_I0I&dib_tag=se&keywords=NVT-40-8P-B+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756596513&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "VE70 ARNO",
+    "nome": "Ventilador de Mesa Arno X-TREME 7 40cm VE70, 150W, 7 Pás, 3 Velocidades, Oscilação 80º, Power Zone, Modo Sono Tranquilo, 110V",
+    "preco": "R$ 238,99",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Arno-X-treme-Mesa-40cm/dp/B0CPGR4PXN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.gqXzddt842SIwv_Oy0Ns-c8hmocMF4udrYtMRgKJLIE8BoZ_V5I2OvYEpP_7Bgv17c627DL0vk-7WVtZtA27FM0QTTiiO1nVlbjTU5Yrm3P23Mqidhnq8AwW5ZrR0f6bWd6mA8_9_cwU6pVFXCo3vbBCkI7VlVr701zZ0tBhwC8GT-0hFGleNMs36LW5JcJNP0B65L0WeBlMZ8csqAw13p95l2lOG9Ew4Us8OKvDFzmADa_eQFya2zZxBt5RWY1-QYUGIU2jfdPLF7uH-COaMtndv-lKuSSZKLouDrIOecA.AaoMpiTT-IlwT19LMVJOd6DmChwJa48oYT2XS5PMoDo&dib_tag=se&keywords=VE70+ARNO&m=A1ZZFT5FULY4LN&qid=1756596548&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "VTR410 CADENCE",
+    "nome": "Sanduicheira Elétrica Cadence Click - 127V",
+    "preco": "R$ 113,05",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Sanduicheira-El%C3%A9trica-Cadence-Click-127V/dp/B0CDJ4L7CZ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.e9qSsUj7N3BdKcgbF-NFqjwGPyZwza2V4_nFKOK6GXlTV9QeULAiQuwNTJ2EZSI7dLCHV8vTQpCMqY9THeeUBQt7f9Ppm9QdsUjPmnY91tF6sWqHnb-C15teAe1hpF7detg19ZNX6V-_IhNM_0KPqUmPdQhc27qTRDwpLoiRCQcY7e-v0pPRZ-pYlNumOIDp6hQ917-yHJzskQptGPWoe5Id_P6iEij0fXTC0pu9J9IJh55x__TXRfSvDQgmDxWV7jjfIAohzW6vA57hz2gbNd3SCEtFz37BsIhGQYinFi0.IVB2GnyRYz3SW-BPEtEjOGv-OJcVnJpNVabjtzq_xYM&dib_tag=se&keywords=VTR410+CADENCE&m=A1ZZFT5FULY4LN&qid=1756596590&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "BVT401 BRITANIA",
+    "nome": "Ventilador Britânia BVT401 Tecnologia Maxx Force 150W 127V",
+    "preco": "R$ 149,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-BVT401-Tecnologia-Force/dp/B0CR1VN2W3/ref=sr_1_1?dib=eyJ2IjoiMSJ9.kE1mVfwiOiJg_0VjXRjWTA3_syyxMJUaU__HhonB1G-IKe4SOe9klhGcaF8vgmBeA1-KDxLDu1j4_waYcLfaOfUw_Vqaz8HRInsrEagQO2JxTXl7wWxImoOPABmkxhZYwtulp06iSV98_mN1to3qPNBgfHHrsgfdcBINmKN54AXndRXwjzRT0SE9IzNRG5errY3Sw-uxHCyTgiqaRV663kfPZ_78MXx-cMq8CU9h7N1BPjlJ980mI_AwzUOnQJUKoHHfHMmP_wr9mEj5gVoUbR0Ib5Ey8zVrDiy9MyrGXhU.mhHBA_PC5QSnPUGdOcxg3g2GxXf1V_7wpkW_lcgpydA&dib_tag=se&keywords=BVT401+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756596635&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1"
+  },
+  {
+    "termo": "VTX-50-8P MONDIAL",
+    "nome": "Ventilador 50cm Super Turbo 8 Pás, Mondial, Preto/Prata, 150W, 110V - VTX-50-8P",
+    "preco": "R$ 215,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Mondial-Turbo-VTX-50-8P-Preto/dp/B07ZPH1CSY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.q_47Tomd09hWJj2KDwuVQqtDjGmGp6gpgoSKAvXd70Acq0Kxu5VUe5UNkS1N-ILNvqOOjVHiLCKEjRPlGQ_USDVhbVku3A6PtDws4vlsD73NvOwerzPFice9icxDJLHF.lkK5358pYilU-tbuOuNv-mWhfpqB9vD6rs40qB81Fx0&dib_tag=se&keywords=VTX-50-8P+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756596676&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "BVT500 BRITANIA",
+    "nome": "Ventilador Britânia BVT500 2 em 1 Maxx Force 6 Pás 176W 220V",
+    "preco": "R$ 206,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Brit%C3%A2nia-BVT500-Maxx-Force/dp/B0CHT2X7X5/ref=sr_1_1?dib=eyJ2IjoiMSJ9.igZb_14ZbDILL5vfn3Q8iSKRmQV6msWkQ2bCtLYiOVPS_PcY4DljYh-tCs_2bznW5QGDvKd0_2rGT6ybUVZg-AKbe91p3QK107FBnUhQ0ShjiLTfkMO3wV_7VsIat800xT_JO_OJjro5TO7sLm4e482R6qih2n5wm3mZ2RKSRiljFRQsIqkQyTC7k49BYyoopkPDLrNYKPLvyJlL9gfbVPquKIX9bzBgSgWc_Wxc3nnGV6GrJRFi5DJ0ulCf10SzeJte2du0us_WFYZsrhWEM6KEfeam_VtyYKUC36A9CP8.uLzico8QExGt9f3Rz5B8vpv9gGlLqjSFvr3AqaYi65k&dib_tag=se&keywords=BVT500+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756596707&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "VB50 ARNO",
+    "nome": "Ventilador de Mesa Arno Xtreme Force Breeze 50cm VB50, 126W, 6 Pás, 3 Velocidades, Oscilação 80º, Power Zone, Modo Sono Tranquilo, Grade Chevron Zone, 110V",
+    "preco": "R$ 259,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Desmont%C3%A1vel-Arno-Xtreme-Breeze/dp/B0B728TFQM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.eqcqx_DOKvQxTpDXJHs_PX_pyOUr2UM9-2s6pyzh7avkK3SwsVhLS5nb-UzssbZYSgCKmkT9aI8uFyEbx9eToRqDLEINVsk8VCvRRl17hvwFd0uT1Kw21tPJZdsTfve_qNCyJD1lILra-bUcGhJn9n0c7FSOKl8dNLGurzrzx5z0dianmG5LypsD7dnrBagaiRWwd-K7qLkEs7Meu8YEr_fYaz2StZMAUmx0G0bVBRA.woJgAqXDFw7j0EtSDDlsWO18KZkuBnMkfy3-xUDZgkc&dib_tag=se&keywords=VB50+ARNO&m=A1ZZFT5FULY4LN&qid=1756596754&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "TURBO 6 VENTISOL",
+    "nome": "Ventisol Ventilador de Coluna Oscilante, Turbo 6 Pás Premium, Preto, 50cm, 127V",
+    "preco": "R$ 159,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Oscilante-Coluna-Premium-Ventisol/dp/B074JH6WRT/ref=sr_1_1?dib=eyJ2IjoiMSJ9.0KI_YgGICok5xpGguF2cZ-8Q2IhZKS-ULU5sp_NzgV2fBZZOP1dOXzbfJIQ4QB471U0Q_erZhGI3VYj11L8Bbw0syCPi2TZpaqpiYk8MBZVmTNlaxU7H9xj-uiOSo8aTlOpfcmm3bco-tyGPiWIsfJFB6-4kh9ZCmsozhuUnPEysdGSVuZ5FnWXkqiDqoSC40-nQRYF42LBQHxGpAbhnrfXsQzxH6uii_W8rAN4yKQR-CZTwyqhvJ-kejMMy6At6Go8bWpcBWxdh2_mJOC8E3y7_kfClgM_kvGqX32iTMLg.JyQKjchVKTNsCSJDtNQfbG16tz4N7vJpSuOEKiWE65c&dib_tag=se&keywords=TURBO+6+VENTISOL&m=A1ZZFT5FULY4LN&qid=1756596789&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+  },
+  {
+    "termo": "BVT510 BRITANIA",
+    "nome": "Ventilador de Coluna Britânia BVT450 Maxx Force 160W 127V",
+    "preco": "R$ 181,21",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Ventilador-Coluna-Brit%C3%A2nia-BVT450-Force/dp/B0CH8ZG6LC/ref=sr_1_1?dib=eyJ2IjoiMSJ9.CeayEIOk6veBDM0I11Rrg19TEkYG2ZU2QTaeuMIYPcs3fezjXilZr4KQPn0Hb-x_Au-78BL6bAbolWsY1ZHLBw8kJJOFVrIEcSAO9xxI58f4lT24wrD0FBnUmGSGK8IFay2E7VscoUf5sp92tjR68fv0nTjUv9BkLJh8Kqh4dOTLlGu4HJeDdVHnCdaVhLeGEKLJ8uXiJQMRZB3HwRlreGyMlhIG-86ADXpNQhXLY9YVw0TE9wJPeQShdaCp14Vz_MtyYk-p0KoznyBBrVFAwDVu_bZBTCSydX9l_GQtnLI.CvXZSKci_ivu-CEAuJES-87nmyD7mMSmcbjnpurRPEY&dib_tag=se&keywords=BVT510+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756596833&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "VT-30C-NB MONDIAL",
+    "nome": "Ventilador de Coluna 30cm Turbo, Mondial, Preto/Prata, 50W, 110V - VT-30C-NB",
+    "preco": "R$ 185,67",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/MONDIAL-Ventilador-Coluna-127V-Turbo/dp/B09B14YYS6/ref=sr_1_1?dib=eyJ2IjoiMSJ9.KK_8eYMRAJmcIU07rNBULp2h1ICUDiEbVboanYjzUe4AcsO5nglb9vDn4Pf8uMdBdCUh4SkoDBxE9N_X4jGV6q_yEnCOqCMCxqvQns5Ab-6tk8dEvZ5xOckax3GM3rlVoEvPge0mFJHwjFPui3-k8A.gXPSKAELsHzhQiT8MjHfQowshd8qIVpcu4nTcvZIr2o&dib_tag=se&keywords=VT-30C-NB+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756596874&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "BVT350 BRITANIA",
+    "nome": "Ventilador de Coluna Britânia BVT350 Maxx Force 75W 127V",
+    "preco": "R$ 174,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventilador-Coluna-Brit%C3%A2nia-BVT350-Force/dp/B0CHWZ9HWW/ref=sr_1_1?dib=eyJ2IjoiMSJ9.1vu1T_Jgat7_Is5D77E5w6F_DatuNEl2qVUaQH1NCSLwpGGOVFT7uC7fIqKo4-EmqYRa20mGT9jY7B7t_GgMGnf6557fnzL3gnqmREfRP1siCDjqI-TtnKZPygIxLVkTpggAS-tVgB46aHjBjQ_8G3ii1CN5S-brRBAgCLVWE15CcvhtAmNFrBjxKA3Od_J8Z7iIBkkbDVd_30cQvdKPLN0IXg0_M5tomsGkNp7vAPlD8nDkrslere-97El9tR7drmOh3ZO52h6E-PZrYE4WgWg7K3Voh-XQyf8GDEWBtc4.NnSnDjbxz_07o888W4uSp3l8zfOhkqYvRQPEAibTObk&dib_tag=se&keywords=BVT350+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756596905&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+  },
+  {
+    "termo": "Coluna 30cm VENTISOL",
+    "nome": "Ventilador de Coluna Turbo 6 30cm Preto Ventisol",
+    "preco": "R$ 189,43",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ventisol-Ventilador-Coluna-Turbo-30cm/dp/B09DDFG5LD/ref=sr_1_1?dib=eyJ2IjoiMSJ9.8AGRDdfEsBxdPB0KCdHernw9eDn1xj3IOPANkuIFFzUSLqI4KifG28ZzEFXXeFM-yHW3e7DafIxJU-0S6q1q0Q7OeE22pwdIo8OGsNFGZIifXPZ8c0B3iYpV3zLttxLPUNTMSe_exHdORrI6xqDNcg.HQM6f2pcdV_2sp2sg8oztRoTzy8jvJ_O4SylwK5uOjc&dib_tag=se&keywords=Coluna+30cm+VENTISOL&m=A1ZZFT5FULY4LN&qid=1756596950&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "L-99-FB MONDIAL",
+    "nome": "Liquidificador Turbo Power, Mondial, Preto, 550W, 110V - L-99 FB",
+    "preco": "R$ 94,91",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Mondial-L-99-FB-127V/dp/B07QKN5NF1/ref=sr_1_1?dib=eyJ2IjoiMSJ9.OinyEHJ1urFaFt7rGMdzfK36O2cCPFsbsS5Lf-Fw2gVguYWq6HnEx3HpJ58Zc-jCvhHvrepFwPHZ71y92vqbFhRwIHMItAjk7v8jTCUW4Qg.re96lwBqeCY5bXVLMzpe0aT_ifkJPNoLuhLzZbwgYto&dib_tag=se&keywords=L-99-FB+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756596985&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "Black 3 BRITANIA",
+    "nome": "Liquidificador Britânia 3 Velocidades Função Pulsar 2,1 Litros 600W 110V",
+    "preco": "R$ 80,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Velocidades-Fun%C3%A7%C3%A3o-Pulsar-Brit%C3%A2nia/dp/B0BFBLY6FQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.b3yfzGulTZ2VzOHafp8bVVhCgPD1D0I7-LBCPNqAXpkaptJPuMZTYZexj9E8-QVtX9KB_aUEPUdqzIc4oTxcDF0eujgtgWKydtFSN6qQYlhDw0KN0MYETiFqF-zxGr48oQj6w5XevuPQY7bGaPpxpbVkp5Kdg4B48zNTdpCBcuaF3-1pXUm5h8SWIiPas2GN.tjlWvGnzZkB8D4SZ62L_OUGIvRqx28rPX_L7a7EIQg0&dib_tag=se&keywords=Black+3+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756597020&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
+  },
+  {
+    "termo": "LQ651 MULTI",
+    "nome": "Smart TV Multi Roku 32\" HD 3 HDMI 2 USB Compatível com Alexa e Google Home - TL052M",
+    "preco": "R$ 1.069,83",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Multi-Smart-imagem-compat%C3%ADvel-Google/dp/B0DCHM4SRH/ref=sr_1_1?dib=eyJ2IjoiMSJ9.T2TRM9Sw67UEp1cXs1NsUYOmpJB7uPVHMw8zwuFK3Kj02KYCKlNy7ovhIT2UbnKo7JRoGl3LyiLae1QeATcJSLC-zCMhNLXMhY4NiD_bSag.ZcNU1kgdnKg0kQcx6y184lX2d19d2bblFVFQYZtxr6s&dib_tag=se&keywords=LQ651+MULTI&m=A1ZZFT5FULY4LN&qid=1756597048&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "liquidificador arno power mix limpa faci lq31",
+    "nome": "Liquidificador Arno Powermax 1400W LN64, Marfim, com 6 Lâminas Powelix Pro, 3,1L de Capacidade, 15 Velocidades e Design Moderno, 110V",
+    "preco": "R$ 189,05",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Arno-Powermax-Marfim-1400W/dp/B0CZVFHLMD/ref=sr_1_1?dib=eyJ2IjoiMSJ9.TEgQj-Qu8mGOL2HCwr2KAQqYyBEvI25TVk7NMwrDI4m-Od2Nu0TazekXqK3R4w3FE_ARXJxX1ioyzdXVnuTTq77Dm8jTKjegIgZGFpQubzcKDQDARfDRbe08XkJVEsxGswPNxlU4_P7fDq3v1uhgxltDvlka0kevOY8gEQfBzLblAQiu6NKJcqNL8ELwa1rGsp0nI9n9RUTnrZmdxWNLRzttO9Q0KLb3i8TRQsCGXKwqqPQTGWtVc7fi1vFspK1oVOLtnDRWwAsyOVoVCpKSf7bJhGJOHJRrgrrmu71zzEY.0IdM1LdKhOTAjCLhrJWC7sTlocTrSjiCydfXFBbhasQ&dib_tag=se&keywords=liquidificador+arno+power+mix+limpa+faci+lq31&m=A1ZZFT5FULY4LN&qid=1756597080&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "BLQ920P BRITANIA",
+    "nome": "Liquidificador Britânia BLQ1300P Fortis Turbo 1400W 3L",
+    "preco": "R$ 139,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Turbo-Blq1300p-Chumbo-Brit%C3%A2nia/dp/B095KWWW3H/ref=sr_1_1?dib=eyJ2IjoiMSJ9.1fg6M0CMW1O57qLQ4LZ0hoZBrmLkyLbM6a_hKV4DiHeE4uKLgD3hk6fR8mTTDJdWFACZo1449JUs8uzVnahwZqKX2jXrCXf4m76Q88vrhwOIi-l26RYJpnkXkpM8gFYM9RpS9K_RbJ3RPi3LN1mfKigFwoNMN6FUkrRWcdi7Qysjxmvp8Q6N2yu7qoAVo2gzVmefWcWm3SiRlkX-gE_DLQOS94RamYNR4fAFA4FH5xTNeWh7fJ7w4-qgVa-3f7g3ufn6BqF-zpTxOATNgW7O7IlNcszbE0-C3iQtKwb3ZIs.YawT2d2pWiYgtivmHZGMx-whvTpxYcdHOkUS-92znME&dib_tag=se&keywords=BLQ920P+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756597130&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "liq347 evolution cadence",
+    "nome": "Liquidificador Robust, Preto, 110v, Cadence",
+    "preco": "R$ 176,24",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Cadence-Robust-Preto-LIQ400-127/dp/B07DQCC7PL/ref=sr_1_1?dib=eyJ2IjoiMSJ9.87O_eGA0n6c5ETFWHsu5qQ.3z9LPBVorqt5-3OcRbHiVabaSSveZRAsrkLJKXV8Sek&dib_tag=se&keywords=liq347+evolution+cadence&m=A1ZZFT5FULY4LN&qid=1756597178&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "L-550-B MONDIAL",
+    "nome": "Liquidificador Easy Power, Mondial, Preto, 550W, 220V - L-550-B",
+    "preco": "R$ 75,91",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Easy-Power-L-550-Mondial/dp/B08J8FTN15/ref=sr_1_1?dib=eyJ2IjoiMSJ9.yBCfH-4ZRSY3wsj8IWTYGKPpMIELIOmcQfhADxULCMF4iL_CWCeG_RQh5G872PdFWN0RKqfF7nVAUCofrDU36JSivMXGRuvWHkVfyCq6dKRQnRRdYR0e6hhDD_re7puzRWUXNDR0tKqOHa7sbitWIQ.WwEs5UoOzUEYqK0cgld1DfBppHmP-s8bMqZDQLbAqWQ&dib_tag=se&keywords=L-550-B+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756597209&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
+  },
+  {
+    "termo": "RI2110/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Daily Philips Walita Preto, 550W, 220V - RI2110/90",
+    "preco": "R$ 99,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Daily-RI2110-PHILIPS-WALITA/dp/B07RRDLZQY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.lF4Hpj1pcmy1C4AZjM4rcPTXjNiA0M5Uy2L-kFUQkIgfqNrHsXrwjnZK9fmSv1DcGnFS5dR8xIx8X0uM6GMehMkgz0feGEAUtN8bGEX7bNWRTUFw85UXvZMvAbxHRhOmTF-g1BoZ56ACdN9yd_IiIw.hu5G0l-ZIO9WBBEygtq0iilca_p8LgqGgL7XJ-dqxt0&dib_tag=se&keywords=RI2110%2F90+PHILLIPS+WALITA&m=A1ZZFT5FULY4LN&qid=1756597243&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.8def12d2-e8c1-45d1-8b88-370034f7d6d4"
+  },
+  {
+    "termo": "Arno Powermix LQ10",
+    "nome": "Liquidificador Arno Powermix 550W LQ12, Branco, com 4 Lâminas Zelkrom de Aço Inox, Alta Durabilidade e Desempenho Superior, 110V",
+    "preco": "R$ 148,40",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Power-Mix-Arno-Branco/dp/B07RX9VWRP/ref=sr_1_1?dib=eyJ2IjoiMSJ9.S9epDAGIxfj_kAls_9OwBhcq6H7lri0wrDm3f2SBFLc-ePDch11VbOwBRctJdc8ZgLu51xxs7-yUiZAI9KOuKE1Y38aR4US8KERQBfW8lQR0ju5L6oDopL6Y5kU2L6cUOxw5cM6l_kVcLIMYsipRwZodj_QC5tNqjBjLdqN7act-viXsc6upRu_rfGMR6OzA0hzVOco3fLKMlRzYFDhR5t9XptaEmBqH5jNPAyg3vzuyFogTy3x_5NeZpRs1LxPtlx1aEyFoUhMdmQJdMjTCV-IwTb1TZmyMfK9tNMbP6zY.eylEp7A68sFdt6w2n_4Ne-LDsPfX_6mRbzR-MNo90VE&dib_tag=se&keywords=Arno+Powermix+LQ10&m=A1ZZFT5FULY4LN&qid=1756597274&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "LIQ100 CADENCE",
+    "nome": "Liquidificador Robust, Preto, 110v, Cadence",
+    "preco": "R$ 176,24",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Cadence-Robust-Preto-LIQ400-127/dp/B07DQCC7PL/ref=sr_1_1?dib=eyJ2IjoiMSJ9.87O_eGA0n6c5ETFWHsu5qQ.SU2hEBUOrSd4McWy01nuKOmS2I0-qR6rqn8Z0lUUrLo&dib_tag=se&keywords=LIQ100+CADENCE&m=A1ZZFT5FULY4LN&qid=1756597307&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "FAST MIX 2 MALLORY",
+    "nome": "Liquidificador Mallory Fast Mix Preto 2 Velocidades 600W com Função Pulsar 127V",
+    "preco": "R$ 129,99",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Mallory-Fast-Black-110V/dp/B0C34H6FXQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.2IBPwZI4_tLqpt3Dwo1TCeMyunTp8Hk4ENz_kHoSKe_hrC58XhdnQM0Bmqsls-vdUSwcgW8I7NUI8b2G2FRjpvbwDcyBm4w1rXuSNQn4dQQcWTuIc1DrwcgFCdpUiKbB-HJIyHzTwo7735WOrFeL7MTl5WvpmFi5lRZba6ALtJI.Ke2qB2MwfZbZ8YBEEyTg-lYQWIly6zvBWH_pb2prhVE&dib_tag=se&keywords=FAST+MIX+2+MALLORY&m=A1ZZFT5FULY4LN&qid=1756597337&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "LQLF AGRATTO",
+    "nome": "Agratto Aparador De Pelos Vizzo Ap 03 7 Em 1 Em 1 Preto Bivolt Agratto",
+    "preco": "R$ 136,77",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Barbeador-Aparador-Pelos-Agratto-Bivolt/dp/B08C83M4D3/ref=sr_1_1?dib=eyJ2IjoiMSJ9.qCH4btfQtJ1BMks9E6mVDt7JRXSzwrWmDxjuY4NE4WTGjHj071QN20LucGBJIEps.7F7c5Gq1pqmub70u1MgV2vFjqBme7OsgtLOQoSoAUmA&dib_tag=se&keywords=LQLF+AGRATTO&m=A1ZZFT5FULY4LN&qid=1756597366&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "L-97-W MONDIAL",
+    "nome": "Liquidificador Pratic Power, Mondial, Branco, 550W, 220V - L-97-W",
+    "preco": "R$ 121,41",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Pratic-Power-Mondial-Branco/dp/B0CXL45HVG/ref=sr_1_1?dib=eyJ2IjoiMSJ9._wPHZI_vsag00CB73inAKroF4EzB7nhoZO8UQh_jKcWlF72bc6AXDUlXlyv1Q1RPIQGssIrH-EvQisBNGvpecMMzPmpfqUz6ryhqMjMxkPQ.9m86zoBiJVAQzX8kMCwydlUr00ZWHU4xY8gy433h3m4&dib_tag=se&keywords=L-97-W+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756597390&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "RI2110/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Daily Philips Walita Preto, 550W, 220V - RI2110/90",
+    "preco": "R$ 99,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Daily-RI2110-PHILIPS-WALITA/dp/B07RRDLZQY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.lF4Hpj1pcmy1C4AZjM4rcPTXjNiA0M5Uy2L-kFUQkIgfqNrHsXrwjnZK9fmSv1DcGnFS5dR8xIx8X0uM6GMehMkgz0feGEAUtN8bGEX7bNWRTUFw85UXvZMvAbxHRhOmTF-g1BoZ56ACdN9yd_IiIw.1oGdD4oad76DmFpuVkdkz2WICdcEShe0g7-NQ5jASNc&dib_tag=se&keywords=RI2110%2F90+PHILLIPS+WALITA&m=A1ZZFT5FULY4LN&qid=1756597419&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.8def12d2-e8c1-45d1-8b88-370034f7d6d4"
+  },
+  {
+    "termo": "Arno Powermix LQ10",
+    "nome": "Liquidificador Arno Powermix 550W LQ12, Branco, com 4 Lâminas Zelkrom de Aço Inox, Alta Durabilidade e Desempenho Superior, 110V",
+    "preco": "R$ 148,40",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Power-Mix-Arno-Branco/dp/B07RX9VWRP/ref=sr_1_1?dib=eyJ2IjoiMSJ9.S9epDAGIxfj_kAls_9OwBhcq6H7lri0wrDm3f2SBFLc-ePDch11VbOwBRctJdc8ZgLu51xxs7-yUiZAI9KOuKE1Y38aR4US8KERQBfW8lQR0ju5L6oDopL6Y5kU2L6cUOxw5cM6l_kVcLIMYsipRwZodj_QC5tNqjBjLdqN7act-viXsc6upRu_rfGMR6OzA0hzVOco3fLKMlRzYFDhR5t9XptaEmBqH5jNPAyg3vzuyFogTy3x_5NeZpRs1LxPtlx1aEyFoUhMdmQJdMjTCV-IwTb1TZmyMfK9tNMbP6zY.b7Aa-Kuzdrj27aFMhoZNFA3vI2ZQIvM8X1AoYFm_fQs&dib_tag=se&keywords=Arno+Powermix+LQ10&m=A1ZZFT5FULY4LN&qid=1756597448&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "LIQ100 CADENCE",
+    "nome": "Liquidificador Robust, Preto, 110v, Cadence",
+    "preco": "R$ 176,24",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Cadence-Robust-Preto-LIQ400-127/dp/B07DQCC7PL/ref=sr_1_1?dib=eyJ2IjoiMSJ9.87O_eGA0n6c5ETFWHsu5qQ.aa0_pHHNfuoC2phGWJgOo155eHMx9NDdl0T5akIKheY&dib_tag=se&keywords=LIQ100+CADENCE&m=A1ZZFT5FULY4LN&qid=1756597484&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "FAST MIX 2 MALLORY",
+    "nome": "Liquidificador Mallory Fast Mix Preto 2 Velocidades 600W com Função Pulsar 127V",
+    "preco": "R$ 129,99",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Mallory-Fast-Black-110V/dp/B0C34H6FXQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.2IBPwZI4_tLqpt3Dwo1TCeMyunTp8Hk4ENz_kHoSKe_hrC58XhdnQM0Bmqsls-vdUSwcgW8I7NUI8b2G2FRjpvbwDcyBm4w1rXuSNQn4dQQcWTuIc1DrwcgFCdpUiKbB-HJIyHzTwo7735WOrFeL7MTl5WvpmFi5lRZba6ALtJI.f7oXxBi2ZHNvQQNr5tpkCn_ym7xSZQBdiYbAs6Q5VXc&dib_tag=se&keywords=FAST+MIX+2+MALLORY&m=A1ZZFT5FULY4LN&qid=1756597517&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "LQLF AGRATTO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-900 FB MONDIAL",
+    "nome": "Liquidificador Turbo Full, Mondial, Preto, 900W, 110V - L-900 FB",
+    "preco": "R$ 113,04",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Turbo-Mondial-L-900-FB/dp/B07CKCWNRC/ref=sr_1_1?dib=eyJ2IjoiMSJ9.5g4-eYsrTvNZLqiBUF-9R_8wqbQk1Ktef41AStQVWvnGjHj071QN20LucGBJIEps.xiFcM8OIYzFFRY_PSx1Ufg6W9IuWp6Omd92-xv_yrrs&dib_tag=se&keywords=L-900+FB+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756597559&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "DIAMANTE PRETO 900W BRITANIA",
+    "nome": "Liquidificador Britânia 900W 2.65L Diamante 800 com Filtro e 4 Velocidades Preto 127V",
+    "preco": "R$ 99,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Brit%C3%A2nia-Diamante-800-Filtro/dp/B07659FXRM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.2l6rHDlGXaCJ4TEkIxdXkBZghxUPv-JY6lvDXY2JPMvGjHj071QN20LucGBJIEps.LfjBsCqAb2X4qghEYFf6_pEV7ZODDOgN39XHOvypssI&dib_tag=se&keywords=DIAMANTE+PRETO+900W+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756597590&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "BLQ970P BRITANIA",
+    "nome": "LIQUIDIFICADOR BLQ970P TURBO 220V",
+    "preco": "R$ 103,55",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Filtro-Brit%C3%A2nia-BLQ970P-Litros/dp/B085T8Y896/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FjIh52yUuvgDmP_gPVRDpajZMblEq83pr8PxfzZ_UyqjJArpSv7AP2-8oxz872laYsi-6E8ZyJJce_8yNB6_RTl24ObYkcYQXXQiYiDZhXZESq1_rnf6h22jYV8dmB8uIFimcN3gaL2f-b-sxvh8nqd2RH38zRZWH9tius1xx7_mCT1RpJPPrfB3b7m5qcag7l-87YS9pDIQt4S2dTms90KMmAi4e28saH_9nLGpqzAa8V0DCiVhNJFFk_DLbItU5czBADi5G1HH3TGNlmuusfYz_ImqtHUySEPRo6bzpVo.-kIlHBH_gg991p2nDlSA5DzPCJXo3k0qZY-Oq8gmxpw&dib_tag=se&keywords=BLQ970P+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756597623&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "liquidificador hit liq200",
+    "nome": "Liquidificador Mondial, Turbo Power 550W, 220V, Preto, 2,2 L - L-99 FB",
+    "preco": "R$ 89,00",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Mondial-L-99-LB-220V/dp/B07QK91PTZ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.lwbIWs4TUCZofw11_e23xlf0wHUJpwWK7glfpyf4VClzqODa5nJzzco8OxrN4i5b4F1vPtZ1cyZxLfePs7A1kbIFi3987vb9q9yRNv2U-nNxTLkLblEMYjCn-_i9kGjAF2wbIy4_LAslvgULGX_Kig.B-OW7dvZCii0a9B_0x7dIuyPrB0Rs7LaytnIEcX-uLE&dib_tag=se&keywords=liquidificador+hit+liq200&m=A1ZZFT5FULY4LN&qid=1756597662&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
+  },
+  {
+    "termo": "LN61 ARNO",
+    "nome": "Liquidificador Arno Ultraforce 1400W LN92, Inox, com 6 Lâminas Powelix Pro, Jarra de Vidro de 2.2L, Resistente a Choque Térmico e Tecnologia Limpa Fácil, 110V",
+    "preco": "R$ 399,00",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Arno-Ultraforce-Resistente-Tecnologia/dp/B0FCYMT1TY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Ul8zhG_Qx8fq84TLX7At6mVwM6epUcId7Iotj-fYdsqQ9wW4kRkwPlgX_cJnjgQ5kBsIrtIWZ9C29pYQt2HPQxRs03EkzdaZiRw1rETgilPkG5w8aPZZtj73KuZlHDeBBoZCkCyoLLMvCno0RpBclehqFjpbqyrwlGqyvbh6DGk3l4dXTX8XLUdkErkQbBAXBK5P4Levw5arZHppy7P9mnLe19Gj2EHaQPwPdDnlY9-5aER-bQJqE7G66a_B5hZLbJHI023ADroBizztIRNG5LbwckRZTzl9FFziFHVAerc.lNYyEW_nv8_fLvjPeD8c7TRLnK0Ro7fFriE5LIG8940&dib_tag=se&keywords=LN61+ARNO&m=A1ZZFT5FULY4LN&qid=1756597694&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.4bb5663b-6f7d-4772-84fa-7c7f565ec65b"
+  },
+  {
+    "termo": "LQ35 ARNO",
+    "nome": "Liquidificador Arno Powermix 700W LQ35, Preto, com 4 Lâminas Zelkrom, Tecnologia Limpa Fácil e Controle de Velocidade Comfort Control, 110V",
+    "preco": "R$ 220,45",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Power-Limpa-F%C3%A1cil-Comfort/dp/B0CQ8PBWNN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.B_URDcrBBeFjuKIoOMo9w09_usaRyfdo-UFoX5oRTyEnlksATfdJym3_zbQ97bAXgDcQvhWVyWXu0jMvmHZUAZwBDU2yX0GPCcWbXAk1RFo3-khDhtwRMKIgVKqq2-LCpn7luqfzJwvUTCQrIf0VMY2rAqkvkeMNnaCIzAfgaZghs30y6hp64Lgw-g61SL5F8Jx9LwYdu7xyEI99-ZAfhtBzNWywZNjxOV4dDYGXPRhAU-66co2KQyl3E6pc006o2y1UC7b6N0Hem95YwT9gNG0cd03w0KrtqR9Epwy0pGY.vMlX2reL4XV9As1rbS_cOxBGn2mDjwy9KQIS3WpR65Q&dib_tag=se&keywords=LQ35+ARNO&m=A1ZZFT5FULY4LN&qid=1756597729&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "L-1100-BI MONDIAL",
+    "nome": "Liquidificador Turbo, Mondial, Preto/Inox, 1100W, 220V - L-1100 BI",
+    "preco": "R$ 132,05",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Turbo-Black-L-1100-BI/dp/B08FF6J3VS/ref=sr_1_1?dib=eyJ2IjoiMSJ9.gxhEqKSCV9Bm3nUC-TvsTYSyLHPo2ppGr7cN3DYUDPlb2mRZH8QYN-qvqrpkrKoaeCbDqPgRnYu9hjoUTTisgcMzPmpfqUz6ryhqMjMxkPQ.VpYhLf6fPztc3pqgXqxPpU5mCmJoXvt7PrP-ZtNZ800&dib_tag=se&keywords=L-1100-BI+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756597770&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "BLQ1280P BRITANIA",
+    "nome": "Liquidificador Britânia BLQ1300P Fortis Turbo 1400W 3L",
+    "preco": "R$ 139,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Turbo-Blq1300p-Chumbo-Brit%C3%A2nia/dp/B095KWWW3H/ref=sr_1_1?dib=eyJ2IjoiMSJ9.1fg6M0CMW1O57qLQ4LZ0hrh5RiW39EIDkQPG3TlNWacXb43qdHpJvtK1Vzo-dHWj9os_BS68yCsBzobEntYLEi_r9Ph6LYMRpG88ZqYjsWne_sn7ehiWjWWQ3bRXR5-vZTEm617I6XtKfbgSVkqQOFjRZSdqU4wkb6FhkBsf-RSb2_tp2R3FkvLA6vaZi-vkx_fsGHfi14NZ32XDMcTj0oxG_gnX-4oB8tRuQv_FdjmUT32pyqnsCShdbQOChuCf2-dqZ_2PDIK4zX39bEe0ypTi7ijXwZpvmeuutgnHvdU.zwfySUBD9V417uQyX5J0pJzsFhmN7dniWk0ExY-r7dk&dib_tag=se&keywords=BLQ1280P+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756597803&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "OLIQ606 OSTER",
+    "nome": "Liquidificador Oster 1100 Full 3,2L Cinza OLIQ606-220",
+    "preco": "R$ 193,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Oster-1100-Cinza-OLIQ606-220/dp/B0C2JH2RDX/ref=sr_1_2?dib=eyJ2IjoiMSJ9.KWozwxGLOKHhONx5cVXRBnfvVo0WQqfzFRtAxXueOD_IrizNer15BurW-pnbg0P8If48xH2n99Rs7V_LUqHaWN_GCIHLSnAinyH3NnTzF8miNQ35lGNQ2AEvJuQj_5Ti.CIukQCVyVpv5EuHI86mJfv2zt2SVvik2-SyEGqeGPJs&dib_tag=se&keywords=OLIQ606+OSTER&m=A1ZZFT5FULY4LN&qid=1756597845&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-2&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "PLQ1411P PHILCO",
+    "nome": "Liquidificador Philco 4 velocidades 2,7l 1150w Plq1411p - 127",
+    "preco": "R$ 207,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/PHILCO-PLQ1411P-Liquidificador-Philco/dp/B09XBKD52Z/ref=sr_1_1?dib=eyJ2IjoiMSJ9.esMAb-A129v295A4vKPG4OkfN_XK78PBlJxauTlNg_c3k9dTplQNGn4jGEpJFMPmFATfP_2dyjGd5lGVWIDdCNGMd5YK4NjMXGnVruuXhWkN3-QZjZjec5RG7YYimzDh_foo03Xa1xr6iqffWvhfE6SsQbRxz7Tm95qhx2gySXwjk76Bjq33qtAHy4E1nlGjNZdnxCUsXWEtN2BkmhlljEVDlcuOxf72LbjXX7cSGwXiGlpmVYGyz78-_RFqj4_4v1tIK-UE5Z1UnPklTOH7XQiKX0_LMI-lOAJq4M0GlJo.DhNV7JtgGxuq43bKGng3xNXS4vlE5RLS94_fw_pwLDo&dib_tag=se&keywords=PLQ1411P+PHILCO&m=A1ZZFT5FULY4LN&qid=1756597879&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "BLST3B-R2T OSTER",
+    "nome": "Oster Blender Power com 2 Jarras To Go 220V",
+    "preco": "R$ 284,97",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Oster-Blender-Power-Jarras-220V/dp/B0DPNH1FXB/ref=sr_1_1?dib=eyJ2IjoiMSJ9.LCaVSIAAvSIvUWuIqPjCKB1vU5zltqZBuqI0bFQCBFXGjHj071QN20LucGBJIEps.5t8hP6TYxR3K0Re5T7PEN7N3YJTgsQdO_AUHCBEzUrs&dib_tag=se&keywords=BLST3B-R2T+OSTER&m=A1ZZFT5FULY4LN&qid=1756597923&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "LQ1111 MULTI",
+    "nome": "Liquidificador 2,6L Turbo Cinza 1100w-127v 8 Velocidades Multi Home - LQ1111",
+    "preco": "R$ 228,86",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Turbo-Cinza-1100w-127v-Velocidades/dp/B0CM7VT975/ref=sr_1_1?dib=eyJ2IjoiMSJ9._152u_aFnt-Ow6hLd1ue_w.Wyr4dzHEnBf2TkEtSgklcfV0pHkwGr7haFQ6S01ms_o&dib_tag=se&keywords=LQ1111+MULTI&m=A1ZZFT5FULY4LN&qid=1756597950&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "L-28 MONDIAL",
+    "nome": "Liquidificador Power 2 Black, Mondial, Preto/Prata, 550W, 220V - L-28",
+    "preco": "R$ 71,91",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/L-28-Liquidificador-Power-Black-Mondial/dp/B07572FL2B/ref=sr_1_1?dib=eyJ2IjoiMSJ9.eoaOInYGsdhka-P6U6q_TeQpw0vxl45voXzTOM7dJYD2kB8eMaxN7kcbEzotaR1wNUrkgUJ2Ndp-N_AWxwx2rIoJwytf9vsB_GijkF3F2Ly5DQ94kAIvXDG8ULR_uUS4bTcWSJGf_Cv88gVzDFrqMsGcHiDR1IPfCNtaQWCDQrSU9xrLBjjS1J7leOH8wsp3SR-fHf9xiyzRTq8K4ntZ5Zy1BdUAPTfQN44GqZeS1k0.i6UdA6NHLH_Na44i1EFnvFhFQXRFGYbVKOWKfwBRWVQ&dib_tag=se&keywords=L-28+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756597977&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
+  },
+  {
+    "termo": "RI2112/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Daily RI2112, Preto, 110v, Philips Walita",
+    "preco": "R$ 104,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Daily-RI2112-Philips-Walita/dp/B07S1H93KY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.pH5QW3SbBj13qE2nZgmFMBtZ4E-wEwaPFRt5IuvIu-jGjHj071QN20LucGBJIEps.HH9qiC4xPwMMqLf_awdLCGjUXZnC3Bvq0UKQOz6_Y10&dib_tag=se&keywords=RI2112%2F90+PHILLIPS+WALITA&m=A1ZZFT5FULY4LN&qid=1756598016&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "Flash Mix MALLORY",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Flash Mix+ MALLORY",
+    "nome": "Mixer Mallory Trikxer Pratic - 3 EM 1 127V",
+    "preco": "R$ 167,70",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Mixer-Mallory-Trikxer-Pratic-EM/dp/B0BVSDXMQJ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.BovzPbCG9zGD7d8srMoN4TQQJdUfzE-EKQp9jPrS1eq8Fa7WWn-PvVWQmSwI0LlXbeiwhDWmNNYAWtS78IO6Zd72BSzYuOgbzajxU9teTPkSjZ273fHZZabDKZTMFZD_Z4i73nw8bjyazFju4DpL8Q.-M5nxRyz4D_TPjCj20fot4nojaBmJaU6WktChuuyJRk&dib_tag=se&keywords=Flash+Mix+MALLORY&m=A1ZZFT5FULY4LN&qid=1756598059&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+  },
+  {
+    "termo": "L-1200-BI MONDIAL",
+    "nome": "Liquidificador Turbo, Mondial, Preto/Inox, 1200W, 220V - L-1200 BI",
+    "preco": "R$ 150,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Turbo-1200w-Mondial-L-1200/dp/B07GHN5DGN/ref=sr_1_1?dib=eyJ2IjoiMSJ9._5j7s6cecHHFDOIP2wJJINkYQjBzV1JyHrj72DGJcTw7rPcXvwl-A1QgDRPmb_7yGByWa78r5bPpIrsejR6Mxw.mHDh8CGuyWvFeUpPCSy4ABlCWCOTyqHon83RhnsHFNo&dib_tag=se&keywords=L-1200-BI+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756598090&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+  },
+  {
+    "termo": "PH900 Preto PHILCO",
+    "nome": "Liquidificador, Ph900, 3L, Preto, 110V, Philco",
+    "preco": "R$ 136,08",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Philco-BRITANIA-PORTATEIS-162465-8-1/dp/B076BL1265/ref=sr_1_1?dib=eyJ2IjoiMSJ9.4uvZLB7IuhAns6wA1e2nrKYRZz1eKXwjhxniknwXcXxtzWJJKJ_zInXlioGsLXCKV49x7peoppPr8cC18CxM-HfhFg3sYtwzGE4g2sUDIWL_3UtT29EfF1B1p3eEYiPzp4BjOSL1luAMHxvF5OUPoOSleoPyuz9X-mnh3BIk9NG5mWhhu8JGH8DOwY4H76kk_dUhZsmYR0NV0m_3QzgqDjeGqL7gpYoMxfYVGjHgR2qOxGav_FepYQI7fkPlHcHfZP7Ju5LwLc8krpFn2RYmBjb1y9spB9eozD6QKpxYYAU.N4B-RGGT6db5rrWDEin0b62zh8Yk9z3Zs0_KoNjjoQI&dib_tag=se&keywords=PH900+Preto+PHILCO&m=A1ZZFT5FULY4LN&qid=1756598126&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "RI2242_90 PHILLIPS WALITA",
+    "nome": "Liquidificador Série 5000, RI2242, Preto, 220v, Jarra Inquebrável, Philips Walita",
+    "preco": "R$ 279,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-S%C3%A9rie-RI2242-Philips-Walita/dp/B08TLM8GDQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.piPir7_zKW5X5et2Zt-F0f0MkkamOzqlHxn6ibTWnRxANMadm7knA1w4tLHRpu4aA2VTq9ihMVMBSlwWx6wPMb2ODeTuG-YLKONfEN5Uby7CbRDqXG9Ae2ULyhzOVmFYPAUrj7hSKA98-JOq53xf2A.1fckTpymmftGDg21Eg0jn2lIwgqAQYpCVWMja1Z2fKw&dib_tag=se&keywords=RI2242_90+PHILLIPS+WALITA&m=A1ZZFT5FULY4LN&qid=1756598169&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.924def69-2b64-4493-bd01-636d89bd34b8"
+  },
+  {
+    "termo": "PLQ2100PI PHILCO",
+    "nome": "Liquidificador Philco PLQ2100PI 12 + Turbo 3L 1200W 220V",
+    "preco": "R$ 169,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Philco-PLQ2100PI-Turbo-1200W/dp/B0BYK5T45C/ref=sr_1_1?dib=eyJ2IjoiMSJ9.91RZUd-0SN5N71MNhAG9njnkwKcCloKvuqHAt5V80mskVdLTlyb-iAZPPtMXmJDAkoChNuC1nzkNLJbuV52quRnA2oOPSQ7ovWtV3MvH85dZybCm3zBYvd6FBuhO_Y22ee3RZ_T3zAa9uLndskj19nQAHY_6yvmMDl3gJFEHKqr-J9X6Z1xbELOrX74yeMpUq8fW9dV7mvxZgj2wbziHUSQ4fe0REP92KzJJaFvJdfrdwLQa1-rAYoI-Akn7vf49NZcVsdE--kld96FoAS_7pxvYUKI5fUPnnCvzgxpcBGU.Ut-AzQ_uzN-H7QpbOwwcbh13_dXWOcNBPljCcTKmdRQ&dib_tag=se&keywords=PLQ2100PI+PHILCO&m=A1ZZFT5FULY4LN&qid=1756598204&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+  },
+  {
+    "termo": "RI2240_90 PHILLIPS WALITA",
+    "nome": "Liquidificador Philips Walita Série 5000 Vermelho, 110V - RI2240/41",
+    "preco": "R$ 299,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-RI2240-Vermelho-Philips-Walita/dp/B08TLR68BY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.OlyE1DdWEXzVdYx9HNSGH4GkDjpzYt3a4YrCVAEHScIndbVAZTYYiSljUhbpXKNCGnFS5dR8xIx8X0uM6GMehALQQv5HSUMhVyWLCP-lCJyGT0gSSKWLjOBYF4T1sKkYBB9mfwU18Y5yFs2ECpdASg.31FDMLKOwzoB0Wk6Pkl-EsPO6EfRyWtLXcBWkSbdne0&dib_tag=se&keywords=RI2240_90+PHILLIPS+WALITA&m=A1ZZFT5FULY4LN&qid=1756598248&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.924def69-2b64-4493-bd01-636d89bd34b8"
+  },
+  {
+    "termo": "BLQ1380P BRITANIA",
+    "nome": "Liquidificador Britânia BLQ1380P Pro Maxx 6 Inox 3L 1200W",
+    "preco": "R$ 99,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Brit%C3%A2nia-BLQ1380P-Maxx-1200W/dp/B0BL96W2X2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.0EapKsUrFMXS_5qJ_GsxmqjZMblEq83pr8PxfzZ_UyomnB7aK5749cTtPuer5P63zKArnCpldKAzyOGrRXz_ESJB-TfaA8DoaX5mbMYoSmZ4xPOc3l2IW417Z2PHw0ogtjzpxDHL2585yT1UL003ym9EZa9vGUyHEgdzxf-YMUeVzd9dgr9OEgWo_3OYa6zFCopX7sBM_hY-EptrNP-hZ68Lz4mPEKS-vxMY0sLyYPI81LFgVqUjrrqztYFBSiFEdWsyle3DEyQJGrFSRLMtxSZPIvLZ33TtfO5bZQee0XQ.jB1bahMozCkNhexnIWsyuoM1Npr2kTkkEtfMhcs7fVo&dib_tag=se&keywords=BLQ1380P+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756598279&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1"
+  },
+  {
+    "termo": "L-1400-GI MONDIAL",
+    "nome": "Liquidificador Turbo Glass Jarra de Vidro, Mondial, Preto/Inox, 1400W, 220V - L-1400 GI",
+    "preco": "R$ 167,30",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Turbo-Glass-Jarra-Mondial/dp/B0C6FSRHXZ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.moOuO1mPKsYtPE_yrt9dpiqF-mkubf0yBuE8fgeURTA.EVO24ttbWmtP8lBE7Y_wdje8oQk0D00kv9X5Tf_d5_g&dib_tag=se&keywords=L-1400-GI+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756598324&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "BLSTMG-BR8 OSTER",
+    "nome": "Liquidificador Oster Super Chef, 1,25L, 220V, Preto, 750W, BLSTMG-BR8",
+    "preco": "R$ 275,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Super-Oster-BLSTMG-BR8-357-Preto/dp/B07CPX92FW/ref=sr_1_1?dib=eyJ2IjoiMSJ9.kXjHze1fmtH24C4qDHmpDQk2-jKA6k8g95ycTH3FWrr0dXV-2gxdavXoS-GO45ibGud1G2NPUFKwoKAZNIcROrw7r26-kr8ZsZxv76lkbyQ.OOK-tw8Nc0SzKYmvQbo3CljjdxjHWFJ5lqs-Kx5oywU&dib_tag=se&keywords=BLSTMG-BR8+OSTER&m=A1ZZFT5FULY4LN&qid=1756598357&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.924def69-2b64-4493-bd01-636d89bd34b8"
+  },
+  {
+    "termo": "PLQ1350 PHILCO",
+    "nome": "LIQUIDIFICADOR PLQ1350 TURBO GLASS 127V",
+    "preco": "R$ 208,05",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/LIQUIDIFICADOR-PLQ1350-TURBO-GLASS-127V/dp/B08JZCNYZV/ref=sr_1_1?dib=eyJ2IjoiMSJ9.urV2cVliFvHRCE4Q6gKngE-4YoxXXccSPIj7Gu1kCs-_Pyz4AHMmkzKvp6BJhjFS0ooPOXTb0ZETVrMLIdH-ud-LYlBc1KkSwTdGS5J9fagT4CAv0xvLwbfOV0cdYJOdRAykuIFTR4c07cd7eiUPmpJhNtYjKq9GMIKjMGONTsdk4QpA1VCyTBAXAkQVXPfAGJpyAEI39T624MntPRceCKFdzVxG4bgYhahD1K1hB0Do3ILgkCAlYCoFKCK2NiDY11PS856W-Rwh9_S66-fpJbFsRut84-bt-DYDCSTkV5k.XYAhwP5aljym3gh6jO1_2hZdus7Fz6Eh5_lYrVb2CVs&dib_tag=se&keywords=PLQ1350+PHILCO&m=A1ZZFT5FULY4LN&qid=1756598394&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "OLIQ520 OSTER",
+    "nome": "Liquidificador Power Oster Preto 2,2l 127V - OLIQ520, OLIQ520-127V",
+    "preco": "R$ 325,03",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Power-Oster-Preto-127V/dp/B0B722FZY1/ref=sr_1_2?dib=eyJ2IjoiMSJ9.16bdZGWA-K2B7pdhwIw9_MK3ZyqoHRDq6Uztg9ldh2ebOF2ZQ5FdgxxuFpfUMN8CxuArqrS-P0LaLDVIpKjPsu1OuoeALvjC3xbrbm9EbEFSScxHjRFSPxg0Wt7TdmJY2mNiT4XnVPlPbqUHwILRzhN_x-l_HiVmwNFafTtgkxBs7lEgUYwZbirPjmAPYU-j.o9mdoD1rZbHeojBvyzxQsJvb1tqVi56mnoEFIjrOF4I&dib_tag=se&keywords=OLIQ520+OSTER&m=A1ZZFT5FULY4LN&qid=1756598437&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-2&ufe=app_do%3Aamzn1.fos.2aacf1cd-a8c3-4e7d-af5f-5ac7d03c6933"
+  },
+  {
+    "termo": "EBS30 ELECTROLUX",
+    "nome": "Liquidificador Electrolux inox jarra de vidro resistente capacidade 1,5L 5 velocidades função pulsar 700W EBS30 127v",
+    "preco": "R$ 290,31",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Electrolux-Tecnologia-Experience-EBS30/dp/B09SVR1XR5/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rSk9_lU6Zux2K9xdLefqh8lEogDoOL-TfQv3ctKSOR2fc6ZtPAWLnOI1v_BlQ93d9iUYE4g-NJOt1MdaJZbKYAJgO5LpPERtQ5zkZLp1J5a8pmEj8Pqsdw1mDUyi1gcfC4LuIrsXlu5FIDtuPYcK7xwZiqHybo85MNykla8DqErsRHNEK5oF_P0PGBhI1yKQTIE_QaTdRD0z5zEoexCpOY36En3FZvK04yJ8ynzyZ1Q.jnTJ9r-FMIaVlrYkGhD_jTYKlgrYnOKA6V44Wb83n08&dib_tag=se&keywords=EBS30+ELECTROLUX&m=A1ZZFT5FULY4LN&qid=1756598472&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "OLIQ501 OSTER",
+    "nome": "Liquidificador Oster, 220v, 1000W, Vermelho - OLIQ501",
+    "preco": "R$ 246,51",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Oster-220v-1000W-Vermelho/dp/B09TC11PHR/ref=sr_1_1?dib=eyJ2IjoiMSJ9.TFkSSSKnY4LBHBPz-EcV6qk2dySXNbRE1iwOSAW0DyauPguq1pEwNCA2x-Sn1PPolWtNXtQnMFYAlWzB2PcraFgUoALvl2xHNjp5yu16lETzF2EIFGmGLxxQA8XxTjWl6rdb_on_EGYOnX2MOsJugw.DQnW7YGG_SbWRAxSg6-3lemU4n8cTSEt1-LNjWc4xR4&dib_tag=se&keywords=OLIQ501+OSTER&m=A1ZZFT5FULY4LN&qid=1756598505&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.0f2334ea-9a1a-489c-82d3-42d04f92b402"
+  },
+  {
+    "termo": "L-98-B MONDIAL",
+    "nome": "Liquidificador Pratic Turbo, Mondial, Preto, 550W, 110V - L-98-B",
+    "preco": "R$ 99,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Pratic-Turbo-Mondial-Preto/dp/B0D98FM9KP/ref=sr_1_1?dib=eyJ2IjoiMSJ9.oWiIVhLz5E2kZgxM7PFXdLjq2tp5kprggTj_qz0fSjeaMmno70dL4j_jcd-SGYtaFmQeemL4i9e7HTrdWgs5wW7BjxxSBxMXlJ7UL5Ir3xyTpd_KGU5OKJ2fEkU_iN7Y.mNTtiIZyX5A_7-BfD9sC65kjJ_LxrHNoFX_MRTABc68&dib_tag=se&keywords=L-98-B+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756598541&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "RI2112/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Daily RI2112, Preto, 110v, Philips Walita",
+    "preco": "R$ 104,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Daily-RI2112-Philips-Walita/dp/B07S1H93KY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.pH5QW3SbBj13qE2nZgmFMBtZ4E-wEwaPFRt5IuvIu-jGjHj071QN20LucGBJIEps._8bqMEWj3-sWLJPX7W3Rojh21i5OzgNoeqKK4wnDEQQ&dib_tag=se&keywords=RI2112%2F90+PHILLIPS+WALITA&m=A1ZZFT5FULY4LN&qid=1756598572&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "Flash Mix MALLORY",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Flash Mix+ MALLORY",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "L-77 MONDIAL",
+    "nome": "Liquidificador Power Filter, Mondial, Vermelho, 550W, 220V - L-77",
+    "preco": "R$ 138,70",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Liquidificador-Filtro-Mondial-L-77-Vermelho/dp/B07FRDPJD9/ref=sr_1_1?dib=eyJ2IjoiMSJ9.pVXbWm1Uj9M3AlAXPHIzvo04BmFwfmIYXK9xmIWJrAOYlLwK5hoempdfmAzNkIZOtl4xNM3x-T_ER8_6dLj-solE7fbOHl7m-yaH6iB__lZdxtvh4Md78ub0k3p-GoNFlarx2VPeZYZ4fFbT4bVk8Q.m1Trd74D0ZpFOj-rxMhskfpLvC4iLw3SQotu3ae34_0&dib_tag=se&keywords=L-77+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756598626&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "RI2112/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Daily RI2112, Preto, 110v, Philips Walita",
+    "preco": "R$ 104,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Daily-RI2112-Philips-Walita/dp/B07S1H93KY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.pH5QW3SbBj13qE2nZgmFMBtZ4E-wEwaPFRt5IuvIu-jGjHj071QN20LucGBJIEps.aTPD-2hqfYhIyXCej7SbV1YzKP4uLp2XXd9EcpvF3s8&dib_tag=se&keywords=RI2112%2F90+PHILLIPS+WALITA&m=A1ZZFT5FULY4LN&qid=1756598659&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "Flash Mix MALLORY",
+    "nome": "Mixer Mallory Trikxer Pratic - 3 EM 1 127V",
+    "preco": "R$ 167,70",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Mixer-Mallory-Trikxer-Pratic-EM/dp/B0BVSDXMQJ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.BovzPbCG9zGD7d8srMoN4TQQJdUfzE-EKQp9jPrS1eq8Fa7WWn-PvVWQmSwI0LlXbeiwhDWmNNYAWtS78IO6Zd72BSzYuOgbzajxU9teTPkSjZ273fHZZabDKZTMFZD_Z4i73nw8bjyazFju4DpL8Q.hICcvNLPVc3s_YjP4RAyOyjXVyZILIPOyGbhsSS1JX8&dib_tag=se&keywords=Flash+Mix+MALLORY&m=A1ZZFT5FULY4LN&qid=1756598691&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+  },
+  {
+    "termo": "Flash Mix+ MALLORY",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AFN-50-BI MONDIAL",
+    "nome": "Fritadeira Sem Óleo Air Fryer 5L, Mondial, Preto/Inox, 1900W, 220V - AFN-50-BI",
+    "preco": "R$ 298,31",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Mondial-Preto-1900W/dp/B08HZFC8C2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.C2YopSzZcjCt4X9G0mlY0o5zBuParhEjo2uCfjZApxhlF-b8_BgAm9bq97zxJ1CqhQVz6R4XWF62-o11svTcOR_RNWw0HH_3sQe99E5LLBR1EB9uaaFoSS20Oc3TWA5bd7iHlCcocY1-hdoGm8VuJQ.ZZDsPENkF-Ls9Ge15qP8EA370tO48-VgugdQEMZkXW8&dib_tag=se&keywords=AFN-50-BI+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756598736&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "AFN-50-RI MONDIAL",
+    "nome": "Fritadeira Sem Óleo Air Fryer 5L, Mondial, Vermelho/Inox, 1900W, 110V - AFN-50-RI",
+    "preco": "R$ 395,91",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Mondial-Vermelho-1900W/dp/B08HZFHZJM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.dCTT_69kacQlDBJGKw3Gn8rBcRE78Zf9Qqc9v3RsCJCTviRqajGwMDGcnqNGXDWzhxKWZq2329fHQqEeklQn-CkOWUHcpzVYZh95Xp_2Cgatk8dEvZ5xOckax3GM3rlVoEvPge0mFJHwjFPui3-k8A.fYQHu_B3OtnWqAecrEAEEXR3cnYYQMgF7gst2_qQ7kY&dib_tag=se&keywords=AFN-50-RI+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756598769&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e05b01e0-91a7-477e-a514-15a32325a6d6"
+  },
+  {
+    "termo": "BFR51 BRITANIA",
+    "nome": "Fritadeira Air Fryer Britânia 5,5L 1500W Gold BFR51 220V",
+    "preco": "R$ 329,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Brit%C3%A2nia-1500W-BFR51/dp/B0CWLMCJDM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.CBKPbh0qU6iEWsKy73Fj6R-behWEnIu_l6BMDvfVmbp00c4jr4SC9-ozGt1n-31-qCxVrv8a6PYA3YLRAIyqYyN1Q1fEaVAojRwSKoh1MNN04F82I9zIREaXLBujTq4SrKnzH3VRZFs07qI56mwPTECl4IPmwSMkDbiD2M9j6vDDTZ1bDYTXPdN4Bnnv-XxESWYtC2YtP1a2cOVZbIJrHTfCmC4kPta_NsckbxAvPVWmShLsmEmJ9Zjvfj2kLarg6MXacZ81sn7BOwv2_n0rkqNIdaBVgnCAS2hUsztALYs.UduWpdEf99bFTl5CvBHS6Py4kHaWuDuysc_1XDhDVT8&dib_tag=se&keywords=BFR51+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756598802&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "PAF55A PHILCO",
+    "nome": "Fritadeira Air Fryer Philco 5,5L 1500W PAF55A Cesto Quadrado Preto 127V",
+    "preco": "R$ 442,06",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Philco-PAF55A-Quadrado/dp/B0D9R88VM9/ref=sr_1_1?dib=eyJ2IjoiMSJ9.-B8U1Lo-GfRXwKb4o0-HMIM51KZLNmjjFIaIsSazq8RLaD9cRvZRgzFDkz7K7RCZZXDdoHtodqoGJYNjWPzMO4c28C3XtZHiCYXHcROInzja3ZREn0xZvUlblPvQWwDr6lSyWQC_GN124fKcCY1P1irKjcBVRWAn7ff-FYWaYgwNY64kYQmJHcMyI5UAtdnSQsb4_b2ylgz1PiHcQ00oPff7i_vuqViLo5ai4PsQ0mB-Sm26_0jtHihrzFhDRbcbVJTPZhg0pkidKWW3ylbb0yA4Wfj7qS1r-M0S2S7XH9o.IfYt478EgsNA2ivwxh8wqk_deVbumdFhbKrRPOVc3Ic&dib_tag=se&keywords=PAF55A+PHILCO&m=A1ZZFT5FULY4LN&qid=1756598837&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e05b01e0-91a7-477e-a514-15a32325a6d6"
+  },
+  {
+    "termo": "EAF40 ELECTROLUX",
+    "nome": "Air Fryer Electrolux 5,6L Efficient por Rita Lobo (EAF40) 127V",
+    "preco": "R$ 359,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fryer-Electrolux-Efficient-Rita-EAF40/dp/B0DWGM8QG3/ref=sr_1_1?dib=eyJ2IjoiMSJ9.QgA7IN8Pzw-MZNcv7-5_AP3W5FG_EcUgyzUrHxS8aFd6RpONqeVsS8Z_msbOxpb8ben_HkszdWGspSUaPltQI-uRVo_arCht5_ivDxss_TE.bd77BPIqamIVgPQOaT7VfpXsN4EbTovEo9cbBvlNePA&dib_tag=se&keywords=EAF40+ELECTROLUX&m=A1ZZFT5FULY4LN&qid=1756598877&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.4bb5663b-6f7d-4772-84fa-7c7f565ec65b"
+  },
+  {
+    "termo": "Fritadeira Air Fryer Space 5 - 5L Air Circuit 1.700W",
+    "nome": "Fritadeira Elétrica Space 5 Elgin Cesto Removível 5L 1700W 220V - Airfryer",
+    "preco": "R$ 293,08",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-El%C3%A9trica-Space-Elgin-Remov%C3%ADvel/dp/B0CSKKN1P3/ref=sr_1_1?dib=eyJ2IjoiMSJ9.q1SecunQe4IVfbAXjKowVORA0L6cJZuBo_Qe9LjDhEEo7hYd1tYYLdCzmJbIXyUQrlKBKhZY5p_6rXtbsPqzwnFD9sjg0fsIyiHBlnHkcTF-qlXCxgjs4GTQYVos49iZyP7FpEbMYvFZa7gRyGK24PMiSklhJaru7qO78xbkAVIY8vKmZTzrTlXAbCYBFPAhvTZdCtEe9U5pWxQj2ouVcwKqQUbuLuJKUMcQ-8lIEc2AZ5G0h4u_pYEbOERL3p02MNgLwCjZQKRX5ao142ypcaFcODD93bgDp2DH7ysDKnE.Dt1sZP6R_0P9yayqLJiiHtiKaevy011qqNxYy87npD8&dib_tag=se&keywords=Fritadeira+Air+Fryer+Space+5+-+5L+Air+Circuit+1.700W&m=A1ZZFT5FULY4LN&qid=1756598912&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "FRB50P1 MIDEA",
+    "nome": "Fritadeira Sem Óleo Capacidade de 4L, Midea, 1400 W, Aquece Em 10-60 min 80℃ a 200 ℃, Air Fryer Com Fluxo de Ar de 360°, Fritadeira Eletrica, Design Compacto, Preto, 110V, MAF400P0APK",
+    "preco": "R$ 299,00",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Fritadeira-Capacidade-Midea-Eletrica-MAF400P0APK/dp/B0CZM7944K/ref=sr_1_1?dib=eyJ2IjoiMSJ9.eLbd4DZG5S3mOp9uQgBPcCb1Q7ogVdmflmwbTUJnlm0sWDn9LzOqRaoegskXQsffwH9obMtL-tQY3nAc9kWj5To6IM6tV6o1cvPf5-z4PflgvYjOsWFJ26VaxDyXuLcrBWA8jlqO3wiX7NgsoKzUzw.E_GvCHmAoc_42R2ClhWrUEy0LgtpNGXliwm4oFpIOxg&dib_tag=se&keywords=FRB50P1+MIDEA&m=A1ZZFT5FULY4LN&qid=1756598956&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "AFN-60-BI MONDIAL",
+    "nome": "MONDIAL Fritadeira Sem Óleo Air Fryer 6L, Preto/Inox, 1900W, 110V - AFN-60-BI",
+    "preco": "R$ 361,70",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Mondial-Preto-1900W/dp/B0CD9JLHTT/ref=sr_1_1?dib=eyJ2IjoiMSJ9.pNUg_MvC6oCEq0g0yJv5_4MTSKsjmSI0Nf6SoNzuU8LApbM3cLwsME3exr9F_EoYXcLhlMaFWnknptojMdFClTzMkKGVKwCW52QJXnZ-MSpQnRRdYR0e6hhDD_re7puzRWUXNDR0tKqOHa7sbitWIQ.zoKsL0305KEhHqFxiEXCeqeqTsp98mJ-iuUWYW3Ve5c&dib_tag=se&keywords=AFN-60-BI+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756598990&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.4bb5663b-6f7d-4772-84fa-7c7f565ec65b"
+  },
+  {
+    "termo": "AFN-60-RI MONDIAL",
+    "nome": "Fritadeira Sem Óleo Air Fryer 6L, Mondial, Vermelho/Inox, 1900W, 110V - AFN-60-RI",
+    "preco": "R$ 416,42",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Mondial-Vermelho-1900W/dp/B0CD9JY9VY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.IpfYcrM9sclA6kJKONbm7q__pSl5nwEXrS6sX98uPTBCoTFi3WKCuCkMy47Al3Q-LuLgSixS5f01-DDnFw-RoR_VlxxAd8ljh4gAHgqvcEqSGk2ADV003h8luvT1e4vNoEvPge0mFJHwjFPui3-k8A.AYJ9-yGNWDXni8CesInwOEN6CWMklSepzl-i_aipZVY&dib_tag=se&keywords=AFN-60-RI+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756599028&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.4bddec23-2dcf-4403-8597-e1a02442043d"
+  },
+  {
+    "termo": "EAF50 ELECTROLUX",
+    "nome": "Air Fryer Electrolux 5,6L Efficient por Rita Lobo (EAF40) 127V",
+    "preco": "R$ 359,00",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Fryer-Electrolux-Efficient-Rita-EAF40/dp/B0DWGM8QG3/ref=sr_1_1?dib=eyJ2IjoiMSJ9.MfK5cSq6XclCnt68rvikRm1uxc0oVH0xvwcfFcX5dr7PgPL6xx7jDROtMUK05oC4pH4cPqYoP_TIMPC079atosVuQITool3DRw3BRkk6grIqwp869rTR0sT_CTD6R1VjemtPBU5v-cOU6RQCEoSsoA.sFE27UPxXiGjldB7v9Lh5Rskc4GN8dV2uw2tLKJxm5w&dib_tag=se&keywords=EAF50+ELECTROLUX&m=A1ZZFT5FULY4LN&qid=1756599065&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.4bb5663b-6f7d-4772-84fa-7c7f565ec65b"
+  },
+  {
+    "termo": "RI9280 WALITA",
+    "nome": "Fritadeira Airfryer Essential XL Conectada, Philips Walita, conectividade c/Alexa, 6.2L de capacidade, Preta, 2000W, 127V (RI9280/90)",
+    "preco": "R$ 836,50",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Airfryer-Essential-Conectada-Philips/dp/B0B8QYKJW2/ref=sr_1_5?dib=eyJ2IjoiMSJ9.6xs9MnqrKvUKGxZI7Q3NMqsVO0BPtrFisyh0ltXDov6ee6AOvkLDhHfnj6ug_WMPKELOeDVyzs-FDmZWPn4MS77PVRwRkem3rMxVd10o26ZH24qvdXFxWFmkhuFrL5EIQbuytMYytMBbc-qyAqoJLPS2B625uaN0lD62SlG3pZ_AtkLu7TIgYhNuHSvqE9uGEyZrfGo8SFZp1GkSc1yOg8BcuLu5Of5Gjwuqme4mduk_p5t69GdaQ1hkDubcUsr4gyWQNCcNlezZvwZ6bu62kAAVwChjxKS6yCYmPEU3yTg.y_hXdSq5o6UcL_HEQ6XCBMiPnHYTqQtly15xV8HDz2g&dib_tag=se&keywords=RI9280+WALITA&m=A1ZZFT5FULY4LN&qid=1756599099&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-5&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "PFR67PI PHILCO",
+    "nome": "Fritadeira Air Fry Philco 6,8 Litros 1800W PFR67PI - 127V",
+    "preco": "R$ 413,48",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Philco-Litros-1800W-PFR67PI/dp/B0CFN2HXBH/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Xl5jbUWaVyt1REsXg2tYYdADsk_NaSMGZORhuDZYQoUoPsfeUk-CkARyGxvZ4PaAjarkRjwQOi31587Lijkh2G2_DbBWyGhJF6qT5wnrXzp6xI2KrdRipFzru-NwVwUhP8OXkh40hMsXkLLgPybbviWqVUjQOWhQPY1o1ALbDlE0oeKipgHnAbEf_c4s4HsJ7hXeH4HG0Vd92UIzaEmgsNy-6_afrq1XX1cF5DpCXdtWTCOQUN1_kQIDixuf4rCZoiBAFAk9eBIbBrDeumTY4zLe1x5jQRFbhYpqW8reU3s.lsN_H-46OfErqxaGxjL85D-k3rvT9N7xEsX2D6szOGU&dib_tag=se&keywords=PFR67PI+PHILCO&m=A1ZZFT5FULY4LN&qid=1756599141&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e05b01e0-91a7-477e-a514-15a32325a6d6"
+  },
+  {
+    "termo": "Fritadeira 6L Smart Chef Plus Midea",
+    "nome": "Midea Air Fryer Fritadeira 6L, 9 Menus Predefinidos, Tela de Toque LED, Desligamento Automático, Função IOT, 90% Menos Gordura, cesta Antiaderente e Prato Mais Crocante 220V/60Hz",
+    "preco": "R$ 569,04",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Midea-Fritadeira-SMART-CHEF-220V/dp/B0DFMZW9LV/ref=sr_1_1?dib=eyJ2IjoiMSJ9.hXOyNo4B6EeYkwZ7d_lrCpypVAr-ChMekRXZRVmsycudoi5G9RZXvzSO8keYF6pfj7bPEPfrVbsGEMxYAtFjgN3cXwOFSsqMX1TdmLMWpNMUobyUYzLO50nYsZWBTe5V3vHHjpAG_lesHgQB0O9C-JAUS0Iu3TRg17tK6n5RFjFzqgqavJt0EQwXJs7ZBbJO_DlHtn-Fq2vIOebFmtI122OUg5uiGdi_WvkkZJuxD4gp2ozzbMQP0WeFaOaAI2mtfTMK3UUxc-WKU8HvbN0t8wVg-4QGBjKAQUedQ02llDg.WD5E2n0hnsa6O5VM81gOG5YuTiyWy-5Pzoe1EvtwkiY&dib_tag=se&keywords=Fritadeira+6L+Smart+Chef+Plus+Midea&m=A1ZZFT5FULY4LN&qid=1756599182&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "AFD6 ARNO",
+    "nome": "Fritadeira sem Óleo e Grill Arno Airfry & Grill Expert Maxx Digital 6,5L AFD6, 1680W, Inox e Preta, 8 Programas, Divisória e Função SYNC, 2 em 1 para Fritar e Grelhar, 220V",
+    "preco": "R$ 831,98",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Arno-Digital-Programas-Divis%C3%B3ria/dp/B0DNRP2WFQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ouEyIUdAgOHsUQxpkyBsPc33PpeWy1D-5kkZ9mPloRucFyVigtS9W-Fo6JZlH36p-JMxXHVoQHhn_27-1zze9hXXw03OR7MkPB-V5gS6M02HZ26XoOIkKcG5GfB75FoLt9FxL_FFnCEPnvyvkl0nhs8r6vknneHuKh8YCSR8wfE5U6UgIJi0c_KuztC1wLQVNwjRqT16746d1n-DyOVZX_rEeKmx28zJy9NkDBV2fJ2H28uYXnOd6fbvmu6aXeUXAhg2ebIYiHwfBk4H8IEzEbFU_MJ-E4ZDySaqLAC6Hew.imLCY1ewtboT05n67VMDqyFhJsNuDWYU9nQnXssH0YE&dib_tag=se&keywords=AFD6+ARNO&m=A1ZZFT5FULY4LN&qid=1756599222&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "AFN-80-BI MONDIAL",
+    "nome": "MONDIAL Fritadeira Sem Óleo Air Fryer 8L, Preto/Inox, 1900W, 220V - AFN-80-BI",
+    "preco": "R$ 474,05",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Mondial-Preto-1900W/dp/B0BJFK274J/ref=sr_1_1?dib=eyJ2IjoiMSJ9.yCjalXgSlr8UIBrzPsI9rtZEnVJrxDZkohAKFDVno4p7F6_TZE3ztFWDJWZ05v0OHkoEUWCGfldVyU9WhUNCcm42hXQa0ESoTqxeou_2r8msNWi5Ldg9xZJdLpoiww4qzMqeSNdfZq70HUrN8Lc_jr1HEWECVHqGym8PeSnSKrvKqc9zEPhyDPz23SJhhq_WOaxkaQxYLogQrh1bZxPXohDjZkaqndzLPInBwKpuNwQ.Gr6z_wEyqkOCq-alZ9OhjOiWJhWx5mjflsUO0cDbITU&dib_tag=se&keywords=AFN-80-BI+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756599262&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.4bddec23-2dcf-4403-8597-e1a02442043d"
+  },
+  {
+    "termo": "AFN-80-RI MONDIAL",
+    "nome": "Fritadeira Sem Óleo Air Fryer 8L, Mondial, Vermelho/Inox, 1900W, 127V - AFN-80-RI",
+    "preco": "R$ 539,92",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Mondial-Vermelho-1900W/dp/B0BJFJ7HT2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.YOgHyhwuIgLSf4QqMUMwA_1n-l-Gw17PFHtIznkeaaXk4T9lkUxP0o4aVa-79MxBXOUCW84dThNEoqikbS--X8AWHZpaMBbf14L9ihHaLdBOftX56uGcXKsoyL6Rxm4QZhTtsYA1u4GBseOyKqC79wC9HwVNrRi8Y5CjOgpqrjjrx2jIVmsv-iLkx53fdqC2.iNGcxfA6wDo-H7bGlgNyfbcv1SN618q9jH7kQfYVzIw&dib_tag=se&keywords=AFN-80-RI+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756599300&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "AFN-80-FB MONDIAL",
+    "nome": "Fritadeira Sem Óleo Air Fryer 8L, Mondial, Preto, 1900W, 220V - AFN-80-FB",
+    "preco": "R$ 511,85",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Mondial-Preto-1900W/dp/B0CBSP6PJR/ref=sr_1_1?dib=eyJ2IjoiMSJ9.u2IFmGkAZHBA_4KF0avdAMRzDsLHhBsWNspmtB81Gm6abgszL--ovCC1sauAeM1_GdZy6LUDlPKgh5yjFPbLDge0qlL_F4mQpk7FhEnKyfju56Ek6rRb7-5eQDmlwdYZd7iHlCcocY1-hdoGm8VuJQ.zBcWrcIjgizX6LwYVYCZHfx9348ok06Dwc17H0MPHro&dib_tag=se&keywords=AFN-80-FB+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756599332&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "PFR13P PHILCO",
+    "nome": "Fritadeira Air Fry Philco Gourmet PFR13P 8,1 Litros 127V",
+    "preco": "R$ 432,99",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Gourmet-PFR13P-Philco-127v/dp/B08R93FJFS/ref=sr_1_1?dib=eyJ2IjoiMSJ9.nWSmW3LVZx_NZMRNns9Hax8n3yiZ7HJxszWH-V6wJD2jFitwzNmBhcc6A7OB4hvultHW0QXFhDy2FhBZHCUl044WeiZt0sMrS1eUbhY9I-rhChc-jJUQn227X71GlevmPWWD1oRtOTKRAhFvJU-hSOgAwXpOsYqrxEv_J_SGp4NStdKImhUZwmA-P6bv6J-IszDj8YWKggXXKaIDL0lW7Eu7pak_23XKzkQYYW0X_uRpXWSJbq_om-o4hlHdtXRPhHdgMERtOnGyeiPFIxJFWZ9sn2CXK9ep4SuqNoDc1OU.gP9xTXOjaVkW5gJ0f1H6_NA8l1JUqOlwJJSe2poMYYY&dib_tag=se&keywords=PFR13P+PHILCO&m=A1ZZFT5FULY4LN&qid=1756599366&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.4bddec23-2dcf-4403-8597-e1a02442043d"
+  },
+  {
+    "termo": "Chrome Fry ELGIN",
+    "nome": "Fritadeira Elétrica Air Fryer Facilita Fry Elgin - 3.5 Litros, 110V",
+    "preco": "R$ 319,76",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Fritadeira-El%C3%A9trica-Fryer-Facilita-Elgin/dp/B0DTVLLSD9/ref=sr_1_1?dib=eyJ2IjoiMSJ9.vMf42d4O72UzUGgiRjepYUWo-cWiWGLf5IKGLbgyauIoPbIKtC05U9H5dFmFUoX0YYWM1u_jOfFQuwvEdqtYyTRZTxO7TSjYH5TiCUXWp3oXggRAfHMFye7NHXqrgLuf.gHL5M93EYFYMHq1u2eS12fWtCIvuQUk6doIdC2EJGA0&dib_tag=se&keywords=Chrome+Fry+ELGIN&m=A1ZZFT5FULY4LN&qid=1756599409&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "Gran Fry ELGIN",
+    "nome": "Fritadeira Elétrica Air Fryer Gran Fry Elgin - 8 Litros, 110V",
+    "preco": "R$ 545,80",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-El%C3%A9trica-Fryer-Gran-Elgin/dp/B0DTW1Q5WK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.LYAXO3cFzd_OdsLqTZZQNbcCBCMIPO9Es8mzPE75HQ7o_UHtrJqJzqeLeoz95_k_L6zXvb5CzKl5VeqNEy9w7c1ExRgGo4BJLzHIXF8ExC7ZCuFE1Mc32x0NBJnCdifXC3riK-OTLceIMeLoWJTRfFyiy98QfwxWhYzk6VzgGteplU20fyKlygbmdx8BILm9.d95WvvxM_-4V618YKiB9z_yyxnA0JcvwVk24iaIM6t0&dib_tag=se&keywords=Gran+Fry+ELGIN&m=A1ZZFT5FULY4LN&qid=1756599440&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "FWM85P1 MIDEA",
+    "nome": "Fritadeira Midea Air Fryer 8,5L, design com dois botões, ampla faixa de temperatura de 80°C a 200°C, cesto antiaderente e prato para vegetais, 1900W, 110V, FWM85P1",
+    "preco": "R$ 477,14",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Fritadeira-Midea-temperatura-antiaderente-FWM85P1/dp/B0F3QJKFS7/ref=sr_1_2?dib=eyJ2IjoiMSJ9.Z3U8dnqNtbzj3aVVMAK8X4iSw536oqhyj_6h8ZYsNQ2UsR0_rip0NRRYIl68-GyvvwyJDaxvv7CWsDFyN4FgJwXvxJopiMk6FT1MzkS42_8jg9TD_U7Qkny0KsmBT1rznWqSJf25-05nPAGmce8Jr0OKYkFMK1l16WoPbevNgnIcvuf4RtAb6_oIEWa_YHcLQwSxKIfxYRzgI7gjvB7eqWRe0Xc54H0SstjJXHUKjqtBSePQjxpXrxLsGSV54xjZ.BMbtd8A_0FrIkZZfsUVlLkO2ow8zk-qCjjXYRihduW8&dib_tag=se&keywords=FWM85P1+MIDEA&m=A1ZZFT5FULY4LN&qid=1756599470&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-2&ufe=app_do%3Aamzn1.fos.6466f05f-08dd-4279-b7e8-f5f0c21c5803"
+  },
+  {
+    "termo": "AFDO-25L-FD MONDIAL",
+    "nome": "Fritadeira Air Fryer Forno Oven Digital 25L, Mondial, Preto/Inox, 2000W, 110V - AFO-25L-BI",
+    "preco": "R$ 993,07",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Fritadeira-Fryer-Forno-Digital-Mondial/dp/B0DPLJD1PN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.wjUdogXOctHYRYsGr-upsYt9Mf-OVhtJYpIhWPm0H4ilYI38w8Mh6hsJffHyZbNTj6GRgryYwKdAg4W6NmEOmLDn-SBYDITIENtRL6NesCqSGk2ADV003h8luvT1e4vNoEvPge0mFJHwjFPui3-k8A.sENKKQ-klISBd14mGbFEHYUoloAOeAfZQe8lVphjEEw&dib_tag=se&keywords=AFDO-25L-FD+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756599505&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "AF-250FD2 LABRAVIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TSSTTVFDMAF OSTER",
+    "nome": "Oster Forno e Fryer 15L Multifunções Compact 10 em 1 OFOR160-127",
+    "preco": "R$ 703,91",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Forno-Oster-Multifun%C3%A7%C3%B5es-Compact-OFOR160-127/dp/B0CN51SX81/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rmwyuUJkcUWUyBMKHWq6G3DAN5iDglzdZbgewWkStwKL3VKLCxUfzewpvdJ_tulzF6n-b2z4vx2xbpz5P7bNWo2rCqCvL-JoPZtLSWTNohXBgnxB8S2XHP3JW_oANhN8o2eAyIWP7SfcgvHZ3hOdU5FZxnK5YdcpuvpBhYcpU_kj5gqSsJe6gv5D5v9_kPSdxu9C954uMKxbkZ5-R1fTJbbxo9o6FJ4MatN2y4B3am0NWo2GQ8Vpho2n-acjY_eodIX1KrFKFHB4US2Xym-i-jk5m8YfWGjwTVRdLeCQssY.tKe8Ib5kPt56pUymrzh1pj9TfpyXIQh-ZFfusNSaq7M&dib_tag=se&keywords=TSSTTVFDMAF+OSTER&m=A1ZZFT5FULY4LN&qid=1756599546&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "BAP23 BRITANIA",
+    "nome": "Panificadora, Multipane, 550W, Branco, 110v, Britânia",
+    "preco": "R$ 579,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Panificadora-Multi-Pane-Programas-Branca/dp/B076XY1QRQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.jZ7Os8g-35Gjn9Y2-6Vg5AIqhTGJQmRRn0Z191BaL1Gz3yMugHsOMFBJ1zH7HlUSsAeGqlM3BwJFuusBVGVTCqZ00Ud8S11D74f4kfwduiZ53CrNapIds_GtpeFaqrFXxICGQEhkYpsmwtGbwjPzEMbb3Wk1u9K4VxreecyLwcl9FznEyRpVaxKQS6vy3Ul8cXDwAaaYQzxlEisfVvghPlkZlMSpk_aQzaIICfB-z1BerOkTyZXB6w3w480Iq39Fg7kba9upvM9rjq8N4hld9ZAlJ9QO6ZyBWRK-YR1_N7k.Kf9ApqiaW8qcP6LBI-qNpNDQVY-VdUVB4FR7_6NSTiA&dib_tag=se&keywords=BAP23+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756599596&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
   },
   {
     "termo": "BG-09 MONDIAL",
-    "nome": "Aparador de Pelos Super Groom 10, Mondial, Preto/Azul, 6W, Bivolt - BG-03",
-    "preco": "R$ 105,,70",
+    "nome": "Escova Rotativa Ceramic Íon Turbo, Mondial, Vermelho/Preto, 1200W, 110V - ER-09",
+    "preco": "R$ 229,90",
     "loja": "Amazon",
-    "vendido": true,
-    "link": "https://www.amazon.com.br/Aparador-Bivolt-Mondial-BG-03-Pequeno/dp/B07DP2S4PC/ref=sr_1_1?dib=eyJ2IjoiMSJ9.rcJHZgcS6bpfVJVaXlvbdicNhfIoYckvBNvgsc82-dOBhr_2bGlPfTAhiAttits8NJzO8B5cSLZr9heEBiwOK74zDMMs8if4A9vNLI0U3cppySX4J-6psCRL5KF39zpcOBNHcVKh0TuQBgmZ1DdITg.4_Qpsx3PSoikQDEX_b9En3kNHI-Ii9N_mAMab-Xwcg0&dib_tag=se&keywords=BG-09+MONDIAL&m=A1ZZFT5FULY4LN&qid=1755012184&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Escova-Rotativa-Ceramic-Turbo-Mondial/dp/B08PX8QS1G/ref=sr_1_1?dib=eyJ2IjoiMSJ9.EmCuJe_MVBqFGOv9LrWoA8QgF9CZ2J9LbB9H-f8s1LI_qmhgRBLAENZbiJjTbk3jExgzPNRTf-DSsGSxLet0N3ZTzMRsLyaX0Mbkhn78J0-tk8dEvZ5xOckax3GM3rlVoEvPge0mFJHwjFPui3-k8A.enva70Bu7kMVnIlCR0I6C49D1b5fYuMOpmZL6N7YSyM&dib_tag=se&keywords=BG-09+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756599640&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
   },
   {
     "termo": "PAP03 PHILCO",
     "nome": "Aparador de Pelos Philco PAP03 Multigroom Aqua 12 em 1 Prata 3W Bivolt",
-    "preco": "R$ 171,,99",
+    "preco": "R$ 170,99",
     "loja": "Amazon",
     "vendido": true,
-    "link": "https://www.amazon.com.br/Aparador-Pelos-Bivolt-Philco-56303013/dp/B07V2PBWGK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.uodRWymt0css_yVfbVjXKKYBDml7MBJHK9DMCGcGD47_cS-z81Dyly-p5AZkxN7vB9Lj9ZInQpYtNYNN1xBuktZLaZjv15ei66V6ZYy6g67PKFc_jbxJ2m1UQ3-C9yCkrS68I5SkoxZLfeXuWtljHeq25xbftH4cGkreDlMc6ZAY2RhLJIPOWUj2HkuNnwxxszMnVHAHUCLXk5o3DlJwGRWYtfcrY3ZgP1OJDi_shO3L3bdUMymCs8O21NBjHSjzFxnLvh7D05tsavAldS5C4mQzoK9Pf7Hfe9qG8cQRcmI.EH9yTSwIhUIkm1DN7Lo4AmcXhM54kLATd9mjGj1DyiA&dib_tag=se&keywords=PAP03+PHILCO&m=A1ZZFT5FULY4LN&qid=1755012219&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+    "link": "https://www.amazon.com.br/Aparador-Pelos-Bivolt-Philco-56303013/dp/B07V2PBWGK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.33mwK6QYEFVSZ6dsScF11zJwGqYweiNi_Zf0nkc8T0s7psriaTjpAol2qxge1rdXbednhg4E3M2pFe8K77XxNF06vs2wl_PLEhzK6vZR3QXaULhAIkDNJawyWOL2ee-0GM5zFveeItuJegPfzqv9EZJhNtYjKq9GMIKjMGONTsdMyNfU1KPRzNVzeahL9DHMRaIybXAiCWXG9xXWAa37zSHsRvJXY1W7mFzdMnK-nhcyYV90qhABH7FueW2GPbVhyUHXvJg64f6tN-4Zwhhn-ptlkQpVLpIWIvz7KT3Q5hA.jxczS7wUWzsfxlmfCdoJeceUq3R68arb9nRfdj6cmPY&dib_tag=se&keywords=PAP03+PHILCO&m=A1ZZFT5FULY4LN&qid=1756599669&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+  },
+  {
+    "termo": "MG3711/15 PHILIPS",
+    "nome": "Philips Aparador de Pelos MG3711/15 Multigroom Bivolt",
+    "preco": "R$ 139,01",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Aparador-Philips-Multigroom-MG3711-15/dp/B0791SL91G/ref=sr_1_1?dib=eyJ2IjoiMSJ9.u7ff9S4ntowy4dS42IUT_bJoKG0UaGnrP1RUNM4790UO9Ykabx7TkrqRKQ8n76DmNKOizKXvc4pJof55rYVsWCcTgvgk02PAucG0JFst9aL1CFU7eDzT45qJUCDV7XkpLIbior54iMYeLmkigEgtIZa3HTPyoBrMVP67cDNxw1ZIVDPeGcV5JGxTKcAgNSRY8fwCTGqV3NQ6STb5lel5AeVB33kpJFI1hfRidsmMuQihSDZCgpBFdtZJwOjQuPIl4unGbcTU1MJ7AZTNy7mzwE14HaprUNyTIavtGATBr5o.mCk9JzPYBtoRK68BxEzv13XvFoGBB3Yaz9OKg2TWHdU&dib_tag=se&keywords=MG3711%2F15+PHILIPS&m=A1ZZFT5FULY4LN&qid=1756599712&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "AWS-T2W-02 AIWA",
+    "nome": "Torre de Som AIWA T2W-02 2300W 2Woofers10\" Bluetooth RGB USB FM DJ",
+    "preco": "R$ 1.756,55",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Torre-T2W-02-2300W-2Woofers10-Bluetooth/dp/B0DP5KJ2PX/ref=sr_1_1?dib=eyJ2IjoiMSJ9.xZGJhLVe3UwcCSrE-OE7PbowfN4-HbfWH2kXiYXm6EOsk_S-5BSXl8iHoIYzwxsW_ZOvCeQK-uuSlB2c1JPhkXDhQuDWGueWG3vFi7JwpWxUguiYvdddGPnkpMHv3T48V5_j8f2NhljO4gId-mw3i-lk6W_KUVPbAPpoUbLN4pySiePBE1CbDL6F4OOLWr4qJPisddWjEnT2-5Rzf5HWGg.GdtQ3of9_4HMjRVBqB_C_9jviTHwHy5j_5Yu9bkY900&dib_tag=se&keywords=AWS-T2W-02+AIWA&m=A1ZZFT5FULY4LN&qid=1756599746&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "AWS-SP-01 AIWA",
+    "nome": "Caixa de Som Speaker, Aiwa, Bluetooth, Luzes Multicores, IP65 - AWS-SP-01",
+    "preco": "R$ 205,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Caixa-Speaker-Aiwa-Bluetooth-Multicores/dp/B0C8V3ZSN7/ref=sr_1_3?dib=eyJ2IjoiMSJ9.ctiRu1oWIEqZ3Eu2MG-YvblXCDVzQgtZYVchr6CIm0ByfAu9ufRn91bHMQQOnuBreWzs8TSnHWMfCvntt80Ucv3ZuM65BtxAD9REI0KbBWNQCGDbAdBomS9INCbHW9G650waAbTnbS4d6HAggUKkxA.6ilv3_lPQ_qyXVoKYgI1gyS0Z-vypfsT2MsO1CC4w1U&dib_tag=se&keywords=AWS-SP-01+AIWA&m=A1ZZFT5FULY4LN&qid=1756599782&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-3&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "AWS-T1W-02 AIWA",
+    "nome": "Caixa de Som Speaker, Aiwa, Bluetooth, Luzes Multicores, IP65 - AWS-SP-02",
+    "preco": "R$ 223,62",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Caixa-Speaker-Aiwa-Bluetooth-Multicores/dp/B0C8V538NQ/ref=sr_1_3?dib=eyJ2IjoiMSJ9.v9WDnBxRa0OviAzkiQLZmSa0SyBDZR2B0tmRtSN3LjCytOpmPemGxDOR9Bqk2lRBZ1fhlp0pbu-DR_ToN8WKGLspUWhRUfA-tEXg6T79pGNQzKt_5_5XMSPVn0BeBnFR.LG8Y_xRGcWDdu68TenvyT5sulYl1VFLpwce2TH8QDrQ&dib_tag=se&keywords=AWS-T1W-02+AIWA&m=A1ZZFT5FULY4LN&qid=1756599820&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-3&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "BOOMBOX 3 JBL",
+    "nome": "JBL Caixa de Som, Boombox 3, Bluetooth, À Prova D'água e Poeira - Preto",
+    "preco": "R$ 1.958,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Caixa-Bluetooth-JBL-Boombox-Preta/dp/B0BF66H9XW/ref=sr_1_5?dib=eyJ2IjoiMSJ9.-7_xjU1OPs2Wb2tJ9Tnp9e2mUNUDPeoLmGJud1Ic3DtAwRpfMcNxEUb0EUlVZv9ChiEi-Q1I5Jvm3oa_-jx8qDIy-rgDrziTVf5tECGg3h3CQ8mhsl1YMbOgsw44xSlacvlsM_h-BCA-sDYnLxXaHmY72I1FNbR6MbGtlol56HpBv4DqzIcF57RWwrwn3fOAKtQYu-7pT51NuHkbjOgPXJrnunp8oh4HNk7a08qXidVUdGFiSTzlB3Tml0AkulDIOsT9JPwBJ6CfQIDTAMnAMn7WPC9LPoHV752dCrE-VGQ.tAhR3IQJCu4vd436EWJVhTGCvnBe53k_DhwVar4WuTE&dib_tag=se&keywords=BOOMBOX+3+JBL&m=A1ZZFT5FULY4LN&qid=1756599855&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-5&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "XBOOM XG9S LG",
+    "nome": "Caixa de Som Boombox LG XBOOM Go XG9S – 80W + 40W RMS, Iluminação Lateral, Iluminação de Palco, 24h de Bateria, IP67",
+    "preco": "R$ 1.648,03",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Caixa-Boombox-LG-XBOOM-XG9S/dp/B0CTSB9LMD/ref=sr_1_1?dib=eyJ2IjoiMSJ9.lKqYiwWsWf2U3y2lJOA3PtCMN5ZfMbgfZ4LPpezk9HUAubyBrApETuLaweVyCNz4Fqo9J96dUOLGFv2Z8dcnYfpjKriFkFVRZHOlQDqf1keLSBDhrxlh1LI2BfkOJK_HwFtTaKGkqLg2snzNkxl962h-n56cnndzVm_uv5bpSLtB8B4X9MoiLjhhE_U2JVgK.rSyAY4Ey_n8JRJIK3HO8sDufjXAu3Ka1IEWp8MJMHy8&dib_tag=se&keywords=XBOOM+XG9S+LG&m=A1ZZFT5FULY4LN&qid=1756599907&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "RNC9 LG",
+    "nome": "Caixa Acústica LG Xboom RNC9 - Multi Bluetooth, Graves Potentes, Entrada de Microfone e Guitarra",
+    "preco": "R$ 1.899,05",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/LG-RNC9-ABRALLK-XBOOM-RNC9/dp/B0CFG58F67/ref=sr_1_1?dib=eyJ2IjoiMSJ9.WjeS0L0J4nQN2bIk3Cv5sNGgd0exPBtHtymo5C_RjmLn67-Rjvq8Ah1tPztLbOfzK6WwvcfRKuUggec3RrVL6U_-CF8xk2heOYHp5Z7phMqWoLvhO2oizT4PDcqznVXNFXkUndCEkVF7JbGIlFzPujchve1XGNjNB0324Qhdm9UIXEydsqSsXLfx5ML9JYaxcu1WYuKPTC7dPzLqRohxeFwQaBAArDuKw-9wEkIuLJGvU7eKq3HePbUyqIJo9uFyi4FawbbvSIfij2eE_u7Vf7aiNCWESilKnWxWNIQVxOY.ckN0yCmQM9e51mIwfLmgUuv224jVwToWSjzClAZdg5M&dib_tag=se&keywords=RNC9+LG&m=A1ZZFT5FULY4LN&qid=1756599944&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "RNC7 LG",
+    "nome": "CAIXA ACÚSTICA LG XBOOM RNC7 - MULTI BLUETOOTH, GRAVES POTENTES, ENTRADA DE MICROFONE E GUITARRA",
+    "preco": "R$ 1.399,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/LG-RNC7-ABRALLK-XBOOM-RNC7/dp/B0CFG4YYN8/ref=sr_1_1?dib=eyJ2IjoiMSJ9.r46ls7DITKCCtBDKVfquQtCMN5ZfMbgfZ4LPpezk9HVourOqALaGnYms6Tz2MFb9q4Rd2H3xi7qN7B49-QVdO9uhoNFM96TeXYFGf8ZrA1jXLyx4Dr-KSTjt2yhgsu9uxydir7C90heQWCTSdv74aIgg_rdRE8cobsl9ZGkrddi4WyhS88TRLAZecgLLPeaO81PmMBkHuW8swGmY-vF0bLUl4Y9ehhOATv6Jq1_ryPi87Ihqw2AYYXTDbtBM7vqH7m2nm5sXV66psC_qu7393nptm580AqTVzMlDrrMfIlU.31jAU_KOp6GlADHI2BSTmnUBzQuHJssG0YUPgVH9tVA&dib_tag=se&keywords=RNC7+LG&m=A1ZZFT5FULY4LN&qid=1756599989&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "RNC5 LG",
+    "nome": "Torre de Som LG XBOOM Graves Potentes, Função DJ, Diversas Conexões, Bass Boost, Iluminação Colorida, Karaokê, Party Speaker - RNC5",
+    "preco": "R$ 1.234,05",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/LG-RNC5-ABRALLK-XBOOM-RNC5/dp/B0CFG7BMDH/ref=sr_1_1?dib=eyJ2IjoiMSJ9.5qHKEXJ5H7aKDnT2DNOTFZpVPqNM8tMuiLwShSGo2urzbDMvtMi6NB9qaktCdWuYSGoTur_U59V-jyIjy5JTy_Abtjpy8SqTB633wQQCT16RWz-HB9r2kpFx7PoDGEP-8t87Lc0E81pnidYLoinP9yTE9CyP0Uk1QqJ1hahHc1TFvt1iuJmtonfYiY3lqSQOIPUhonBkATaGavegnWl3EurLk2_nNg_VCr3AWJKhoIpcrCaYVODhN6mJq9-dG5Cnn5A9jQwKosy4SqlBMKgwnJcWj1LcNFonQ-NYPq4fY-U.75e0MZzBvKlc5xN6yGa3HAF7k2BmDdfTxHksI-T84oA&dib_tag=se&keywords=RNC5+LG&m=A1ZZFT5FULY4LN&qid=1756600037&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "Hyperboom 1000 WAAW",
+    "nome": "WAAW by ALOK Caixa de Som HYPERBOOM 1000 Bluetooth, À Prova D'Água, Até 12h de Autonomia, Tecnologia TWS, 180W RMS",
+    "preco": "R$ 1.528,19",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/WAAW-HYPERBOOM-Bluetooth-Autonomia-Tecnologia/dp/B0DCLNM6ZY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.TznjicgsfC19rIEoe2wgMjoQ__NwCo2vnSe2amQuaGnZyIlxeFjCfM3HuM_kShLs-ILxuEWyw4nLzU_UnDqDmUk8vW_aDWm_rw23elffDM_1oYY7HnXeuYFz0kNRdNS9t7U7_vhZBj4SLFtkXQGHBg.rprNUes3JmK1DoIZTD1uIAiLMTX3cscRwZ1KB92deGA&dib_tag=se&keywords=Hyperboom+1000+WAAW&m=A1ZZFT5FULY4LN&qid=1756600080&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "MCE-01-AL MONDIAL",
+    "nome": "Micro-Ondas, Mondial, Branco, 1200W, 110V - MO-01-21-W",
+    "preco": "R$ 504,63",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Micro-ondas-Mondial-MO-01-21-W-MICRO-ONDAS-127V/dp/B09NL92H57/ref=sr_1_1?dib=eyJ2IjoiMSJ9.7AQ4UZKxIwFbaGbZz7DXL_Aw8hwze-TZs_01dBG0NPVo0nC0GkF8QCjlH3OLOF9f944BrUr4xnaLjKZppB8tK-K8wfquSm2OiE9gU7C9A3M.pnjKZG51XSPHnGPpuxEU1MDolv7fKdaR73UAv6KHTXU&dib_tag=se&keywords=MCE-01-AL+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756600117&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "BVSTEM7300 OSTER",
+    "nome": "Cafeteira Espresso Oster Xpert Perfect Brew - 220V",
+    "preco": "R$ 2.474,10",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cafeteira-Espresso-Oster-Xpert-Perfect/dp/B09BDCHSWL/ref=sr_1_1?dib=eyJ2IjoiMSJ9.SzF5cK02Armr-M-KhIv-EzjRDBwyjn_Vb7EN8he-XYKdeg_Zy0T_NRtglZRwJ1js6yMLWYB_CYgTkhPaAV-EJx3y6XYvikRTtmyUkVoGW4JbHc8ZxRnoyvqDbhgDRHsW4gTPWx937L0DnrbbuHvx1h4W3e1OQHPMPMKI7goszbVDQS_v1msA8B-AuKh0cle2fPeqYAJOgbQLY_xBH1l9WqMpakfcVNsirTcdyFKTE5VMQS6A1SKxH6eySLy_15p8raNcq5xvDBRUY6z_oBrakFqIkO0K1xoO4OG-ccgeXGo.rdoeCi4KG_iHcJctvBzw6TSxL9_hKK8pAFRMCSqUQ2E&dib_tag=se&keywords=BVSTEM7300+OSTER&m=A1ZZFT5FULY4LN&qid=1756600151&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "espresso oster xpert perfect brew bvstem8100",
+    "nome": "Cafeteira Espresso Oster Xpert Perfect Brew - 220V",
+    "preco": "R$ 2.474,10",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cafeteira-Espresso-Oster-Xpert-Perfect/dp/B09BDCHSWL/ref=sr_1_1?dib=eyJ2IjoiMSJ9._YjQECk_EvnaVzyFrsow-g.BzTCtPSHtUkiK4OdgZymjenYdmLb14m9LjrUulTt6U8&dib_tag=se&keywords=espresso+oster+xpert+perfect+brew+bvstem8100&m=A1ZZFT5FULY4LN&qid=1756600198&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "EP1220 WALITA",
+    "nome": "Cafeteira Espresso Automática Série 1200 Philips Walita, Preta, 1500W, 220v - EP1220/12",
+    "preco": "R$ 2.643,81",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Cafeteira-Espresso-Autom%C3%A1tica-Philips-Walita/dp/B09ZHCLVXF/ref=sr_1_1?dib=eyJ2IjoiMSJ9.nawbrPwvQhmNw401QjBgTyHP746BvUwRTbAVqYtAMpitRO0RID4AAX3Auexh_CDAfdeoka7LjMGWMxSTn7ykz9CtoB6oD_Bg6K-GRhzBWrI.lCDVpC8_ipBm7YP3kXR70B2g0ymvlklBfiU94o10Aog&dib_tag=se&keywords=EP1220+WALITA&m=A1ZZFT5FULY4LN&qid=1756600230&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "lattego serie 2200 philips walita ep2230",
+    "nome": "Cafeteira Espresso Automática Série 2200, Walita, Preta 1500W, 220v - EP2230/12",
+    "preco": "R$ 3.999,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Cafeteira-Espresso-Autom%C3%A1tica-Philips-Walita/dp/B0BRL8X75K/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Gb9zflN1m7bPpIivq3G_-CG2YTbp8ajkTlbCrmsQVzmH-FMwcvc6iOY3aB36MksjIaF1MX4IJyxqa8aKloSJBw.ndkf1a06-dML2CYBJ0LJI5H_YAxlpzUzLnIDCSLeq9w&dib_tag=se&keywords=lattego+s%C3%A9rie+2200+philips+walita+ep2230&m=A1ZZFT5FULY4LN&qid=1756600264&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "espresso automática série 5400 ep5441",
+    "nome": "Cafeteira Espresso Automática Série 1200 Philips Walita, Preta, 1500W, 110v - EP1220/15",
+    "preco": "R$ 2.706,02",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cafeteira-Espresso-Autom%C3%A1tica-Philips-Walita/dp/B09ZHD2YXP/ref=sr_1_2?dib=eyJ2IjoiMSJ9.O3UJBoxDH6Hj1gK2NfVX_PgTVTsR8yjyJiIP5GWovQPt6qMleaQGyLR9k6KwP1MyLyRyE3rQxbGmAVazXfjXTY4T_FzW_1Lz3E21okkpGiDAAP-YcnLXfpZftmxBKR_CBNLa-SbODLNLr3p4vSJwp9hWQlosrrppwne6aCvyBd_QjPsFCPrIeoodSQnql7fAIeu8UhPddo8gjIaspvUtZ7Q1JDhkT-n9FCFDaHqWQ8BQqNbFA0RhHVfAOnFAUKGenh8wI09caNLb1yiXBVH9LtosUeaUhLYmLzZvjCCtaoo.4akjwQ_Ggo-IermtvB85Kc4KW2ZCoM2ri0xQLzlqVYc&dib_tag=se&keywords=espresso+autom%C3%A1tica+s%C3%A9rie+5400+ep5441&m=A1ZZFT5FULY4LN&qid=1756600300&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-2&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "CESP ARNO",
+    "nome": "Máquina de Café Espresso Arno Virtuoso+ CESP, 15 Bars de Pressão, Thermoblock, Bico Vaporizador 2 em 1, Painel Intuitivo, Acabamento em Aço Inox e Acessórios de Barista, 220V",
+    "preco": "R$ 1.219,09",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Arno-Thermoblock-Vaporizador-Acabamento-Acess%C3%B3rios/dp/B0DGNB2RV3/ref=sr_1_1?dib=eyJ2IjoiMSJ9.LZpskIlf7aUaSmTQRPnF6w.6uCD4pERhRsoRkYKXEOG1CG0hHYurKRlOUh22xJBqgI&dib_tag=se&keywords=CESP+ARNO&m=A1ZZFT5FULY4LN&qid=1756600338&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "BCF33 BRITANIA",
+    "nome": "Cafeteira Britânia BCF19 Inox 18 Cafezinhos Jarra de Vidro 550W 127V",
+    "preco": "R$ 104,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cafeteira-Brit%C3%A2nia-BCF19-Cafezinhos-Jarra/dp/B0CWLN6BQF/ref=sr_1_1?dib=eyJ2IjoiMSJ9.6b9mUg-w4X2J_3ao-eq_oXsUEHbiWcob-cXYmRc_9iJ53U7Dimo1UZ6tHEr1OFfBHqrPRCTTX0P1smP6IadJTL9juLGdE9to1bPT144WaKoAY5kkwk3KpYTbk8B3FYzUMf5VgXj_zIhxXlU-5RPlv7voB3yth1xrCPVD--rwQKNuHtSTsaJAPiJs9scMt7ir0Tf6cbiahYDgr9mkGElYxnGOX0CvGXcPB4O6J1W9-k8WMWCvBiXRNBNXJQt0tASjuaEDD3llCC2ltoaNT0vbN4RMn7b7yb4gSfCvr8bmUHM.jJGo53jK0xfGJn3KaH_84jcWbd_kCD1KWuaNY-YXE4s&dib_tag=se&keywords=BCF33+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756600370&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "C-20-EC MONDIAL",
+    "nome": "Cafeteira Espresso Dolce Crema 20 Bar, Mondial, Preto/Inox, 1200W, 110V - C-20-EC",
+    "preco": "R$ 527,99",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Cafeteira-Espresso-Dolce-Crema-Mondial/dp/B0D3FPHMK9/ref=sr_1_2?dib=eyJ2IjoiMSJ9.bSm9MJIdZy8XKoX38xiZa-XyGlMrOn3FHo9c1EFh3-6S7J2KGqTI73XYGAXm9hNt9JyLGYtphbf3d7JUc6Rka91L0r-SLqVJ8k1B5QWYoVI.5IxP2XdXEjQVAlBTNEQzCKfzzz4Kh1bYz5YaP34CUwE&dib_tag=se&keywords=C-20-EC+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756600411&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-2&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "espresso oster perfect brew bvstem7200",
+    "nome": "Cafeteira Espresso Oster Xpert Perfect Brew - 220V",
+    "preco": "R$ 2.474,10",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cafeteira-Espresso-Oster-Xpert-Perfect/dp/B09BDCHSWL/ref=sr_1_1?dib=eyJ2IjoiMSJ9.0OyoUTs92TfX2WhxW4JNrQR70ywPffLipPsWWSoyOPJZFpfglVCDb65NqQ5ULvdr_eNd2mHARQROixFVGLn_OcFV329j2CSLG87GGzhtJP4iDvAKLHgWyFFqVwwlEnyO.dkaLhutdF9Luteyhplo-Gn1GemkSIuTKaJFMhAT9Ggo&dib_tag=se&keywords=espresso+oster+perfect+brew+bvstem7200&m=A1ZZFT5FULY4LN&qid=1756600444&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "OCAF900-127 / OCAF900-220 OSTER",
+    "nome": "CAFETEIRA ESPRESSO OSTER OCAF900 DIGITAL, 220V",
+    "preco": "R$ 674,91",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/CAFETEIRA-ESPRESSO-OSTER-OCAF900-DIGITAL/dp/B0CY2XNW25/ref=sr_1_1?dib=eyJ2IjoiMSJ9.GG5mkmxINcdY03Wg_uC_LBQl1-NKbASH1KY1Z3upRLzGjHj071QN20LucGBJIEps.1N_uZN06AkzDg3gxsgCPakuSQ1xBIjk-_tRQB96lfyo&dib_tag=se&keywords=OCAF900-127+%2F+OCAF900-220+OSTER&m=A1ZZFT5FULY4LN&qid=1756600480&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "cafeteira philco coffee express 15 bar philco",
+    "nome": "Cafeteira, Coffe Express 15 Bar, 2 xicaras, Preto, 220V, Philco",
+    "preco": "R$ 561,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cafeteira-Coffee-Express-Philco-220V/dp/B076HQ1K5H/ref=sr_1_5?dib=eyJ2IjoiMSJ9.u-jl30xGVIzSGTH_-QX06hFNuAeIrtSKiYir32Og57jvxZC31bkVqEvv05tkOc2aDDQY82WAXHaN0eU9RUEFOmo1mLgwFOqtQ35NnfxhjPHeMj9NBSAWPHKL16d6VDRldiIWHfbi-5K0-NKCMDZY2p0kTNaFeU0DmeX-KCZXn5zRERSYT97RTrtEeFPzHd8IOLsXw2lAHdUiDTeOp_5pXdXe2we7ek_Lw0-U--bEFMpYfWHfRTYk3P7I5oPt_SboZonqKw0YZIYgsWWCyo1ZTwOYIWY2hlQdFBJK5BpB7FI.PJN2aXEPxnhBY3DHnCG7OOannEJyDNeyZND-hhvJzYM&dib_tag=se&keywords=cafeteira+philco+coffee+express+15+bar+philco&m=A1ZZFT5FULY4LN&qid=1756600513&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-5&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "C-28-ECL MONDIAL",
+    "nome": "Cafeteira Espresso Dolce Latte 20 Bar, Mondial, Preto/Inox, 1350W, 220V - C-28-ECL",
+    "preco": "R$ 1.014,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Cafeteira-Espresso-Dolce-Latte-Mondial/dp/B0F38RLS9B/ref=sr_1_2?dib=eyJ2IjoiMSJ9.ocoztKXgz7-edvNt4971NhgS74mk5aZuDl3Rkx_MWavjWEq0zuxCU6GuIipAdqdu.Lq3OTIkZeys1QeRLh0x8o8ajjPvNL7DkESDUvviPA5o&dib_tag=se&keywords=C-28-ECL+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756600558&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-2&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "Cafeteira Espresso Primalatte Oster Inox Bvstem6603ss",
+    "nome": "Cafeteira Espresso Oster PrimaLatte Touch - 220V",
+    "preco": "R$ 1.147,41",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cafeteira-Espresso-Oster-PrimaLatte-Touch/dp/B0BXY65689/ref=sr_1_1?dib=eyJ2IjoiMSJ9.4fEvSMURmEnZqjqdXhlc0w.xH9DbF7wzuF9Wr9fWGC7cP646DDYn4P_aLKqhlZJ53A&dib_tag=se&keywords=Cafeteira+Espresso+Primalatte+Oster+Inox+Bvstem6603ss&m=A1ZZFT5FULY4LN&qid=1756600593&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "BVSTEM6701SS OSTER",
+    "nome": "Oster Cafeteira Oster Inox Compacta 0,75L, OCAF300, 220V",
+    "preco": "R$ 119,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cafeteira-Oster-Inox-Compacta-OCAF300-220/dp/B093HGNHR2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.6_K_1ics0hd3pRhjyXFTlCKY6sQcMxZuUiGy63krJVGeUwxupHDBl4yQVwZ-nMumpuK1w4ySyhSeVkyBGP7FUiwcvW-7uBTD8oT6AddQ4VNK9tOSpJ0ZimelNXQgqyr2EmGdGI6vJfvIP4ppy1g7hPJDtT86DSmQ4FXYNQ5-ocN-KOfmdyTiinejpgyx5WLqIQhh8sBMaSG86ZVaJF9X0hcXZx0WGPrd6a1xCeYwZ6ipIuaubDQuViPfSQYVfHeEHc4HwQcgYXdmCVx6Dxfl4mMRj3S03rCcManIJsDSb4E.T1Pndt93ZmhbxM27gmBzdKEPD3IwMvAUwnQzfR70iyg&dib_tag=se&keywords=BVSTEM6701SS+OSTER&m=A1ZZFT5FULY4LN&qid=1756600627&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "BVSTEM6801M OSTER",
+    "nome": "Cafeteira Espresso Oster PrimaLatte Touch - 220V",
+    "preco": "R$ 1.147,41",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cafeteira-Espresso-Oster-PrimaLatte-Touch/dp/B0BXY65689/ref=sr_1_1?dib=eyJ2IjoiMSJ9.mL7pIj65uJhFQFCm9lZexLQB5Ea4USu_8lkDGV4Jdb7LuaMLLtUqehazr7hDoKAk2xG2hai_nnKukaX5aa4fPKErpWFwYkV95aZ9IFh5ylEOxs7Z2jxU31061gyKWxX9ACerR6GoSAab-qEGhK6o8Y_x342pJSf4YJofkSBEvxEsA9CMdStTJ78WvoexXtq_gxSK4O2ujWpiKSxzdQWX0YEW9mU4aUC0Tg2h7pIxCILjjrJWNiByEg4HrolnkM9bUmRfumqF1PtoSFwY7NiCCiOMOnTmlBAdTiMTaOX2Bis.eHtfPPPOXLLoiIwf30WHZPqW_7p-yVTY0uyf1szwLV0&dib_tag=se&keywords=BVSTEM6801M+OSTER&m=A1ZZFT5FULY4LN&qid=1756600672&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "PCF21P PHILCO",
+    "nome": "Cafeteira Philco PCF40C Inox 40 Cafezinhos 1,6L 950W Preto 127V",
+    "preco": "R$ 281,63",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cafeteira-Philco-PCF40C-Cafezinhos-Preto/dp/B0D9PLTHN4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.pnhVstpdEeXcu__jObR6O-YkePD-yoAy58fXD0cLWJROrE5CamHZXtQwWJ33fkUzHEq5QCTFFMdP2xya1nFjLWbmFP02GSCXP5fQniCq7z8kFHZXRPQgxuMSKy-dXUlQXSO6tS84c-12dFHD4-GXQQlumPmWPfPibBKiPsb8-EVg5DrXoYKCMrVeNiGdzsiGdavO3fRoxEOZiXH2g7upktbfpUlprGneRzKQtll8JPxAzrKY5Y065Z-VVKPhMfDGZde56sQE_PPfpm9meWHCOU7uym0HXEi2RDJhXsPI_Rg.woj1xfQrkCSOyUiga0gBDJAe3WVWi-WPg63j7yTTqxU&dib_tag=se&keywords=PCF21P+PHILCO&m=A1ZZFT5FULY4LN&qid=1756600716&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "ACA 221 Gigante II AMVOX",
+    "nome": "Amvox Caixa de Som Amplificada ACA 221 Gigante II - 220W RMS, Bluetooth, Rádio FM, USB, Preto",
+    "preco": "R$ 261,15",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Caixa-Port%C3%A1til-Bluetooth-Amvox-Gigante/dp/B09RQ9FCSK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Qi4mboJ6oG_Wen0WWrTL3Px346GsVyQ44apN9dVkLh6fWOvCJl-KiffHx-BikFtmqWJhpxKwanX-W82WmfQnUvQXHB9xbbOlzCwEjihhEOf3VOHM9IZxPxDiUxKaWlY9m7gpcvpwt-YutqWrJGw-O-e7mIpRVnPMuUf4Jl_w9mL8yhdAfnt82EKrc4LVN1zfoPBaO08L2PcE_dllKk2toabOV_ZeAsW2gA0gKWXvvVU7iQ63jOVBrNomRpEUcmTet7B63ojg5wrXUGDFQ97KNSahd_QSMGQ8zfLII3Hafbs.yjb2X3nsYIgyivjtL-iXA9lRzSgJh_MG_qxFP5TNPdo&dib_tag=se&keywords=ACA+221+Gigante+II+AMVOX&m=A1ZZFT5FULY4LN&qid=1756600759&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "ACA 255 HIT AMVOX",
+    "nome": "Amvox Caixa de Som Amplificada ACA 255 Hit - 250W RMS, Bluetooth, Rádio FM, USB",
+    "preco": "R$ 282,06",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Caixa-Som-Amplificada-Amvox-ACA/dp/B0C348LYKG/ref=sr_1_2?dib=eyJ2IjoiMSJ9.yfTMkK5x-NH1_je_YIUDlfnbhJEKuK-ruuxnYabWiEXo9LTtI4etWsnTksWmR63CZqD0nTnYGkXd6Fe4IdsCQOhg2byzQHqVmsxHrujhCD74pNw88xlRj0Wr7C32sHCL_hMKCBrK6en_wOzlE-Leif_ZQJTJPcqp9C-y0k5XBVo8hcNMRKIRrNHDrbm2qOab.FDPw9UIsZ3e4Cl_mzNN0KxjSQhWm9rhwIZVV83AvBzM&dib_tag=se&keywords=ACA+255+HIT+AMVOX&m=A1ZZFT5FULY4LN&qid=1756600797&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-2&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "ACA  251  New X AMVOX",
+    "nome": "Amvox Caixa de Som Amplificada ACA 1000 New X SFM - 1000W RMS, Bluetooth, Amplificador Digital, Equalizador, USB",
+    "preco": "R$ 759,05",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Caixa-Som-Amplificada-Amvox-1000/dp/B0CDJ838CJ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.EGASFif1hGmB7CRzM2yA34xzh2I8QNQZbZ_5K0HD0XU9XSLHwNnwzqaJwz9d5Afjs8WrqMEMciAsDgYZoYZsBCpFwH5t0ojs6i1k1XQktVRa5eLR-jx5PJ1LoFQHQb7Kr8XyTXRv37tUFYLActQ82L2fqAypqj27Zhqmfj1UVMCBxhlC1TBjsl4a8j7ZSnCwxlsAZ707kUro1Qq9jJ2pUk7-xDTswFP4jD046a5fdMANZPuI13gjfkTEHZ7Hmr172yC44rBV4TFvNf13CC9P9l8wswsYFxGQqMtmCX_xJro.j-16cQk1cLYBkwzLyc2OhDC3ye45aAJpzM_0rfeDuUM&dib_tag=se&keywords=ACA+251+New+X+AMVOX&m=A1ZZFT5FULY4LN&qid=1756600832&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "ACA 255 HIT AMVOX",
+    "nome": "Amvox Caixa de Som Amplificada ACA 255 Hit - 250W RMS, Bluetooth, Rádio FM, USB",
+    "preco": "R$ 282,06",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Caixa-Som-Amplificada-Amvox-ACA/dp/B0C348LYKG/ref=sr_1_1?dib=eyJ2IjoiMSJ9.yfTMkK5x-NH1_je_YIUDlfnbhJEKuK-ruuxnYabWiEXo9LTtI4etWsnTksWmR63CZqD0nTnYGkXd6Fe4IdsCQOhg2byzQHqVmsxHrujhCD74pNw88xlRj0Wr7C32sHCL_hMKCBrK6en_wOzlE-Leif_ZQJTJPcqp9C-y0k5XBVo8hcNMRKIRrNHDrbm2qOab.CMQXVOotNOptaD1iglmcrBm7ohgRNklmVMfL5sJcHeg&dib_tag=se&keywords=ACA+255+HIT+AMVOX&m=A1ZZFT5FULY4LN&qid=1756600870&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "ACA  251  New X AMVOX",
+    "nome": "Amvox Caixa de Som Amplificada ACA 1000 New X SFM - 1000W RMS, Bluetooth, Amplificador Digital, Equalizador, USB",
+    "preco": "R$ 759,05",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Caixa-Som-Amplificada-Amvox-1000/dp/B0CDJ838CJ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.EGASFif1hGmB7CRzM2yA34xzh2I8QNQZbZ_5K0HD0XU9XSLHwNnwzqaJwz9d5Afjs8WrqMEMciAsDgYZoYZsBCpFwH5t0ojs6i1k1XQktVRa5eLR-jx5PJ1LoFQHQb7Kr8XyTXRv37tUFYLActQ82L2fqAypqj27Zhqmfj1UVMCBxhlC1TBjsl4a8j7ZSnCwxlsAZ707kUro1Qq9jJ2pUk7-xDTswFP4jD046a5fdMANZPuI13gjfkTEHZ7Hmr172yC44rBV4TFvNf13CC9P9l8wswsYFxGQqMtmCX_xJro.0fStVv7IIsH3L_8b3BEWBHGqsuQ2PJmbtnQTSXHLTZ4&dib_tag=se&keywords=ACA+251+New+X+AMVOX&m=A1ZZFT5FULY4LN&qid=1756600904&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "ACA 480 VIPER II AMVOX",
+    "nome": "Amvox Caixa de Som Amplificada ACA 480 Viper II - 480W RMS, Bluetooth, Equalizador, Rádio FM, USB",
+    "preco": "R$ 500,42",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Amvox-000503A14-ACA-480-VIPER/dp/B0BFG3JPLT/ref=sr_1_1?dib=eyJ2IjoiMSJ9.nqxwqUcVckgQ1pZCqQ24t3MlSRi0pwNNpv2mskEt1mEHECLghdC-EkXjEMkTp0iSLr4oYEpSqc_V7oXl9qyhs5VWAV-Nxvl80uVCY-I_Vx0qvPzVJaHAxI8TjFzjqoIAV3ZvayrApRflbtB8ub-u96zT-GpvT7bBvUvKX710QB9QrQVi8AndiN7i3VxDlUjVTJOq-VSF0ghSeGGB3molwrzs2oRMtbu8ZOS9yoG3l8o.ORx_DWJpbz3Yaf1IqxyepDnSlvfLKMdb7mSSOVJ2Ucc&dib_tag=se&keywords=ACA+480+VIPER+II+AMVOX&m=A1ZZFT5FULY4LN&qid=1756600942&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "ACA 680 Fantasy AMVOX",
+    "nome": "Amvox Caixa de Som Amplificada ACA 680 Fantasy - 680W RMS, Bluetooth, Rádio FM, USB e Equalizador",
+    "preco": "R$ 612,54",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Amvox-Caixa-Som-Amplificada-Fantasy/dp/B0DTZ2WSP9/ref=sr_1_1?dib=eyJ2IjoiMSJ9.WV2tVl64AL7r1IlOdvzuqksnT_bC7d8-2HddH_L2SJ_GjHj071QN20LucGBJIEps.XAY6P6yfJOoDo3rcKR2s0ze_r2wVt62DSfgQ50RRwgk&dib_tag=se&keywords=ACA+680+Fantasy+AMVOX&m=A1ZZFT5FULY4LN&qid=1756600975&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "ACA 550 Strondo II AMVOX",
+    "nome": "Amvox Caixa de Som Amplificada ACA 1900 New X SFM- 1900W RMS, Bluetooth, Equalizador, USB",
+    "preco": "R$ 1.430,53",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Caixa-Amplificada-Amvox-Bluetooth-Equalizador/dp/B0C2S8D2P6/ref=sr_1_1?dib=eyJ2IjoiMSJ9.AlkWQPL5mMs65VSahSVWtgnAWVpokM3neHguvImYGdGfWOvCJl-KiffHx-BikFtmEdzgDTo_DQMaUtXZRd0GYPxenO5I80uDQpc1wwCUUif8aItd7PTHun55QhgJxCyTFr0bh7KNTd5d2WbbY8CLeTNnE33vvuqNZ7-oVWfASUrrwVi-8G_FHTfF2rmZFZfa.LE6TrR1lPhkLOaLyeRsne3O52QN7T5FosLf5Qtoj0QQ&dib_tag=se&keywords=ACA+550+Strondo+II+AMVOX&m=A1ZZFT5FULY4LN&qid=1756601002&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "ACA 880 AMVOX",
+    "nome": "Amvox Caixa de Som Amplificada ACA 880 Vegas SFM - 880W RMS, Bluetooth, Equalizador, USB",
+    "preco": "R$ 812,27",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Amvox-Caixa-Som-Amplificada-Vegas/dp/B0CWMLLQ36/ref=sr_1_1?dib=eyJ2IjoiMSJ9.xQSuzXEDJTSAcwUKTXpDNyDPllYMlYnC0Wr-bJOVB0prwaJbjHdXA8udwxpih8-OO3S48fnAa_qOm2vfQ3pPxORh2GGaIwU4r7j1WgQLp43biLt22QoZOFIqcqhaPvi0ZU0u6_zrwIc4ULmjF20rY5vVpl-rNw_3phygnQhfkxXD-lR0GQEEUxI6ubgOt6UOj2hAMJfemKBZJJZV-0cdty25Vi9xYGD70EIbyasR4WRgADaHO7LzBuXV277cdtESOPOYxOiATDpU2s074guKWcaMePTvVA3bQu5wYEkgSmw.KuONoGHxUwCkgzStRDwlZ3ldI3PqtdmSHZ2Rbwg_LTM&dib_tag=se&keywords=ACA+880+AMVOX&m=A1ZZFT5FULY4LN&qid=1756601036&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "CM-150 MONDIAL",
+    "nome": "Caixa Amplificada, Mondial, Preto, 150W RMS, Bivolt - CM-150",
+    "preco": "R$ 248,68",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Caixa-Amplificada-Mondial-Preto-Bivolt/dp/B0BJJH4L5W/ref=sr_1_1?dib=eyJ2IjoiMSJ9.q19Ofn81zzYOK4H5x5UwVbWaKGX-WjnJYVw34R_URw8-8ZC5SNNSpEf2I7W5622Q1L7Wgm-9GUHa6B6UixH0bin1nmo7clbj1Elj698i9AemtvCDSgO80rXRraefHNKL.RR57LeloMTzdF2ji8rTA_Wngk8vCGg_z8DL1vjEiHjA&dib_tag=se&keywords=CM-150+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756601073&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "CM-250 MONDIAL",
+    "nome": "Caixa Amplificada Connect Partyplus, Mondial, Preto, 250W RMS, Bivolt - CM-250",
+    "preco": "R$ 284,05",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Amplificada-Connect-Partyplus-Mondial-Bivolt/dp/B09W32N9J8/ref=sr_1_1?dib=eyJ2IjoiMSJ9.UP-XEdYUhhXH58IhaNFgYCk9ct6mE4L444M4kPw1K-H4hDMqlLRtZFF47NnbeyST2IoOUP-yiV8G4DSs3p_G2tR3IY3Iu7k65Y72ZWhynll-d8iFMVX7_jiCptlG6Oe1_Qi8_ch2-7ernm7kuVb13s5t5_obmIqPpCy9NheoN3wlp4l16jy0G-5Z5PhOYnHOkYpxYJL0vfkgPQs_R2mp8w.7-I2kKXWABANQ-t_6WGFyOo8_ouA6YYD0t2EE0lhuXY&dib_tag=se&keywords=CM-250+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756601103&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "CM-400 MONDIAL",
+    "nome": "Caixa Amplificada Connect Lights, Mondial, Preto/Vermelho, 400W RMS, Bivolt - CM-400",
+    "preco": "R$ 426,54",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Amplificada-Mondial-Connect-Lights-Bivolt/dp/B0914XZ2LL/ref=sr_1_1?dib=eyJ2IjoiMSJ9.koLqcU5WZIBohBLOsOlj4hLy1FogUvVqwiSlX-NtcmNuWloRIppheO8HHOP9akN9eENVjT5H3sxrUFiEibfMCOF0p5_5cosf-sIGIdqXnB9yMcg7QfvS75q1PHLdVud4sexKhQ8_i11phakMivYe7g.zup8SpNWh3YRATtA8tKURzFak5n7yiZ5XxfxF0Pep58&dib_tag=se&keywords=CM-400+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756601142&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e05b01e0-91a7-477e-a514-15a32325a6d6"
+  },
+  {
+    "termo": "CM-550 MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "CM-550 MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SP402E PULSE",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BDJ77BE BRASTEMP",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "400000363 DAKO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "IE60P ELECTROLUX",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "29850-220V-[29850-71205] FISCHER",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "CIMAS2003 ITATIAIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "CTI-03 MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "400000461 DAKO",
+    "nome": "Cooktop de Indução 4 Bocas Preto com Trava de Segurança Dako Supreme 220v",
+    "preco": "R$ 1.269,83",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Cooktop-Indu%C3%A7%C3%A3o-Seguran%C3%A7a-Dako-Supreme/dp/B0CDQCPBVC/ref=sr_1_1?dib=eyJ2IjoiMSJ9.BVD33-TcxzlGGCfE10d1BPg0bsFEYqrpVn7ReTjIgYMvQeOPs1SYhMuHdZwPdckUYtPGWbtoJQwXyQTINhv8JbN7olk95VSUBkM_oaV0VVY.oLwxT3SAyp1QLHSEn6s77DvMQ4OtCPfTjdAY4WvnwMQ&dib_tag=se&keywords=400000461+DAKO&m=A1ZZFT5FULY4LN&qid=1756601261&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "IC30 ELECTROLUX",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "CIMID2002 ITATIAIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "CTI-02 MONDIAL",
+    "nome": "Cooktop por Indução 2 bocas, Mondial, Preto, 3500W, 220V - CTI-02",
+    "preco": "R$ 1.102,75",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Cooktop-Indu%C3%A7%C3%A3o-bocas-Mondial-Preto/dp/B0DWNCC6VF/ref=sr_1_1?dib=eyJ2IjoiMSJ9.K-OKFLPZtvlA10HckGDc1P2cVoqZKGQYiGNA9emkFHCktuT7okHZFRv3WzwKyWCj1vdjPgSiOlapzinUwVwuaOo6XzlpVlzXOmmuxUa3ndHO-Jic9NQuq45_3Semiv3Tv7Mj7DgLMD4Z8QYTWsU2LtvDpdmWMB2JLIjjTF_gWv4bdWp2DQLCoSZLIr_vIKfTkapk79LuuCbvupZvPt762qj8amW3LbBx-NdqHBdefuUoagRlA9g6byzi6qpnTbsCpIgelgD7Wd14JIT4Sl1dYhTN7SXZRKi2YrOl6x-at9A.QyuRyVGz_4WYcMiog8BK3AiaqFpBgPLxi-m7aDTpgFM&dib_tag=se&keywords=CTI-02+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756601307&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "MCI162BG1 PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "CP31 ARNO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Bellagio BRITANIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Espremedor de Frutas Britânia Bellagio Maxx",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Bellagio 350 BRITANIA",
+    "nome": "ESPREMEDOR DE FRUTAS BELLAGIO 350 SUPER TURBO PR 127V",
+    "preco": "R$ 94,05",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/ESPREMEDOR-FRUTAS-BELLAGIO-SUPER-TURBO/dp/B08K9D6PKF/ref=sr_1_1?dib=eyJ2IjoiMSJ9.xZ_SEH-Funqe1zlcNJtjS31fStRDdJ_Mq5-1nqPEwp4EXR2DRzqeOaB7Ql4-956FHPyc23w-wAzdQD9yH5qaslUJuBb6hBSnUNj5jFAyI3c.wBXRD4_KDATxzAK2Ul9db4EM73WM_QDsd_DoQO5Hp94&dib_tag=se&keywords=Bellagio+350+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756601383&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "ECP10 ELETROLUX",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "E-02 MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "3481 AGRATTO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Turbo Pro 260W BRITANIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Extrator de Sucos Turbo 250W Premium",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "VFA1110 BLACK & DECKER",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "F300 BLACK & DECKER",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "IRO101 CADENCE",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Iron Force Plus ELGIN",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PFF603 LENOXX",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "FSN-55-B MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PFE01P Retrô PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "HD1172 WALITA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "CMA20BB CONSUL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "CMS46AR CONSUL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "MTO30 ELECTROLUX",
+    "nome": "Micro-ondas Philco 20 Litros Limpa Fácil Espelhado Branco PMO23EB - 220V",
+    "preco": "R$ 479,00",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Micro-ondas-Philco-Litros-Espelhado-PMO23EB/dp/B08JD38YQG/ref=sr_1_1?dib=eyJ2IjoiMSJ9.mRjxor0hgpdcfex96EkqaJXAWhEFQC3Vo77ucumT96Y8qCoX84kFPmzdObasP9bDnqWHGhnxxlVfLVC-0iLmMqMvtqSpFZkTpMRqXX-zlTW1WfrdcVNVpQP5UaZJg2pXUmlW47JwRvS-naY86g_fVo8b04Yb1F8tiWh7ZzZwzknatEPR3NKf0BUc4S9fu5Mp4f0d5gSgMOu9LesVaFgAJG6UyENXPFJyOMXhV61tSYHLE_sSqfr-l2ASFd4LJgPYrSNK2MyW06les_Hngk9CsSXv47eaVBtuLsIVC6HGwmQ.atz6abbTwxG9Zpuv4eiGCJgqLikU9YmXVYVynC1JvdI&dib_tag=se&keywords=MTO30+ELECTROLUX&m=A1ZZFT5FULY4LN&qid=1756601560&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "MI41S ELECTROLUX",
+    "nome": "Microondas de embutir MV43T Preto com grill",
+    "preco": "R$ 5.238,89",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Micro-Ondas-Electrolux-MV43T-Preto-110V/dp/B084NZFTQK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.1ddAz47QmVlR3VbVlNEPy_dnykS7K9raRVPKYce6N57JfpUl6alLa2xSsUGGnno1BdB23dLn9dveN8ZBKlMhu-q39mix-ncV1inDbB4XuK3EqEnF6UOAIhlNTOnHFKhu1eaTWTtr-XzKANd8rJLHigBJjH5Wd5fd1m75eAZK0QlPNeu4_c-_Q-9LkUWHNoi8gThu4GpcSA3xJIx1Xp2cGwV2B2KAh6G38v-jfnzNzRTVisjsYJ7bPUcJk-LqLGMnRrAmjgyNwwfBktF1SlpBxn5UsMbc6LiDtobItq8I-SI.lLCSBSC6BN5kOFbNV3-89Zg5IP9Pwl0bVAXXmRStGx8&dib_tag=se&keywords=MI41S+ELECTROLUX&m=A1ZZFT5FULY4LN&qid=1756601604&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "MRAS21 MIDEA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Micro-ondas 35L Prata Espelhado MXSA35S2",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "MO-01-21-W MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "MO-02-34-E MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "NN-ST25LWRU PANASONIC",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "ST67LSRU PANASONIC",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PMO23BB PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PMO34EB PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Mini Processador APR 1001 BLACK",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "MP120-B2 BLACK & DECKER",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Mini Processador de Alimentos Britânia 2P",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "MPR520 CADENCE",
+    "nome": "Miniprocessador Easy Cut, Preto, 110v, Cadence",
+    "preco": "R$ 113,17",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Miniprocessador-Easy-Preto-110v-Cadence/dp/B07WQ8ZHGY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.MDzAtx1S9evcA9hh8o-48wLHpKRVRzI2-I9dGjrW0njR-z7_YodxFYRXWi4OR8ENGKorVzObqx1UmNd32XnNrkW3vazNtHVqHY9rUlAnQIYgCK49DBIK06HcHYeYOl1fCjYgMnjVBu-qERnpBl2m4vl7DraN4tmAZwzkBzrrkNx3LDxLNltX4CPxbX9Tm5NjSHYiorbjpEy0dD9f-OVbWeC8ehkTrwfLpH1YQScRKRzNR-XVF6yrPL2tEpN_f6xEPUuTRjGleI6vItwSfXZ6OpSnzhAz0ibhmfBQPqoUKvs.FvNYfeV_mDKzcL6g-6Vh2OqGiWOF6RRMr_jkGE38aU0&dib_tag=se&keywords=MPR520+CADENCE&m=A1ZZFT5FULY4LN&qid=1756601739&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "PMP431 LENOXX",
+    "nome": "Lenoxx ,Miniprocessador Pratic, Preto, 220v, PMP431 220V",
+    "preco": "R$ 117,73",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Miniprocessador-Pratic-Lenoxx-PMP431_220-Preto/dp/B076HT82VH/ref=sr_1_1?dib=eyJ2IjoiMSJ9.wnC-y8N0uVaTooDjCnwHvOcSCkKjPj2led6_qg0tz356oSE2asrhEbdUPE3QGuXJrtn2daF3rns2hps6hNyNSc_4a4sIAAKofY97gbHML1bYLQ6D8812ItEzvfnmFHqcrgTzfWAfnubO_0qAwmefIg8lH2XSRiPvs72g4Ctu-hdeahmMX-VPNo4Vj10Kkesbqdj55PobBCJ3hoAeJXg2QA.I6qXOUtSALMA6TTjRY5WmIQm7-ObCxJPWcsx-UAk80g&dib_tag=se&keywords=PMP431+LENOXX&m=A1ZZFT5FULY4LN&qid=1756601786&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "MP-16-B/R MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SAN400 CADENCE",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PGR25A PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AMS 500 AMVOXX",
+    "nome": "Amvox Sanduicheira e Grill AMS 500 Black 110V",
+    "preco": "R$ 75,91",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Sanduicheira-Grill-Inox-Antiaderente-Amvox/dp/B092NQQW4R/ref=sr_1_1?dib=eyJ2IjoiMSJ9.oSAKRr9lmBDpT7BKlC5OkXo_uwYzf5wRna-juBR2EFhiJSxIjMca9GrW5Zh82ADWydz8_N3mVg-fCMuH9L5O2Q.kHQKsud_w5NPWAeHvCwrrXBAUA-aKAgVYzOpAEB-I2w&dib_tag=se&keywords=ams+500+amvox&m=A1ZZFT5FULY4LN&qid=1756601845&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
+  },
+  {
+    "termo": "BGR01PI BRITANIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Crome Inox BRITANIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BGR16 BRITANIA",
+    "nome": "Sanduicheira e Grill Britânia BGR16 2 em 1 Redstone 750W 220V",
+    "preco": "R$ 105,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Sanduicheira-Grill-Brit%C3%A2nia-BGR16-Redstone/dp/B0CJ41PP2C/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ZTueiErsLd2lEdTQYZ62C4hDQNFthTJ8mFWouedHLAP5uQyS4qpFz5fnwC1Sb4s7SAqLUPdLUqOGELfWoW5zky1WsBjs4Umey1mkqq5yW3wtYswLN4DJwle4tFM4KAPvlop-Rt-vEiZ32CwfhUvG-tzHXi84FikmuMIJTBIlcfcny9xPhwKPeuAaD1ueYNF2jYzePMeviRIkpLwPlaHjSKSZqjruliUyzpzSZttJGwXYBVk4sWHp29Uye55zk_StarziI9M29AnfQK97IqwOQD1NIj5VRwMrKPI1cIDRqt0.5CwSNXVJ2WpwSQo1ax_GLpcV2MU5TD4_Dltclaab5fw&dib_tag=se&keywords=BGR16+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756601891&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "ESG20 ELETROLUX",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "S-20 Sanduicheira Master Grill Inox",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AMS 370 AMVOXX",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BGR01P BRITANIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SAN260 CADENCE",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Break Time ELGIN",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "S-12 MONDIAL",
+    "nome": "Sanduicheira Fast Grill e Sandwich, Mondial, Preto, 750W, 220V - S-12",
+    "preco": "R$ 69,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Sanduicheira-Grill-Sandwich-Mondial-S-12/dp/B076FGX8GR/ref=sr_1_1?dib=eyJ2IjoiMSJ9.t4UKfXhtoecG8XwBk3qk9s0ogFlvEOjuc_QlOu5tsj7jWEq0zuxCU6GuIipAdqdu.Xc-GmXoJcj4ZNjAjRVmFUctQqzVtm--zvd2qQ8navvo&dib_tag=se&keywords=S-12+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756601990&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
+  },
+  {
+    "termo": "CE043 MULTI",
+    "nome": "Liquidificador 2,6L Turbo Cinza 1200w-127v c/ 8 Velocidades Multi Home - LQ1211",
+    "preco": "R$ 159,90",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Liquidificador-Turbo-Cinza-1200w-127v-Velocidades/dp/B0CHSGSJ2C/ref=sr_1_1?dib=eyJ2IjoiMSJ9.AfQqnrbRmFINHIc3W-OxlmN4Y5Y109wWr4lC_HE6CXWmxCW-d2T0Ss3t6tUctroBEQLmCd6Mh8fJDhoQrjJGSjv2u-95tk3QPRaRkg6BMAKC1ckCaeElXkHT4zmjDYASW6LQ6hU2T7u0hZ64ptdiZkVB-Ru2qziWZlKniCcS19gLaam9hkTJmMtm02Isxtnn7e0EB__uyC2QXLDCYxiZ7X6u9blZAMH56veAl9fB7Al7CH7G8JXYvjyWcP1vuNBFXu5ZC74gSuPYOhMxCAudCJ5MIGruUVesbjJpTh9B_wg.mc2ej0AxapfywrDwpTR9NxV_RPUp4sEGPhkLucdglPY&dib_tag=se&keywords=CE043+MULTI&m=A1ZZFT5FULY4LN&qid=1756602021&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+  },
+  {
+    "termo": "BSC2150 BRITANIA",
+    "nome": "Secador de Cabelos Britânia BSC2150 2100W Preto e fumê Bivolt",
+    "preco": "R$ 129,68",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Secador-Cabelos-Brit%C3%A2nia-BSC2150-Bivolt/dp/B0D79NCJZD/ref=sr_1_1?dib=eyJ2IjoiMSJ9.FLoULzGG4M-514m9nYZcRevJliFCQglYEj9goWcN7wKe-hFETZKTVi-sivQ_iTYbifjQaXXBFNbTA9xGXudFEmKk4wpd18TKr6Il4MPETKIzczHlQeQpDkprEeEqtEAIp2kIRMRETOOMlJZ16vhbmaOyOgC3igb4k_eTLJM6irbvKT9xdYkb898sgiNnfXtnGr0aF3l9StuH7NJjHlz61TVxz5vU47DvszcTG0ILkDzOK2NIw0VwMCSzjtIcm_RgpXGrmw43Z_E05WJpDu8LbdAGoKMnsMBCXyuokKiJpmM.ORCvnzyHIrtPfRsCnjhBivWCuT41X7SX5pnknw-Qxw8&dib_tag=se&keywords=BSC2150+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756602057&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "SP3100N BRITANIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SEC560 CADENCE",
+    "nome": "Secador Cadence Rouge Style 220V - SEC560",
+    "preco": "R$ 134,36",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Secador-Cadence-Rouge-Style-220V/dp/B0B6XSXL9C/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ig1Eb5ncdvUd25MyEQFSa_8IbIAwPJye8Mz5aZEO5zqaWV0JZZQGniWpK16Ncg6scVmKccgm1z1xMtptp7Ll2YLLLkcb58126PfZ96Qt3pIJWfd0OtogB_gnnlIpUHGG-trVHKT_52ld_TDB037GJsQZlWF23DcYOs2Gh08I6KjQ4P34nd_sfeDfMwdbaFE6UQbFCTEzk5sfdQ-MEXCKfJ_RkT7i8v7Qns5HR4JBzdGbz0ddgsH9Q91GcRHKjR3bjz3a74eDCpx3CB67QPg3mspkCRRQL_9348vWTZK5fnU.fmh6zRtZjQdsQm6Rhbsc-6_4l_Khl3_s-_zark1Dymo&dib_tag=se&keywords=SEC560+CADENCE&m=A1ZZFT5FULY4LN&qid=1756602105&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "SC-13 MONDIAL",
+    "nome": "Secador Power Shine, Mondial, Preto, 1900W, 110V - SC-13",
+    "preco": "R$ 89,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Secador-Power-Shine-Mondial-SC-13/dp/B076BBRKCY/ref=sr_1_1?dib=eyJ2IjoiMSJ9.slazb43djydFYJT2p-87kfOeBESJJywibvD5DO9LFCVp--tgh8vBUmPyioT--4tBGDu5032MNw6sAx9nS5mwSIKR_l763hyxdKhCL1RJ-03CkwKKcI0-ZH-GAh8k0UZ6Qc7DNYnP6rcbL-hkFnfVgde7dxiTPZ7UWCA-RI1vwXQWPx-fDn6wp94_JohXvArjVvlQiHwt4jSqGDJ28h7WvHk60DvNPzqTpwZnRrT6GwYnITo1_9tqkf8iMGdK8S3UJiteXfg-iB6_A2jfclL8hg5OgUClrH_5LmMTfnIK0qw.Fp6TGJLCGwwTIQz0YfqqUAV3-uNkFfi6nKzpODaiaaE&dib_tag=se&keywords=SC-13+MONDIAL&m=A1ZZFT5FULY4LN&qid=1756602143&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
+  },
+  {
+    "termo": "SC-32 MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PSC2450 PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PH3700 PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Cherry 2100W PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PH3700 PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PSC2300 PHILCO",
+    "nome": "Secador de Cabelos Philco Bivolt 2200W PSC2300 Motor DC Bivolt",
+    "preco": "R$ 162,80",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Secador-Cabelos-Philco-Bivolt-PSC2300/dp/B0D9R6WVM4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.nZd5ZbMkWDyCtA8Txb4ALKnu2f8Ath1_wDEAL8lcIwisrKsmBScIaQYKsp03TdoL4NTPxMd9pn1GJgwoEoEXfd2rxYl2S23B-ld_3mxQGGvEE66KvtEOl69CQe8rIGvdWloI8Vjrg7_KcJSMx2_jNtlwJdpxwRLTkPAPFOkfleEILjOeXdOoggYmyN-ucNc4c03QhNH6XqWsVW24kDArm6RlaHZLTbjHcxJfcVyWMtY6W1iKF-U2IuC_f6n2rGtpkZh8Y-lVU8WsYVIk0ndr-Tb1y9spB9eozD6QKpxYYAU.KgXUR_d5h40Z9qBKzFtOyD9y-9x6ai0-3JqScqvGUK0&dib_tag=se&keywords=PSC2300+PHILCO&m=A1ZZFT5FULY4LN&qid=1756602224&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+  },
+  {
+    "termo": "PSC2350 PHILCO",
+    "nome": "Secador de Cabelos Philco Bivolt 2200W PSC2350 Íons Tourmaline Bivolt",
+    "preco": "R$ 142,69",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Secador-Cabelos-Philco-PSC2350-Tourmaline/dp/B0DNFQ3N3S/ref=sr_1_1?dib=eyJ2IjoiMSJ9.1ovdOJQVFTcBMu-1DRf7n9Bn7o-x14rW3RA3B7YbD352KAcbIUHFzFtM5XdLHOBT8g-Hu3g29SUT9vp31d0MYAF9YcvmHm6ifBH3H0Z16zcvHFz9zTwTqSdQ1_8TWOfgH3kTOJEZe0wowarE5tmL56O9XAcUmeT7jzVevGxzqca5_MAmkGN9B0NKNwayNw-miUSVQnD4qg4K8VwJ0mkQfL4i8cVzKoej_isqF60LCI9MwH4WhrIgj9wZr9ymePjbVhLOO8oVsW7VBsMxFu7F2vZDUorXHgHiBrqgNLmKrIs.1jSZ7R1UJPTMk42qpCVydHM3j9G5_1Fe74PiO2PJYXw&dib_tag=se&keywords=PSC2350+PHILCO&m=A1ZZFT5FULY4LN&qid=1756602254&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6a09f7ec-d911-4889-ad70-de8dd83c8a74"
+  },
+  {
+    "termo": "GAM-BECHD0000002793_PAI GAMA ITALY",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GAM-BECHD0000002791_PAI GAMA ITALY",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GAM-BECHD0000002810_PAI GAMA ITALY",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GAM-BECHD0000002808_PA GAMA ITALY",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SCP-JU-01 MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "PSA3250 PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Style 2000W TAIFF",
+    "nome": "Secador 2000w 127v, Taiff, Style 333, Preto, Pequeno",
+    "preco": "R$ 216,45",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Secador-Taiff-Style-333-Pequeno/dp/B07VPFC6RN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.7ntTDbUhq1MFoBXeOhjJfdQr0wvTmNRBNvZz5wgqDmzovKTKHMt6JP3u3ZxPzLftcFwC1xghsMM9fE0yOWwTTyHD1dUYhlZrr6wL9l44Y86jLeXQcukcSRqlhL60drRBaUsllJ3iOOusMyxAL5XTdc-QVUmHbVRtdYykT5ukLmvMZUKGcncL7dOu764q76CxYxCeqZ1gU3YnveCEKR-F0q0gUuj1Rq_Cz73WqQccZJWhDqzQ46GB6tS9v6wqhdmyeM0B_GhdRy4pvBARFKGzI8T6n6n-5FBQ6xiQ6kpHy3U.x9L7fNDo5wOBaep8TrprFNkf5xn0jLMSSS37rUVKQXg&dib_tag=se&keywords=Style+2000W+TAIFF&m=A1ZZFT5FULY4LN&qid=1756602349&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.2b4f80ea-3310-4d2c-80ab-309ecec12fae"
+  },
+  {
+    "termo": "Tourmaline Íon 2100W TAIFF",
+    "nome": "Taiff SECADOR TOURMALINE 2100W 220, preto",
+    "preco": "R$ 324,76",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Taiff-SECADOR-TOURMALINE-2100W-preto/dp/B097J7J54H/ref=sr_1_1?dib=eyJ2IjoiMSJ9.VhUKKiMArK7wGZK1XCoUCyGMYnz0vlceYcSv-gKER633CWStPuzFfK77O0gfbOLoD4S6UTHsZzrUYSyAJttrzP_B6xc1uHtIYl3uPR8L2qPN5ebKNVHg6wCvE-CF-zG-IL9fGVJBkXYP6vwOyG7TxZPE47kSz6Q9jRy8QRnEhi3tJNsOluj3gXgedBJa--OgjIebhBII27Gb7N5EpUmPiSNlvSH5z3Yy2Lg78HVFMtOr9E7Yji6WIR3hj6xxUqnTsWh0Mt4DSgWBZA5GBSBoRZXpuMRAOEw5ouRqMt61ZQo.vZ5rWD1Gn5LcZt5jRxXntAP5mP07zXRhO6GCCUN_2uc&dib_tag=se&keywords=Tourmaline+%C3%8Don+2100W+TAIFF&m=A1ZZFT5FULY4LN&qid=1756602387&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.2aacf1cd-a8c3-4e7d-af5f-5ac7d03c6933"
+  },
+  {
+    "termo": "Easy 1700W TAIFF",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Black Íon TAIFF",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BSC1200 BRITANIA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Easy Travel BRITANIA",
+    "nome": "TRAVEL ROSE GOLD BIV",
+    "preco": "R$ 192,85",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/PHILCO-61503064-TRAVEL-ROSE-GOLD/dp/B08KB4JPRV/ref=sr_1_1?dib=eyJ2IjoiMSJ9.KLn9Jg2iD5AasYxIBd5E92P-SUPODrIrpz2clKyo1Vcy-ThVIE08pbL5YAEzJh0XHzKdV18gESvgVn8wtbHoOr7pBm-Ek0idYs1YsAlKCfo.lSpKc8v5lQussK0Uvp8cLfRMWDab9BlBzZ5iSiQ8oqc&dib_tag=se&keywords=Easy+Travel+BRITANIA&m=A1ZZFT5FULY4LN&qid=1756602453&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "SEC185 CADENCE",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Eolic Travel GAMA ITALY",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SC-10 MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Titanium Travel 750W PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Travel Shine PHILCO",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BHC010/81 PHILIPS",
+    "nome": "Philips Secador de Cabelo Compacto Essential, Tecnologia ThermoProtect 110V - BHC010/81",
+    "preco": "R$ 149,90",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Secador-Philips-Essential-BHC010-81/dp/B07ZK5LKPN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.yZWfu5P38LO30dXOHKeHX_cfePwgRoZUvYL3t4FUeC0.6nTWAGiyyi70USviosl53NRz85-SbXJeyCHcpSzgaBc&dib_tag=se&keywords=BHC010%2F81+PHILIPS&m=A1ZZFT5FULY4LN&qid=1756602528&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "AWS-EB-01-B AIWA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-EB-05-B AIWA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-EB-04-B AIWA",
+    "nome": "Fone de Ouvido Eardbud AIWA AWS-EB-04-B Bluetooth IPX4 ANC 26 Horas de bateria",
+    "preco": "R$ 119,99",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/AIWA-AWS-EB-04-B-EARBUD/dp/B0DM9R7K8J/ref=sr_1_1?dib=eyJ2IjoiMSJ9.2MLOmj62yI4ZRladh-Xubw96dIGK110xTWKENFR0ca_LdgR4nBOB7B1h750CJln3aMKPBZ0vxp364ohKu6t1_nFRmN98-qGDfE1s2abIrH0yqmMEn3pJMflbW8wWObj07cXdNikW2cZztRHONznfHf70ZFtmWs600n3JJkF_8Xo.q40xKnFd5BejaAdJuHxKOoYfR0XmCIiW_uNzrA0Q9qo&dib_tag=se&keywords=AWS-EB-04-B+AIWA&m=A1ZZFT5FULY4LN&qid=1756602578&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+  },
+  {
+    "termo": "AWS-EB-03-B AIWA",
+    "nome": "AIWA, Fone de ouvido EB-03-B, Bluetooth, c/cancelamento de ruído, 25 horas de bateria, IPX5, sem fio",
+    "preco": "R$ 192,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Ouvido-Earbud-EB-03-B-Bluetooth-Ambiente/dp/B0CSGVBFLM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.6grXr-RBSo_e4D2Ei8jZgia0SyBDZR2B0tmRtSN3LjA7qcuW8Bp0PNppurmloqDl_56a_QWTT2o4KxBqLjANtmORzIkGHDO5xLwM1fXSe3j0sAIoau6rxVeAXdZShBPjEUmR3QogURYUQYCnXlWADEUMrVaE0XXUaR32Xlm70DUqY0K9rhSkP-2eaS80btiFAY47K6zVZcRAEcsAJn-7ojsrvHVY7dXoonRsjAw-PdE.Aq055RE0uDgLGUDpmVMKK1sES1ajv1BhVvWx6vl1vac&dib_tag=se&keywords=AWS-EB-03-B+AIWA&m=A1ZZFT5FULY4LN&qid=1756602615&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "AWS-HP-05-B AIWA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-HP-04-B AIWA",
+    "nome": "Fone de Ouvido Headphone Aiwa HP-04-B Bluetooth ANC ENC Modo Ambiente",
+    "preco": "R$ 192,09",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/FONE-OUVIDO-AWS-HP-04-B-BIV/dp/B0DM9Q7DQN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.UxAYRuPR5fMwL6Q94M0LWEUQMl7j7LZ4kXFDM8iKVTLBeR8AqQd1Tk9k8xT31QcdiyQNvXrmtcn1Z0r3ijelVnttMmSKyhfib4kSrCnN3aDQpeme7TuA--8g1t78VKtn.UF86YdB95M9HGzq8Mbf6-qSb93nbYRwWG8JwNf70pXc&dib_tag=se&keywords=AWS-HP-04-B+AIWA&m=A1ZZFT5FULY4LN&qid=1756602662&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "Tune Buds 2 JBL",
+    "nome": "JBL, Fone de Ouvido, TWS, Tune Buds 2, In-ear, Bluetooth - Preto",
+    "preco": "R$ 441,70",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/JBL-Fone-Ouvido-Tune-Bluetooth/dp/B0DK3RXTW4/ref=sr_1_1?dib=eyJ2IjoiMSJ9.U9rLf-6D402iS6q7iwu5igZQgmFxQCUuvw5K4RFZXBTx4qxDGHQ-tMQhf-9DBkoNSO9zKrB1iR92hKlzyRu5_hxMCfFkL4tE4kYGZP2Q9KE8IeJdp8pa8zwDJEJcSryy8xmsY_YHk6rkEt8czlIEdO5XPFgoronlXP3tfWNrzFxVkcxTgy7ht35qPyeNOe2GMjYdCOthE1QtQCBLsjxYSjxyrXdjOetSKr5LN2hwBnAUS_o_8B5QU-fFBzCQnWACsiE0b8qVkRYMqtXsdM9uvUyZseLFcQl2WUa3-_Uh-2I.TZ5F1PgN8IwxmJmBcDClArYDQ6uNYLGSpZsEhUqgR0Q&dib_tag=se&keywords=Tune+Buds+2+JBL&m=A1ZZFT5FULY4LN&qid=1756602692&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.9e6a115c-05b9-4b96-8e1c-b1f9ce2ac1a6"
+  },
+  {
+    "termo": "LIVE FREE 2 TWS JBL",
+    "nome": "Fone de Ouvido Sem Fio, JBL, Bluetooth, Wave Buds 2, Intra Auricular, Sem Fio, Resistente À Água e Poeira - Preto",
+    "preco": "R$ 239,62",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Ouvido-JBL-Bluetooth-Auricular-Resistente/dp/B0DHL63KWK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Uw-Qk1-VxpSpFkeDL52n0Lc7q10R_hI4b0N4qjryYUsWzbgGsbxXo-I0Tp4n0rqxib5rTVk1YFvQDteCTur-uizbFbN-XNmykehFGs7zrswwCw3oUoIeCavT3hhJEUNxSfyhI6t9NhpOYCYIKWFITgKu77hqxBLQXQ2PFG4EIrQ_99BJW_WdYvXUUPfmgwHaja-3Cf5G8IcUhlT0E3gHGiDA8ZhOvcsouLOXTnhTN4Qw7Ku_Bo4w89Cct7ulRH5kzSSSSLh1Yo0hTEoBQ6MIrtsldzBYqvGkwItknrV_SRY.pjnEDJPXvYySV6W3KKfcmFo-N9uBe7RKHUQZbGkKD5E&dib_tag=se&keywords=LIVE+FREE+2+TWS+JBL&m=A1ZZFT5FULY4LN&qid=1756602737&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.2b4f80ea-3310-4d2c-80ab-309ecec12fae"
+  },
+  {
+    "termo": "Wave Beam 2 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Wave Buds 2 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Tour One M2 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "LIVE FREE 2 TWS JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "BHC010/81 PHILIPS",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TAT1108BK/00 PHILIPS",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TAT1209BK/00 PHILIPS",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TAT3509GY/00 PHILIPS",
+    "nome": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT3509GY/00, Bluetooth, Com Cancelamento de Ruído Ativo ANC, Até 24 horas de bateria, Cinza",
+    "preco": "R$ 239,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/PHILIPS-TAT3509GY-00-Bluetooth-Cancelamento/dp/B0DGXR6FRP/ref=sr_1_1?dib=eyJ2IjoiMSJ9.o2LZwWglLnqE2oFWH5HHgxuYP0mCNonrL3HfInBYMXPcIHNXHN1ayKZ1r-sKMedD-YStKxVpPQSR2TyF2HRItZXy2U925RxHwM3ZmyT-5yI_mQ0M3Di5ChZGe9EG1B1Ee8F4wxA3l-YeZiBOnbiOSc5x78BQugrMF2JOyFd4uNlpzGVH4msiev1L6d-rsv23_JGDuzBLF8CVOegKJisu6EPYS4wkY1s9vO7IOsH3appBG7nV-uZZDDAZRwXbvHrR.YEAUogTPLT_6biHPXG2Temnw5zvIy05XjUsG0PJENAE&dib_tag=se&keywords=TAT3509GY%2F00+PHILIPS&m=A1ZZFT5FULY4LN&qid=1756602844&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "TAT1109BK/00 PHILIPS",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-SP-06-B AIWA Speeker",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GO 4 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GO 4 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-SP-03 AIWA",
+    "nome": "Caixa de Som Speaker AIWA SP-03-BL Bluetooth IPX4 RGB",
+    "preco": "R$ 179,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Caixa-Speaker-AIWA-SP-03-BL-Bluetooth/dp/B0DLLHSJTZ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.20DBa2B_CtAcKAggVqfrxwRi-G1c1hLxQNDYNW_r2OWV5Q7i4GhZJwQod5oLakuDwaqzMF5Beot9Fiaja6VetVKG5ZfU8tZz1fu9VFwLellf9g3YpwOf0tWCjOB9MTLqKQ751ml02-fdWxJipfj9gQ.yjwqpPq0CbYOVegoCfHghR9c8SST2UK4UYui8ccJOqU&dib_tag=se&keywords=AWS-SP-03+AIWA&m=A1ZZFT5FULY4LN&qid=1756602926&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+  },
+  {
+    "termo": "Clip 5 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "XG2T JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-SP-01 AIWA",
+    "nome": "Caixa de Som Speaker, Aiwa, Bluetooth, Luzes Multicores, IP65 - AWS-SP-01",
+    "preco": "R$ 205,00",
+    "loja": "Amazon",
+    "vendido": true,
+    "link": "https://www.amazon.com.br/Caixa-Speaker-Aiwa-Bluetooth-Multicores/dp/B0C8V3ZSN7/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ctiRu1oWIEqZ3Eu2MG-YvblXCDVzQgtZYVchr6CIm0D4zUrOJlzyI3fWdkQUjlVOvbHt7RyH7cFLkGzxa2ZQiyTcHnRloaw33LuZGzePEy5QCGDbAdBomS9INCbHW9G650waAbTnbS4d6HAggUKkxA.XU4BqbGNmvS-a-yTQcsQWhG_Vm8h_8x2A8laIPKPdP4&dib_tag=se&keywords=AWS-SP-01+AIWA&m=A1ZZFT5FULY4LN&qid=1756602980&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+  },
+  {
+    "termo": "Flip Essential 2 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "XG5S LG",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-SP-05-LB AIWA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Flip 6 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "XBOOM GO XG5S LG",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-SP-05-LB AIWA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Charge 5 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "XBOOM GO X75S LG",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-SP-07-B AIWA Speeker",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GO 4 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GO 3 JBL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "GO Essential JBL",
+    "nome": "JBL, Caixa de Som, Bluetooth, Go - Preta",
+    "preco": "R$ 172,51",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/JBL-Caixa-Bluetooth-JBLGOESBLK-Pequeno/dp/B09NCFVNK9/ref=sr_1_1?dib=eyJ2IjoiMSJ9.lzqrIvvQBKFlKuPbr2MWxZwAL_OvgdFSXiiXnduHqjz9qo-X_mEHUr5nDxtacr4fLg6W2-rPLQJ9blmZQFet75UKRHxQQGKsOGLtvuOkXP9L5dHxh6XHuJxAQu-Eiyc2PDF5NperkJjssdAdHGK_j_4SuaJOt20jmSIHakS1T3bMHnmGn8g_5e1ZY0o4i-OufU77pmqWedG8MGG7vS_uoYvyY1nlR-A-7vfFY1xkNWV_-ExhzxJ7GOS0vkdlwfPt.CGRcF7W88tYqJtxi9wom1HPHdlJFMPLOO45dCYxiYGg&dib_tag=se&keywords=GO+Essential+JBL&m=A1ZZFT5FULY4LN&qid=1756603117&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.e2a72b44-141c-4388-8328-0f236d4ca577"
+  },
+  {
+    "termo": "ACA1900 AMVOX",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TM-2200 MONDIAL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "TAX5509 PHILIPS",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "SP508 PULSE",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "AWS-TV-32-BL-02-A AIWA",
+    "nome": "Smart TV Aiwa 43”, Android, Full HD, Borda Ultrafina, HDR10, Dolby Áudio - AWS-TV-43-BL-02-A",
+    "preco": "R$ 1.880,71",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/Smart-Aiwa-Android-Ultrafina-AWS-TV-43-BL-02/dp/B0BJLCW2QZ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.Nu9yFjog46-pqWARSz64sg.b_zwb7ppdthcDAjB-zKvlhjv7SFQVmpScivmu_GTpEE&dib_tag=se&keywords=AWS-TV-32-BL-02-A+AIWA&m=A1ZZFT5FULY4LN&qid=1756603191&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "AWS-TV-43-BL-02-A AIWA",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "32LR650BPSA LG",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "43UT8000PSA LG",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "Smart TV 32 Samsung UN32T4300",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "F6000F SAMSUNG",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
+  },
+  {
+    "termo": "32S5400AF TCL",
+    "nome": "TCL LED SMART TV 32” S5400AF FHD ANDROID TV, PRETO",
+    "preco": "R$ 898,70",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": "https://www.amazon.com.br/TCL-SMART-S5400AF-ANDROID-PRETO/dp/B0CC6QLWPV/ref=sr_1_1?dib=eyJ2IjoiMSJ9.11VcgBPSfcEXLuPQn4W3ePWUXYUf28_uQML3JyHxjYc6U28CXoQZvq14P2uaRBqSmhkVV3Iqn0sKINaLq3rcHzbpKWuuEMkziWwFpbIws8Y-Oosx7zdJc4vZKSQpSFCXxVCwqwkFaNaU0RiIWi4eIBrD4UrD6nF8qzYN1begUtWqdM7IKYIDXPQi0HXI-gTRnMG0O5A_axE8Gua5caiwMngEHbR5ehfsopr8QtQbJTKJXFZ2TKN3J4cdZNtVESOu6ZY95FvID1laa-WOuVFly69RJf0ClpcaAu4RVySWKAQ.74TM7sRpHQSfRIjgA8tImOowbqJpBc62Mz6IsF71Eq8&dib_tag=se&keywords=32S5400AF+TCL&m=A1ZZFT5FULY4LN&qid=1756603271&refinements=p_6%3AA1ZZFT5FULY4LN&sr=8-1&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147"
+  },
+  {
+    "termo": "43S5400A TCL",
+    "nome": null,
+    "preco": "Indisponível",
+    "loja": "Amazon",
+    "vendido": false,
+    "link": null
   }
 ]

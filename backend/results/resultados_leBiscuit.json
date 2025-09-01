@@ -1,26 +1,10 @@
 [
   {
-    "termo": "BAP23",
-    "nome": "Aparador de Pelos Britânia BAP23 Multigroom 11 em 1 Bivolt",
-    "preco": "R$ 179,91",
+    "termo": "Ventilador de mesa vsp-40-b",
+    "nome": null,
+    "preco": "Indisponível",
     "loja": "Le Biscuit",
     "vendido": false,
-    "link": "https://www.lebiscuit.com.br/aparador-de-pelos-britania-bap23-multigroom-11-em-1-bivolt-2014645965/p"
-  },
-  {
-    "termo": "BG-09",
-    "nome": "Aparador de Pelos PraticGroom Mondial Preto 6W Bivolt - BG-09",
-    "preco": "R$ 179,90",
-    "loja": "Le Biscuit",
-    "vendido": false,
-    "link": "https://www.lebiscuit.com.br/aparador-de-pelos-praticgroom-mondial-preto-6w-bivolt---bg-09-2018077522/p"
-  },
-  {
-    "termo": "PAP03",
-    "nome": "Aparador de Pelos Philco Multi Groom Aqua 12 em 1 PAP03",
-    "preco": "R$ 287,91",
-    "loja": "Le Biscuit",
-    "vendido": false,
-    "link": "https://www.lebiscuit.com.br/aparador-de-pelos-philco-multi-groom-aqua-12-em-1-pap03-2012738632/p"
+    "link": null
   }
 ]

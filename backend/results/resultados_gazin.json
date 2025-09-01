@@ -1,26 +1,2418 @@
 [
   {
-    "termo": "BAP23 BRITÂNIA",
-    "nome": "Aparador de Pelos Britânia Multi Groom BAP03 7 em 1",
-    "preco": "R$ 2.089,90",
+    "termo": "AFN-40-BI MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Grand Family AFN-50 BI 5L 1900W Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-grand-family-afn-50-bi-5l-1900w-timer/6168/preto-inox/110-volts"
+  },
+  {
+    "termo": "BFR11PG BRITÂNIA",
+    "nome": "Fritadeira Elétrica Britânia Oven BFR2100 12L 1800W 2 em 1",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-britania-oven-bfr2100-12l-1800w-2-em-1/5903/preto/220-volts"
+  },
+  {
+    "termo": "BFR38 BRITÂNIA",
+    "nome": "Fritadeira Elétrica Britânia Oven BFR2100 12L 1800W 2 em 1",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-britania-oven-bfr2100-12l-1800w-2-em-1/5903/preto/220-volts"
+  },
+  {
+    "termo": "PFR15PI PHILCO",
+    "nome": "Fritadeira Elétrica Air Fryer Philco Gourmet PFR13P 8,1L Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-philco-gourmet-pfr13p-81l-timer/6771/preto/220-volts"
+  },
+  {
+    "termo": "OFRT520 OSTER",
+    "nome": "Fritadeira Elétrica Air Fryer Oster OFRT520 4,6L 1500W",
+    "preco": "Indisponível",
     "loja": "Gazin",
     "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-oster-ofrt520-46l-1500w/6693/preto-inox/220-volts"
+  },
+  {
+    "termo": "EAF15 ELECTROLUX",
+    "nome": "Fritadeira Elétrica AirFryer Electrolux Family Efficient 5L 1700W EAF50",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-airfryer-electrolux-family-efficient-5l-1700w-eaf50/6358/grafite/220-volts"
+  },
+  {
+    "termo": "BFR2100 BRITÂNIA",
+    "nome": "Fritadeira Elétrica Britânia Oven BFR2100 12L 1800W 2 em 1",
+    "preco": "R$ 669,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-britania-oven-bfr2100-12l-1800w-2-em-1/5903/preto/220-volts"
+  },
+  {
+    "termo": "EAF90 ELECTROLUX",
+    "nome": "Fritadeira Elétrica AirFryer Electrolux Oven Digital 12L 1700W EAF90",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-airfryer-electrolux-oven-digital-12l-1700w-eaf90/6990/grafite/110-volts"
+  },
+  {
+    "termo": "AFON-12L-BI MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Oven AFON-12L-BI 12L 2000W",
+    "preco": "R$ 719,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-oven-afon-12l-bi-12l-2000w/8112/pretoinox/110-volts"
+  },
+  {
+    "termo": "OFRT780 OSTER",
+    "nome": "Fritadeira Elétrica Air Fryer Oster Oven OFRT780 12L 1800W Com Luz Interna",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-oster-oven-ofrt780-12l-1800w-com-luz-interna/6685/preto/110-volts"
+  },
+  {
+    "termo": "PFR2200 PHILCO",
+    "nome": "Fritadeira Elétrica Philco Air Fryer Gourmet Black 4,4L 1500W PFR15PG",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-philco-air-fryer-gourmet-black-44l-1500w-pfr15pg/6987/preto/110-volts"
+  },
+  {
+    "termo": "FW009547 WAP",
+    "nome": "Ventilador Wap Flow Turbo 50cm 8 Pás 3 Velocidades 180W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-wap-flow-turbo-50cm-8-pas-3-velocidades-180w/7502/preto-cinza/220-volts"
+  },
+  {
+    "termo": "VSP-40C-NB MONDIAL",
+    "nome": "Ventilador de Coluna Mondial Super Power 40cm 6 Pás140W VSP-40C-NB",
+    "preco": "R$ 247,38",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-coluna-mondial-super-power-40cm-6-pas140w-vsp-40c-nb/7360/preto-prata/220-volts"
+  },
+  {
+    "termo": "BVT450 BRITÂNIA",
+    "nome": "Ventilador Britânia Maxx Force 40CM 6 Pás 3 Velocidades 160W BVT450",
+    "preco": "R$ 209,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-britania-maxx-force-40cm-6-pas-3-velocidades-160w-bvt450/7211/preto/110-volts"
+  },
+  {
+    "termo": "VTX-40C-8P MONDIAL",
+    "nome": "Ventilador de Coluna Mondial Turbo 40cm 8 Pás 140W VTX-40C-8P",
+    "preco": "R$ 279,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-coluna-mondial-turbo-40cm-8-pas-140w-vtx-40c-8p/599/preto-prata/220-volts"
+  },
+  {
+    "termo": "VFC4 ARNO",
+    "nome": "Ventilador de Coluna Arno Turbo Force 40cm 6 Pás 3 Velocidades 126W VFC4",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-coluna-arno-turbo-force-40cm-6-pas-3-velocidades-126w-vfc4/6217/preto/110-volts"
+  },
+  {
+    "termo": "VB4C ARNO",
+    "nome": "Ventilador de Mesa Arno Xtreme Force Breeze 40cm 6 Pás 126W VB40",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-arno-xtreme-force-breeze-40cm-6-pas-126w-vb40/6300/preto/220-volts"
+  },
+  {
+    "termo": "NVT-40C-8P-B MONDIAL",
+    "nome": "Ventilador de Mesa Mondial Turbo 40cm 3 Velocidades 140W NVT-40-8P-B",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-mondial-turbo-40cm-3-velocidades-140w-nvt-40-8p-b/8738/preto-prata/110-volts"
+  },
+  {
+    "termo": "VSP-30-B MONDIAL",
+    "nome": "Ventilador Mondial Super Power 30cm 6 Pás 3 Velocidades 60W VSP-30-B",
+    "preco": "R$ 119,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-mondial-super-power-30cm-6-pas-3-velocidades-60w-vsp-30-b/5315/preto/110-volts"
+  },
+  {
+    "termo": "BVT301 BRITÂNIA",
+    "nome": "Ventilador de Mesa Britânia Maxx Force 30cm 6 Pás 3 Velocidades 60W BVT301",
+    "preco": "R$ 119,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-britania-maxx-force-30cm-6-pas-3-velocidades-60w-bvt301/7148/preto/220-volts"
+  },
+  {
+    "termo": "PROTECT 30 SIX BRITÂNIA",
+    "nome": "Ventilador de Mesa Britânia Protect Six 30cm 6 Pás 3 Velocidades 60W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-britania-protect-six-30cm-6-pas-3-velocidades-60w/39/preto/110-volts"
+  },
+  {
+    "termo": "TS30 MALLORY",
+    "nome": "Ventilador de Mesa Mallory Eco TS 30cm 4 Pás 3 Velocidades 42W B9440106",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-mallory-eco-ts-30cm-4-pas-3-velocidades-42w-b9440106/6633/preto-grafite/220-volts"
+  },
+  {
+    "termo": "VTR560 CADENCE",
+    "nome": "Mini Processador de Alimentos 350ml Cadence Easy Cut 100W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/mini-processador-de-alimentos-350ml-cadence-easy-cut-100w/9561/preto/110-volts"
+  },
+  {
+    "termo": "VSP-40-B MONDIAL",
+    "nome": "Ventilador Mondial Super Power 40cm 6 Pás 3 Velocidades 140W VSP-40-B",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-mondial-super-power-40cm-6-pas-3-velocidades-140w-vsp-40-b/5224/preto/110-volts"
+  },
+  {
+    "termo": "VB40 ARNO",
+    "nome": "Ventilador de Mesa Arno Xtreme Force Breeze 40cm 6 Pás 126W VB40",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-arno-xtreme-force-breeze-40cm-6-pas-126w-vb40/6300/preto/220-volts"
+  },
+  {
+    "termo": "VF42 ARNO",
+    "nome": "Ventilador 2 em 1 Mesa e Parede Arno Turbo Force 40cm VF42 6 Pás 126W",
+    "preco": "R$ 219,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-2-em-1-mesa-e-parede-arno-turbo-force-40cm-vf42-6-pas-126w/6211/preto/220-volts"
+  },
+  {
+    "termo": "BVT400 BRITÂNIA",
+    "nome": "Ventilador de Mesa Britânia Maxx Force 40cm 3 Velocidades BVT400",
+    "preco": "R$ 159,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-britania-maxx-force-40cm-3-velocidades-bvt400/7155/preto/110-volts"
+  },
+  {
+    "termo": "VTX-40-8P MONDIAL",
+    "nome": "Ventilador de Coluna Mondial Turbo 40cm 8 Pás 140W VTX-40C-8P",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-coluna-mondial-turbo-40cm-8-pas-140w-vtx-40c-8p/599/preto-prata/220-volts"
+  },
+  {
+    "termo": "FW009218 WAP",
+    "nome": "Ventilador Wap Flow Turbo 50cm 8 Pás 3 Velocidades 180W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-wap-flow-turbo-50cm-8-pas-3-velocidades-180w/7502/preto-cinza/220-volts"
+  },
+  {
+    "termo": "VTR409 CADENCE",
+    "nome": "Grill Sanduicheira Cadence Click SAN400 750W Duplo Aquecimento",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-cadence-click-san400-750w-duplo-aquecimento/7534/preto/110-volts"
+  },
+  {
+    "termo": "NVT-40-8P-B MONDIAL",
+    "nome": "Ventilador de Mesa Mondial Turbo 40cm 3 Velocidades 140W NVT-40-8P-B",
+    "preco": "R$ 179,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-mondial-turbo-40cm-3-velocidades-140w-nvt-40-8p-b/8738/preto-prata/110-volts"
+  },
+  {
+    "termo": "VE70 ARNO",
+    "nome": "Ventilador de Mesa Arno X-Treme 7 40cm 7 Pás 3 Velocidade 150W VE70",
+    "preco": "R$ 289,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-arno-x-treme-7-40cm-7-pas-3-velocidade-150w-ve70/8578/preto/220-volts"
+  },
+  {
+    "termo": "VTR410 CADENCE",
+    "nome": "Grill Sanduicheira Cadence Click SAN400 750W Duplo Aquecimento",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-cadence-click-san400-750w-duplo-aquecimento/7534/preto/110-volts"
+  },
+  {
+    "termo": "BVT401 BRITÂNIA",
+    "nome": "Ventilador de Mesa Britânia Maxx Force 40cm 3 Velocidades BVT400",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-britania-maxx-force-40cm-3-velocidades-bvt400/7155/preto/110-volts"
+  },
+  {
+    "termo": "VTX-50-8P MONDIAL",
+    "nome": "Ventilador de Coluna Mondial Turbo 40cm 8 Pás 140W VTX-40C-8P",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-coluna-mondial-turbo-40cm-8-pas-140w-vtx-40c-8p/599/preto-prata/220-volts"
+  },
+  {
+    "termo": "BVT500 BRITÂNIA",
+    "nome": "Ventilador de Mesa Britânia Maxx Force 40cm 3 Velocidades BVT400",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-britania-maxx-force-40cm-3-velocidades-bvt400/7155/preto/110-volts"
+  },
+  {
+    "termo": "VB50 ARNO",
+    "nome": "Ventilador de Mesa Arno Xtreme Force Breeze 40cm 6 Pás 126W VB40",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-arno-xtreme-force-breeze-40cm-6-pas-126w-vb40/6300/preto/220-volts"
+  },
+  {
+    "termo": "TURBO 6 VENTISOL",
+    "nome": "Ventilador de Coluna Ventisol Turbo Premium 50cm 6 Pás 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-coluna-ventisol-turbo-premium-50cm-6-pas-3-velocidades/6215/bronzepreto/110-volts"
+  },
+  {
+    "termo": "BVT510 BRITÂNIA",
+    "nome": "Ventilador Britânia Maxx Force 40CM 6 Pás 3 Velocidades 160W BVT450",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-britania-maxx-force-40cm-6-pas-3-velocidades-160w-bvt450/7211/preto/110-volts"
+  },
+  {
+    "termo": "VT-30C-NB MONDIAL",
+    "nome": "Ventilador de Coluna Mondial Super Power 40cm 6 Pás140W VSP-40C-NB",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-coluna-mondial-super-power-40cm-6-pas140w-vsp-40c-nb/7360/preto-prata/220-volts"
+  },
+  {
+    "termo": "BVT350 BRITÂNIA",
+    "nome": "Ventilador Britânia Maxx Force 40CM 6 Pás 3 Velocidades 160W BVT450",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-britania-maxx-force-40cm-6-pas-3-velocidades-160w-bvt450/7211/preto/110-volts"
+  },
+  {
+    "termo": "Coluna 30cm VENTISOL",
+    "nome": "Ventilador de Coluna Ventisol Oscilante Turbo Premium 30cm 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-coluna-ventisol-oscilante-turbo-premium-30cm-3-velocidades/6213/preto/220-volts"
+  },
+  {
+    "termo": "L-99-FB MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Power L99FB 2,2L 550W 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-power-l99fb-22l-550w-3-velocidades/1004/vermelho/220-volts"
+  },
+  {
+    "termo": "Black 3 BRITÂNIA",
+    "nome": "Ventilador de Mesa Britânia Maxx Force 40cm 3 Velocidades BVT400",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-britania-maxx-force-40cm-3-velocidades-bvt400/7155/preto/110-volts"
+  },
+  {
+    "termo": "LQ651 MULTI",
+    "nome": "Liquidificador Arno Power Mix LQ34 1,4L 15 Velocidades 700W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-arno-power-mix-lq34-14l-15-velocidades-700w/7529/preto/110-volts"
+  },
+  {
+    "termo": "LQ31 ARNO",
+    "nome": "Liquidificador Arno Power Mix LQ35 Comfort Limpa Fácil 1,4L 15 Velocidades 700W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-arno-power-mix-lq35-comfort-limpa-facil-14l-15-velocidades-700w/7426/preto/220-volts"
+  },
+  {
+    "termo": "BLQ920P BRITANIA",
+    "nome": "Liquidificador Britânia Fortis Turbo 2L 12 Velocidades 1200W Filtro BLQ1300",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-britania-fortis-turbo-2l-12-velocidades-1200w-filtro-blq1300/5908/preto/220-volts"
+  },
+  {
+    "termo": "LIQ347 CADENCE",
+    "nome": "Liquidificador Elgin Turbo Mix 1,6L 2 Velocidade + Pulsar 650W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-elgin-turbo-mix-16l-2-velocidade-pulsar-650w/6064/preto/110-volts"
+  },
+  {
+    "termo": "L-550-B MONDIAL",
+    "nome": "Kit 3x1 Mondial Batedeira Liquidificador Espremedor KT105",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/kit-3x1-mondial-batedeira-liquidificador-espremedor-kt105/5871/preto/220-volts"
+  },
+  {
+    "termo": "RI2110/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Philips Walita RI2110 2L 550W 2 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-ri2110-2l-550w-2-velocidades/41/branco/110-volts"
+  },
+  {
+    "termo": "LQ10 ARNO",
+    "nome": "Liquidificador Arno Power Mix LQ34 1,4L 15 Velocidades 700W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-arno-power-mix-lq34-14l-15-velocidades-700w/7529/preto/110-volts"
+  },
+  {
+    "termo": "LIQ100 CADENCE",
+    "nome": "Liquidificador Elgin Turbo Mix 1,6L 2 Velocidade + Pulsar 650W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-elgin-turbo-mix-16l-2-velocidade-pulsar-650w/6064/preto/110-volts"
+  },
+  {
+    "termo": "FAST MIX 2 MALLORY",
+    "nome": "Liquidificador Mallory Fast Mix 1,5L 2 Velocidades 520W com Função Pulsar",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mallory-fast-mix-15l-2-velocidades-520w-com-funcao-pulsar/6973/preto/110-volts"
+  },
+  {
+    "termo": "LQLF AGRATTO",
+    "nome": "Liquidificador Agratto Forza 1,5L 2 Velocidades 850W LQLF PR",
+    "preco": "R$ 61,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-agratto-forza-15l-2-velocidades-850w-lqlf-pr/7570/preto/220-volts"
+  },
+  {
+    "termo": "L-97-W MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Pratic AF-34 3,2L 1200W com Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-pratic-af-34-32l-1200w-com-timer/6789/preto/220-volts"
+  },
+  {
+    "termo": "RI2110/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Philips Walita RI2110 2L 550W 2 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-ri2110-2l-550w-2-velocidades/41/branco/110-volts"
+  },
+  {
+    "termo": "LQ10 ARNO",
+    "nome": "Liquidificador Arno Power Mix LQ34 1,4L 15 Velocidades 700W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-arno-power-mix-lq34-14l-15-velocidades-700w/7529/preto/110-volts"
+  },
+  {
+    "termo": "LIQ100 CADENCE",
+    "nome": "Liquidificador Elgin Turbo Mix 1,6L 2 Velocidade + Pulsar 650W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-elgin-turbo-mix-16l-2-velocidade-pulsar-650w/6064/preto/110-volts"
+  },
+  {
+    "termo": "FAST MIX 2 MALLORY",
+    "nome": "Liquidificador Mallory Fast Mix 1,5L 2 Velocidades 520W com Função Pulsar",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mallory-fast-mix-15l-2-velocidades-520w-com-funcao-pulsar/6973/preto/110-volts"
+  },
+  {
+    "termo": "LQLF AGRATTO",
+    "nome": "Liquidificador Agratto Forza 1,5L 2 Velocidades 850W LQLF PR",
+    "preco": "R$ 61,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-agratto-forza-15l-2-velocidades-850w-lqlf-pr/7570/preto/220-volts"
+  },
+  {
+    "termo": "L-900 FB MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Full Black L-900FB 2,7L 900W 5 Velocidades 4945",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-full-black-l-900fb-27l-900w-5-velocidades-4945/574/preto/220-volts"
+  },
+  {
+    "termo": "DIAMANTE PRETO 900W BRITÂNIA",
+    "nome": "Liquidificador Britânia Diamante 800 4 Velocidades 2,6L 1050W com Filtro",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-britania-diamante-800-4-velocidades-26l-1050w-com-filtro/996/preto/220-volts"
+  },
+  {
+    "termo": "BLQ970P BRITÂNIA",
+    "nome": "Liquidificador Britânia Fortis Turbo 2L 12 Velocidades 1200W Filtro BLQ1300",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-britania-fortis-turbo-2l-12-velocidades-1200w-filtro-blq1300/5908/preto/220-volts"
+  },
+  {
+    "termo": "LIQ200 CADENCE",
+    "nome": "Liquidificador Elgin Turbo Mix 1,6L 2 Velocidade + Pulsar 650W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-elgin-turbo-mix-16l-2-velocidade-pulsar-650w/6064/preto/110-volts"
+  },
+  {
+    "termo": "LN61 ARNO",
+    "nome": "Liquidificador Arno Power Max Confort 3,1L 15 Velocidades 1400W LN63",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-arno-power-max-confort-31l-15-velocidades-1400w-ln63/8867/marfim/220-volts"
+  },
+  {
+    "termo": "LQ35 ARNO",
+    "nome": "Liquidificador Arno Power Mix LQ35 Comfort Limpa Fácil 1,4L 15 Velocidades 700W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-arno-power-mix-lq35-comfort-limpa-facil-14l-15-velocidades-700w/7426/preto/220-volts"
+  },
+  {
+    "termo": "L-1100-BI MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Oven AFON-12L-BI 12L 2000W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-oven-afon-12l-bi-12l-2000w/8112/pretoinox/110-volts"
+  },
+  {
+    "termo": "BLQ1280P BRITÂNIA",
+    "nome": "Liquidificador Britânia Fortis Turbo 2L 12 Velocidades 1200W Filtro BLQ1300",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-britania-fortis-turbo-2l-12-velocidades-1200w-filtro-blq1300/5908/preto/220-volts"
+  },
+  {
+    "termo": "OLIQ606 OSTER",
+    "nome": "Liquidificador Oster Full 3,2L 15 Velocidades 1400W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-oster-full-32l-15-velocidades-1400w/7366/preto/220-volts"
+  },
+  {
+    "termo": "PLQ1411P PHILCO",
+    "nome": "Liquidificador Philco PLQ2100PI 3L 12 Velocidades 1400W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philco-plq2100pi-3l-12-velocidades-1400w/9263/preto-inox/220-volts"
+  },
+  {
+    "termo": "BLST3B-R2T OSTER",
+    "nome": "Liquidificador Oster New Osterizer Clássico Chrome BLST4655 1,25L 700W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-oster-new-osterizer-classico-chrome-blst4655-125l-700w/6096/prata/110-volts"
+  },
+  {
+    "termo": "LQ1111 MULTI",
+    "nome": "Liquidificador Arno Power Mix LQ34 1,4L 15 Velocidades 700W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-arno-power-mix-lq34-14l-15-velocidades-700w/7529/preto/110-volts"
+  },
+  {
+    "termo": "L-28 MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial AFN-60-BI 6L 1900W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-afn-60-bi-6l-1900w/9485/preto-inox/110-volts"
+  },
+  {
+    "termo": "RI2112/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Philips Walita Daily RI2112 2L 600W 2 Velocidades Filtro",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-daily-ri2112-2l-600w-2-velocidades-filtro/202/preto/220-volts"
+  },
+  {
+    "termo": "Flash Mix MALLORY",
+    "nome": "Liquidificador Mallory Flash Mix + 2,1L 2 Velocidades 450W B9120174",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mallory-flash-mix-21l-2-velocidades-450w-b9120174/6108/branco/110-volts"
+  },
+  {
+    "termo": "Flash Mix+ MALLORY",
+    "nome": "Liquidificador Mallory Flash Mix + 2,1L 2 Velocidades 450W B9120174",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mallory-flash-mix-21l-2-velocidades-450w-b9120174/6108/branco/110-volts"
+  },
+  {
+    "termo": "L-1200-BI MONDIAL",
+    "nome": "Liquidificador Mondial L-1200BI 3L 1200W 12 Velocidades Função Pulsar",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-l-1200bi-3l-1200w-12-velocidades-funcao-pulsar/1002/pretoinox/110-volts"
+  },
+  {
+    "termo": "PH900 Preto PHILCO",
+    "nome": "Liquidificador Philco PH900 2,9L 1200W 12 Velocidades Filtro Tampa Dosadora",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philco-ph900-29l-1200w-12-velocidades-filtro-tampa-dosadora/997/preto/220-volts"
+  },
+  {
+    "termo": "RI2242_90 PHILLIPS WALITA",
+    "nome": "Liquidificador Philips Walita RI2110 2L 550W 2 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-ri2110-2l-550w-2-velocidades/41/branco/110-volts"
+  },
+  {
+    "termo": "PLQ2100PI PHILCO",
+    "nome": "Liquidificador Philco PLQ2100PI 3L 12 Velocidades 1400W",
+    "preco": "R$ 179,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philco-plq2100pi-3l-12-velocidades-1400w/9263/preto-inox/220-volts"
+  },
+  {
+    "termo": "RI2240_90 PHILLIPS WALITA",
+    "nome": "Liquidificador Philips Walita RI2110 2L 550W 2 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-ri2110-2l-550w-2-velocidades/41/branco/110-volts"
+  },
+  {
+    "termo": "BLQ1380P BRITÂNIA",
+    "nome": "Liquidificador Britânia Fortis Turbo 2L 12 Velocidades 1200W Filtro BLQ1300",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-britania-fortis-turbo-2l-12-velocidades-1200w-filtro-blq1300/5908/preto/220-volts"
+  },
+  {
+    "termo": "L-1400-GI MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Glass L-1400-GI 2,2L 12 Velocidades 1400W",
+    "preco": "R$ 257,61",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-glass-l-1400-gi-22l-12-velocidades-1400w/7274/preto-inox/220-volts"
+  },
+  {
+    "termo": "BLSTMG-BR8 OSTER",
+    "nome": "Leitor de Código de Barras CMOS USB com IP42 Elgin Bematech BR250",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/leitor-de-codigo-de-barras-cmos-usb-com-ip42-elgin-bematech-br250/8629/preto/sem-voltagem"
+  },
+  {
+    "termo": "PLQ1350 PHILCO",
+    "nome": "Liquidificador Philco PLQ2100PI 3L 12 Velocidades 1400W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philco-plq2100pi-3l-12-velocidades-1400w/9263/preto-inox/220-volts"
+  },
+  {
+    "termo": "OLIQ520 OSTER",
+    "nome": "Fritadeira Elétrica Air Fryer Oster OFRT520 4,6L 1500W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-oster-ofrt520-46l-1500w/6693/preto-inox/220-volts"
+  },
+  {
+    "termo": "EBS30 ELECTROLUX",
+    "nome": "Liquidificador Electrolux EBS30 Experience 1,95L 700W Tecnologia Truflow",
+    "preco": "R$ 359,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-electrolux-ebs30-experience-195l-700w-tecnologia-truflow/6117/preto-inox/110-volts"
+  },
+  {
+    "termo": "OLIQ501 OSTER",
+    "nome": "Liquidificador Oster Full 3,2L 15 Velocidades 1400W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-oster-full-32l-15-velocidades-1400w/7366/preto/220-volts"
+  },
+  {
+    "termo": "L-98-B MONDIAL",
+    "nome": "Ventilador Mondial Super Power 30cm 6 Pás 3 Velocidades 60W VSP-30-B",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-mondial-super-power-30cm-6-pas-3-velocidades-60w-vsp-30-b/5315/preto/110-volts"
+  },
+  {
+    "termo": "RI2112/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Philips Walita Daily RI2112 2L 600W 2 Velocidades Filtro",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-daily-ri2112-2l-600w-2-velocidades-filtro/202/preto/220-volts"
+  },
+  {
+    "termo": "Flash Mix MALLORY",
+    "nome": "Liquidificador Mallory Flash Mix + 2,1L 2 Velocidades 450W B9120174",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mallory-flash-mix-21l-2-velocidades-450w-b9120174/6108/branco/110-volts"
+  },
+  {
+    "termo": "Flash Mix+ MALLORY",
+    "nome": "Liquidificador Mallory Flash Mix + 2,1L 2 Velocidades 450W B9120174",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mallory-flash-mix-21l-2-velocidades-450w-b9120174/6108/branco/110-volts"
+  },
+  {
+    "termo": "L-77 MONDIAL",
+    "nome": "Aquecedor de Ar Portátil Mondial A-06 a Óleo 1500W 3 Níveis de Aquecimento",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/aquecedor-de-ar-portatil-mondial-a-06-a-oleo-1500w-3-niveis-de-aquecimento/6818/preto-prata/220-volts"
+  },
+  {
+    "termo": "RI2112/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Philips Walita Daily RI2112 2L 600W 2 Velocidades Filtro",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-daily-ri2112-2l-600w-2-velocidades-filtro/202/preto/220-volts"
+  },
+  {
+    "termo": "Flash Mix MALLORY",
+    "nome": "Liquidificador Mallory Flash Mix + 2,1L 2 Velocidades 450W B9120174",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mallory-flash-mix-21l-2-velocidades-450w-b9120174/6108/branco/110-volts"
+  },
+  {
+    "termo": "Flash Mix+ MALLORY",
+    "nome": "Liquidificador Mallory Flash Mix + 2,1L 2 Velocidades 450W B9120174",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mallory-flash-mix-21l-2-velocidades-450w-b9120174/6108/branco/110-volts"
+  },
+  {
+    "termo": "AFN-50-BI MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Grand Family AFN-50 BI 5L 1900W Timer",
+    "preco": "R$ 449,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-grand-family-afn-50-bi-5l-1900w-timer/6168/preto-inox/110-volts"
+  },
+  {
+    "termo": "AFN-50-RI MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Grand Family AFN-50 BI 5L 1900W Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-grand-family-afn-50-bi-5l-1900w-timer/6168/preto-inox/110-volts"
+  },
+  {
+    "termo": "BFR51 BRITANIA",
+    "nome": "Fritadeira Elétrica Britânia Oven BFR2100 12L 1800W 2 em 1",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-britania-oven-bfr2100-12l-1800w-2-em-1/5903/preto/220-volts"
+  },
+  {
+    "termo": "PAF55A PHILCO",
+    "nome": "Panela Philco Antiaderente Redstone 1,4L Tampa em Vidro PPH160APR",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/panela-philco-antiaderente-redstone-14l-tampa-em-vidro-pph160apr/7232/cinza-vermelho/sem-voltagem"
+  },
+  {
+    "termo": "EAF40 ELECTROLUX",
+    "nome": "Fritadeira Elétrica AirFryer Electrolux Oven Digital 12L 1700W EAF90",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-airfryer-electrolux-oven-digital-12l-1700w-eaf90/6990/grafite/110-volts"
+  },
+  {
+    "termo": "Fryer Space ELGIN",
+    "nome": "Ar Condicionado Split Teto Scroll Space Air 57.000 BTUs Springer Carrier Frio",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ar-condicionado-split-teto-scroll-space-air-57000-btus-springer-carrier-frio/6742/sem-cor/220-volts"
+  },
+  {
+    "termo": "FRB50P1 MIDEA",
+    "nome": "Fritadeira Elétrica Midea Air Fryer Gourmetfry FRB45P 4L 1500W Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-midea-air-fryer-gourmetfry-frb45p-4l-1500w-timer/6903/preto/220-volts"
+  },
+  {
+    "termo": "AFN-60-BI MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial AFN-60-BI 6L 1900W",
+    "preco": "R$ 419,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-afn-60-bi-6l-1900w/9485/preto-inox/110-volts"
+  },
+  {
+    "termo": "AFN-60-RI MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial AFN-60-BI 6L 1900W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-afn-60-bi-6l-1900w/9485/preto-inox/110-volts"
+  },
+  {
+    "termo": "EAF50 ELECTROLUX",
+    "nome": "Fritadeira Elétrica AirFryer Electrolux Family Efficient 5L 1700W EAF50",
+    "preco": "R$ 569,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-airfryer-electrolux-family-efficient-5l-1700w-eaf50/6358/grafite/220-volts"
+  },
+  {
+    "termo": "RI9280 WALITA",
+    "nome": "Liquidificador Philips Walita RI2110 2L 550W 2 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-ri2110-2l-550w-2-velocidades/41/branco/110-volts"
+  },
+  {
+    "termo": "PFR67PI PHILCO",
+    "nome": "Fritadeira Elétrica Air Fryer Philco Gourmet PFR13P 8,1L Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-philco-gourmet-pfr13p-81l-timer/6771/preto/220-volts"
+  },
+  {
+    "termo": "MAD600010APKW1 MIDEA",
+    "nome": "Fritadeira Elétrica Midea Air Fryer Gourmetfry FRB45P 4L 1500W Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-midea-air-fryer-gourmetfry-frb45p-4l-1500w-timer/6903/preto/220-volts"
+  },
+  {
+    "termo": "AFD6 ARNO",
+    "nome": "Liquidificador Arno Power Max 3,1L 1200W 15 Velocidades LN78",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-arno-power-max-31l-1200w-15-velocidades-ln78/9204/preto/220-volts"
+  },
+  {
+    "termo": "AFN-80-BI MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Mega Family AFN-80-BI 8L 1900W Timer",
+    "preco": "R$ 689,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-mega-family-afn-80-bi-8l-1900w-timer/6775/preto-inox/110-volts"
+  },
+  {
+    "termo": "AFN-80-RI MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Mega Family AFN-80-BI 8L 1900W Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-mega-family-afn-80-bi-8l-1900w-timer/6775/preto-inox/110-volts"
+  },
+  {
+    "termo": "AFN-80-FB MONDIAL",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Mega Family AFN-80-BI 8L 1900W Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-mega-family-afn-80-bi-8l-1900w-timer/6775/preto-inox/110-volts"
+  },
+  {
+    "termo": "PFR13P PHILCO",
+    "nome": "Fritadeira Elétrica Air Fryer Philco Gourmet PFR13P 8,1L Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-philco-gourmet-pfr13p-81l-timer/6771/preto/220-volts"
+  },
+  {
+    "termo": "Chrome Fry ELGIN",
+    "nome": "Fritadeira Elétrica Air Fryer Chrome Fry Elgin AFC80 8L 1900W",
+    "preco": "R$ 489,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-chrome-fry-elgin-afc80-8l-1900w/8811/preto-inox/220-volts"
+  },
+  {
+    "termo": "Gran Fry ELGIN",
+    "nome": "Fogão Fischer 5 Bocas Gran Cheff Automático Mesa de Vidro Tripla Chama",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fogao-fischer-5-bocas-gran-cheff-automatico-mesa-de-vidro-tripla-chama/731/inox/110-volts"
+  },
+  {
+    "termo": "FWM85P1 MIDEA",
+    "nome": "Geladeira Midea 347L Frost Free Duplex MD-RT468MTA01",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/geladeira-midea-347l-frost-free-duplex-md-rt468mta01/6812/branco/110-volts"
+  },
+  {
+    "termo": "AFDO-25L-FD MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Power L99FB 2,2L 550W 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-power-l99fb-22l-550w-3-velocidades/1004/vermelho/220-volts"
+  },
+  {
+    "termo": "AF-250FD2 Labravia",
+    "nome": "Fritadeira Elétrica Air Fryer Mondial Pratic AF-34 3,2L 1200W com Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-mondial-pratic-af-34-32l-1200w-com-timer/6789/preto/220-volts"
+  },
+  {
+    "termo": "TSSTTVFDMAF OSTER",
+    "nome": "Panela de Pressão Elétrica Oster 5L com Painel Digital e Timer OPAN920",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/panela-de-pressao-eletrica-oster-5l-com-painel-digital-e-timer-opan920/6687/inox-preto/110-volts"
+  },
+  {
+    "termo": "BAP23 BRITÂNIA",
+    "nome": "Aparador de Pelos Britânia Multi Groom BAP03 7 em 1",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
     "link": "https://www.gazin.com.br/produto/aparador-de-pelos-britania-multi-groom-bap03-7-em-1/3685/preto/bivolt"
   },
   {
     "termo": "BG-09 MONDIAL",
     "nome": "Aparador de Pelos Mondial Super Groom 10 BG-03 9 Pentes",
-    "preco": "R$ 145,08",
+    "preco": "Indisponível",
     "loja": "Gazin",
-    "vendido": true,
+    "vendido": false,
     "link": "https://www.gazin.com.br/produto/aparador-de-pelos-mondial-super-groom-10-bg-03-9-pentes/3331/preto/bivolt"
   },
   {
     "termo": "PAP03 PHILCO",
     "nome": "Mini System Philco PHS1900BT 1900W Bluetooth USB MP3",
-    "preco": "R$ 2.089,90",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/mini-system-philco-phs1900bt-1900w-bluetooth-usb-mp3/3870/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "MG3711/15 PHILIPS",
+    "nome": "Aparador de Pelos Philips Multigroom MG3711/15 4 Pentes Sem Fio",
+    "preco": "R$ 149,90",
     "loja": "Gazin",
     "vendido": true,
-    "link": "https://www.gazin.com.br/produto/mini-system-philco-phs1900bt-1900w-bluetooth-usb-mp3/3870/sem-cor/sem-voltagem"
+    "link": "https://www.gazin.com.br/produto/aparador-de-pelos-philips-multigroom-mg371115-4-pentes-sem-fio/338/preto-cinza/bivolt"
+  },
+  {
+    "termo": "AWS-T2W-02 AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-SP-01 AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-T1W-02 AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "BOOMBOX 3 JBL",
+    "nome": "Caixa de Som Portátil JBL Boombox 3 200W RMS Bluetooth Wi-Fi",
+    "preco": "R$ 2.899,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-jbl-boombox-3-200w-rms-bluetooth-wi-fi/7580/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "XBOOM XG9S LG",
+    "nome": "Caixa de Som Acústica LG XBOOM RNC5 200W RMS com Karaokê e Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-acustica-lg-xboom-rnc5-200w-rms-com-karaoke-e-bluetooth/7983/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "RNC9 LG",
+    "nome": "Caixa de Som Acústica LG XBOOM RNC9 410W Bluetooth com Luzes de LED",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-acustica-lg-xboom-rnc9-410w-bluetooth-com-luzes-de-led/7958/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "RNC7 LG",
+    "nome": "Caixa de Som Acústica LG XBOOM RNC7 300W RMS com Karaokê e Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-acustica-lg-xboom-rnc7-300w-rms-com-karaoke-e-bluetooth/7993/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "RNC5 LG",
+    "nome": "Caixa de Som Acústica LG XBOOM RNC5 200W RMS com Karaokê e Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-acustica-lg-xboom-rnc5-200w-rms-com-karaoke-e-bluetooth/7983/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "Hyperboom 1000 WAAW",
+    "nome": "Smartphone Motorola Moto G05 4G 128GB 4GB Bateria 5.200 mAh",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/smartphone-motorola-moto-g05-4g-128gb-4gb-bateria-5200-mah/9217/cinza/quadriband"
+  },
+  {
+    "termo": "MCE-01-AL MONDIAL",
+    "nome": "Ar-Condicionado Split Inverter 12.000 BTUs Al Ecomaster Springer Midea Frio",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ar-condicionado-split-inverter-12000-btus-al-ecomaster-springer-midea-frio/9545/sem-cor/220-volts"
+  },
+  {
+    "termo": "BVSTEM7300 OSTER",
+    "nome": "Panela de Pressão Elétrica Oster 5L com Painel Digital e Timer OPAN920",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/panela-de-pressao-eletrica-oster-5l-com-painel-digital-e-timer-opan920/6687/inox-preto/110-volts"
+  },
+  {
+    "termo": "BVSTEM8100 OSTER",
+    "nome": "Cafeteira Expresso Oster Primalatte com Reservatório para Leite",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cafeteira-expresso-oster-primalatte-com-reservatorio-para-leite/3307/pretovermelho/110-volts"
+  },
+  {
+    "termo": "EP1220 WALITA",
+    "nome": "Console Xbox Series S 512GB Controle Sem Fio EP2-10057",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/console-xbox-series-s-512gb-controle-sem-fio-ep2-10057/9018/branco/bivolt"
+  },
+  {
+    "termo": "EP2230 WALITA",
+    "nome": "Liquidificador Philips Walita Série 5000 RI2242 3L 12 Velocidades 1200W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-philips-walita-serie-5000-ri2242-3l-12-velocidades-1200w/7225/preto/110-volts"
+  },
+  {
+    "termo": "EP5441 WALITA",
+    "nome": "Cafeteira Espresso Três Corações Lov Automática",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cafeteira-espresso-tres-coracoes-lov-automatica/7034/vermelho/220-volts"
+  },
+  {
+    "termo": "CESP ARNO",
+    "nome": "Liquidificador Arno Power Max 3,1L 1200W 15 Velocidades LN78",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-arno-power-max-31l-1200w-15-velocidades-ln78/9204/preto/220-volts"
+  },
+  {
+    "termo": "BCF33 BRITÂNIA",
+    "nome": "Fritadeira Elétrica Britânia Oven BFR2100 12L 1800W 2 em 1",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-britania-oven-bfr2100-12l-1800w-2-em-1/5903/preto/220-volts"
+  },
+  {
+    "termo": "C-20-EC MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Power L99FB 2,2L 550W 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-power-l99fb-22l-550w-3-velocidades/1004/vermelho/220-volts"
+  },
+  {
+    "termo": "BVSTEM7200 OSTER",
+    "nome": "Cafeteira Expresso Oster Primalatte com Reservatório para Leite",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cafeteira-expresso-oster-primalatte-com-reservatorio-para-leite/3307/pretovermelho/110-volts"
+  },
+  {
+    "termo": "OCAF900-127 / OCAF900-220 OSTER",
+    "nome": "Panela de Pressão Elétrica Oster 5L com Painel Digital e Timer OPAN920",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/panela-de-pressao-eletrica-oster-5l-com-painel-digital-e-timer-opan920/6687/inox-preto/110-volts"
+  },
+  {
+    "termo": "Coffee Express PHILCO",
+    "nome": "Cafeteira Elétrica Philco PH17 15 Xícaras Aquecimento Automático",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cafeteira-eletrica-philco-ph17-15-xicaras-aquecimento-automatico/5892/preto-prata/220-volts"
+  },
+  {
+    "termo": "C-28-ECL MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Power L99FB 2,2L 550W 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-power-l99fb-22l-550w-3-velocidades/1004/vermelho/220-volts"
+  },
+  {
+    "termo": "BVSTEM6603SS OSTER",
+    "nome": "Cafeteira Expresso Oster Primalatte com Reservatório para Leite",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cafeteira-expresso-oster-primalatte-com-reservatorio-para-leite/3307/pretovermelho/110-volts"
+  },
+  {
+    "termo": "BVSTEM6701SS OSTER",
+    "nome": "SSD Warrior SS510 P2400 256GB Pcie Nvme Gen 3 M.2",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ssd-warrior-ss510-p2400-256gb-pcie-nvme-gen-3-m2/5951/preto/sem-voltagem"
+  },
+  {
+    "termo": "BVSTEM6801M OSTER",
+    "nome": "Panela de Pressão Elétrica Oster 5L com Painel Digital e Timer OPAN920",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/panela-de-pressao-eletrica-oster-5l-com-painel-digital-e-timer-opan920/6687/inox-preto/110-volts"
+  },
+  {
+    "termo": "PCF21P PHILCO",
+    "nome": "Fritadeira Elétrica Air Fryer Philco Gourmet PFR13P 8,1L Timer",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-air-fryer-philco-gourmet-pfr13p-81l-timer/6771/preto/220-volts"
+  },
+  {
+    "termo": "ACA 221 Gigante II AMVOX",
+    "nome": "Caixa de Som Amplificada Amvox ACA 221 Gigante II 220W Bluetooth",
+    "preco": "R$ 229,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amplificada-amvox-aca-221-gigante-ii-220w-bluetooth/6143/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "ACA 255 HIT AMVOX",
+    "nome": "Caixa de Som Amvox ACA 480 Viper II 480W Bluetooth Função Power X",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amvox-aca-480-viper-ii-480w-bluetooth-funcao-power-x/6727/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "ACA  251  New X AMVOX",
+    "nome": "Caixa de Som Amplificada Amvox New X ACA 1300 LED 1300W RMS Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amplificada-amvox-new-x-aca-1300-led-1300w-rms-bluetooth/6873/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "ACA 255 HIT AMVOX",
+    "nome": "Caixa de Som Amvox ACA 480 Viper II 480W Bluetooth Função Power X",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amvox-aca-480-viper-ii-480w-bluetooth-funcao-power-x/6727/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "ACA  251  New X AMVOX",
+    "nome": "Caixa de Som Amplificada Amvox New X ACA 1300 LED 1300W RMS Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amplificada-amvox-new-x-aca-1300-led-1300w-rms-bluetooth/6873/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "ACA 480 VIPER II AMVOX",
+    "nome": "Caixa de Som Amvox ACA 480 Viper II 480W Bluetooth Função Power X",
+    "preco": "R$ 385,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amvox-aca-480-viper-ii-480w-bluetooth-funcao-power-x/6727/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "ACA 680 Fantasy AMVOX",
+    "nome": "Caixa de Som Amplificada Amvox ACA 1101 Led 1100W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amplificada-amvox-aca-1101-led-1100w-bluetooth/7651/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "ACA 550 Strondo II AMVOX",
+    "nome": "Caixa de Som Amplificada Amvox ACA550 Strondo 2 550W Bluetooth LED",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amplificada-amvox-aca550-strondo-2-550w-bluetooth-led/6150/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "ACA 880 AMVOX",
+    "nome": "Caixa de Som Amplificada Amvox ACA 1900 New X Power X 1900W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amplificada-amvox-aca-1900-new-x-power-x-1900w/6797/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "CM-150 MONDIAL",
+    "nome": "Ventilador de Coluna Mondial Turbo 40cm 8 Pás 3 Velocidades NVT-40C-8P-NB 140W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-coluna-mondial-turbo-40cm-8-pas-3-velocidades-nvt-40c-8p-nb-140w/8666/preto-prata/110-volts"
+  },
+  {
+    "termo": "CM-250 MONDIAL",
+    "nome": "Caixa de Som Amplificada Mondial CM-250 250W RMS Bluetooth",
+    "preco": "R$ 299,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amplificada-mondial-cm-250-250w-rms-bluetooth/6066/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "CM-400 MONDIAL",
+    "nome": "Batedeira Portátil Mondial Prática B-44B 3 Velocidades 400W Tigela 3,6L",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/batedeira-portatil-mondial-pratica-b-44b-3-velocidades-400w-tigela-36l/1028/preto/220-volts"
+  },
+  {
+    "termo": "CM-550 MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Power L99FB 2,2L 550W 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-power-l99fb-22l-550w-3-velocidades/1004/vermelho/220-volts"
+  },
+  {
+    "termo": "CM-550 MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Power L99FB 2,2L 550W 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-power-l99fb-22l-550w-3-velocidades/1004/vermelho/220-volts"
+  },
+  {
+    "termo": "SP402E PULSE",
+    "nome": "Caixa de Som Pulse Super Torre Double SP508 2300W RMS Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-pulse-super-torre-double-sp508-2300w-rms-bluetooth/7456/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "BDJ77BE BRASTEMP",
+    "nome": "Lava-Louças Brastemp 14 Serviços Função AcquaSpray BLF14BE",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/lava-loucas-brastemp-14-servicos-funcao-acquaspray-blf14be/8790/preto/110-volts"
+  },
+  {
+    "termo": "400000363 DAKO",
+    "nome": "Fogão Dako 5 Bocas Magister Automático Mesa de Vidro Forno 100L",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fogao-dako-5-bocas-magister-automatico-mesa-de-vidro-forno-100l/5429/preto/bivolt"
+  },
+  {
+    "termo": "IE60P ELECTROLUX",
+    "nome": "Cooktop Electrolux 4 Bocas por Indução Automático com Zona Unicook",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cooktop-electrolux-4-bocas-por-inducao-automatico-com-zona-unicook/3536/preto/220-volts"
+  },
+  {
+    "termo": "29850-220V-[29850-71205] FISCHER",
+    "nome": "Fogão Fischer 5 Bocas Gran Cheff Automático Mesa de Vidro Tripla Chama",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fogao-fischer-5-bocas-gran-cheff-automatico-mesa-de-vidro-tripla-chama/731/inox/110-volts"
+  },
+  {
+    "termo": "CIMAS2003 ITATIAIA",
+    "nome": "Cozinha Modulada 4 Peças 10 Portas 1 Gaveta com Balcão Amanda Itatiaia",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cozinha-modulada-4-pecas-10-portas-1-gaveta-com-balcao-amanda-itatiaia/1226/branco/sem-voltagem"
+  },
+  {
+    "termo": "CTI-03 MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Power L99FB 2,2L 550W 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-power-l99fb-22l-550w-3-velocidades/1004/vermelho/220-volts"
+  },
+  {
+    "termo": "400000461 DAKO",
+    "nome": "Fogão Dako 5 Bocas Magister Automático Mesa de Vidro Forno 100L",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fogao-dako-5-bocas-magister-automatico-mesa-de-vidro-forno-100l/5429/preto/bivolt"
+  },
+  {
+    "termo": "IC30 ELECTROLUX",
+    "nome": "Cooktop por Indução Electrolux 2 Bocas Superautomático Mesa Vitrocerâmica",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cooktop-por-inducao-electrolux-2-bocas-superautomatico-mesa-vitroceramica/8990/preto/220-volts"
+  },
+  {
+    "termo": "CIMID2002 ITATIAIA",
+    "nome": "Cozinha Modulada 4 Peças 10 Portas 1 Gaveta com Balcão Amanda Itatiaia",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cozinha-modulada-4-pecas-10-portas-1-gaveta-com-balcao-amanda-itatiaia/1226/branco/sem-voltagem"
+  },
+  {
+    "termo": "CTI-02 MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Power L99FB 2,2L 550W 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-power-l99fb-22l-550w-3-velocidades/1004/vermelho/220-volts"
+  },
+  {
+    "termo": "MCI162BG1 PHILCO",
+    "nome": "Escova Secadora Philco 4 em 1 PESO9BG 2 Velocidades 1300W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/escova-secadora-philco-4-em-1-peso9bg-2-velocidades-1300w/7007/branco/bivolt"
+  },
+  {
+    "termo": "CP31 ARNO",
+    "nome": "Espremedor de Frutas Arno Suco Express CP31/32 0,75L 40W",
+    "preco": "R$ 149,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/espremedor-de-frutas-arno-suco-express-cp3132-075l-40w/4487/vermelho/220-volts"
+  },
+  {
+    "termo": "Bellagio BRITÂNIA",
+    "nome": "Batedeira Britânia Bellagio Maxx Neve 4 Velocidades 350W 2 Tigelas",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/batedeira-britania-bellagio-maxx-neve-4-velocidades-350w-2-tigelas/323/preto/220-volts"
+  },
+  {
+    "termo": "Bellagio Maxx BRITÂNIA",
+    "nome": "Espremedor de Frutas Britânia Bellagio Maxx 1,5L 35W Dupla Rotação",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/espremedor-de-frutas-britania-bellagio-maxx-15l-35w-dupla-rotacao/1045/preto/110-volts"
+  },
+  {
+    "termo": "Bellagio 350 BRITÂNIA",
+    "nome": "Batedeira Britânia Bellagio Maxx Neve 4 Velocidades 350W 2 Tigelas",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/batedeira-britania-bellagio-maxx-neve-4-velocidades-350w-2-tigelas/323/preto/220-volts"
+  },
+  {
+    "termo": "ECP10 ELETROLUX",
+    "nome": "Espremedor de Frutas Electrolux Efficient ECP10 800ml 30W Jarra de Acrílico",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/espremedor-de-frutas-electrolux-efficient-ecp10-800ml-30w-jarra-de-acrilico/6814/preto/110-volts"
+  },
+  {
+    "termo": "E-02 MONDIAL",
+    "nome": "Ventilador de Mesa Mondial Ultra V-UT-30-02 30cm 6 Pás 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ventilador-de-mesa-mondial-ultra-v-ut-30-02-30cm-6-pas-3-velocidades/9010/preto-prata/110-volts"
+  },
+  {
+    "termo": "3481 AGRATTO",
+    "nome": "Liquidificador Agratto Forza 1,5L 2 Velocidades 850W LQLF PR",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-agratto-forza-15l-2-velocidades-850w-lqlf-pr/7570/preto/220-volts"
+  },
+  {
+    "termo": "Turbo Pro 260W BRITANIA",
+    "nome": "Espremedor de Frutas Britânia Turbo Pro 1,3L 260W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/espremedor-de-frutas-britania-turbo-pro-13l-260w/1047/pretoinox/bivolt"
+  },
+  {
+    "termo": "E-10 MONDIAL",
+    "nome": "Espremedor de Frutas Arno Suco Express CP31/32 0,75L 40W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/espremedor-de-frutas-arno-suco-express-cp3132-075l-40w/4487/vermelho/220-volts"
+  },
+  {
+    "termo": "VFA1110 BLACK & DECKER",
+    "nome": "Ferro de Passar a Seco Black & Decker Alumínio Polido VFA1110",
+    "preco": "R$ 92,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ferro-de-passar-a-seco-black-decker-aluminio-polido-vfa1110/35/sem-cor/220-volts"
+  },
+  {
+    "termo": "F300 BLACK & DECKER",
+    "nome": "Ferro de Passar a Vapor Black & Decker Base Antiaderente FX3060 1200W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ferro-de-passar-a-vapor-black-decker-base-antiaderente-fx3060-1200w/1142/branco-azul/110-volts"
+  },
+  {
+    "termo": "IRO101 CADENCE",
+    "nome": "Ferro de Passar 2 em 1 Seco e Vapor Cadence IRO210",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ferro-de-passar-2-em-1-seco-e-vapor-cadence-iro210/8019/laranja-branco/220-volts"
+  },
+  {
+    "termo": "Iron Force Plus ELGIN",
+    "nome": "Ferro de Passar a Seco Elgin Iron Force Plus 1200W",
+    "preco": "R$ 79,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ferro-de-passar-a-seco-elgin-iron-force-plus-1200w/8911/azul-branco/110-volts"
+  },
+  {
+    "termo": "PFF603 LENOXX",
+    "nome": "Smartphone Motorola Moto G05 4G 128GB 4GB Bateria 5.200 mAh",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/smartphone-motorola-moto-g05-4g-128gb-4gb-bateria-5200-mah/9217/cinza/quadriband"
+  },
+  {
+    "termo": "FSN-55-B MONDIAL",
+    "nome": "Liquidificador Mondial Turbo Power L99FB 2,2L 550W 3 Velocidades",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/liquidificador-mondial-turbo-power-l99fb-22l-550w-3-velocidades/1004/vermelho/220-volts"
+  },
+  {
+    "termo": "PFE01P Retrô PHILCO",
+    "nome": "Ferro de Passar a Seco Philco Retro PFE01P 1100W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ferro-de-passar-a-seco-philco-retro-pfe01p-1100w/8266/preto/220-volts"
+  },
+  {
+    "termo": "HD1172 WALITA",
+    "nome": "Ferro de Passar a Seco Philips Walita HD1172 1000W com Luz Indicadora",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/ferro-de-passar-a-seco-philips-walita-hd1172-1000w-com-luz-indicadora/7221/cinza/110-volts"
+  },
+  {
+    "termo": "CMA20BB CONSUL",
+    "nome": "Micro-ondas Consul 20L 620W Função Descongelar Trava Painel CMA20BB",
+    "preco": "R$ 499,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-consul-20l-620w-funcao-descongelar-trava-painel-cma20bb/829/branco/110-volts"
+  },
+  {
+    "termo": "CMS46AR CONSUL",
+    "nome": "Micro-Ondas de Bancada Consul 32L 900W Espelhado Receitas Rápidas",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-de-bancada-consul-32l-900w-espelhado-receitas-rapidas/8364/cinza/220-volts"
+  },
+  {
+    "termo": "MTO30 ELECTROLUX",
+    "nome": "Cooktop por Indução Electrolux 2 Bocas Superautomático Mesa Vitrocerâmica",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cooktop-por-inducao-electrolux-2-bocas-superautomatico-mesa-vitroceramica/8990/preto/220-volts"
+  },
+  {
+    "termo": "MI41S ELECTROLUX",
+    "nome": "Micro-ondas Electrolux 31L 1500W Espelhado Limpa Fácil MI41S",
+    "preco": "R$ 1.069,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-electrolux-31l-1500w-espelhado-limpa-facil-mi41s/822/cinza/110-volts"
+  },
+  {
+    "termo": "MRAS21 MIDEA",
+    "nome": "Micro-ondas Midea 20L 700W Função Tira Odor Display Digital MRAS2",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-midea-20l-700w-funcao-tira-odor-display-digital-mras2/5225/preto-branco/220-volts"
+  },
+  {
+    "termo": "MXSA35S1 MIDEA",
+    "nome": "Micro-ondas de Bancada Mondial 34L Espelhado Menu dia a dia MO-02-34-E",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-de-bancada-mondial-34l-espelhado-menu-dia-a-dia-mo-02-34-e/6992/prata-espelhado/110-volts"
+  },
+  {
+    "termo": "MO-01-21-W MONDIAL",
+    "nome": "Micro-ondas de Bancada Mondial 21L 1200W Menu Dia a Dia MO-01-21",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-de-bancada-mondial-21l-1200w-menu-dia-a-dia-mo-01-21/7031/preto/110-volts"
+  },
+  {
+    "termo": "MO-02-34-E MONDIAL",
+    "nome": "Micro-ondas de Bancada Mondial 34L Espelhado Menu dia a dia MO-02-34-E",
+    "preco": "R$ 699,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-de-bancada-mondial-34l-espelhado-menu-dia-a-dia-mo-02-34-e/6992/prata-espelhado/110-volts"
+  },
+  {
+    "termo": "NN-ST25LWRU PANASONIC",
+    "nome": "Micro-ondas de Bancada Panasonic 21L 700W Espelhado NN-ST27LWRU",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-de-bancada-panasonic-21l-700w-espelhado-nn-st27lwru/3437/branco-espelhado/110-volts"
+  },
+  {
+    "termo": "ST67LSRU PANASONIC",
+    "nome": "Micro-ondas de Bancada Panasonic 21L 700W com Desodorizador NN-ST25L",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-de-bancada-panasonic-21l-700w-com-desodorizador-nn-st25l/3694/branco/220-volts"
+  },
+  {
+    "termo": "PMO23BB PHILCO",
+    "nome": "Micro-ondas Philco 20L 1100W Limpa Fácil e Tira Odor PMO23BB",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-philco-20l-1100w-limpa-facil-e-tira-odor-pmo23bb/4422/branco/110-volts"
+  },
+  {
+    "termo": "PMO34EB PHILCO",
+    "nome": "Micro-ondas Philco 20L 1100W Espelhado Limpa Fácil PMO23EB",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/micro-ondas-philco-20l-1100w-espelhado-limpa-facil-pmo23eb/4451/espelhado/110-volts"
+  },
+  {
+    "termo": "APR 1001 AMVOX",
+    "nome": "Mini Processador de Alimentos 360 ml Britânia Pulsar 2P 160W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/mini-processador-de-alimentos-360-ml-britania-pulsar-2p-160w/9445/preto/110-volts"
+  },
+  {
+    "termo": "MP120-B2 BLACK & DECKER",
+    "nome": "Impressora Térmica Etiqueta Bematech MP4200 HS USB",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/impressora-termica-etiqueta-bematech-mp4200-hs-usb/8575/preto/sem-voltagem"
+  },
+  {
+    "termo": "2P BRITANIA",
+    "nome": "Mini Processador de Alimentos 360 ml Britânia Pulsar 2P 160W",
+    "preco": "R$ 129,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/mini-processador-de-alimentos-360-ml-britania-pulsar-2p-160w/9445/preto/110-volts"
+  },
+  {
+    "termo": "MPR520 CADENCE",
+    "nome": "Mini Processador de Alimentos 350ml Cadence Easy Cut 100W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/mini-processador-de-alimentos-350ml-cadence-easy-cut-100w/9561/preto/110-volts"
+  },
+  {
+    "termo": "PMP431 LENOXX",
+    "nome": "Multiprocessador Philco 5 em 1 PMP1500P Turbo 2 Velocidades 900W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/multiprocessador-philco-5-em-1-pmp1500p-turbo-2-velocidades-900w/5910/preto/110-volts"
+  },
+  {
+    "termo": "MP-16-B/R MONDIAL",
+    "nome": "DVD Player Mondial D20 USB com Função Karaokê MP3",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/dvd-player-mondial-d20-usb-com-funcao-karaoke-mp3/2559/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "SAN400 CADENCE",
+    "nome": "Grill Sanduicheira Cadence Click SAN400 750W Duplo Aquecimento",
+    "preco": "R$ 99,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-cadence-click-san400-750w-duplo-aquecimento/7534/preto/110-volts"
+  },
+  {
+    "termo": "PGR25A PHILCO",
+    "nome": "Fritadeira Elétrica Philco Air Fryer Gourmet Black 4,4L 1500W PFR15PG",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-philco-air-fryer-gourmet-black-44l-1500w-pfr15pg/6987/preto/110-volts"
+  },
+  {
+    "termo": "AMS 500 AMVOXX",
+    "nome": "Grill Sanduicheira Amvox AMS 500 750W Antiaderente",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-amvox-ams-500-750w-antiaderente/7573/preto-inox/110-volts"
+  },
+  {
+    "termo": "BGR01PI BRITÂNIA",
+    "nome": "Grill e Sanduicheira Britânia Antiaderente 750W BGR16",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/grill-e-sanduicheira-britania-antiaderente-750w-bgr16/9552/preto-inox/220-volts"
+  },
+  {
+    "termo": "Crome Inox BRITÂNIA",
+    "nome": "Grill Sanduicheira Elétrico Britânia Crome Inox Antiaderente 750W",
+    "preco": "R$ 119,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-eletrico-britania-crome-inox-antiaderente-750w/414/preto-prata/220-volts"
+  },
+  {
+    "termo": "BGR16 BRITÂNIA",
+    "nome": "Grill e Sanduicheira Britânia Antiaderente 750W BGR16",
+    "preco": "R$ 119,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/grill-e-sanduicheira-britania-antiaderente-750w-bgr16/9552/preto-inox/220-volts"
+  },
+  {
+    "termo": "ESG20 ELETROLUX",
+    "nome": "Grill Sanduicheira Electrolux Efficient ESG20 750W Antiaderente",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-electrolux-efficient-esg20-750w-antiaderente/7557/inox/220-volts"
+  },
+  {
+    "termo": "S-20 MONDIAL",
+    "nome": "Grill Sanduicheira Elétrico Mondial Master Grill Antiaderente 750W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-eletrico-mondial-master-grill-antiaderente-750w/1074/pretoinox/220-volts"
+  },
+  {
+    "termo": "AMS 370 AMVOXX",
+    "nome": "Grill Sanduicheira Amvox AMS 500 750W Antiaderente",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-amvox-ams-500-750w-antiaderente/7573/preto-inox/110-volts"
+  },
+  {
+    "termo": "BGR01P BRITÂNIA",
+    "nome": "Grill Sanduicheira Britânia Toast BGR01P 750W Antiaderente",
+    "preco": "R$ 109,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-britania-toast-bgr01p-750w-antiaderente/5897/preto/110-volts"
+  },
+  {
+    "termo": "SAN260 CADENCE",
+    "nome": "Grill Sanduicheira Elétrica Cadence Toast & Grill Antiaderente 750W SAN260",
+    "preco": "R$ 79,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-eletrica-cadence-toast-grill-antiaderente-750w-san260/6688/preto/110-volts"
+  },
+  {
+    "termo": "Break Time ELGIN",
+    "nome": "Bicicleta Infantil Aro 16 Cairu Fadinha MTB Freios V-Break",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/bicicleta-infantil-aro-16-cairu-fadinha-mtb-freios-v-break/9368/rosa/sem-voltagem"
+  },
+  {
+    "termo": "S-12 MONDIAL",
+    "nome": "Batedeira Planetária Mondial BP03-B com 12 Velocidades 700W Tigela 4,5L",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/batedeira-planetaria-mondial-bp03-b-com-12-velocidades-700w-tigela-45l/1029/preto/110-volts"
+  },
+  {
+    "termo": "CE043 MULTI",
+    "nome": "Cortador de Grama Tramontina 1300W CE35P",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/cortador-de-grama-tramontina-1300w-ce35p/8647/laranja-preto/110-volts"
+  },
+  {
+    "termo": "BSC2150 BRITÂNIA",
+    "nome": "Secador de Cabelo Britânia BSC2150 Tourmaline Íon 2 Velocidades 2100W",
+    "preco": "R$ 119,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-britania-bsc2150-tourmaline-ion-2-velocidades-2100w/8961/preto/bivolt"
+  },
+  {
+    "termo": "SP3100N BRITÂNIA",
+    "nome": "Secador de Cabelo Britânia SP3100 Tourmaline Íon 2 Velocidades 2000W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-britania-sp3100-tourmaline-ion-2-velocidades-2000w/5894/preto/110-volts"
+  },
+  {
+    "termo": "SEC560 CADENCE",
+    "nome": "Grill Sanduicheira Cadence Click SAN400 750W Duplo Aquecimento",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-cadence-click-san400-750w-duplo-aquecimento/7534/preto/110-volts"
+  },
+  {
+    "termo": "SC-13 MONDIAL",
+    "nome": "Secador de Cabelo Mondial Max Travel SC-10 Cabo Dobrável 1200W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-mondial-max-travel-sc-10-cabo-dobravel-1200w/8021/vermelho-preto/bivolt"
+  },
+  {
+    "termo": "SC-32 MONDIAL",
+    "nome": "Secador de Cabelo Mondial Golden Rose SC-32 Jato Frio Tourmaline Íon 2000W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-mondial-golden-rose-sc-32-jato-frio-tourmaline-ion-2000w/85/rose/110-volts"
+  },
+  {
+    "termo": "PSC2450 PHILCO",
+    "nome": "Secador de Cabelo Philco Compact Pink Motor AC Profissional 2000W PSC05R",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-philco-compact-pink-motor-ac-profissional-2000w-psc05r/963/pretorosa/220-volts"
+  },
+  {
+    "termo": "PH3700 PHILCO",
+    "nome": "Frigobar Philco 68L 1 Porta Degelo Manual PH85N Porta Reversível",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/frigobar-philco-68l-1-porta-degelo-manual-ph85n-porta-reversivel/6772/branco/220-volts"
+  },
+  {
+    "termo": "Cherry 2100W PHILCO",
+    "nome": "Secador de Cabelo Philco Cherry Íon 3 Temperaturas 2100W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-philco-cherry-ion-3-temperaturas-2100w/549/vermelho/220-volts"
+  },
+  {
+    "termo": "PH3700 PHILCO",
+    "nome": "Frigobar Philco 68L 1 Porta Degelo Manual PH85N Porta Reversível",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/frigobar-philco-68l-1-porta-degelo-manual-ph85n-porta-reversivel/6772/branco/220-volts"
+  },
+  {
+    "termo": "PSC2300 PHILCO",
+    "nome": "Secador de Cabelo Philco Compact Pink Motor AC Profissional 2000W PSC05R",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-philco-compact-pink-motor-ac-profissional-2000w-psc05r/963/pretorosa/220-volts"
+  },
+  {
+    "termo": "PSC2350 PHILCO",
+    "nome": "Secador de Cabelo Philco Compact Pink Motor AC Profissional 2000W PSC05R",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-philco-compact-pink-motor-ac-profissional-2000w-psc05r/963/pretorosa/220-volts"
+  },
+  {
+    "termo": "GAM-BECHD0000002793_PAI GAMA ITALY",
+    "nome": "Ar Condicionado Split 22.000 BTUs Dual Inverter Voice +AI LG Frio",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ar-condicionado-split-22000-btus-dual-inverter-voice-ai-lg-frio/8628/sem-cor/220-volts"
+  },
+  {
+    "termo": "GAM-BECHD0000002791_PAI GAMA ITALY",
+    "nome": "Ar Condicionado Split 22.000 BTUs Dual Inverter Voice +AI LG Frio",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ar-condicionado-split-22000-btus-dual-inverter-voice-ai-lg-frio/8628/sem-cor/220-volts"
+  },
+  {
+    "termo": "GAM-BECHD0000002810_PAI GAMA ITALY",
+    "nome": "Ar Condicionado Split 22.000 BTUs Dual Inverter Voice +AI LG Frio",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ar-condicionado-split-22000-btus-dual-inverter-voice-ai-lg-frio/8628/sem-cor/220-volts"
+  },
+  {
+    "termo": "GAM-BECHD0000002808_PA GAMA ITALY",
+    "nome": "Ar Condicionado Split 22.000 BTUs Dual Inverter Voice +AI LG Frio",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/ar-condicionado-split-22000-btus-dual-inverter-voice-ai-lg-frio/8628/sem-cor/220-volts"
+  },
+  {
+    "termo": "SCP-JU-01 MONDIAL",
+    "nome": "Secador de Cabelo Mondial Quatro Elementos By Juliette 2000W SCP-JU-02",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-mondial-quatro-elementos-by-juliette-2000w-scp-ju-02/6618/verde/220-volts"
+  },
+  {
+    "termo": "PSA3250 PHILCO",
+    "nome": "Fritadeira Elétrica Philco Air Fryer Gourmet Black 4,4L 1500W PFR15PG",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fritadeira-eletrica-philco-air-fryer-gourmet-black-44l-1500w-pfr15pg/6987/preto/110-volts"
+  },
+  {
+    "termo": "Style 2000W TAIFF",
+    "nome": "Secador de Cabelo Taiff Style Motor AC Profissional Jato de Ar Frio 2000W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-taiff-style-motor-ac-profissional-jato-de-ar-frio-2000w/965/azul-preto/110-volts"
+  },
+  {
+    "termo": "Tourmaline Íon 2100W TAIFF",
+    "nome": "Secador de Cabelo Taiff Tourmaline Íon Negativos 2 Velocidades 2000W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-taiff-tourmaline-ion-negativos-2-velocidades-2000w/959/preto/110-volts"
+  },
+  {
+    "termo": "Easy 1700W TAIFF",
+    "nome": "Secador de Cabelo Taiff Easy 2 Temperaturas Secagem Rápida 1700W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-taiff-easy-2-temperaturas-secagem-rapida-1700w/55/preto/220-volts"
+  },
+  {
+    "termo": "Black Íon TAIFF",
+    "nome": "Secador de Cabelo Taiff Black Íon 2 Velocidades Motor AC Profissional 2000W",
+    "preco": "R$ 309,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-taiff-black-ion-2-velocidades-motor-ac-profissional-2000w/966/preto/110-volts"
+  },
+  {
+    "termo": "BSC1200 BRITÂNIA",
+    "nome": "Secador de Cabelo Britânia BSC2150 Tourmaline Íon 2 Velocidades 2100W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-britania-bsc2150-tourmaline-ion-2-velocidades-2100w/8961/preto/bivolt"
+  },
+  {
+    "termo": "Easy Travel BRITÂNIA",
+    "nome": "Secador de Cabelo Parede Britânia Easy Dryer Tourmaline Íon 1500W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-parede-britania-easy-dryer-tourmaline-ion-1500w/269/branco/220-volts"
+  },
+  {
+    "termo": "SEC185 CADENCE",
+    "nome": "Grill Sanduicheira Cadence Click SAN400 750W Duplo Aquecimento",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/grill-sanduicheira-cadence-click-san400-750w-duplo-aquecimento/7534/preto/110-volts"
+  },
+  {
+    "termo": "Eolic Travel GAMA ITALY",
+    "nome": "Secador de Cabelo Mondial Max Travel SC-10 Cabo Dobrável 1200W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-mondial-max-travel-sc-10-cabo-dobravel-1200w/8021/vermelho-preto/bivolt"
+  },
+  {
+    "termo": "SC-10 MONDIAL",
+    "nome": "Secador de Cabelo Mondial Max Travel SC-10 Cabo Dobrável 1200W",
+    "preco": "R$ 79,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-mondial-max-travel-sc-10-cabo-dobravel-1200w/8021/vermelho-preto/bivolt"
+  },
+  {
+    "termo": "Titanium Travel 750W PHILCO",
+    "nome": "Secador de Cabelo Philco Titanium Travel Tourmaline com Cabo Dobrável",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-philco-titanium-travel-tourmaline-com-cabo-dobravel/5907/vermelho/bivolt"
+  },
+  {
+    "termo": "Travel Shine PHILCO",
+    "nome": "Secador de Cabelo Philco Titanium Travel Tourmaline com Cabo Dobrável",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-philco-titanium-travel-tourmaline-com-cabo-dobravel/5907/vermelho/bivolt"
+  },
+  {
+    "termo": "BHC010/81 PHILIPS",
+    "nome": "Secador de Cabelo Philips Essential BHC010 Thermo Protect 1200W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-philips-essential-bhc010-thermo-protect-1200w/5900/preto/110-volts"
+  },
+  {
+    "termo": "AWS-EB-01-B AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-EB-05-B AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-EB-04-B AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-EB-03-B AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-HP-05-B AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-HP-04-B AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "Tune Buds 2 JBL",
+    "nome": "Fone de Ouvido JBL Tune Buds 2 Sem fio",
+    "preco": "R$ 429,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fone-de-ouvido-jbl-tune-buds-2-sem-fio/9771/preto/sem-voltagem"
+  },
+  {
+    "termo": "LIVE FREE 2 TWS JBL",
+    "nome": "Fone de Ouvido JBL Live Free NC + TWS sem Fio Bluetooth À Prova D'água",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fone-de-ouvido-jbl-live-free-nc-tws-sem-fio-bluetooth-a-prova-dagua/5022/preto/bivolt"
+  },
+  {
+    "termo": "Wave Beam 2 JBL",
+    "nome": "Fone de Ouvido JBL Wave Beam 2 Sem Fio Bluetooth",
+    "preco": "R$ 299,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fone-de-ouvido-jbl-wave-beam-2-sem-fio-bluetooth/9551/preto/sem-voltagem"
+  },
+  {
+    "termo": "Wave Buds 2 JBL",
+    "nome": "Fone de Ouvido JBL Wave Buds 2 Bluetooth",
+    "preco": "R$ 275,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/fone-de-ouvido-jbl-wave-buds-2-bluetooth/9443/branco/sem-voltagem"
+  },
+  {
+    "termo": "Tour One M2 JBL",
+    "nome": "Fone de Ouvido JBL Tour Pro+ TWS Sem Fio Bluetooth 3 Microfones Dual Connect",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fone-de-ouvido-jbl-tour-pro-tws-sem-fio-bluetooth-3-microfones-dual-connect/5041/preto/bivolt"
+  },
+  {
+    "termo": "LIVE FREE 2 TWS JBL",
+    "nome": "Fone de Ouvido JBL Live Free NC + TWS sem Fio Bluetooth À Prova D'água",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/fone-de-ouvido-jbl-live-free-nc-tws-sem-fio-bluetooth-a-prova-dagua/5022/preto/bivolt"
+  },
+  {
+    "termo": "BHC010/81 PHILIPS",
+    "nome": "Secador de Cabelo Philips Essential BHC010 Thermo Protect 1200W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/secador-de-cabelo-philips-essential-bhc010-thermo-protect-1200w/5900/preto/110-volts"
+  },
+  {
+    "termo": "TAT1108BK/00 PHILIPS",
+    "nome": "Webcam C3Tech WB-70BK HD 720p USB com Microfone Embutido",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/webcam-c3tech-wb-70bk-hd-720p-usb-com-microfone-embutido/5522/preto/bivolt"
+  },
+  {
+    "termo": "TAT1209BK/00 PHILIPS",
+    "nome": "Webcam C3Tech WB-70BK HD 720p USB com Microfone Embutido",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/webcam-c3tech-wb-70bk-hd-720p-usb-com-microfone-embutido/5522/preto/bivolt"
+  },
+  {
+    "termo": "TAT3509GY/00 PHILIPS",
+    "nome": "Monitor Philips W-LED 23,8\" Widescreen Full HD HDMI VGA 241V8LAB",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/monitor-philips-w-led-238-widescreen-full-hd-hdmi-vga-241v8lab/8952/preto/bivolt"
+  },
+  {
+    "termo": "TAT1109BK/00 PHILIPS",
+    "nome": "Webcam C3Tech WB-70BK HD 720p USB com Microfone Embutido",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/webcam-c3tech-wb-70bk-hd-720p-usb-com-microfone-embutido/5522/preto/bivolt"
+  },
+  {
+    "termo": "AWS-SP-06-B AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "GO 4 JBL",
+    "nome": "Caixa de Som Portátil JBL GO 4 4,2W Bluetooth à Prova d'água",
+    "preco": "R$ 279,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-jbl-go-4-42w-bluetooth-a-prova-dagua/8353/azul/sem-voltagem"
+  },
+  {
+    "termo": "GO 4 JBL",
+    "nome": "Caixa de Som Portátil JBL GO 4 4,2W Bluetooth à Prova d'água",
+    "preco": "R$ 279,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-jbl-go-4-42w-bluetooth-a-prova-dagua/8353/azul/sem-voltagem"
+  },
+  {
+    "termo": "AWS-SP-03 AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "Clip 5 JBL",
+    "nome": "Caixa de Som Portátil JBL Clip5 7W Bluetooth com Bateria Recarregável",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-jbl-clip5-7w-bluetooth-com-bateria-recarregavel/8775/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "XG2T JBL",
+    "nome": "Caixa de Som Portátil JBL Boombox 3 200W RMS Bluetooth Wi-Fi",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-jbl-boombox-3-200w-rms-bluetooth-wi-fi/7580/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-SP-01 AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "Flip Essential 2 JBL",
+    "nome": "Caixa de Som JBL FLIP7 35W Bluetooth à Prova D'água",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-jbl-flip7-35w-bluetooth-a-prova-dagua/9638/preto/sem-voltagem"
+  },
+  {
+    "termo": "XG5S LG",
+    "nome": "Geladeira LG 375L Frost Free Compressor Inverter Duplex GN-B372PQW",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/geladeira-lg-375l-frost-free-compressor-inverter-duplex-gn-b372pqw/9133/branco/220-volts"
+  },
+  {
+    "termo": "AWS-SP-05-LB AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "Flip 6 JBL",
+    "nome": "Caixa de Som Portátil JBL Flip 6 20W Bluetooth à Prova d'água",
+    "preco": "R$ 609,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-jbl-flip-6-20w-bluetooth-a-prova-dagua/6017/preto/sem-voltagem"
+  },
+  {
+    "termo": "XBOOM GO XG5S LG",
+    "nome": "Caixa de Som Portátil LG XBOOM GO PL2 5W Bluetooth à Prova d'Água",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-lg-xboom-go-pl2-5w-bluetooth-a-prova-dagua/3516/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-SP-05-LB AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "Charge 5 JBL",
+    "nome": "Caixa de Som Portátil JBL Charge 6 30W Bluetooth Power Bank",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-jbl-charge-6-30w-bluetooth-power-bank/9636/preto/sem-voltagem"
+  },
+  {
+    "termo": "XBOOM GO X75S LG",
+    "nome": "Caixa de Som Portátil LG XBOOM GO PL2 5W Bluetooth à Prova d'Água",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-lg-xboom-go-pl2-5w-bluetooth-a-prova-dagua/3516/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-SP-07-B AIWA",
+    "nome": "Caixa de Som Aiwa Torre 2300W Bluetooth",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-aiwa-torre-2300w-bluetooth/9331/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "GO 4 JBL",
+    "nome": "Caixa de Som Portátil JBL GO 4 4,2W Bluetooth à Prova d'água",
+    "preco": "R$ 279,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-jbl-go-4-42w-bluetooth-a-prova-dagua/8353/azul/sem-voltagem"
+  },
+  {
+    "termo": "GO 3 JBL",
+    "nome": "Caixa de Som Portátil JBL Go Essential 3W RMS Bluetooth À Prova d’Água",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-jbl-go-essential-3w-rms-bluetooth-a-prova-dagua/6196/preto/sem-voltagem"
+  },
+  {
+    "termo": "GO Essential JBL",
+    "nome": "Caixa de Som Portátil JBL Go Essential 3W RMS Bluetooth À Prova d’Água",
+    "preco": "R$ 159,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-jbl-go-essential-3w-rms-bluetooth-a-prova-dagua/6196/preto/sem-voltagem"
+  },
+  {
+    "termo": "ACA1900 AMVOX",
+    "nome": "Caixa de Som Amplificada Amvox ACA 1900 New X Power X 1900W",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-amplificada-amvox-aca-1900-new-x-power-x-1900w/6797/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "TM-2200 MONDIAL",
+    "nome": "Caixa de Som Mondial Torre TM-2200 2200W Bluetooth",
+    "preco": "R$ 1.511,91",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-mondial-torre-tm-2200-2200w-bluetooth/9558/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "TAX5509 PHILIPS",
+    "nome": "Caixa de Som Portátil Philips Party Speaker TAX3206/78 40W Bluetooth e LED",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-portatil-philips-party-speaker-tax320678-40w-bluetooth-e-led/6095/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "SP508 PULSE",
+    "nome": "Caixa de Som Pulse Super Torre Double SP508 2300W RMS Bluetooth",
+    "preco": "R$ 1.539,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/caixa-de-som-pulse-super-torre-double-sp508-2300w-rms-bluetooth/7456/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-TV-32-BL-02-A AIWA",
+    "nome": "Smart TV AOC Roku LED 50\" 4K UHD Wi-Fi 50U6125/78G",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/smart-tv-aoc-roku-led-50-4k-uhd-wi-fi-50u612578g/6426/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "AWS-TV-43-BL-02-A AIWA",
+    "nome": "Smart TV AOC Roku LED 50\" 4K UHD Wi-Fi 50U6125/78G",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": false,
+    "link": "https://www.gazin.com.br/produto/smart-tv-aoc-roku-led-50-4k-uhd-wi-fi-50u612578g/6426/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "32LR650BPSA LG",
+    "nome": "Smart TV LG 32\" HD Wi-Fi 32LR650BPSA",
+    "preco": "R$ 1.299,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/smart-tv-lg-32-hd-wi-fi-32lr650bpsa/9781/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "43UT8000PSA LG",
+    "nome": "Smart TV LG 43\" 4K UT80 Comando de Voz 43UT8000PSA",
+    "preco": "R$ 1.779,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/smart-tv-lg-43-4k-ut80-comando-de-voz-43ut8000psa/8899/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "UN32T4300 SAMSUNG",
+    "nome": "Smart TV Samsung LED 32\" HD Wi-Fi Tizen HDR UN32T4300AGXZD",
+    "preco": "Indisponível",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/smart-tv-samsung-led-32-hd-wi-fi-tizen-hdr-un32t4300agxzd/1655/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "F6000F SAMSUNG",
+    "nome": "Smart TV Samsung LED 43” Full HD Wi-Fi Tizen UN43F6000FGXZD",
+    "preco": "R$ 1.699,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/smart-tv-samsung-led-43-full-hd-wi-fi-tizen-un43f6000fgxzd/9615/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "32S5400AF TCL",
+    "nome": "Smart TV TCL LED 32\" Full HD Wi-Fi Android TV Comando de voz 32S5400AF",
+    "preco": "R$ 919,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/smart-tv-tcl-led-32-full-hd-wi-fi-android-tv-comando-de-voz-32s5400af/7980/sem-cor/sem-voltagem"
+  },
+  {
+    "termo": "43S5400A TCL",
+    "nome": "Smart TV TCL LED 43” Full HD HDR Wi-Fi Android Comando de Voz 43S5400A",
+    "preco": "R$ 1.639,90",
+    "loja": "Gazin",
+    "vendido": true,
+    "link": "https://www.gazin.com.br/produto/smart-tv-tcl-led-43-full-hd-hdr-wi-fi-android-comando-de-voz-43s5400a/7373/sem-cor/sem-voltagem"
   }
 ]
