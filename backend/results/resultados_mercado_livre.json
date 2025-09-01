@@ -1,10 +1,2418 @@
 [
   {
-    "termo": "VSP-40-B MONDIAL",
-    "nome": "Ventilador de Mesa 40cm Super Power Mondial Preto/Prata 80W 6 Pás VSP-40-B2",
-    "preco": "R$ 204,00",
+    "termo": "AFN-40-BI MONDIAL",
+    "nome": "Fritadeira Sem Óleo Air Fryer 4L, Mondial, 1500W - AFN-40-BI",
+    "preco": "R$ 302,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fritadeira-sem-oleo-air-fryer-4l-mondial-1500w-afn-40-bi/p/MLB19635461#polycard_client=search-nordic&wid=MLB5362361348&search_layout=stack&position=1&type=product&tracking_id=db0bd04d-42b5-4f27-8da6-f342c88df278&sid=search"
+  },
+  {
+    "termo": "BFR11PG BRITÂNIA",
+    "nome": "Fritadeira Air Fryer Bfr11pg Inox 4,4l Preta Britânia Cor Preto",
+    "preco": "R$ 337,68",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-bfr11pg-inox-44l-preta-britnia-cor-preto/p/MLB19813707#polycard_client=search-nordic&wid=MLB5557533488&search_layout=stack&position=1&type=product&tracking_id=a4076845-663f-4511-822b-3aedcd965e48&sid=search"
+  },
+  {
+    "termo": "BFR38 BRITÂNIA",
+    "nome": "Fritadeira Air Fryer Britânia BFR38 4,2L 1500W",
+    "preco": "R$ 269,19",
     "loja": "Mercado Livre",
     "vendido": true,
-    "link": "https://www.mercadolivre.com.br/ventilador-de-mesa-40cm-super-power-mondial-pretoprata-80w-6-pas-vsp-40-b2/p/MLB27251423#polycard_client=search-nordic&wid=MLB4181531449&search_layout=stack&position=14&type=product&tracking_id=9da95f80-48b8-43a5-be90-f2d4b812afa9&sid=search"
+    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-britnia-bfr38-42l-1500w/p/MLB29694703#polycard_client=search-nordic&wid=MLB4411315650&search_layout=stack&position=3&type=product&tracking_id=4797a85c-eb6b-48df-8818-057a78dea2ec&sid=search"
+  },
+  {
+    "termo": "PFR15PI PHILCO",
+    "nome": "Fritadeira Air Fryer Philco Pfr15pi Redstone 4,4l 1500w Cor Prateado",
+    "preco": "R$ 450,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-philco-pfr15pi-redstone-44l-1500w-cor-prateado/p/MLB28038213#polycard_client=search-nordic&wid=MLB4136561133&search_layout=stack&position=1&type=product&tracking_id=80ae8a07-46b6-4bbd-9b4b-b573b4ca5537&sid=search"
+  },
+  {
+    "termo": "OFRT520 OSTER",
+    "nome": "Fritadeira elétrica Oster Ofrt520 inox compact de 4,6L e 1500W de potência -",
+    "preco": "R$ 388,76",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-oster-ofrt520-inox-compact-de-46l-e-1500w-de-potncia-/p/MLB22938854#polycard_client=search-nordic&wid=MLB4372785750&search_layout=stack&position=1&type=product&tracking_id=ff1d558e-2332-498f-a7b4-64e1bb2214b1&sid=search"
+  },
+  {
+    "termo": "EAF15 ELECTROLUX",
+    "nome": "Air fryer Fritadeira Sem Óleo Elétrica Electrolux 3,2L Total Cesto Removível Com Timer 1400W EAF15 Efficient Por Rita Lobo Preta",
+    "preco": "R$ 292,07",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/air-fryer-fritadeira-sem-oleo-eletrica-electrolux-32l-total-cesto-removivel-com-timer-1400w-eaf15-efficient-por-rita-lobo-preta/p/MLB28120727#polycard_client=search-nordic&wid=MLB3513468409&search_layout=stack&position=1&type=product&tracking_id=3cd4ad6b-7701-4495-8446-283b321f5c0a&sid=search"
+  },
+  {
+    "termo": "BFR2100 BRITÂNIA",
+    "nome": "Fritadeira E Forno Britânia Air Fry Oven Bfr2100p Preto",
+    "preco": "R$ 553,98",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fritadeira-e-forno-britnia-air-fry-oven-bfr2100p-preto/p/MLB37554994#polycard_client=search-nordic&wid=MLB3871731847&search_layout=stack&position=1&type=product&tracking_id=278fbdc7-086c-4fa2-a8e3-587fef81090c&sid=search"
+  },
+  {
+    "termo": "EAF90 ELECTROLUX",
+    "nome": "Fritadeira Elétrica Air Fryer Oven Sem Óleo Electrolux 12L Digital Grafite 1700W EAF90 Experience Por Rita Lobo",
+    "preco": "R$ 778,88",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-oven-sem-oleo-electrolux-12l-digital-grafite-1700w-eaf90-experience-por-rita-lobo/p/MLB23011944#polycard_client=search-nordic&wid=MLB5393551296&search_layout=stack&position=1&type=product&tracking_id=3ba0d20c-3c7d-4d50-8630-efa0d39ec8ab&sid=search"
+  },
+  {
+    "termo": "AFON-12L-BI MONDIAL",
+    "nome": "Fritadeira Air Fryer Forno Oven 12L, Mondial, 2000W - AFON-12L-BI",
+    "preco": "R$ 515,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-forno-oven-12l-mondial-2000w-afon-12l-bi/p/MLB35830249#polycard_client=search-nordic&wid=MLB5505285788&search_layout=stack&position=1&type=product&tracking_id=cccc02a6-fbfe-4b7b-8bc1-8ffa2eeefadb&sid=search"
+  },
+  {
+    "termo": "OFRT780 OSTER",
+    "nome": "Fritadeira Oven Fryer 3 em 1 ofrt780 12 litros preta Oster cor preto",
+    "preco": "R$ 589,27",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fritadeira-oven-fryer-3-em-1-ofrt780-12-litros-preta-oster-cor-preto/p/MLB26057129#polycard_client=search-nordic&wid=MLB5528151762&search_layout=stack&position=1&type=product&tracking_id=fc91d456-5bee-4518-a53d-2aa3b10237b8&sid=search"
+  },
+  {
+    "termo": "PFR2200 PHILCO",
+    "nome": "Fritadeira Elérica Air Fryer Oven Philco Pfr2200 12 litros 4 Em 1 1800w Cor Preta",
+    "preco": "R$ 626,25",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fritadeira-elerica-air-fryer-oven-philco-pfr2200-12-litros-4-em-1-1800w-cor-preta/p/MLB26755777#polycard_client=search-nordic&wid=MLB3563203025&search_layout=stack&position=1&type=product&tracking_id=4daed880-3f64-4821-b5dc-4589eddcf7d4&sid=search"
+  },
+  {
+    "termo": "FW009547 WAP",
+    "nome": "Puxador Alça Original P Air Fryer Oven Wap Fw009548 Fw009547",
+    "preco": "R$ 46,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/puxador-alca-original-p-air-fryer-oven-wap-fw009548-fw009547/up/MLBU1752316685#polycard_client=search-nordic&wid=MLB5019375544&search_layout=stack&position=2&type=product&tracking_id=d38019cd-0a8c-4674-8cac-30bbf9d0dd75&sid=search"
+  },
+  {
+    "termo": "VSP-40C-NB MONDIAL",
+    "nome": "Ventilador Coluna 40cm Super Power Mondial 140W VSP-40C-NB",
+    "preco": "R$ 244,78",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-coluna-40cm-super-power-mondial-140w-vsp-40c-nb/p/MLB27341794#polycard_client=search-nordic&wid=MLB5072480700&search_layout=stack&position=1&type=product&tracking_id=6405619d-13af-4756-8a20-f442a1f2c9bf&sid=search"
+  },
+  {
+    "termo": "BVT450 BRITÂNIA",
+    "nome": "Ventilador De Coluna Britânia Bvt450 Maxx Force 160w Diâmetro 40 cm Quantidade de pás 6",
+    "preco": "R$ 223,74",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ventilador-de-coluna-britnia-bvt450-maxx-force-160w-dimetro-40-cm-quantidade-de-pas-6/p/MLB29761083#polycard_client=search-nordic&wid=MLB4048270213&search_layout=stack&position=1&type=product&tracking_id=851becc6-3daa-420e-b3a6-850cac113de8&sid=search"
+  },
+  {
+    "termo": "VTX-40C-8P MONDIAL",
+    "nome": "Ventilador Coluna 40cm Super Turbo Tech, Mondial, 140W - VTX-40C-8P-CR",
+    "preco": "R$ 322,52",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ventilador-coluna-40cm-super-turbo-tech-mondial-140w-vtx-40c-8p-cr/p/MLB15749218#polycard_client=search-nordic&wid=MLB4119252470&search_layout=stack&position=1&type=product&tracking_id=88ae2387-800d-48d6-a950-752e6ef75f6f&sid=search"
+  },
+  {
+    "termo": "VFC4 ARNO",
+    "nome": "Ventilador Arno Coluna Turbo Force 40cm Vfc4 -",
+    "preco": "R$ 427,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ventilador-arno-coluna-turbo-force-40cm-vfc4-/p/MLB22265405#polycard_client=search-nordic&wid=MLB5514106904&search_layout=stack&position=1&type=product&tracking_id=2fb7df6f-fb71-43f5-b467-69f99ae0b896&sid=search"
+  },
+  {
+    "termo": "VB4C ARNO",
+    "nome": "Ventilador Xtreme Force Breeze Coluna 40cm Vb4c",
+    "preco": "R$ 525,82",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ventilador-xtreme-force-breeze-coluna-40cm-vb4c/p/MLB19925694#polycard_client=search-nordic&wid=MLB4152015790&search_layout=stack&position=2&type=product&tracking_id=2fcdd7b5-a202-4def-be6b-bd108d7b5da9&sid=search"
+  },
+  {
+    "termo": "NVT-40C-8P-B MONDIAL",
+    "nome": "Ventilador De Coluna Mondial 40cm Turbo NVT-40C-8P-B",
+    "preco": "R$ 251,75",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-de-coluna-mondial-40cm-turbo-nvt-40c-8p-b/p/MLB38089078#polycard_client=search-nordic&wid=MLB3845367613&search_layout=stack&position=1&type=product&tracking_id=bc2b8e67-a409-4fa6-b251-4e518496a6ef&sid=search"
+  },
+  {
+    "termo": "VSP-30-B MONDIAL",
+    "nome": "Ventilador de Mesa 30cm Super Power, Mondial, 60W - VSP-30-B",
+    "preco": "R$ 139,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-de-mesa-30cm-super-power-mondial-60w-vsp-30-b/p/MLB18932157#polycard_client=search-nordic&wid=MLB5310924554&search_layout=stack&position=3&type=product&tracking_id=ff22be6e-afec-427d-8c1c-beef6351ea2c&sid=search"
+  },
+  {
+    "termo": "BVT301 BRITÂNIA",
+    "nome": "Ventilador BVT301 Tecnologia Maxx Force 3 velocidades 60W Britânia 110V",
+    "preco": "R$ 114,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-bvt301-tecnologia-maxx-force-3-velocidades-60w-britnia-110v/p/MLB27861461#polycard_client=search-nordic&wid=MLB4184022883&search_layout=stack&position=1&type=product&tracking_id=48fe9e3f-36d8-459f-9a70-70cafc1f43e8&sid=search"
+  },
+  {
+    "termo": "PROTECT 30 SIX BRITÂNIA",
+    "nome": "Ventilador Protect 30 Six Preto 60W Britânia",
+    "preco": "R$ 142,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-protect-30-six-preto-60w-britnia/p/MLB14332417#polycard_client=search-nordic&wid=MLB3968807801&search_layout=stack&position=2&type=product&tracking_id=786ff4fc-f9c4-40ca-b5c0-b056dcb555f7&sid=search"
+  },
+  {
+    "termo": "TS30 MALLORY",
+    "nome": "Corpo Plástico Coluna Ventilador Mallory Ts30",
+    "preco": "R$ 25,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-4645123674-corpo-plastico-coluna-ventilador-mallory-ts30-_JM#polycard_client=search-nordic&search_layout=stack&position=3&type=item&tracking_id=112e4044-9d62-49aa-97f0-543b0f4a7731&wid=MLB4645123674&sid=search"
+  },
+  {
+    "termo": "VTR560 CADENCE",
+    "nome": "Helice Ventilador Cadence 30cm 6 Pas Vtr560 - Azul Original",
+    "preco": "R$ 18,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/helice-ventilador-cadence-30cm-6-pas-vtr560--azul-original/up/MLBU1341861077#polycard_client=search-nordic&wid=MLB2697820340&search_layout=stack&position=1&type=product&tracking_id=8fa79a42-056e-4e5e-a8d9-46861396eb23&sid=search"
+  },
+  {
+    "termo": "VSP-40-B MONDIAL",
+    "nome": "Ventilador de Mesa 40cm Super Power Mondial Preto/Prata 140W VSP-40-B",
+    "preco": "R$ 220,07",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-de-mesa-40cm-super-power-mondial-pretoprata-140w-vsp-40-b/p/MLB18623660#polycard_client=search-nordic&wid=MLB5072431772&search_layout=stack&position=9&type=product&tracking_id=abbb4595-1ca8-48d1-a216-4e50a48a4e4f&sid=search"
+  },
+  {
+    "termo": "VB40 ARNO",
+    "nome": "Arno Ventilador Xtreme Force Breeze Vb40 60Hz Cor Da Estrutura Preto Quantidade De Pás 6",
+    "preco": "R$ 297,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/arno-ventilador-xtreme-force-breeze-vb40-60hz-cor-da-estrutura-preto-quantidade-de-pas-6/p/MLB20320421#polycard_client=search-nordic&wid=MLB3580995909&search_layout=stack&position=1&type=product&tracking_id=d1d6c7b7-9e08-4342-8951-f30da555de0b&sid=search"
+  },
+  {
+    "termo": "VF42 ARNO",
+    "nome": "Ventilador Arno Turbo Force 2 Em 1 Mesa/parede Vf42 -",
+    "preco": "R$ 193,03",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-arno-turbo-force-2-em-1-mesaparede-vf42-/p/MLB46509124#polycard_client=search-nordic&wid=MLB3998142981&search_layout=stack&position=1&type=product&tracking_id=ac1cc17a-e362-4332-b050-bbff2383e309&sid=search"
+  },
+  {
+    "termo": "BVT400 BRITÂNIA",
+    "nome": "Ventilador Bvt400 Maxx Force 2 Em 1 150w Preto Britânia Cor das pás Cinza Diâmetro 40 cm Frequência 60 Material das pás Plástico Quantidade de pás 6",
+    "preco": "R$ 156,33",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ventilador-bvt400-maxx-force-2-em-1-150w-preto-britnia-cor-das-pas-cinza-dimetro-40-cm-frequncia-60-material-das-pas-plastico-quantidade-de-pas-6/p/MLB27631235#polycard_client=search-nordic&wid=MLB3969715195&search_layout=stack&position=1&type=product&tracking_id=47f83f68-5bec-4edc-8efd-a2288d628e18&sid=search"
+  },
+  {
+    "termo": "VTX-40-8P MONDIAL",
+    "nome": "Hélice Ventilador Modial Turbo 8 Pás Vtx-40-8p Vtx40",
+    "preco": "R$ 36,95",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/helice-ventilador-modial-turbo-8-pas-vtx-40-8p-vtx40/p/MLB29573643#polycard_client=search-nordic&wid=MLB3607445295&search_layout=stack&position=4&type=product&tracking_id=12bd6443-06a8-4b7f-852b-6f0b23064697&sid=search"
+  },
+  {
+    "termo": "FW009218 WAP",
+    "nome": "Ventilador de Parede e Mesa WAP FLOW TURBO com 8 Pás 3 Velocidades",
+    "preco": "R$ 179,40",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ventilador-de-parede-e-mesa-wap-flow-turbo-com-8-pas-3-velocidades/p/MLB23370533#polycard_client=search-nordic&wid=MLB4047962772&search_layout=stack&position=3&type=product&tracking_id=e1b234e2-6028-43b6-85e4-cad136bf6f56&sid=search"
+  },
+  {
+    "termo": "VTR409 CADENCE",
+    "nome": "Biela Ventilador Cadence Vtr409 / Vtr470 / Vtr869 / Vtr870",
+    "preco": "R$ 20,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-3275696020-biela-ventilador-cadence-vtr409-vtr470-vtr869-vtr870-_JM#polycard_client=search-nordic&search_layout=stack&position=1&type=item&tracking_id=bf7da2a2-e7d3-4eab-aa0d-49e254c74cb8&wid=MLB3275696020&sid=search"
+  },
+  {
+    "termo": "NVT-40-8P-B MONDIAL",
+    "nome": "Ventilador de Mesa 40cm Turbo Mondial 140W NVT-40-8P-B",
+    "preco": "R$ 180,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ventilador-de-mesa-40cm-turbo-mondial-140w-nvt-40-8p-b/p/MLB38079103#polycard_client=search-nordic&wid=MLB3916211207&search_layout=stack&position=2&type=product&tracking_id=9ffb16be-564d-468a-9bad-5c5f1a136fd9&sid=search"
+  },
+  {
+    "termo": "VE70 ARNO",
+    "nome": "Ventilador de Mesa 40cm Arno X-TREME 7 - 7 PÁS, 150W VE70",
+    "preco": "R$ 238,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-de-mesa-40cm-arno-x-treme-7-7-pas-150w-ve70/p/MLB28365895#polycard_client=search-nordic&wid=MLB4059883733&search_layout=stack&position=1&type=product&tracking_id=3029a23c-a7b5-4f16-ba73-6661c7c0e6d0&sid=search"
+  },
+  {
+    "termo": "VTR410 CADENCE",
+    "nome": "Suporte Pescoço Pivô Ventilador Cadence Vtr410 Original",
+    "preco": "R$ 27,89",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/suporte-pescoco-pivo-ventilador-cadence-vtr410-original/up/MLBU3171922367#polycard_client=search-nordic&wid=MLB5386454992&search_layout=stack&position=2&type=product&tracking_id=86b10af4-ccab-4d35-b216-1b501f6bd7a5&sid=search"
+  },
+  {
+    "termo": "BVT401 BRITÂNIA",
+    "nome": "Ventilador 3 Velocidades 150w Mesa/parede Bvt401 Britânia Estrutura Preto Diâmetro 40 cm Material das pás Plástico Quantidade de pás 6",
+    "preco": "R$ 223,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-3-velocidades-150w-mesaparede-bvt401-britnia-estrutura-preto-dimetro-40-cm-material-das-pas-plastico-quantidade-de-pas-6/p/MLB30627252#polycard_client=search-nordic&wid=MLB3584384599&search_layout=stack&position=6&type=product&tracking_id=6557b3aa-09ab-446e-bd85-182bc6ab5e16&sid=search"
+  },
+  {
+    "termo": "VTX-50-8P MONDIAL",
+    "nome": "Hélice De Ventilador Mondial 50cm 8 Pás Prata Vtx-50-8p Prata",
+    "preco": "R$ 59,89",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/helice-de-ventilador-mondial-50cm-8-pas-prata-vtx508p/up/MLBU1143155426#polycard_client=search-nordic&wid=MLB3567877953&search_layout=stack&position=4&type=product&tracking_id=3d7bcc5a-dace-4435-8e01-274bb5949b6f&sid=search"
+  },
+  {
+    "termo": "BVT500 BRITÂNIA",
+    "nome": "Ventilador Bvt500 2 Em 1 Maxx Force 6 Pás 176w Britânia",
+    "preco": "R$ 194,22",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-bvt500-2-em-1-maxx-force-6-pas-176w-britnia/p/MLB27440381#polycard_client=search-nordic&wid=MLB5469175220&search_layout=stack&position=1&type=product&tracking_id=98a6c990-d020-456d-8805-5ae3c55ff4bb&sid=search"
+  },
+  {
+    "termo": "VB50 ARNO",
+    "nome": "Ventilador Xtreme Force Breeze Mesa 50cm Vb50 Estrutura Preto",
+    "preco": "R$ 278,19",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-xtreme-force-breeze-mesa-50cm-vb50-estrutura-preto/p/MLB47709502#polycard_client=search-nordic&wid=MLB5650096458&search_layout=stack&position=1&type=product&tracking_id=5eef1d9c-4128-4c3b-a955-b4ce8e824ec7&sid=search"
+  },
+  {
+    "termo": "TURBO 6 VENTISOL",
+    "nome": "Ventilador Oscilante De Coluna Ventisol 30cm Turbo 6 Pás Preto",
+    "preco": "R$ 132,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ventilador-oscilante-de-coluna-ventisol-30cm-turbo-6-pas-preto/p/MLB18971070#polycard_client=search-nordic&wid=MLB4116164094&search_layout=stack&position=4&type=product&tracking_id=4e24acfe-b5ce-4eb2-bf80-6a1eccc64a46&sid=search"
+  },
+  {
+    "termo": "BVT510 BRITÂNIA",
+    "nome": "Hélice Para Ventilador De Teto Britânia Britânia Turbo Titanium 50 Bvt510 033011144 Do Plástico Cinzacom 6 Pas",
+    "preco": "R$ 30,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/helice-para-ventilador-de-teto-britnia-britnia-turbo-titanium-50-bvt510-033011144-do-plastico-cinzacom-6-pas/p/MLB38838731#polycard_client=search-nordic&wid=MLB3802360465&search_layout=stack&position=1&type=product&tracking_id=b102cccd-c38f-4cb0-b34d-8b61898a080f&sid=search"
+  },
+  {
+    "termo": "VT-30C-NB MONDIAL",
+    "nome": "Ventilador de Coluna 30cm Turbo, Mondial, Preto/Prata, 60W 6 Pás VT-30C-NB",
+    "preco": "R$ 188,02",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ventilador-de-coluna-30cm-turbo-mondial-pretoprata-60w-6-pas-vt-30c-nb/p/MLB19925686#polycard_client=search-nordic&wid=MLB5017448788&search_layout=stack&position=2&type=product&tracking_id=4947a22b-6ba5-4673-b8e0-74567120a727&sid=search"
+  },
+  {
+    "termo": "BVT350 BRITÂNIA",
+    "nome": "Ventilador De Coluna Britânia Bvt350 Maxx Force 75w Cor da estrutura Preto Cor das pás Cinza Diâmetro 30 cm Frequência 60 Material das pás Plástico Quantidade de pás 6",
+    "preco": "R$ 177,88",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ventilador-de-coluna-britnia-bvt350-maxx-force-75w-cor-da-estrutura-preto-cor-das-pas-cinza-dimetro-30-cm-frequncia-60-material-das-pas-plastico-quantidade-de-pas-6/p/MLB27411072#polycard_client=search-nordic&wid=MLB5284954968&search_layout=stack&position=1&type=product&tracking_id=c381e305-ea00-4802-8d92-813c6cfef117&sid=search"
+  },
+  {
+    "termo": "Coluna 30cm VENTISOL",
+    "nome": "Ventilador Silencioso De Coluna 30cm 52w Preto",
+    "preco": "R$ 224,92",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ventilador-silencioso-de-coluna-30cm-52w-preto/p/MLB25003052#polycard_client=search-nordic&wid=MLB5283536292&search_layout=stack&position=18&type=product&tracking_id=ac66368e-e4fc-43af-adb3-8304ce570373&sid=search"
+  },
+  {
+    "termo": "L-99-FB MONDIAL",
+    "nome": "Liquidificador Turbo Power Mondial 550W L-99 FB",
+    "preco": "R$ 114,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-turbo-power-mondial-550w-l-99-fb/p/MLB36636502#polycard_client=search-nordic&wid=MLB5521763876&search_layout=stack&position=3&type=product&tracking_id=10a31b5b-dc85-4c38-b5d1-86d02a75d062&sid=search"
+  },
+  {
+    "termo": "Black 3 BRITÂNIA",
+    "nome": "Liquidificador Britânia 2,1 Litros Black 3 Velocidades Preto",
+    "preco": "R$ 136,39",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-britnia-21-litros-black-3-velocidades-preto/p/MLB22957732#polycard_client=search-nordic&wid=MLB3897080997&search_layout=stack&position=4&type=product&tracking_id=5944d59b-4809-44bf-83af-1d45c659cd69&sid=search"
+  },
+  {
+    "termo": "LQ651 MULTI",
+    "nome": "Liquidificador Turbo Preto 2,3l 650w Multi Home Lq651",
+    "preco": "R$ 97,03",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-turbo-preto-23l-650w-multi-home-lq651/p/MLB38479784#polycard_client=search-nordic&wid=MLB5579239812&search_layout=stack&position=1&type=product&tracking_id=673670bc-cf77-4749-8e1e-9e72e096ee2f&sid=search"
+  },
+  {
+    "termo": "LQ31 ARNO",
+    "nome": "Liquidificador Arno Power Mix Limpa Fácil Lq31 Cor Cinza",
+    "preco": "R$ 265,49",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-arno-power-mix-limpa-facil-lq31-cor-cinza/p/MLB16171769#polycard_client=search-nordic&wid=MLB1835821170&search_layout=stack&position=48&type=product&tracking_id=3ef30091-ed65-482b-bc90-836f5f3f06dc&sid=search"
+  },
+  {
+    "termo": "BLQ920P BRITANIA",
+    "nome": "Liquidificador Britânia Blq920p Turbo Facas Inox 2,6l 600w Cor Preto",
+    "preco": "Indisponível",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-britnia-blq920p-turbo-facas-inox-26l-600w-cor-preto/p/MLB36332778#polycard_client=search-nordic&search_layout=stack&position=5&type=product&tracking_id=39203595-d239-49db-b7bb-2bf32d86a373&wid=&sid=search"
+  },
+  {
+    "termo": "LIQ347 CADENCE",
+    "nome": "Liquidificador Evolution Liq347 Preto Cadence",
+    "preco": "R$ 390,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-2801970623-liquidificador-evolution-liq347-preto-cadence-_JM?searchVariation=175267648687#polycard_client=search-nordic&searchVariation=175267648687&search_layout=stack&position=1&type=item&tracking_id=1152e2a1-4ecc-4118-a3c6-503e019a2349"
+  },
+  {
+    "termo": "L-550-B MONDIAL",
+    "nome": "Liquidificador Easy Power Mondial 550W - L-550-B",
+    "preco": "R$ 77,79",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-easy-power-mondial-550w-l-550-b/p/MLB17353887#polycard_client=search-nordic&wid=MLB3085277415&search_layout=stack&position=2&type=product&tracking_id=134460b3-1587-45ff-8d0d-619ff245a5ad&sid=search"
+  },
+  {
+    "termo": "RI2110/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Daily Philips Walita Ri2110/90 220v",
+    "preco": "R$ 186,98",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-3931806829-liquidificador-daily-philips-walita-ri211090-220v-_JM?searchVariation=182519455446#polycard_client=search-nordic&searchVariation=182519455446&search_layout=stack&position=32&type=item&tracking_id=c82804aa-246f-42a8-98d7-48bef2ecdeaa"
+  },
+  {
+    "termo": "LQ10 ARNO",
+    "nome": "Liquidificador Arno Power Mix Lq10 2 Velocidades+pulsar 550w",
+    "preco": "R$ 197,92",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-1632165667-liquidificador-arno-power-mix-lq10-2-velocidadespulsar-550w-_JM?searchVariation=62203880846#polycard_client=search-nordic&searchVariation=62203880846&search_layout=stack&position=2&type=item&tracking_id=b383d6c7-9709-429c-9311-54384012726e"
+  },
+  {
+    "termo": "LIQ100 CADENCE",
+    "nome": "Liquidificador Cadence Liq100 Twist 2 Velocidades/pulsar",
+    "preco": "R$ 176,16",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4350225540-liquidificador-cadence-liq100-twist-2-velocidadespulsar-_JM?searchVariation=179632788432#polycard_client=search-nordic&searchVariation=179632788432&search_layout=stack&position=5&type=item&tracking_id=f9a060d3-befd-4948-833d-a63ec1920089"
+  },
+  {
+    "termo": "FAST MIX 2 MALLORY",
+    "nome": "Liquidificador Mallory Fast Mix 2 Velocidade 520W Preto",
+    "preco": "R$ 79,99",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-mallory-fast-mix-2-velocidade-520w-preto/p/MLB26001393#polycard_client=search-nordic&wid=MLB4093688295&search_layout=stack&position=2&type=product&tracking_id=b265ab45-e5a2-4dde-a8b5-700a5c12bba8&sid=search"
+  },
+  {
+    "termo": "LQLF AGRATTO",
+    "nome": "Liquidificador Agratto Forza Lqlf-02 Leitoso 1,5l 850w Cor Preto",
+    "preco": "R$ 99,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-agratto-forza-lqlf-02-leitoso-15l-850w-cor-preto/p/MLB22362833#polycard_client=search-nordic&wid=MLB4178357947&search_layout=stack&position=1&type=product&tracking_id=ca60b154-00a2-4445-a29c-05fdbaf760c3&sid=search"
+  },
+  {
+    "termo": "L-97-W MONDIAL",
+    "nome": "Liquidificador Pratic Power Mondial 550W - L-97-W",
+    "preco": "R$ 94,41",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-pratic-power-mondial-550w-l-97-w/p/MLB34730062#polycard_client=search-nordic&wid=MLB4078914429&search_layout=stack&position=1&type=product&tracking_id=f05b2025-de6b-45a5-aaf6-fc8925df6f28&sid=search"
+  },
+  {
+    "termo": "RI2110/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Daily Philips Walita Ri2110/90 220v",
+    "preco": "R$ 186,98",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-3931806829-liquidificador-daily-philips-walita-ri211090-220v-_JM?searchVariation=182519455446#polycard_client=search-nordic&searchVariation=182519455446&search_layout=stack&position=31&type=item&tracking_id=d0d75066-efe2-46ee-a1d4-de62b01ff973"
+  },
+  {
+    "termo": "LQ10 ARNO",
+    "nome": "Liquidificador Arno Power Mix Lq10 2 Velocidades+pulsar 550w",
+    "preco": "R$ 197,92",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-1632165667-liquidificador-arno-power-mix-lq10-2-velocidadespulsar-550w-_JM?searchVariation=62203880846#polycard_client=search-nordic&searchVariation=62203880846&search_layout=stack&position=2&type=item&tracking_id=aa9584de-b02d-4414-b3c3-e30c2e67e1b9"
+  },
+  {
+    "termo": "LIQ100 CADENCE",
+    "nome": "Liquidificador Cadence Liq100 Twist 2 Velocidades/pulsar",
+    "preco": "R$ 176,16",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4350225540-liquidificador-cadence-liq100-twist-2-velocidadespulsar-_JM?searchVariation=179632788432#polycard_client=search-nordic&searchVariation=179632788432&search_layout=stack&position=9&type=item&tracking_id=f78fd704-fb21-47b9-92c4-6ad68dd0f6cb"
+  },
+  {
+    "termo": "FAST MIX 2 MALLORY",
+    "nome": "Liquidificador Mallory Fast Mix 2 Velocidade 520W Preto",
+    "preco": "R$ 79,99",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-mallory-fast-mix-2-velocidade-520w-preto/p/MLB26001393#polycard_client=search-nordic&wid=MLB4093688295&search_layout=stack&position=2&type=product&tracking_id=ab0fc5a7-ed65-4f74-b49f-a326832d4187&sid=search"
+  },
+  {
+    "termo": "LQLF AGRATTO",
+    "nome": "Liquidificador Agratto Forza Lqlf-02 Leitoso 1,5l 850w Cor Preto",
+    "preco": "R$ 99,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-agratto-forza-lqlf-02-leitoso-15l-850w-cor-preto/p/MLB22362833#polycard_client=search-nordic&wid=MLB4178357947&search_layout=stack&position=1&type=product&tracking_id=aeaa5838-284d-4cae-ac11-3fff26d1b4e6&sid=search"
+  },
+  {
+    "termo": "L-900 FB MONDIAL",
+    "nome": "Liquidificador Turbo Full Mondial 900W - L-900 FB",
+    "preco": "R$ 119,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-turbo-full-mondial-900w-l-900-fb/p/MLB9581683#polycard_client=search-nordic&wid=MLB1907758791&search_layout=stack&position=2&type=product&tracking_id=66f3418e-eee6-4424-af4d-53c9e09cbdd1&sid=search"
+  },
+  {
+    "termo": "DIAMANTE PRETO 900W BRITÂNIA",
+    "nome": "Liquidificador Diamante 800 Britânia 900w Preto 2,6l",
+    "preco": "R$ 127,20",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-diamante-800-britnia-900w-preto-26l/p/MLB35535949#polycard_client=search-nordic&wid=MLB4150660495&search_layout=stack&position=1&type=product&tracking_id=6ddad324-7886-4e32-a35b-52007c1e77b9&sid=search"
+  },
+  {
+    "termo": "BLQ970P BRITÂNIA",
+    "nome": "Liquidificador Turbo Blq970p 900w 2,6 Litros Britânia",
+    "preco": "R$ 95,04",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-turbo-blq970p-900w-26-litros-britnia/p/MLB15711240#polycard_client=search-nordic&wid=MLB1803635022&search_layout=stack&position=1&type=product&tracking_id=62e4f5e7-4413-447a-9955-93a54bd8e0f6&sid=search"
+  },
+  {
+    "termo": "LIQ200 CADENCE",
+    "nome": "Liquidificador Hit LIQ200 2,5l 800W Preto Cadence",
+    "preco": "R$ 126,47",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-hit-liq200-25l-800w-preto-cadence/p/MLB26643191#polycard_client=search-nordic&wid=MLB4874511764&search_layout=stack&position=1&type=product&tracking_id=20cb3150-d184-4ec5-baea-f27a82bf9e75&sid=search"
+  },
+  {
+    "termo": "LN61 ARNO",
+    "nome": "Liquidificador Arno Power Max 700 Ln61 3l 700w - Verm -",
+    "preco": "R$ 287,99",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-arno-power-max-700-ln61-3l-700w-verm-/p/MLB15838891#polycard_client=search-nordic&wid=MLB1808197268&search_layout=stack&position=2&type=product&tracking_id=3514647c-da39-4fcb-8201-cb0fe6caf181&sid=search"
+  },
+  {
+    "termo": "LQ35 ARNO",
+    "nome": "Liquidificador Arno Powermix Limpa Fácil 700w Preto Lq35",
+    "preco": "R$ 197,99",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-arno-powermix-limpa-facil-700w-preto-lq35/p/MLB34140999#polycard_client=search-nordic&wid=MLB3915570531&search_layout=stack&position=1&type=product&tracking_id=71693398-f3ef-4b26-8428-b1706a550494&sid=search"
+  },
+  {
+    "termo": "L-1100-BI MONDIAL",
+    "nome": "Liquidificador Turbo, Mondial, 1100W - L-1100 BI",
+    "preco": "R$ 146,29",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-turbo-mondial-1100w-l-1100-bi/p/MLB17006480#polycard_client=search-nordic&wid=MLB3374063274&search_layout=stack&position=2&type=product&tracking_id=e0486269-1fdd-4b48-95dd-c1a94d4bee27&sid=search"
+  },
+  {
+    "termo": "BLQ1280P BRITÂNIA",
+    "nome": "Liquidificador BLQ1280P Pro Maxx 6 1150W Britânia",
+    "preco": "R$ 191,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-blq1280p-pro-maxx-6-1150w-britnia/p/MLB19926017#polycard_client=search-nordic&wid=MLB3009844906&search_layout=stack&position=1&type=product&tracking_id=236d4429-cda5-4740-82df-2f97b10b9c7d&sid=search"
+  },
+  {
+    "termo": "OLIQ606 OSTER",
+    "nome": "Liquidificador Oliq606 1100 Full 3,2l Cinza Oster",
+    "preco": "R$ 179,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-oliq606-1100-full-32l-cinza-oster/p/MLB26066758#polycard_client=search-nordic&wid=MLB3855032568&search_layout=stack&position=2&type=product&tracking_id=56c6dca4-9a3e-46f7-a9f0-d14e30d80953&sid=search"
+  },
+  {
+    "termo": "PLQ1411P PHILCO",
+    "nome": "Liquidificador PLQ1411P 4 Velocidades 2,7l 1150w Philco Cor Preto",
+    "preco": "R$ 179,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-plq1411p-4-velocidades-27l-1150w-philco-cor-preto/p/MLB24525173#polycard_client=search-nordic&wid=MLB3809102096&search_layout=stack&position=2&type=product&tracking_id=e67de991-734c-4fc8-97e2-f52e8c338ac5&sid=search"
+  },
+  {
+    "termo": "BLST3B-R2T OSTER",
+    "nome": "Anel Vedação Blstpyg1210rbg17 / Rbg57 / Blst3b-r2t-017 / 057",
+    "preco": "R$ 49,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-3694332267-anel-vedaco-blstpyg1210rbg17-rbg57-blst3b-r2t-017-057-_JM#polycard_client=search-nordic&search_layout=stack&position=5&type=item&tracking_id=70ab2357-6305-444a-ae52-d94ba2e2712f&wid=MLB3694332267&sid=search"
+  },
+  {
+    "termo": "LQ1111 MULTI",
+    "nome": "Liquidificador Turbo 2,6l 8 Vel 1100w Cz Multi Lq1111 Cor Cinza",
+    "preco": "R$ 99,99",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-turbo-26l-8-vel-1100w-cz-multi-lq1111-cor-cinza/p/MLB28691490#polycard_client=search-nordic&wid=MLB4278168738&search_layout=stack&position=1&type=product&tracking_id=022304fa-f0f9-4e86-8c79-df78c9dda33f&sid=search"
+  },
+  {
+    "termo": "L-28 MONDIAL",
+    "nome": "Liquidificador Power 2 Black Mondial 550W L-28",
+    "preco": "R$ 99,99",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-power-2-black-mondial-550w-l-28/p/MLB14561572#polycard_client=search-nordic&wid=MLB5454555930&search_layout=stack&position=3&type=product&tracking_id=c214e948-9b1b-40d4-b150-faf6c4560dac&sid=search"
+  },
+  {
+    "termo": "RI2112/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Daily Jarra San Philips Walita Ri2112/90 600w",
+    "preco": "R$ 379,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4592636398-liquidificador-daily-jarra-san-philips-walita-ri211290-600w-_JM?searchVariation=182423636481#polycard_client=search-nordic&searchVariation=182423636481&search_layout=stack&position=4&type=item&tracking_id=fcf227c0-9531-48b8-98d3-7f4d720fcefb"
+  },
+  {
+    "termo": "Flash Mix MALLORY",
+    "nome": "Liquidificador Flash Mix 2,1 L 450w Branco Mallory",
+    "preco": "R$ 99,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-flash-mix-21-l-450w-branco-mallory/p/MLB15957519#polycard_client=search-nordic&wid=MLB5530089470&search_layout=stack&position=6&type=product&tracking_id=80aa7cc1-91db-4c0d-b28f-c9b632f43628&sid=search"
+  },
+  {
+    "termo": "Flash Mix+ MALLORY",
+    "nome": "Liquidificador Flash Mix+ 2,1 Litros Branco Mallory",
+    "preco": "R$ 124,51",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-flash-mix-21-litros-branco-mallory/p/MLB15957516#polycard_client=search-nordic&wid=MLB5352656536&search_layout=stack&position=7&type=product&tracking_id=c7706e07-af3d-4ad6-b28b-14bc392f3c66&sid=search"
+  },
+  {
+    "termo": "L-1200-BI MONDIAL",
+    "nome": "Liquidificador Turbo, Mondial, 1200W - L-1200 BI",
+    "preco": "R$ 168,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-turbo-mondial-1200w-l-1200-bi/p/MLB14561589#polycard_client=search-nordic&wid=MLB5043521956&search_layout=stack&position=2&type=product&tracking_id=f3d67b7b-1c7b-4e4a-a7ab-e967afb2c79c&sid=search"
+  },
+  {
+    "termo": "PH900 Preto PHILCO",
+    "nome": "Arraste Do Motor Para Liquidificador Philco Ph900 Preto",
+    "preco": "R$ 19,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/arraste-do-motor-para-liquidificador-philco-ph900-preto/p/MLB34750570#polycard_client=search-nordic&wid=MLB4665702766&search_layout=stack&position=2&type=product&tracking_id=39638058-700b-4fd9-b52b-64a63a2e8750&sid=search"
+  },
+  {
+    "termo": "RI2242_90 PHILLIPS WALITA",
+    "nome": "Liquidificador Philips Walita RI2242/90 Série 5000 3 Litros 1200W 12 Velocidades Preto",
+    "preco": "R$ 279,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-philips-walita-ri224290-serie-5000-3-litros-1200w-12-velocidades-preto/p/MLB17852313#polycard_client=search-nordic&wid=MLB2066514329&search_layout=stack&position=1&type=product&tracking_id=528f413c-5b24-4c1b-b518-f397e3115ae5&sid=search"
+  },
+  {
+    "termo": "PLQ2100PI PHILCO",
+    "nome": "Liquidificador PLQ2100PI 12+Turbo 3l 1200w Philco 220 V",
+    "preco": "R$ 173,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-plq2100pi-12turbo-3l-1200w-philco-220-v/p/MLB27411077#polycard_client=search-nordic&wid=MLB5619980658&search_layout=stack&position=1&type=product&tracking_id=21e01116-10de-4fff-bc12-0d5a77853c6e&sid=search"
+  },
+  {
+    "termo": "RI2240_90 PHILLIPS WALITA",
+    "nome": "Liquidificador Série 5000 Philips Walita 1200w Ri2240 Cor Vermelho",
+    "preco": "R$ 380,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-serie-5000-philips-walita-1200w-ri2240-cor-vermelho/p/MLB24525170#polycard_client=search-nordic&wid=MLB4134986618&search_layout=stack&position=3&type=product&tracking_id=2b052c19-3821-4c25-aa96-953887adb123&sid=search"
+  },
+  {
+    "termo": "BLQ1380P BRITÂNIA",
+    "nome": "Liquidificador Blq1380p Pro Maxx 6 Inox 3l 1200w Britânia Cor Preto",
+    "preco": "R$ 139,30",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-blq1380p-pro-maxx-6-inox-3l-1200w-britnia-cor-preto/p/MLB23987361#polycard_client=search-nordic&wid=MLB3351532015&search_layout=stack&position=1&type=product&tracking_id=ac1b2305-9cce-40b5-b3ea-a7ee57819d11&sid=search"
+  },
+  {
+    "termo": "L-1400-GI MONDIAL",
+    "nome": "Liquidificador Turbo Glass Jarra De Vidro Mondial 1400W L-1400 GI",
+    "preco": "R$ 241,85",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-turbo-glass-jarra-de-vidro-mondial-1400w-l-1400-gi/p/MLB26206027#polycard_client=search-nordic&wid=MLB3500510877&search_layout=stack&position=1&type=product&tracking_id=391a0813-a05a-42a1-8b53-fa8960a6267a&sid=search"
+  },
+  {
+    "termo": "BLSTMG-BR8 OSTER",
+    "nome": "Jarra De Vidro P/ Liquidificador Super Chef Oster Blstmg-br8",
+    "preco": "R$ 139,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/jarra-de-vidro-p-liquidificador-super-chef-oster-blstmgbr8/up/MLBU2458060806#polycard_client=search-nordic&wid=MLB5130851196&search_layout=stack&position=26&type=product&tracking_id=b1eeb67e-b7c4-4a25-86e6-b3c1e7a4a8cb&sid=search"
+  },
+  {
+    "termo": "PLQ1350 PHILCO",
+    "nome": "Liquidificador Turbo Plq1350 1200w Preto E Inox Philco",
+    "preco": "R$ 218,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-turbo-plq1350-1200w-preto-e-inox-philco/p/MLB16273521#polycard_client=search-nordic&wid=MLB5624190780&search_layout=stack&position=2&type=product&tracking_id=f684904a-53fb-4613-89f6-10af24a59ac7&sid=search"
+  },
+  {
+    "termo": "OLIQ520 OSTER",
+    "nome": "Liquidificador Oster Oliq520 Preto de 1,8L 1250W Jarra De Vidro e Laminas em Inox",
+    "preco": "R$ 291,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-oster-oliq520-preto-de-18l-1250w-jarra-de-vidro-e-laminas-em-inox/p/MLB20708215#polycard_client=search-nordic&wid=MLB5384825336&search_layout=stack&position=1&type=product&tracking_id=8661be7a-31a3-4a32-82f0-5e91c1922ff3&sid=search"
+  },
+  {
+    "termo": "EBS30 ELECTROLUX",
+    "nome": "Conj. Acoplamento Faca Liquidificador Electrolux Ebs30",
+    "preco": "R$ 59,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/conj-acoplamento-faca-liquidificador-electrolux-ebs30/p/MLB53399271#polycard_client=search-nordic&wid=MLB4147064315&search_layout=stack&position=2&type=product&tracking_id=00160288-bd72-486a-ad06-b0dbcdcb7578&sid=search"
+  },
+  {
+    "termo": "OLIQ501 OSTER",
+    "nome": "Acoplador Arraste Liquidificador Power Oster Oliq501",
+    "preco": "R$ 25,38",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/acoplador-arraste-liquidificador-power-oster-oliq501/up/MLBU1741859524#polycard_client=search-nordic&wid=MLB3729653499&search_layout=stack&position=14&type=product&tracking_id=c6cca6b7-db96-4e04-80c9-c0dfff9a7867&sid=search"
+  },
+  {
+    "termo": "L-98-B MONDIAL",
+    "nome": "Liquidificador Pratic Turbo, Mondial, 550W - L-98-B",
+    "preco": "R$ 98,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/liquidificador-pratic-turbo-mondial-550w-l-98-b/p/MLB37700507#polycard_client=search-nordic&wid=MLB5069004464&search_layout=stack&position=1&type=product&tracking_id=2f0d4a28-a867-4d83-8c7b-31fb533503ba&sid=search"
+  },
+  {
+    "termo": "RI2112/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Daily Jarra San Philips Walita Ri2112/90 600w",
+    "preco": "R$ 379,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4592636398-liquidificador-daily-jarra-san-philips-walita-ri211290-600w-_JM?searchVariation=182423636481#polycard_client=search-nordic&searchVariation=182423636481&search_layout=stack&position=4&type=item&tracking_id=fac7932b-ddce-435e-9618-274637eafc47"
+  },
+  {
+    "termo": "Flash Mix MALLORY",
+    "nome": "Liquidificador Flash Mix 2,1 L 450w Branco Mallory",
+    "preco": "R$ 99,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-flash-mix-21-l-450w-branco-mallory/p/MLB15957519#polycard_client=search-nordic&wid=MLB5530089470&search_layout=stack&position=8&type=product&tracking_id=e9c244f1-b9e8-4080-a714-cf07eb6af972&sid=search"
+  },
+  {
+    "termo": "Flash Mix+ MALLORY",
+    "nome": "Liquidificador Flash Mix+ 2,1 Litros Branco Mallory",
+    "preco": "R$ 124,51",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-flash-mix-21-litros-branco-mallory/p/MLB15957516#polycard_client=search-nordic&wid=MLB5352656536&search_layout=stack&position=8&type=product&tracking_id=9b958fc2-4918-41f5-9806-8b55ccef9454&sid=search"
+  },
+  {
+    "termo": "L-77 MONDIAL",
+    "nome": "Liquidificador Turbo Power L-77 500W Mondial",
+    "preco": "R$ 146,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-turbo-power-l-77-500w-mondial/p/MLB18628493#polycard_client=search-nordic&wid=MLB5629095720&search_layout=stack&position=20&type=product&tracking_id=9c6a76ab-9073-49d3-8bd5-c4772c692474&sid=search"
+  },
+  {
+    "termo": "RI2112/90 PHILLIPS WALITA",
+    "nome": "Liquidificador Daily Jarra San Philips Walita Ri2112/90 600w",
+    "preco": "R$ 379,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4592636398-liquidificador-daily-jarra-san-philips-walita-ri211290-600w-_JM?searchVariation=182423636481#polycard_client=search-nordic&searchVariation=182423636481&search_layout=stack&position=4&type=item&tracking_id=15d0dc6b-750f-4fc9-87f8-aeda376695ab"
+  },
+  {
+    "termo": "Flash Mix MALLORY",
+    "nome": "Liquidificador Flash Mix 2,1 L 450w Branco Mallory",
+    "preco": "R$ 99,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-flash-mix-21-l-450w-branco-mallory/p/MLB15957519#polycard_client=search-nordic&wid=MLB5530089470&search_layout=stack&position=8&type=product&tracking_id=5cee20af-c3d3-4bf3-b752-2fd9b3bdca5f&sid=search"
+  },
+  {
+    "termo": "Flash Mix+ MALLORY",
+    "nome": "Liquidificador Flash Mix+ 2,1 Litros Branco Mallory",
+    "preco": "R$ 124,51",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/liquidificador-flash-mix-21-litros-branco-mallory/p/MLB15957516#polycard_client=search-nordic&wid=MLB5352656536&search_layout=stack&position=8&type=product&tracking_id=9fc6e87e-ccb9-47d9-875a-fdfc49226c1e&sid=search"
+  },
+  {
+    "termo": "AFN-50-BI MONDIAL",
+    "nome": "Acabamento Plastico Superior Da Fritadeira Afn-50-bi Mondial",
+    "preco": "R$ 45,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/acabamento-plastico-superior-da-fritadeira-afn50bi-mondial/up/MLBU3390734386#polycard_client=search-nordic&wid=MLB4180150521&search_layout=stack&position=2&type=product&tracking_id=29a7ff2b-e684-4767-a408-5b7434a43348&sid=search"
+  },
+  {
+    "termo": "AFN-50-RI MONDIAL",
+    "nome": "Fritadeira Sem Óleo Air Fryer 5L Mondial 1900W - AFN-50-RI",
+    "preco": "R$ 418,99",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-sem-oleo-air-fryer-5l-mondial-1900w-afn-50-ri/p/MLB28034949#polycard_client=search-nordic&wid=MLB3509452679&search_layout=stack&position=1&type=product&tracking_id=1e8e801b-26b1-46d2-bcff-f0a6828459a2&sid=search"
+  },
+  {
+    "termo": "BFR51 BRITANIA",
+    "nome": "Air Fryer BFR51 5,5L Antiaderente Gold Com Controle de Temperatura e Potência de 1500W Cor Preto Britânia",
+    "preco": "R$ 329,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/air-fryer-bfr51-55l-antiaderente-gold-com-controle-de-temperatura-e-potncia-de-1500w-cor-preto-britnia/p/MLB37798575#polycard_client=search-nordic&wid=MLB4811881516&search_layout=stack&position=1&type=product&tracking_id=ff200887-58b5-436e-961b-971b22e8dec9&sid=search"
+  },
+  {
+    "termo": "PAF55A PHILCO",
+    "nome": "Air Fryer Philco 5,5l Cesto Quadrado 1500w Paf55a Cor Preto",
+    "preco": "R$ 418,88",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/air-fryer-philco-55l-cesto-quadrado-1500w-paf55a-cor-preto/p/MLB41524563#polycard_client=search-nordic&wid=MLB3998833001&search_layout=stack&position=1&type=product&tracking_id=16975c54-0518-48f4-ba75-258969dcc791&sid=search"
+  },
+  {
+    "termo": "EAF40 ELECTROLUX",
+    "nome": "Air Fryer Fritadeira Elétrica Sem Oleo Electrolux Rita Lobo 5,6l 8 Receitas Pré-sugeridas Timer 60 Minutos Desligamento Automático Cesto Removível Antiaderente 1400w Cinza Eaf40",
+    "preco": "R$ 446,88",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/air-fryer-fritadeira-eletrica-sem-oleo-electrolux-rita-lobo-56l-8-receitas-pre-sugeridas-timer-60-minutos-desligamento-automatico-cesto-removivel-antiaderente-1400w-cinza-eaf40/p/MLB46101113#polycard_client=search-nordic&wid=MLB5395020272&search_layout=stack&position=1&type=product&tracking_id=74780886-db01-4396-be2a-add581eac7b7&sid=search"
+  },
+  {
+    "termo": "Fryer Space ELGIN",
+    "nome": "Fritadeira Elétrica Space 5 Elgin 5l 1700w Airfryer",
+    "preco": "R$ 295,64",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-space-5-elgin-5l-1700w-airfryer/p/MLB34732091#polycard_client=search-nordic&wid=MLB4093730041&search_layout=stack&position=1&type=product&tracking_id=0919d740-02a9-4197-9501-5b8da186302d&sid=search"
+  },
+  {
+    "termo": "FRB50P1 MIDEA",
+    "nome": "Tampa Decorativa Fritadeira Sem Oleo 53l Midea Frb50p1",
+    "preco": "R$ 56,54",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/tampa-decorativa-fritadeira-sem-oleo-53l-midea-frb50p1/up/MLBU2887656738#polycard_client=search-nordic&wid=MLB3927243717&search_layout=stack&position=16&type=product&tracking_id=8f5788f4-1ec8-465b-94b6-5aba41f2c882&sid=search"
+  },
+  {
+    "termo": "AFN-60-BI MONDIAL",
+    "nome": "Fritadeira Sem Óleo Air Fryer 6L, Mondial, 1900W - AFN-60-BI",
+    "preco": "R$ 447,47",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-sem-oleo-air-fryer-6l-mondial-1900w-afn-60-bi/p/MLB25170570#polycard_client=search-nordic&wid=MLB3900414090&search_layout=stack&position=1&type=product&tracking_id=64c32d6c-a954-4591-aae1-447c9a788779&sid=search"
+  },
+  {
+    "termo": "AFN-60-RI MONDIAL",
+    "nome": "Fritadeira Sem Óleo Air Fryer 6L Mondial 1900W - AFN-60-RI cor Vermelho/Inox",
+    "preco": "R$ 454,26",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-sem-oleo-air-fryer-6l-mondial-1900w-afn-60-ri-cor-vermelhoinox/p/MLB25170565#polycard_client=search-nordic&wid=MLB3540525443&search_layout=stack&position=1&type=product&tracking_id=3bee223b-9d2d-45c2-84b3-263a6a088e4f&sid=search"
+  },
+  {
+    "termo": "EAF50 ELECTROLUX",
+    "nome": "Air fryer Fritadeira Sem Óleo Elétrica Electrolux 6,5L Family Cesto Removível Com Timer 1700W de potência EAF50 Grafite Efficient Por Rita Lobo",
+    "preco": "R$ 459,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/air-fryer-fritadeira-sem-oleo-eletrica-electrolux-65l-family-cesto-removivel-com-timer-1700w-de-potncia-eaf50-grafite-efficient-por-rita-lobo/p/MLB21854194#polycard_client=search-nordic&wid=MLB4431670722&search_layout=stack&position=1&type=product&tracking_id=14bdcd4d-798e-4a7c-b635-e187aa5b83ed&sid=search"
+  },
+  {
+    "termo": "RI9280 WALITA",
+    "nome": "Fritadeira Airfryer Xl Conectada Philips Walita Preta Ri9280",
+    "preco": "R$ 696,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fritadeira-airfryer-xl-conectada-philips-walita-preta-ri9280/p/MLB39936424#polycard_client=search-nordic&wid=MLB5595033048&search_layout=stack&position=1&type=product&tracking_id=1d62913f-99c1-4366-b018-674710094538&sid=search"
+  },
+  {
+    "termo": "PFR67PI PHILCO",
+    "nome": "Fritadeira Air Fryer Pfr67pi Antiaderente 6l Philco",
+    "preco": "R$ 441,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-pfr67pi-antiaderente-6l-philco/p/MLB26422783#polycard_client=search-nordic&wid=MLB4090588207&search_layout=stack&position=1&type=product&tracking_id=1a90e68a-fc9b-4d7b-8eab-77fa5923810a&sid=search"
+  },
+  {
+    "termo": "MAD600010APKW1 MIDEA",
+    "nome": "Fritadeira Air Fryer 6l Smart Chef Plus Cor Preta Midea Cor Preto",
+    "preco": "R$ 484,07",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-6l-smart-chef-plus-cor-preta-midea-cor-preto/p/MLB41882433#polycard_client=search-nordic&wid=MLB5329650422&search_layout=stack&position=1&type=product&tracking_id=eef8f8f8-2d0d-4f84-a472-079c7e3955b7&sid=search"
+  },
+  {
+    "termo": "AFD6 ARNO",
+    "nome": "Fritadeira Sem Óleo Arno Airfry & Grill Expert Maxx Digital Cor Preto",
+    "preco": "R$ 695,39",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-sem-oleo-arno-airfry-grill-expert-maxx-digital-cor-preto/p/MLB44980227#polycard_client=search-nordic&wid=MLB3940979511&search_layout=stack&position=1&type=product&tracking_id=762fe1c0-cddc-435d-b289-cacd1ff8f598&sid=search"
+  },
+  {
+    "termo": "AFN-80-BI MONDIAL",
+    "nome": "FritFritadeira Sem Óleo Air Fryer 8L Mondial 1900W AFN-80-BI",
+    "preco": "R$ 619,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritfritadeira-sem-oleo-air-fryer-8l-mondial-1900w-afn-80-bi/p/MLB26404382#polycard_client=search-nordic&wid=MLB3600475229&search_layout=stack&position=2&type=product&tracking_id=6ecc3e3c-d232-410a-bfc2-c18039162252&sid=search"
+  },
+  {
+    "termo": "AFN-80-RI MONDIAL",
+    "nome": "Fusível Térmico 216°c 16a P/ Air Fryer Mondial Afn-80-ri",
+    "preco": "R$ 22,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fusivel-termico-216c-16a-p-air-fryer-mondial-afn80ri/up/MLBU3142856998#polycard_client=search-nordic&wid=MLB4040467161&search_layout=stack&position=3&type=product&tracking_id=cd16e6b5-0c4a-4f54-9f03-8357c4f81087&sid=search"
+  },
+  {
+    "termo": "AFN-80-FB MONDIAL",
+    "nome": "Fritadeira Sem Óleo Air Fryer 8L, Mondial, 1900W - AFN-80-FB",
+    "preco": "R$ 512,33",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-sem-oleo-air-fryer-8l-mondial-1900w-afn-80-fb/p/MLB25170568#polycard_client=search-nordic&wid=MLB3411127553&search_layout=stack&position=1&type=product&tracking_id=3f80fa13-b6ab-4161-bdc6-bad9c75ef323&sid=search"
+  },
+  {
+    "termo": "PFR13P PHILCO",
+    "nome": "Fritadeira Air Fryer Philco Gourmet Jumbo Pfr13p 8,1l 1800w",
+    "preco": "R$ 554,01",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-3426448431-fritadeira-air-fryer-philco-gourmet-jumbo-pfr13p-81l-1800w-_JM?searchVariation=179639575093#polycard_client=search-nordic&searchVariation=179639575093&search_layout=stack&position=1&type=item&tracking_id=3c80c240-1b10-427d-bed9-2c0c6d528b85"
+  },
+  {
+    "termo": "Chrome Fry ELGIN",
+    "nome": "Fritadeira Elétrica Chrome Fry Inox Elgin 8l Airfryer",
+    "preco": "R$ 461,25",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-chrome-fry-inox-elgin-8l-airfryer/p/MLB36494314#polycard_client=search-nordic&wid=MLB4964730376&search_layout=stack&position=1&type=product&tracking_id=4ecd2539-5301-4d6f-ae9c-b2a592b3b039&sid=search"
+  },
+  {
+    "termo": "Gran Fry ELGIN",
+    "nome": "Fritadeira Elétrica Air Fryer Gran Fry Elgin - 8 Litros Preto",
+    "preco": "R$ 367,51",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-gran-fry-elgin-8-litros-preto/p/MLB50179327#polycard_client=search-nordic&wid=MLB4094549035&search_layout=stack&position=1&type=product&tracking_id=6afb9cff-df6c-410d-a7ed-ec40df11fb06&sid=search"
+  },
+  {
+    "termo": "FWM85P1 MIDEA",
+    "nome": "Fritadeira Air Fryer 8,5l Wide Max Cyclone Preto Midea",
+    "preco": "R$ 515,17",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-85l-wide-max-cyclone-preto-midea/p/MLB48848988#polycard_client=search-nordic&wid=MLB5408321754&search_layout=stack&position=1&type=product&tracking_id=7858a443-57a1-45e0-aa07-fea2cc8fc5d9&sid=search"
+  },
+  {
+    "termo": "AFDO-25L-FD MONDIAL",
+    "nome": "Air Fryer Forno 25l French Door Mondial Preto/inox 2000w - A",
+    "preco": "R$ 2056,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4178290845-air-fryer-forno-25l-french-door-mondial-pretoinox-2000w-a-_JM?searchVariation=190165193197#polycard_client=search-nordic&searchVariation=190165193197&search_layout=stack&position=2&type=item&tracking_id=eaf68681-a6fb-472c-ad9a-3cd41cb98f80"
+  },
+  {
+    "termo": "AF-250FD2 Labravia",
+    "nome": "Frahm Slim 1800 Com 8 Arandelas Quad Hurricane 50w 8 Ohms",
+    "preco": "R$ 1379,86",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-5161509842-frahm-slim-1800-com-8-arandelas-quad-hurricane-50w-8-ohms-_JM?searchVariation=185943232859#polycard_client=search-nordic&searchVariation=185943232859&search_layout=stack&position=1&type=item&tracking_id=c6cdafbd-c886-4491-9908-a4ac236924cc"
+  },
+  {
+    "termo": "TSSTTVFDMAF OSTER",
+    "nome": "Bandeja Assar Forno Air Fryer Oster Tssttvfdmaf French Door",
+    "preco": "R$ 229,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/bandeja-assar-forno-air-fryer-oster-tssttvfdmaf-french-door/up/MLBU1119394757#polycard_client=search-nordic&wid=MLB3190037423&search_layout=stack&position=2&type=product&tracking_id=d428a099-2d0c-46be-a489-7cbf6bbe081d&sid=search"
+  },
+  {
+    "termo": "BAP23 BRITÂNIA",
+    "nome": "Aparador de Pelos Britânia Multigroom 11 em 1 Preto BAP23",
+    "preco": "R$ 117,32",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/aparador-de-pelos-britnia-multigroom-11-em-1-preto-bap23/p/MLB42241990#polycard_client=search-nordic&wid=MLB5361170786&search_layout=stack&position=2&type=product&tracking_id=53d34261-42ee-4ff3-a533-ac1d9566198a&sid=search"
+  },
+  {
+    "termo": "BG-09 MONDIAL",
+    "nome": "Aparador De Pelos Mondial Bodygroom 8 Em 1 Bivolt Bg-09 Preto",
+    "preco": "R$ 179,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/aparador-de-pelos-mondial-bodygroom-8-em-1--bivolt-bg09/up/MLBU3254138098#polycard_client=search-nordic&wid=MLB5450309212&search_layout=stack&position=4&type=product&tracking_id=bddf9e31-bca2-485c-8c82-c13c8c888887&sid=search"
+  },
+  {
+    "termo": "PAP03 PHILCO",
+    "nome": "Pente 3mm Aparador De Pelos Philco Multigroom Pap03",
+    "preco": "R$ 30,46",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/pente-3mm-aparador-de-pelos-philco-multigroom-pap03/up/MLBU3335103270#polycard_client=search-nordic&wid=MLB5530364194&search_layout=stack&position=3&type=product&tracking_id=c937baf8-73f3-415a-aab5-caa90fd09e74&sid=search"
+  },
+  {
+    "termo": "MG3711/15 PHILIPS",
+    "nome": "Aparador De Pelos Philips Multigroom 3000 - Mg3711/15",
+    "preco": "R$ 231,17",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-3950602561-aparador-de-pelos-philips-multigroom-3000-mg371115-_JM?searchVariation=186716443635#polycard_client=search-nordic&searchVariation=186716443635&search_layout=stack&position=1&type=item&tracking_id=fc0c1c82-2b25-4a6b-9868-0e9d493b6499"
+  },
+  {
+    "termo": "AWS-T2W-02 AIWA",
+    "nome": "Torre De Som Aiwa Aws-t2w-02 2300w Bluetooth",
+    "preco": "R$ 2599,99",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-5387276282-torre-de-som-aiwa-aws-t2w-02-2300w-bluetooth-_JM?searchVariation=187938823231#polycard_client=search-nordic&searchVariation=187938823231&search_layout=grid&position=4&type=item&tracking_id=d4202f1e-c314-41f4-914e-822b7c4a13f7"
+  },
+  {
+    "termo": "AWS-SP-01 AIWA",
+    "nome": "Aiwa AWS-SP-01 Caixa De Som Speaker Bluetooth Cor Preto Aiwa",
+    "preco": "R$ 195,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/aiwa-aws-sp-01-caixa-de-som-speaker-bluetooth-cor-preto-aiwa/p/MLB26826554#polycard_client=search-nordic&wid=MLB3598184427&search_layout=grid&position=1&type=product&tracking_id=adbdb833-c738-468b-8681-cad9aca1891e&sid=search"
+  },
+  {
+    "termo": "AWS-T1W-02 AIWA",
+    "nome": "Caixa Bluetooth 1600w Rms Tower Sound, Aws-t1w-02, Preta",
+    "preco": "R$ 1720,78",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-bluetooth-1600w-rms-tower-sound-awst1w02-preta/up/MLBU2590537478#polycard_client=search-nordic&wid=MLB5144875418&search_layout=grid&position=2&type=product&tracking_id=398db0fe-51ed-4b5a-9bff-f690c179ee4e&sid=search"
+  },
+  {
+    "termo": "BOOMBOX 3 JBL",
+    "nome": "Caixa De Som Jbl Boombox 3 Preto 180w Bivolt",
+    "preco": "R$ 2599,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-5276221274-caixa-de-som-jbl-boombox-3-preto-180w-bivolt-_JM?searchVariation=182830421776#polycard_client=search-nordic&searchVariation=182830421776&search_layout=grid&position=3&type=item&tracking_id=4b474f65-a2f5-4f27-b470-a1a774d25a9d"
+  },
+  {
+    "termo": "XBOOM XG9S LG",
+    "nome": "Caixa De Som Portátil LG Boombox Xboom Go Xg9 Power Bluetoot Cor Preto",
+    "preco": "R$ 1699,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-portatil-lg-boombox-xboom-go-xg9-power-bluetoot-cor-preto/p/MLB47329866#polycard_client=search-nordic&wid=MLB5368667872&search_layout=grid&position=1&type=product&tracking_id=0ab7bc81-f0cc-4c58-b167-8370fcb2f27e&sid=search"
+  },
+  {
+    "termo": "RNC9 LG",
+    "nome": "Caixa Acústica LG Rnc9 Xboom Bivolt",
+    "preco": "R$ 1948,98",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-acustica-lg-rnc9-xboom-bivolt/p/MLB35159917#polycard_client=search-nordic&wid=MLB5340024092&search_layout=grid&position=1&type=product&tracking_id=298f45e9-e46d-4755-8568-a504b0bc3e34&sid=search"
+  },
+  {
+    "termo": "RNC7 LG",
+    "nome": "Caixa De Som Acústica LG Xboom Rnc7 Bluetooth Wireless Cor Preto",
+    "preco": "R$ 1351,44",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-acustica-lg-xboom-rnc7-bluetooth-wireless-cor-preto/p/MLB26070003#polycard_client=search-nordic&wid=MLB5527344668&search_layout=grid&position=1&type=product&tracking_id=d2b0733c-ae18-4b48-aaf9-a5970114402b&sid=search"
+  },
+  {
+    "termo": "RNC5 LG",
+    "nome": "Caixa De Som Acústica LG Xboom Rnc5 Multi Bluetooth Graves P Cor Preto",
+    "preco": "R$ 1129,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-acustica-lg-xboom-rnc5-multi-bluetooth-graves-p-cor-preto/p/MLB25238701#polycard_client=search-nordic&wid=MLB5530430536&search_layout=grid&position=1&type=product&tracking_id=01cbec0e-2fd6-42f9-83bd-bf9140d03e3f&sid=search"
+  },
+  {
+    "termo": "Hyperboom 1000 WAAW",
+    "nome": "Caixa de Som Bluetooth Waaw by Alok Hyperboom 1000 À Prova d'Água, Até 12h de Autonomia",
+    "preco": "R$ 1499,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-waaw-by-alok-hyperboom-1000-prova-dagua-ate-12h-de-autonomia/p/MLB41578499#polycard_client=search-nordic&wid=MLB4184695413&search_layout=grid&position=1&type=product&tracking_id=336fbcd7-a20b-4c7a-a59c-b82218ff8526&sid=search"
+  },
+  {
+    "termo": "MCE-01-AL MONDIAL",
+    "nome": "Sistema De Partida Fácil Mini Moto Quadriciclo 49cc",
+    "preco": "R$ 135,50",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-1926553361-sistema-de-partida-facil-mini-moto-quadriciclo-49cc-_JM#polycard_client=search-nordic&search_layout=stack&position=1&type=item&tracking_id=4ea9dfc2-70ee-4ca5-9dc0-789216c7f6a2&wid=MLB1926553361&sid=search"
+  },
+  {
+    "termo": "BVSTEM7300 OSTER",
+    "nome": "Chave Seletora Cafeteira Oster Barista Bvstem7300 Original",
+    "preco": "R$ 58,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/chave-seletora-cafeteira-oster-barista-bvstem7300-original/up/MLBU1138342039#polycard_client=search-nordic&wid=MLB3564268927&search_layout=stack&position=2&type=product&tracking_id=79fafe47-5f7d-4173-b761-5ee69d873bb5&sid=search"
+  },
+  {
+    "termo": "BVSTEM8100 OSTER",
+    "nome": "Cafeteira Espresso Oster Compacta Perfect Brew 127v",
+    "preco": "R$ 1998,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-5597643336-cafeteira-espresso-oster-compacta-perfect-brew-127v-_JM?searchVariation=184808737348#polycard_client=search-nordic&searchVariation=184808737348&search_layout=stack&position=1&type=item&tracking_id=971071f9-62aa-4e6b-809f-688b993bf648"
+  },
+  {
+    "termo": "EP1220 WALITA",
+    "nome": "Cafeteira Espresso Série 1200 Philips Walita Ep1220 1400W Cor Preta",
+    "preco": "R$ 2799,99",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/cafeteira-espresso-serie-1200-philips-walita-ep1220-1400w-cor-preta/p/MLB19599219#polycard_client=search-nordic&wid=MLB3754207217&search_layout=stack&position=1&type=product&tracking_id=0d9fd904-41a1-4858-abd9-cac174dd5dcf&sid=search"
+  },
+  {
+    "termo": "EP2230 WALITA",
+    "nome": "Cafeteira Philips Walita Serie 2200 Ep2230 Lattego",
+    "preco": "R$ 39,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/cafeteira-philips-walita-serie-2200-ep2230-lattego/p/MLB36200112#polycard_client=search-nordic&wid=MLB3671201355&search_layout=stack&position=1&type=product&tracking_id=163b657a-19c3-40e7-b310-1d38eb1be652&sid=search"
+  },
+  {
+    "termo": "EP5441 WALITA",
+    "nome": "Cafeteira Espresso Superautomática Philips Walita Ep2330",
+    "preco": "R$ 3799,92",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-3797798813-cafeteira-espresso-superautomatica-philips-walita-ep2330-_JM?searchVariation=181227470500#polycard_client=search-nordic&searchVariation=181227470500&search_layout=stack&position=1&type=item&tracking_id=eb094888-476d-4b28-a3bb-9cdddc36043e"
+  },
+  {
+    "termo": "CESP ARNO",
+    "nome": "Cafeteira Elétrica Arno Espresso Steam & Pump Inox 1l Cesp Cor In",
+    "preco": "R$ 1614,99",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/cafeteira-eletrica-arno-espresso-steam-pump-inox-1l-cesp-cor-in/p/MLB41169350#polycard_client=search-nordic&wid=MLB5107287036&search_layout=stack&position=1&type=product&tracking_id=7a86ac25-0f0b-4ece-90db-c245888e659f&sid=search"
+  },
+  {
+    "termo": "BCF33 BRITÂNIA",
+    "nome": "Cafeteira Britânia Bcf33 (Usado)",
+    "preco": "R$ 500,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-4137053171-cafeteira-britnia-bcf33-_JM?searchVariation=184409918626#polycard_client=search-nordic&searchVariation=184409918626&search_layout=stack&position=14&type=item&tracking_id=d47a1300-51fc-4cfd-8751-72d23acf3636"
+  },
+  {
+    "termo": "C-20-EC MONDIAL",
+    "nome": "Cafeteira Espresso Dolce Crema 20 Bar Mondial C-20-EC",
+    "preco": "R$ 535,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/cafeteira-espresso-dolce-crema-20-bar-mondial-c-20-ec/p/MLB37967247#polycard_client=search-nordic&wid=MLB3998273677&search_layout=stack&position=1&type=product&tracking_id=10f29163-2562-4b75-907f-6decaa467571&sid=search"
+  },
+  {
+    "termo": "BVSTEM7200 OSTER",
+    "nome": "Cafeteira Oster Espresso Bvstem7200 Prateado (Recondicionado)",
+    "preco": "R$ 1139,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/cafeteira-oster-espresso-bvstem7200/up/MLBU3363376063#polycard_client=search-nordic&wid=MLB4165160025&search_layout=stack&position=23&type=product&tracking_id=cb7954f0-31fb-415b-a59c-1ef8efc05202&sid=search"
+  },
+  {
+    "termo": "OCAF900-127 / OCAF900-220 OSTER",
+    "nome": "Cafeteira Espresso Double Digital Oster Cor Prateado/Preto",
+    "preco": "R$ 757,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/cafeteira-espresso-double-digital-oster-cor-prateadopreto/p/MLB35961182#polycard_client=search-nordic&wid=MLB5643601852&search_layout=stack&position=1&type=product&tracking_id=f9b7b0af-1ae6-4e37-b6a4-cdb77921d57e&sid=search"
+  },
+  {
+    "termo": "Coffee Express PHILCO",
+    "nome": "Cafeteira Philco Coffee Express 15 Bar Filtro Permanente Cor Preto/Prateado",
+    "preco": "R$ 599,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/cafeteira-philco-coffee-express-15-bar-filtro-permanente-cor-pretoprateado/p/MLB19168212#polycard_client=search-nordic&wid=MLB4161855565&search_layout=stack&position=1&type=product&tracking_id=b5addd07-896a-4157-ab21-bc7220cf0ef6&sid=search"
+  },
+  {
+    "termo": "C-28-ECL MONDIAL",
+    "nome": "Cafeteira Espresso Mondial Dolce Latte com Reservatório de Leite C-28-ECL",
+    "preco": "R$ 989,94",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/cafeteira-espresso-mondial-dolce-latte-com-reservatorio-de-leite-c-28-ecl/p/MLB49682372#polycard_client=search-nordic&wid=MLB4128254671&search_layout=stack&position=2&type=product&tracking_id=c29f86ff-647c-4a63-9cca-8f95643adefe&sid=search"
+  },
+  {
+    "termo": "BVSTEM6603SS OSTER",
+    "nome": "Cafeteira Espresso Primalatte Oster Inox Bvstem6603ss 220v",
+    "preco": "R$ 1499,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-2725107630-cafeteira-espresso-primalatte-oster-inox-bvstem6603ss-220v-_JM?searchVariation=174852593649#polycard_client=search-nordic&searchVariation=174852593649&search_layout=stack&position=10&type=item&tracking_id=0ce11662-849f-40b9-b1b8-bfe8c317f03c"
+  },
+  {
+    "termo": "BVSTEM6701SS OSTER",
+    "nome": "Bandeja Gotejamento Cafeteira Oster Primalatte Bvstem6701ss",
+    "preco": "R$ 39,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/bandeja-gotejamento-cafeteira-oster-primalatte-bvstem6701ss/up/MLBU1751657122#polycard_client=search-nordic&wid=MLB3639235393&search_layout=stack&position=11&type=product&tracking_id=bd421345-a24a-4232-aaec-9625d0604a3c&sid=search"
+  },
+  {
+    "termo": "BVSTEM6801M OSTER",
+    "nome": "Mangueira Para Reservatório De Leite Oster Bvstem6801m",
+    "preco": "R$ 29,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/mangueira-para-reservatorio-de-leite-oster-bvstem6801m/up/MLBU3107982080#polycard_client=search-nordic&wid=MLB5339859914&search_layout=stack&position=1&type=product&tracking_id=fba5b58f-2939-46d2-9391-3d1ef36ee349&sid=search"
+  },
+  {
+    "termo": "PCF21P PHILCO",
+    "nome": "Anel Vedação Cachimbo Cafeteira Philco Pcf21p Espresso Latte",
+    "preco": "R$ 39,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/anel-vedacao-cachimbo-cafeteira-philco-pcf21p-espresso-latte/up/MLBU779858678#polycard_client=search-nordic&wid=MLB4448988640&search_layout=stack&position=3&type=product&tracking_id=f334cfa4-cd4a-4b0e-80d8-eafde627ca3b&sid=search"
+  },
+  {
+    "termo": "ACA 221 Gigante II AMVOX",
+    "nome": "Caixa Amplificada Aca 221 Gigante Ii 220w Amvox 220v",
+    "preco": "R$ 399,20",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4784025440-caixa-amplificada-aca-221-gigante-ii-220w-amvox-220v-_JM?searchVariation=183153059107#polycard_client=search-nordic&searchVariation=183153059107&search_layout=grid&position=4&type=item&tracking_id=d4d00678-d4d5-4387-8f05-45b5a86fa0e1"
+  },
+  {
+    "termo": "ACA 255 HIT AMVOX",
+    "nome": "Caixa de Som Amplificada Amvox ACA 255 Hit Woofer 8\" Portátil Bluetooth Preto",
+    "preco": "R$ 271,99",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-amplificada-amvox-aca-255-hit-woofer-8-portatil-bluetooth-preto/p/MLB23869606#polycard_client=search-nordic&wid=MLB3685057355&search_layout=grid&position=1&type=product&tracking_id=609a0a24-7857-40aa-b62a-bd97abd9170e&sid=search"
+  },
+  {
+    "termo": "ACA  251  New X AMVOX",
+    "nome": "Caixa De Som Amplificada Aca 251 New X 250w Bivolt",
+    "preco": "R$ 316,50",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-5338806944-caixa-de-som-amplificada-aca-251-new-x-250w-bivolt-_JM?searchVariation=187409539983#polycard_client=search-nordic&searchVariation=187409539983&search_layout=stack&position=2&type=item&tracking_id=e1c1579d-2813-4fc2-bf75-3ce8527e694a"
+  },
+  {
+    "termo": "ACA 255 HIT AMVOX",
+    "nome": "Caixa de Som Amplificada Amvox ACA 255 Hit Woofer 8\" Portátil Bluetooth Preto",
+    "preco": "R$ 271,99",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-amplificada-amvox-aca-255-hit-woofer-8-portatil-bluetooth-preto/p/MLB23869606#polycard_client=search-nordic&wid=MLB3685057355&search_layout=grid&position=1&type=product&tracking_id=8e04253e-2021-4770-a59b-7164780d2da8&sid=search"
+  },
+  {
+    "termo": "ACA  251  New X AMVOX",
+    "nome": "Caixa De Som Amplificada Aca 251 New X 250w Bivolt",
+    "preco": "R$ 316,50",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-5338806944-caixa-de-som-amplificada-aca-251-new-x-250w-bivolt-_JM?searchVariation=187409539983#polycard_client=search-nordic&searchVariation=187409539983&search_layout=stack&position=2&type=item&tracking_id=ccbd6de3-b724-4a0b-a2d6-279ff24f27de"
+  },
+  {
+    "termo": "ACA 480 VIPER II AMVOX",
+    "nome": "Caixa Amplificada Aca 480 Viper Ii 480w Amvox",
+    "preco": "R$ 675,56",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-3739472069-caixa-amplificada-aca-480-viper-ii-480w-amvox-_JM?searchVariation=183153022199#polycard_client=search-nordic&searchVariation=183153022199&search_layout=grid&position=2&type=item&tracking_id=567c2689-4143-4db7-8456-ce1445aa817e"
+  },
+  {
+    "termo": "ACA 680 Fantasy AMVOX",
+    "nome": "Caixa De Som 680w Amvox Aca 680 Fantasy Woofer 12 Bt Fm Biv",
+    "preco": "R$ 569,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-680w-amvox-aca-680-fantasy-woofer-12-bt-fm-biv/p/MLB44978340#polycard_client=search-nordic&wid=MLB4097848451&search_layout=stack&position=1&type=product&tracking_id=24ce0a1f-662c-4e0f-ae2d-1a96a80d1f74&sid=search"
+  },
+  {
+    "termo": "ACA 550 Strondo II AMVOX",
+    "nome": "Caixa Amplificada Amvox Aca 550 Strondo II 550w Cor Preto",
+    "preco": "R$ 512,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/caixa-amplificada-amvox-aca-550-strondo-ii-550w-cor-preto/p/MLB19151320#polycard_client=search-nordic&wid=MLB3586029265&search_layout=grid&position=1&type=product&tracking_id=c5c9d0e6-9459-448d-8127-26216575bbf2&sid=search"
+  },
+  {
+    "termo": "ACA 880 AMVOX",
+    "nome": "Caixa de Som Amplificada Amvox Aca 880 Vegas Bluetooth 880W Woofer de 15 Sem Fm",
+    "preco": "R$ 999,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-amplificada-amvox-aca-880-vegas-bluetooth-880w-woofer-de-15-sem-fm/p/MLB29753110#polycard_client=search-nordic&wid=MLB3658225333&search_layout=stack&position=3&type=product&tracking_id=8780e484-58e0-4baa-b0e9-840d9fe61314&sid=search"
+  },
+  {
+    "termo": "CM-150 MONDIAL",
+    "nome": "Caixa De Som Mondial Cm-150 Amplificada Connect Party Plus Cor Preto 110V/220V",
+    "preco": "R$ 229,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-mondial-cm-150-amplificada-connect-party-plus-cor-preto-110v220v/p/MLB23534885#polycard_client=search-nordic&wid=MLB5650727716&search_layout=stack&position=1&type=product&tracking_id=68d94e55-1cd8-4d25-bf90-b9a5d66b2203&sid=search"
+  },
+  {
+    "termo": "CM-250 MONDIAL",
+    "nome": "Caixa De Som Amplificada Bluetooth Cm-250 Cor Preto Mondial",
+    "preco": "R$ 480,57",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-5331625530-caixa-de-som-amplificada-bluetooth-cm-250-cor-preto-mondial-_JM?searchVariation=187343499917#polycard_client=search-nordic&searchVariation=187343499917&search_layout=grid&position=3&type=item&tracking_id=51d924ef-ab4c-4085-a1be-42e8a6e74d6a"
+  },
+  {
+    "termo": "CM-400 MONDIAL",
+    "nome": "Caixa Amplificada Connect Lights Cm-400 Mondial Cor Preto",
+    "preco": "R$ 449,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-amplificada-connect-lights-cm-400-mondial-cor-preto/p/MLB18247621#polycard_client=search-nordic&wid=MLB3301462109&search_layout=grid&position=1&type=product&tracking_id=e92f7950-6141-4a34-8fca-fcc8ebbd6183&sid=search"
+  },
+  {
+    "termo": "CM-550 MONDIAL",
+    "nome": "Caixa Amplificada Connect Power Plus CM-550 Preto Mondial",
+    "preco": "R$ 445,32",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-amplificada-connect-power-plus-cm-550-preto-mondial/p/MLB18536264#polycard_client=search-nordic&wid=MLB3541368595&search_layout=grid&position=1&type=product&tracking_id=a15e5bd2-a235-41c7-862e-f805d9fd80b8&sid=search"
+  },
+  {
+    "termo": "CM-550 MONDIAL",
+    "nome": "Caixa Amplificada Connect Power Plus CM-550 Preto Mondial",
+    "preco": "R$ 445,32",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-amplificada-connect-power-plus-cm-550-preto-mondial/p/MLB18536264#polycard_client=search-nordic&wid=MLB3541368595&search_layout=grid&position=1&type=product&tracking_id=55af6684-a05c-432c-8cdf-72e4aaed71fe&sid=search"
+  },
+  {
+    "termo": "SP402E PULSE",
+    "nome": "Caixa de Som Bluetooth Karaokê Pulse SP402E Gamer 250W RMS Cor Preto",
+    "preco": "R$ 286,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-karaok-pulse-sp402e-gamer-250w-rms-cor-preto/p/MLB27975356#polycard_client=search-nordic&wid=MLB5525258124&search_layout=stack&position=1&type=product&tracking_id=70b51ca8-f7c7-440b-9fdf-414b96d0f5c3&sid=search"
+  },
+  {
+    "termo": "BDJ77BE BRASTEMP",
+    "nome": "Cooktop 4 Bocas De Indução Brastemp Flexizone Bdj77be 220v",
+    "preco": "R$ 5199,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-4987207174-cooktop-4-bocas-de-induco-brastemp-flexizone-bdj77be-220v-_JM?searchVariation=184173295383#polycard_client=search-nordic&searchVariation=184173295383&search_layout=stack&position=14&type=item&tracking_id=d9cd1b8a-e225-4021-b7e6-f75a820e8f04"
+  },
+  {
+    "termo": "400000363 DAKO",
+    "nome": "Cooktop De Indução 4 Bocas Preto Dako Diplomata 220v",
+    "preco": "R$ 2379,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4870556496-cooktop-de-induco-4-bocas-preto-dako-diplomata-220v-_JM?searchVariation=183558804713#polycard_client=search-nordic&searchVariation=183558804713&search_layout=stack&position=1&type=item&tracking_id=5692c60a-b376-45a8-90e4-c94631cd7ccd"
+  },
+  {
+    "termo": "IE60P ELECTROLUX",
+    "nome": "Cooktop 4 Bocas De Indução Electroluxunicook E Timer (ie60p)",
+    "preco": "R$ 4426,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/cooktop-4-bocas-de-induco-electroluxunicook-e-timer-ie60p/p/MLB53044698#polycard_client=search-nordic&wid=MLB4177798059&search_layout=stack&position=2&type=product&tracking_id=d900df89-d710-4a20-b3d9-159da50ce1b2&sid=search"
+  },
+  {
+    "termo": "29850-220V-[29850-71205] FISCHER",
+    "nome": "Fogão Cooktop Fischer 4q Smartzone Por Indução Cor Preto",
+    "preco": "R$ 3915,89",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fogo-cooktop-fischer-4q-smartzone-por-induco-cor-preto/p/MLB21778992#polycard_client=search-nordic&wid=MLB5398398900&search_layout=stack&position=1&type=product&tracking_id=172a2073-f1e1-455f-8312-f61a411328e0&sid=search"
+  },
+  {
+    "termo": "CIMAS2003 ITATIAIA",
+    "nome": "Cooktop De Indução Itatiaia 4 Bocas Master Preto Cimas2003",
+    "preco": "R$ 1455,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4007554525-cooktop-de-induco-itatiaia-4-bocas-master-preto-cimas2003-_JM?searchVariation=183163876886#polycard_client=search-nordic&searchVariation=183163876886&search_layout=stack&position=11&type=item&tracking_id=e071d1b0-001f-4473-bef3-61e0c9364bb8"
+  },
+  {
+    "termo": "CTI-03 MONDIAL",
+    "nome": "Cooktop Por Indução 4 Bocas Mondial 7000w Cti-03",
+    "preco": "R$ 1393,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/cooktop-por-induco-4-bocas-mondial-7000w-cti-03/p/MLB46052114#polycard_client=search-nordic&wid=MLB5477023156&search_layout=stack&position=10&type=product&tracking_id=fbb533c9-69cc-4df1-a72c-07759c3987e7&sid=search"
+  },
+  {
+    "termo": "400000461 DAKO",
+    "nome": "Cooktop De Indução 2 Bocas Dako Com Zona Flexível",
+    "preco": "R$ 1149,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/cooktop-de-induco-2-bocas-dako-com-zona-flexivel/p/MLB36949953#polycard_client=search-nordic&wid=MLB4870917198&search_layout=stack&position=1&type=product&tracking_id=4e5743c1-1bce-42bd-9f43-b96c49a4f0da&sid=search"
+  },
+  {
+    "termo": "IC30 ELECTROLUX",
+    "nome": "Fogão cooktop - Electrolux IC30 cor preto - 2 queimadores",
+    "preco": "R$ 4255,77",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fogo-cooktop-electrolux-ic30-cor-preto-2-queimadores/p/MLB10566362#polycard_client=search-nordic&wid=MLB4960266848&search_layout=stack&position=4&type=product&tracking_id=a2d12652-f5f9-4572-a668-1367237c7401&sid=search"
+  },
+  {
+    "termo": "CIMID2002 ITATIAIA",
+    "nome": "Cooktop De Indução 4 Bocas Itatiaia 220v Preto - Cimid2002 Preto",
+    "preco": "R$ 1343,88",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/cooktop-de-inducao-4-bocas-itatiaia-220v-preto--cimid2002/up/MLBU3057035677#polycard_client=search-nordic&wid=MLB3998438725&search_layout=stack&position=14&type=product&tracking_id=f0ee66f3-2967-4f57-916a-f8d750ccec84&sid=search"
+  },
+  {
+    "termo": "CTI-02 MONDIAL",
+    "nome": "Cooktop Por Indução 2 Bocas Mondial 3500w Cti-02",
+    "preco": "R$ 1129,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/cooktop-por-induco-2-bocas-mondial-3500w-cti-02/p/MLB46052230#polycard_client=search-nordic&wid=MLB5575125886&search_layout=stack&position=6&type=product&tracking_id=ab9c370e-865f-4196-9ff8-afa4e7210c43&sid=search"
+  },
+  {
+    "termo": "MCI162BG1 PHILCO",
+    "nome": "Cooktop Mueller 2 Bocas de Indução MCI162BG1 Preto",
+    "preco": "R$ 2075,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/cooktop-mueller-2-bocas-de-induco-mci162bg1-preto/p/MLB18462348#polycard_client=search-nordic&wid=MLB3198767097&search_layout=stack&position=13&type=product&tracking_id=fec6ca6f-7d25-4644-896e-23fd81c20092&sid=search"
+  },
+  {
+    "termo": "CP31 ARNO",
+    "nome": "Castanha Espremedor De Frutas Arno Express Cp31 Cp32 Vm Grd",
+    "preco": "R$ 23,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/castanha-espremedor-de-frutas-arno-express-cp31-cp32-vm-grd/p/MLB34826074#polycard_client=search-nordic&wid=MLB5492789704&search_layout=stack&position=4&type=product&tracking_id=6228c424-56a5-4c4e-8803-1d5305e4b4fc&sid=search"
+  },
+  {
+    "termo": "Bellagio BRITÂNIA",
+    "nome": "Espremedor Frutas Britânia Bellagio 350 Turbo 35w Preto",
+    "preco": "R$ 99,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/espremedor-frutas-britnia-bellagio-350-turbo-35w-preto/p/MLB19712789#polycard_client=search-nordic&wid=MLB4139058793&search_layout=stack&position=8&type=product&tracking_id=39f793ae-98e8-48cd-8e49-cde307ed96a3&sid=search"
+  },
+  {
+    "termo": "Bellagio Maxx BRITÂNIA",
+    "nome": "Espremedor De Frutas Britânia Bellagio Maxx Nude 1,5l",
+    "preco": "R$ 114,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/espremedor-de-frutas-britnia-bellagio-maxx-nude-15l/p/MLB27078374#polycard_client=search-nordic&wid=MLB5496729014&search_layout=stack&position=1&type=product&tracking_id=36f45e39-de1b-4c6a-9366-092c6911bbab&sid=search"
+  },
+  {
+    "termo": "Bellagio 350 BRITÂNIA",
+    "nome": "Espremedor Frutas Britânia Bellagio 350 Turbo 35w Preto",
+    "preco": "R$ 99,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/espremedor-frutas-britnia-bellagio-350-turbo-35w-preto/p/MLB19712789#polycard_client=search-nordic&wid=MLB4139058793&search_layout=stack&position=1&type=product&tracking_id=0a689d87-6893-4625-883f-374e66c01274&sid=search"
+  },
+  {
+    "termo": "ECP10 ELETROLUX",
+    "nome": "Espremedor De Laranjas E Frutas Efficient Ecp10 Electrolux Cor Preto Frequência 60Hz",
+    "preco": "R$ 128,59",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/espremedor-de-laranjas-e-frutas-efficient-ecp10-electrolux-cor-preto-frequncia-60hz/p/MLB22646414#polycard_client=search-nordic&wid=MLB3352698347&search_layout=stack&position=1&type=product&tracking_id=adf83f73-6042-49fd-a70e-381659c7bf55&sid=search"
+  },
+  {
+    "termo": "E-02 MONDIAL",
+    "nome": "Espremedor Premium Mondial 30W E-02",
+    "preco": "R$ 59,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/espremedor-premium-mondial-30w-e-02/p/MLB19307438#polycard_client=search-nordic&wid=MLB5408822070&search_layout=stack&position=1&type=product&tracking_id=e9d63e1d-b531-4d27-9b91-704cbad7479f&sid=search"
+  },
+  {
+    "termo": "3481 AGRATTO",
+    "nome": "Extrator Agratto De Suco 3481 Bivolt 300w",
+    "preco": "R$ 382,88",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-2787360187-extrator-agratto-de-suco-3481-bivolt-300w-_JM?searchVariation=175606452512#polycard_client=search-nordic&searchVariation=175606452512&search_layout=stack&position=10&type=item&tracking_id=314fd10c-ed7d-4515-bd1d-b78c050a021d"
+  },
+  {
+    "termo": "Turbo Pro 260W BRITANIA",
+    "nome": "Espremedor De Frutas Turbo Pro 260w Britânia",
+    "preco": "R$ 196,48",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/espremedor-de-frutas-turbo-pro-260w-britnia/p/MLB6065352#polycard_client=search-nordic&wid=MLB2023936868&search_layout=stack&position=1&type=product&tracking_id=fde88c6e-eb57-4b6f-9aa9-32cfb66770ac&sid=search"
+  },
+  {
+    "termo": "E-10 MONDIAL",
+    "nome": "Extrator de Sucos Turbo Premium, Mondial, 250W - E-10",
+    "preco": "R$ 232,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/extrator-de-sucos-turbo-premium-mondial-250w-e-10/p/MLB6065371#polycard_client=search-nordic&wid=MLB4133682888&search_layout=stack&position=2&type=product&tracking_id=17773f5a-0724-44ff-94ec-1afbb7471abb&sid=search"
+  },
+  {
+    "termo": "VFA1110 BLACK & DECKER",
+    "nome": "Ferro de Passar Roupa Black Decker Modelo VFA1110TM2 Com Base de Alumínio",
+    "preco": "R$ 131,51",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ferro-de-passar-roupa-black-decker-modelo-vfa1110tm2-com-base-de-aluminio/p/MLB15553602#polycard_client=search-nordic&wid=MLB3224371455&search_layout=stack&position=1&type=product&tracking_id=3d0445a7-a078-481c-be60-f60b1accbe53&sid=search"
+  },
+  {
+    "termo": "F300 BLACK & DECKER",
+    "nome": "Ferro de Passar Roupa Elétrico a Seco Black Decker Com Base Antiaderente Vermelho e Branco Modelo F300",
+    "preco": "R$ 88,60",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ferro-de-passar-roupa-eletrico-a-seco-black-decker-com-base-antiaderente-vermelho-e-branco-modelo-f300/p/MLB24199336#polycard_client=search-nordic&wid=MLB2016390344&search_layout=stack&position=1&type=product&tracking_id=abbf9c34-854b-4956-b5de-a64b85d8a710&sid=search"
+  },
+  {
+    "termo": "IRO101 CADENCE",
+    "nome": "Ferro A Seco Cadence Petit 100 Iro101 Cinza",
+    "preco": "R$ 71,54",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ferro-a-seco-cadence-petit-100-iro101-cinza/p/MLB6053474#polycard_client=search-nordic&wid=MLB3565314747&search_layout=stack&position=2&type=product&tracking_id=74122752-58c2-450b-ba88-226a9209493a&sid=search"
+  },
+  {
+    "termo": "Iron Force Plus ELGIN",
+    "nome": "Ferro de Passar Iron Force Plus - Base Antiaderente 1200W Azul Elgin",
+    "preco": "R$ 37,91",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ferro-de-passar-iron-force-plus-base-antiaderente-1200w-azul-elgin/p/MLB22711954#polycard_client=search-nordic&wid=MLB5530232636&search_layout=stack&position=3&type=product&tracking_id=5428d34d-eb33-4e69-8b89-ca374f2388b4&sid=search"
+  },
+  {
+    "termo": "PFF603 LENOXX",
+    "nome": "Ferro De Passar Roupa A Seco Lenoxx Pff603 06 Temperaturas Cor Azul 127V",
+    "preco": "R$ 61,54",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ferro-de-passar-roupa-a-seco-lenoxx-pff603-06-temperaturas-cor-azul-127v/p/MLB19723773#polycard_client=search-nordic&wid=MLB4104948127&search_layout=stack&position=1&type=product&tracking_id=1bca2c2a-e96b-4323-8581-69f23803eba4&sid=search"
+  },
+  {
+    "termo": "FSN-55-B MONDIAL",
+    "nome": "Ferro de Passar a Seco Mondial 1200W - FSN-55-B",
+    "preco": "R$ 59,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/ferro-de-passar-a-seco-mondial-1200w-fsn-55-b/p/MLB19590006#polycard_client=search-nordic&wid=MLB2791311116&search_layout=stack&position=1&type=product&tracking_id=dd61c2e6-f31b-4190-a591-d1054f1e79a1&sid=search"
+  },
+  {
+    "termo": "PFE01P Retrô PHILCO",
+    "nome": "Ferro De Passar Roupa Pfe01p Retrô A Seco 1100w Philco Preto",
+    "preco": "R$ 125,34",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-3892198609-ferro-de-passar-roupa-pfe01p-retr-a-seco-1100w-philco-preto-_JM?searchVariation=185786645953#polycard_client=search-nordic&searchVariation=185786645953&search_layout=stack&position=25&type=item&tracking_id=cf4d66bf-5188-40d6-a3e1-0ad5a7a9da59"
+  },
+  {
+    "termo": "HD1172 WALITA",
+    "nome": "Ferro A Seco Hd1172/80 1000w Cinza Philips Walita",
+    "preco": "R$ 101,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/ferro-a-seco-hd117280-1000w-cinza-philips-walita/p/MLB28023635#polycard_client=search-nordic&wid=MLB5478909164&search_layout=stack&position=1&type=product&tracking_id=33b65c7b-50ca-4fbe-af07-a60b52999044&sid=search"
+  },
+  {
+    "termo": "CMA20BB CONSUL",
+    "nome": "Membrana Teclado Micro-ondas Compatível com Consul CMA20bb CMA20bbana",
+    "preco": "R$ 31,89",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/membrana-teclado-micro-ondas-compativel-com-consul-cma20bb-cma20bbana/p/MLB31050981#polycard_client=search-nordic&wid=MLB4418567688&search_layout=stack&position=1&type=product&tracking_id=debec3e3-72e8-4a61-899b-9cf8d06d714e&sid=search"
+  },
+  {
+    "termo": "CMS46AR CONSUL",
+    "nome": "Micro-ondas Com Menu Fácil 32 Litros Cms46ar Cinza Espelhado Consul",
+    "preco": "R$ 700,94",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/micro-ondas-com-menu-facil-32-litros-cms46ar-cinza-espelhado-consul/p/MLB19310683#polycard_client=search-nordic&wid=MLB5314935406&search_layout=stack&position=1&type=product&tracking_id=4f42ba77-a88a-4d79-8a59-4879c4340748&sid=search"
+  },
+  {
+    "termo": "MTO30 ELECTROLUX",
+    "nome": "Micro-ondas MTO30 20L Com Função Tira Odor e Descongelar Cor Branco Electrolux",
+    "preco": "R$ 597,55",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/micro-ondas-mto30-20l-com-funco-tira-odor-e-descongelar-cor-branco-electrolux/p/MLB6309815#polycard_client=search-nordic&wid=MLB1646212446&search_layout=stack&position=1&type=product&tracking_id=85af6da4-0b3c-49ce-a090-a8a94260efa6&sid=search"
+  },
+  {
+    "termo": "MI41S ELECTROLUX",
+    "nome": "Micro-ondas Electrolux 31L cor Inox Espelhado com Painel Integrado e Função Tira Odor MI41S",
+    "preco": "R$ 903,96",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/micro-ondas-electrolux-31l-cor-inox-espelhado-com-painel-integrado-e-funco-tira-odor-mi41s/p/MLB18363110#polycard_client=search-nordic&wid=MLB2036335692&search_layout=stack&position=1&type=product&tracking_id=6dc079d2-5a92-40be-96b5-8e86d303b38d&sid=search"
+  },
+  {
+    "termo": "MRAS21 MIDEA",
+    "nome": "Placa Microondas Para Midea Mras21 Mxsa35p1 Bivolt",
+    "preco": "R$ 125,11",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/placa-microondas-para-midea-mras21-mxsa35p1-bivolt/up/MLBU1726647138#polycard_client=search-nordic&wid=MLB2925893140&search_layout=stack&position=1&type=product&tracking_id=bd82e612-d5cd-447e-924b-46961e32c397&sid=search"
+  },
+  {
+    "termo": "MXSA35S1 MIDEA",
+    "nome": "Micro-ondas 35l Prata Porta Espelhada Smartplate Midea",
+    "preco": "R$ 800,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/micro-ondas-35l-prata-porta-espelhada-smartplate-midea/p/MLB18908891#polycard_client=search-nordic&wid=MLB3670609411&search_layout=stack&position=1&type=product&tracking_id=fbd3f8b9-4dcb-46cc-b8f5-311e83c7834a&sid=search"
+  },
+  {
+    "termo": "MO-01-21-W MONDIAL",
+    "nome": "Prato Microondas Mondial Mo-01-21-b / Mo-01-21-w 21 Litros",
+    "preco": "R$ 49,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/prato-microondas-mondial-mo0121b--mo0121w-21-litros/up/MLBU1729938254#polycard_client=search-nordic&wid=MLB3244424437&search_layout=stack&position=5&type=product&tracking_id=1ae5bf60-abd5-4781-a2e6-2c4316daef67&sid=search"
+  },
+  {
+    "termo": "MO-02-34-E MONDIAL",
+    "nome": "Membrana Teclado Para Microondas Mondial Mo-02-34-e",
+    "preco": "R$ 189,95",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/membrana-teclado-para-microondas-mondial-mo-02-34-e/p/MLB53775297#polycard_client=search-nordic&wid=MLB5573832170&search_layout=stack&position=4&type=product&tracking_id=6db0b42f-4efe-466a-8856-8376eca11dc8&sid=search"
+  },
+  {
+    "termo": "NN-ST25LWRU PANASONIC",
+    "nome": "Micro-ondas Panasonic 21 Litros Branco - NN-ST25lWRU",
+    "preco": "R$ 504,67",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/micro-ondas-panasonic-21-litros-branco-nn-st25lwru/p/MLB17325969#polycard_client=search-nordic&wid=MLB1885277019&search_layout=stack&position=1&type=product&tracking_id=d19b7cd1-a54e-4f12-a15b-64e63073d2fe&sid=search"
+  },
+  {
+    "termo": "ST67LSRU PANASONIC",
+    "nome": "Micro-ondas Nn-st67lsru 34 Litros Inox Panasonic",
+    "preco": "R$ 760,64",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/micro-ondas-nn-st67lsru-34-litros-inox-panasonic/p/MLB18233848#polycard_client=search-nordic&wid=MLB2134335281&search_layout=stack&position=6&type=product&tracking_id=7cb717c7-8304-4662-8120-c9c903679fc3&sid=search"
+  },
+  {
+    "termo": "PMO23BB PHILCO",
+    "nome": "Membrana Teclado Microondas Philco Pmo23bb Branca Original",
+    "preco": "R$ 29,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/membrana-teclado-microondas-philco-pmo23bb-branca-original/up/MLBU1972820433#polycard_client=search-nordic&wid=MLB3507048173&search_layout=stack&position=3&type=product&tracking_id=a5efb5bc-1514-4da5-9fab-beeb4c05e7c5&sid=search"
+  },
+  {
+    "termo": "PMO34EB PHILCO",
+    "nome": "Micro-ondas Espelhado Pmo34eb Branco E Prata 34 Litros Philco",
+    "preco": "R$ 931,10",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/micro-ondas-espelhado-pmo34eb-branco-e-prata-34-litros-philco/p/MLB20962494#polycard_client=search-nordic&wid=MLB5459408384&search_layout=stack&position=1&type=product&tracking_id=8b5f4b05-b08d-4b01-891f-6da992577c79&sid=search"
+  },
+  {
+    "termo": "APR 1001 AMVOX",
+    "nome": "Mini Processador De Alimentos 100w Apr 1001 Black Amvox",
+    "preco": "R$ 98,97",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/mini-processador-de-alimentos-100w-apr-1001-black-amvox/p/MLB20711709#polycard_client=search-nordic&wid=MLB4093877993&search_layout=stack&position=1&type=product&tracking_id=b5e0521e-df93-49b7-8baf-0927123c75e3&sid=search"
+  },
+  {
+    "termo": "MP120-B2 BLACK & DECKER",
+    "nome": "Processador de Alimentos Black Decker MP120-B2 Mini Processador com Função Pulsar Abertura na Tampa e Trava de Segurança Potência 120W",
+    "preco": "R$ 138,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/processador-de-alimentos-black-decker-mp120-b2-mini-processador-com-funco-pulsar-abertura-na-tampa-e-trava-de-seguranca-potncia-120w/p/MLB9532932#polycard_client=search-nordic&wid=MLB4162982323&search_layout=stack&position=1&type=product&tracking_id=54710209-b721-4dff-965a-7889431c3048&sid=search"
+  },
+  {
+    "termo": "2P BRITANIA",
+    "nome": "Mini Processador De Alimentos 2p Preto Britânia",
+    "preco": "R$ 142,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/mini-processador-de-alimentos-2p-preto-britnia/p/MLB9526256#polycard_client=search-nordic&wid=MLB5632859494&search_layout=stack&position=1&type=product&tracking_id=ee4e6b2f-de39-49f2-aee4-4eccbff93c64&sid=search"
+  },
+  {
+    "termo": "MPR520 CADENCE",
+    "nome": "Miniprocessador Easy Cut Mpr520 Cadence",
+    "preco": "R$ 124,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/miniprocessador-easy-cut-mpr520-cadence/p/MLB15224078#polycard_client=search-nordic&wid=MLB3904565119&search_layout=stack&position=1&type=product&tracking_id=f9f7dd29-a600-4c96-8a60-e370118531bd&sid=search"
+  },
+  {
+    "termo": "PMP431 LENOXX",
+    "nome": "Miniprocessador Lenoxx Pratic Pmp431 Cor Preto Tritura e Processa Lâmina Dupla",
+    "preco": "R$ 114,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/miniprocessador-lenoxx-pratic-pmp431-cor-preto-tritura-e-processa-lmina-dupla/p/MLB9575756#polycard_client=search-nordic&wid=MLB5469234096&search_layout=stack&position=6&type=product&tracking_id=85debe04-bd52-4603-bc97-96eb2ce87e11&sid=search"
+  },
+  {
+    "termo": "MP-16-B/R MONDIAL",
+    "nome": "Multiprocessador Mondial Mp-16 300w Preto E Prata 220v Preto/prata",
+    "preco": "R$ 286,11",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/multiprocessador-mondial-mp16-300w-preto-e-prata-220v/up/MLBU3193956138#polycard_client=search-nordic&wid=MLB5400811158&search_layout=stack&position=1&type=product&tracking_id=012403b6-5cb1-43c2-a5e9-2bcf740b1f76&sid=search"
+  },
+  {
+    "termo": "SAN400 CADENCE",
+    "nome": "Grill Sanduicheira Cadence SAN400 Elétrica Chapa Misteira Tostex Tostequeira Hambúrguer Click",
+    "preco": "R$ 138,60",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/grill-sanduicheira-cadence-san400-eletrica-chapa-misteira-tostex-tostequeira-hamburguer-click/p/MLB25850957#polycard_client=search-nordic&wid=MLB4113224288&search_layout=stack&position=1&type=product&tracking_id=7e619038-027a-4ceb-8c5e-da486a54cdc1&sid=search"
+  },
+  {
+    "termo": "PGR25A PHILCO",
+    "nome": "Sanduicheira e Grill 2 em 1 Antiaderente 750W PGR25A Philco",
+    "preco": "R$ 137,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-e-grill-2-em-1-antiaderente-750w-pgr25a-philco/p/MLB45687160#polycard_client=search-nordic&wid=MLB5649883378&search_layout=stack&position=1&type=product&tracking_id=320a3a7d-75c3-4944-b52a-a236f818d7a2&sid=search"
+  },
+  {
+    "termo": "AMS 500 AMVOXX",
+    "nome": "Sanduicheira Grill Amvox Ams 500 Black Antiaderente de Aço Inoxidável",
+    "preco": "R$ 96,66",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-grill-amvox-ams-500-black-antiaderente-de-aco-inoxidavel/p/MLB22643108#polycard_client=search-nordic&wid=MLB4040595329&search_layout=stack&position=4&type=product&tracking_id=8c1fb8f6-bbc2-45a9-a4c8-7c819e6b49cd&sid=search"
+  },
+  {
+    "termo": "BGR01PI BRITÂNIA",
+    "nome": "Sanduicheira E Grill 2 Em 1 Bgr01pi 750w Preto Britânia",
+    "preco": "R$ 118,15",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-e-grill-2-em-1-bgr01pi-750w-preto-britnia/p/MLB26003690#polycard_client=search-nordic&wid=MLB4169644063&search_layout=stack&position=4&type=product&tracking_id=9025bb66-48f6-4d73-9657-87a6507b1aab&sid=search"
+  },
+  {
+    "termo": "Crome Inox BRITÂNIA",
+    "nome": "Grill E Sanduicheira Crome Inox 750w Britânia",
+    "preco": "R$ 99,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/grill-e-sanduicheira-crome-inox-750w-britnia/p/MLB25875982#polycard_client=search-nordic&wid=MLB4918130962&search_layout=stack&position=11&type=product&tracking_id=5b905eb5-3ff8-4564-a578-0d558123bae2&sid=search"
+  },
+  {
+    "termo": "BGR16 BRITÂNIA",
+    "nome": "Sanduicheira E Grill Britânia Bgr16 2 Em 1 Redstone 750w Cor Preto com Prata",
+    "preco": "R$ 140,80",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-e-grill-britnia-bgr16-2-em-1-redstone-750w-cor-preto-com-prata/p/MLB29225270#polycard_client=search-nordic&wid=MLB4169882953&search_layout=stack&position=2&type=product&tracking_id=541b4cb9-4667-406e-9e11-27c13f7607a8&sid=search"
+  },
+  {
+    "termo": "ESG20 ELETROLUX",
+    "nome": "Sanduicheira Efficient Inox Electrolux ESG20 com 750W de Potência -",
+    "preco": "R$ 158,48",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-efficient-inox-electrolux-esg20-com-750w-de-potncia-/p/MLB27042783#polycard_client=search-nordic&wid=MLB5198365292&search_layout=stack&position=2&type=product&tracking_id=5bd7335a-65ce-452d-bf79-8d07fb63138e&sid=search"
+  },
+  {
+    "termo": "S-20 MONDIAL",
+    "nome": "Sanduicheira Master Grill Mondial 750W S-20",
+    "preco": "R$ 94,50",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-master-grill-mondial-750w-s-20/p/MLB22607777#polycard_client=search-nordic&wid=MLB3695363229&search_layout=stack&position=1&type=product&tracking_id=9be51467-b5f7-45bd-9d8b-56be221d9a79&sid=search"
+  },
+  {
+    "termo": "AMS 370 AMVOXX",
+    "nome": "Sanduicheira Grill 750w Amvox Ams 370 Antiaderente Cor Preto",
+    "preco": "R$ 105,37",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-grill-750w-amvox-ams-370-antiaderente-cor-preto/p/MLB22338460#polycard_client=search-nordic&wid=MLB4212146330&search_layout=stack&position=1&type=product&tracking_id=099834c1-b835-4475-bb15-27811530f675&sid=search"
+  },
+  {
+    "termo": "BGR01P BRITÂNIA",
+    "nome": "Grill E Sanduicheira BGR01P Toast Preto 750W Britânia",
+    "preco": "R$ 87,01",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/grill-e-sanduicheira-bgr01p-toast-preto-750w-britnia/p/MLB22463560#polycard_client=search-nordic&wid=MLB5519804118&search_layout=stack&position=1&type=product&tracking_id=e926dd79-344b-40f4-b938-e6eeb6c0534a&sid=search"
+  },
+  {
+    "termo": "SAN260 CADENCE",
+    "nome": "Sanduicheira Elétrica San260 Toast & Grill 750w Preta Cadence",
+    "preco": "R$ 75,86",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-eletrica-san260-toast-grill-750w-preta-cadence/p/MLB22504037#polycard_client=search-nordic&wid=MLB4133826787&search_layout=stack&position=3&type=product&tracking_id=90ef826f-5be6-413c-9a1b-583593ac0a3a&sid=search"
+  },
+  {
+    "termo": "Break Time ELGIN",
+    "nome": "Sanduicheira Grill Antiaderente 800w Break Time Elgin",
+    "preco": "R$ 109,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-grill-antiaderente-800w-break-time-elgin/p/MLB24199392#polycard_client=search-nordic&wid=MLB3583514149&search_layout=stack&position=1&type=product&tracking_id=97fc342d-0524-4ca4-9be1-77dd6b83f1b7&sid=search"
+  },
+  {
+    "termo": "S-12 MONDIAL",
+    "nome": "Sanduicheira Fast Grill e Sandwich Mondial 750W - S-12",
+    "preco": "R$ 82,94",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-fast-grill-e-sandwich-mondial-750w-s-12/p/MLB23039343#polycard_client=search-nordic&wid=MLB3318609561&search_layout=stack&position=2&type=product&tracking_id=d9223a17-0cce-43ce-b2bb-b1c6b395f06d&sid=search"
+  },
+  {
+    "termo": "CE043 MULTI",
+    "nome": "Sanduicheira Multilaser Grill Gourmet 750w Preta Ce043 Cor Preto",
+    "preco": "R$ 99,94",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/sanduicheira-multilaser-grill-gourmet-750w-preta-ce043-cor-preto/p/MLB28010263#polycard_client=search-nordic&wid=MLB5466904128&search_layout=stack&position=1&type=product&tracking_id=22ebff75-6b48-45b4-b92b-36b121f2af44&sid=search"
+  },
+  {
+    "termo": "BSC2150 BRITÂNIA",
+    "nome": "Secador de cabelos Britânia 2100w Bsc2150 cor preto",
+    "preco": "R$ 99,29",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-britnia-2100w-bsc2150-cor-preto/p/MLB38770034#polycard_client=search-nordic&wid=MLB5534204932&search_layout=grid&position=4&type=product&tracking_id=55fdf1cd-4bc4-402e-a4cf-b4cc1ec89b98&sid=search"
+  },
+  {
+    "termo": "SP3100N BRITÂNIA",
+    "nome": "Secador E Difusor De Cachos Britânia 2000w Sp3100n Íon Nf",
+    "preco": "R$ 259,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-5149222714-secador-e-difusor-de-cachos-britnia-2000w-sp3100n-ion-nf-_JM?searchVariation=185815726095#polycard_client=search-nordic&searchVariation=185815726095&search_layout=stack&position=4&type=item&tracking_id=dee9b47e-5257-4b34-b4b7-063f3f539bbb"
+  },
+  {
+    "termo": "SEC560 CADENCE",
+    "nome": "Secador De Cabelo Rouge Style Ii Sec560 Cadence",
+    "preco": "R$ 104,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelo-rouge-style-ii-sec560-cadence/p/MLB25855691#polycard_client=search-nordic&wid=MLB4152683127&search_layout=stack&position=1&type=product&tracking_id=d78c4c9e-f369-4d7c-b404-f92905d31fae&sid=search"
+  },
+  {
+    "termo": "SC-13 MONDIAL",
+    "nome": "Secador Power Shine Mondial 2000W - SC-13",
+    "preco": "R$ 127,24",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/secador-power-shine-mondial-2000w-sc-13/p/MLB18638640#polycard_client=search-nordic&wid=MLB3593947811&search_layout=stack&position=1&type=product&tracking_id=3c3c2778-5868-4b92-bc8f-b021368b873a&sid=search"
+  },
+  {
+    "termo": "SC-32 MONDIAL",
+    "nome": "Secador de Cabelos Mondial 2000W - SC-32",
+    "preco": "R$ 139,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-mondial-2000w-sc-32/p/MLB14152271#polycard_client=search-nordic&wid=MLB5491200430&search_layout=stack&position=2&type=product&tracking_id=f1f7da93-4bbe-4b53-b2a2-c3eb1c11f640&sid=search"
+  },
+  {
+    "termo": "PSC2450 PHILCO",
+    "nome": "Secador De Cabelos Philco Biv 2200w Psc2450 Íons Tourmaline",
+    "preco": "R$ 133,07",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-philco-biv-2200w-psc2450-ions-tourmaline/p/MLB42184267#polycard_client=search-nordic&wid=MLB5606096908&search_layout=stack&position=8&type=product&tracking_id=3b86ec65-0d3d-4e9c-baf8-b7b0d8605318&sid=search"
+  },
+  {
+    "termo": "PH3700 PHILCO",
+    "nome": "Secador de Cabelos Ph3700 Gold Tourmaline 2200W De Potência Cor Preto Philco",
+    "preco": "R$ 252,10",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-ph3700-gold-tourmaline-2200w-de-potncia-cor-preto-philco/p/MLB18717444#polycard_client=search-nordic&wid=MLB5182959422&search_layout=stack&position=1&type=product&tracking_id=fe4f6e04-6ebd-4e9c-9242-b370f0a48d33&sid=search"
+  },
+  {
+    "termo": "Cherry 2100W PHILCO",
+    "nome": "Secador De Cabelo Cherry 2100W Philco",
+    "preco": "R$ 163,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelo-cherry-2100w-philco/p/MLB8042899#polycard_client=search-nordic&wid=MLB4184672645&search_layout=stack&position=2&type=product&tracking_id=e8c93ddc-f1d0-427c-b70c-514edcf25566&sid=search"
+  },
+  {
+    "termo": "PH3700 PHILCO",
+    "nome": "Secador de Cabelos Ph3700 Gold Tourmaline 2200W De Potência Cor Preto Philco",
+    "preco": "R$ 252,10",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-ph3700-gold-tourmaline-2200w-de-potncia-cor-preto-philco/p/MLB18717444#polycard_client=search-nordic&wid=MLB5182959422&search_layout=stack&position=1&type=product&tracking_id=5336fd9e-86d3-4dec-9f99-39fc3e9950ab&sid=search"
+  },
+  {
+    "termo": "PSC2300 PHILCO",
+    "nome": "Secador De Cabelos 2200w Psc2300 Motor Dc Philco Cor Vermelho",
+    "preco": "R$ 144,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-2200w-psc2300-motor-dc-philco-cor-vermelho/p/MLB41517253#polycard_client=search-nordic&wid=MLB4039445285&search_layout=stack&position=3&type=product&tracking_id=733daa48-4d70-455c-bf26-a92fef742b2f&sid=search"
+  },
+  {
+    "termo": "PSC2350 PHILCO",
+    "nome": "Secador De Cabelos Philco Biv 2200w Psc2350 Íons Tourmaline Rosa",
+    "preco": "R$ 109,47",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-philco-biv-2200w-psc2350-ions-tourmaline-rosa/p/MLB42195946#polycard_client=search-nordic&wid=MLB5321318934&search_layout=grid&position=4&type=product&tracking_id=a7c640ae-0ffd-495c-bda3-d717630c89c1&sid=search"
+  },
+  {
+    "termo": "GAM-BECHD0000002793_PAI GAMA ITALY",
+    "nome": "Secador De Cabelo Gama Eleganza Plus Ceramic Íon 3 Níveis Cor Preto",
+    "preco": "R$ 149,14",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelo-gama-eleganza-plus-ceramic-ion-3-niveis-cor-preto/p/MLB26106705#polycard_client=search-nordic&wid=MLB3847162839&search_layout=stack&position=1&type=product&tracking_id=34a8bc57-8680-4632-b8ba-6a16d04368a5&sid=search"
+  },
+  {
+    "termo": "GAM-BECHD0000002791_PAI GAMA ITALY",
+    "nome": "Secador de cabelo GA.MA ItalyMaestrale Lichia Ceramic cor Vermelho",
+    "preco": "R$ 189,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelo-gama-italymaestrale-lichia-ceramic-cor-vermelho/p/MLB26106776#polycard_client=search-nordic&wid=MLB4167298813&search_layout=grid&position=1&type=product&tracking_id=5dae75de-9275-41a2-ba2f-bd39ba13961b&sid=search"
+  },
+  {
+    "termo": "GAM-BECHD0000002810_PAI GAMA ITALY",
+    "nome": "Secador De Cabelo Gama Italy Babosa Ceramic Ion 2100w",
+    "preco": "R$ 196,20",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelo-gama-italy-babosa-ceramic-ion-2100w/p/MLB26294816#polycard_client=search-nordic&wid=MLB4402173164&search_layout=stack&position=1&type=product&tracking_id=6a2cd211-b54b-4091-a0c5-c645f1a7d40c&sid=search"
+  },
+  {
+    "termo": "GAM-BECHD0000002808_PA GAMA ITALY",
+    "nome": "Secador Cabelo Gama Italy Gold Íon Ceramic Íon Profissional Cor Preto e dourado",
+    "preco": "R$ 203,60",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-cabelo-gama-italy-gold-ion-ceramic-ion-profissional-cor-preto-e-dourado/p/MLB26106683#polycard_client=search-nordic&wid=MLB5267441130&search_layout=stack&position=1&type=product&tracking_id=cf409771-a5d7-4fa5-a2c0-49f4b6334c2e&sid=search"
+  },
+  {
+    "termo": "SCP-JU-01 MONDIAL",
+    "nome": "Secador de Cabelo By Juliette, Mondial, 2000W - SCP-JU-01",
+    "preco": "R$ 218,79",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelo-by-juliette-mondial-2000w-scp-ju-01/p/MLB26106712#polycard_client=search-nordic&wid=MLB4427178254&search_layout=stack&position=2&type=product&tracking_id=0c283ba6-b1f2-4371-b577-b806ea865e39&sid=search"
+  },
+  {
+    "termo": "PSA3250 PHILCO",
+    "nome": "Secador De Cabelos Philco Psa3250 Íons Tourmaline 2100w Cor Preto",
+    "preco": "R$ 118,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-philco-psa3250-ions-tourmaline-2100w-cor-preto/p/MLB36730116#polycard_client=search-nordic&wid=MLB3968164117&search_layout=stack&position=4&type=product&tracking_id=87cbb653-8c5c-453a-ada5-d542da586664&sid=search"
+  },
+  {
+    "termo": "Style 2000W TAIFF",
+    "nome": "Secador Taiff Style 2000w Motor Ac Azul Tiffany - Cor Azul-Tiffany",
+    "preco": "R$ 222,87",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-taiff-style-2000w-motor-ac-azul-tiffany-cor-azul-tiffany/p/MLB18572380#polycard_client=search-nordic&wid=MLB5209463214&search_layout=stack&position=3&type=product&tracking_id=6c508e77-775d-434a-b459-37d1d40ef1c0&sid=search"
+  },
+  {
+    "termo": "Tourmaline Íon 2100W TAIFF",
+    "nome": "Secador Taiff Tourmaline Íon 2100W – Alta Performance Preto",
+    "preco": "R$ 300,73",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-taiff-tourmaline-ion-2100w-alta-performance-preto/p/MLB23888631#polycard_client=search-nordic&wid=MLB5223312412&search_layout=grid&position=2&type=product&tracking_id=693f178c-3f22-45ee-86d8-c5924f9306a6&sid=search"
+  },
+  {
+    "termo": "Easy 1700W TAIFF",
+    "nome": "Secador De Cabelo Profissional Easy 1700w Taiff Cor Preto",
+    "preco": "R$ 186,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelo-profissional-easy-1700w-taiff-cor-preto/p/MLB18572371#polycard_client=search-nordic&wid=MLB5459135176&search_layout=stack&position=1&type=product&tracking_id=9d6c6924-28e8-4041-b508-05d6d67915a0&sid=search"
+  },
+  {
+    "termo": "Black Íon TAIFF",
+    "nome": "Taiff Black Ion Secador De Cabelo Profissional 2000w Cor Preto",
+    "preco": "R$ 219,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/taiff-black-ion-secador-de-cabelo-profissional-2000w-cor-preto/p/MLB18580665#polycard_client=search-nordic&wid=MLB4935535334&search_layout=stack&position=2&type=product&tracking_id=46b308e9-ab1a-4559-bf0e-230e64deb42a&sid=search"
+  },
+  {
+    "termo": "BSC1200 BRITÂNIA",
+    "nome": "Secador De Cabelos Britânia 1200w Bsc1200 Cor Preto",
+    "preco": "R$ 79,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-britnia-1200w-bsc1200-cor-preto/p/MLB36685618#polycard_client=search-nordic&wid=MLB3968164111&search_layout=stack&position=3&type=product&tracking_id=71dee16a-f3be-4766-8a10-aa02921614ab&sid=search"
+  },
+  {
+    "termo": "Easy Travel BRITÂNIA",
+    "nome": "Secador De Cabelo Britânia Easy Travel Cor Preto",
+    "preco": "R$ 114,99",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelo-britnia-easy-travel-cor-preto/p/MLB18941759#polycard_client=search-nordic&wid=MLB3526922223&search_layout=stack&position=3&type=product&tracking_id=c9545da1-a2d0-43b5-812b-7c40254667d9&sid=search"
+  },
+  {
+    "termo": "SEC185 CADENCE",
+    "nome": "Secador De Cabelos Viagem Cadence Rouge Style Sec185 Cor Vermelho/Preto",
+    "preco": "R$ 69,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-viagem-cadence-rouge-style-sec185-cor-vermelhopreto/p/MLB18965339#polycard_client=search-nordic&wid=MLB5333055442&search_layout=grid&position=1&type=product&tracking_id=6294766c-210a-4f0d-81a4-082506bfde19&sid=search"
+  },
+  {
+    "termo": "Eolic Travel GAMA ITALY",
+    "nome": "Secador de cabelo Gama Italy Eolic Travel",
+    "preco": "R$ 133,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-de-cabelo-gama-italy-eolic-travel/p/MLB18725359#polycard_client=search-nordic&wid=MLB3611799473&search_layout=grid&position=1&type=product&tracking_id=70a2f72c-5e3c-4406-a62b-b91d328b0f42&sid=search"
+  },
+  {
+    "termo": "SC-10 MONDIAL",
+    "nome": "Secador Maxis Travel, Mondial, 1200W - SC-10",
+    "preco": "R$ 69,69",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-maxis-travel-mondial-1200w-sc-10/p/MLB6122512#polycard_client=search-nordic&wid=MLB3575372961&search_layout=stack&position=9&type=product&tracking_id=19e10a6c-d240-4655-bc76-56cf706b11dc&sid=search"
+  },
+  {
+    "termo": "Titanium Travel 750W PHILCO",
+    "nome": "Secador De Cabelo Philco Titanium Travel 750w Bivolt",
+    "preco": "R$ 142,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-4127717623-secador-de-cabelo-philco-titanium-travel-750w-bivolt-_JM#polycard_client=search-nordic&search_layout=stack&position=5&type=item&tracking_id=443b6704-704b-48a1-815b-e4143430dbdb&wid=MLB4127717623&sid=search"
+  },
+  {
+    "termo": "Travel Shine PHILCO",
+    "nome": "Kit Travel Shine Prancha + Secador Rosa Philco Bivolt",
+    "preco": "R$ 159,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/kit-travel-shine-prancha--secador-rosa-philco-bivolt/up/MLBU3145844341#polycard_client=search-nordic&wid=MLB5368565810&search_layout=stack&position=4&type=product&tracking_id=b4611585-4e22-43c5-a0d5-3fcdbd68fead&sid=search"
+  },
+  {
+    "termo": "BHC010/81 PHILIPS",
+    "nome": "Secador Essential Philips Bhc010/81 127v Preto",
+    "preco": "R$ 199,97",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-essential-philips-bhc01081-127v/up/MLBU1157535272#polycard_client=search-nordic&wid=MLB3828986264&search_layout=stack&position=7&type=product&tracking_id=9b8ad3e5-dfd0-4245-8fbe-01d8854b6e53&sid=search"
+  },
+  {
+    "termo": "AWS-EB-01-B AIWA",
+    "nome": "Fone De Ouvido Earbud Aiwa Bluetooth Aws-eb-01-b Bivolt",
+    "preco": "R$ 349,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-earbud-aiwa-bluetooth-awseb01b-bivolt/up/MLBU2861642570#polycard_client=search-nordic&wid=MLB3917354899&search_layout=stack&position=11&type=product&tracking_id=d13f2bc1-4485-4238-95f3-6790a0df6a19&sid=search"
+  },
+  {
+    "termo": "AWS-EB-05-B AIWA",
+    "nome": "Fone de Ouvido Eardbud AIWA AWS-EB-05-B Bluetooth IPX4 24 Horas de bateria",
+    "preco": "R$ 149,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-eardbud-aiwa-aws-eb-05-b-bluetooth-ipx4-24-horas-de-bateria/p/MLB47519001#polycard_client=search-nordic&wid=MLB4079863189&search_layout=grid&position=1&type=product&tracking_id=4405d8f6-0db3-43ca-8025-c2e342d03b95&sid=search"
+  },
+  {
+    "termo": "AWS-EB-04-B AIWA",
+    "nome": "Fone De Ouvido Eardbud Aiwa Aws-eb-04-b Bluetooth Ipx4 Anc 2",
+    "preco": "R$ 209,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-5207238042-fone-de-ouvido-eardbud-aiwa-aws-eb-04-b-bluetooth-ipx4-anc-2-_JM?searchVariation=186284391185#polycard_client=search-nordic&searchVariation=186284391185&search_layout=stack&position=3&type=item&tracking_id=ab1e147b-02fe-41f0-8222-cf7e16273503"
+  },
+  {
+    "termo": "AWS-EB-03-B AIWA",
+    "nome": "Fone De Ouvido Earbud Aiwa Aws-eb-03-b Bt Ipx5 Anc Modo Ambi",
+    "preco": "R$ 299,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-3633765005-fone-de-ouvido-earbud-aiwa-aws-eb-03-b-bt-ipx5-anc-modo-ambi-_JM?searchVariation=180118445800#polycard_client=search-nordic&searchVariation=180118445800&search_layout=stack&position=2&type=item&tracking_id=8fbc3672-ee61-4b85-aefc-cfea8b186fca"
+  },
+  {
+    "termo": "AWS-HP-05-B AIWA",
+    "nome": "Fone de Ouvido Headphone AIWA HP-05-B Bluetooth ANC Alta Definição",
+    "preco": "R$ 849,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-headphone-aiwa-hp-05-b-bluetooth-anc-alta-definico/p/MLB49264644#polycard_client=search-nordic&wid=MLB5383022660&search_layout=stack&position=1&type=product&tracking_id=fca2e58e-4eab-4a9c-a0b6-453c50ce3666&sid=search"
+  },
+  {
+    "termo": "AWS-HP-04-B AIWA",
+    "nome": "Fone De Ouvido Headphone Aiwa Aws-hp-04-b, Bluetooth Preta",
+    "preco": "R$ 299,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-headphone-aiwa-awshp04b-bluetooth/up/MLBU2974862498#polycard_client=search-nordic&wid=MLB5264453834&search_layout=stack&position=4&type=product&tracking_id=8245aa8d-7c87-45e9-969f-e493299427a9&sid=search"
+  },
+  {
+    "termo": "Tune Buds 2 JBL",
+    "nome": "Fone De Ouvido Jbl Tune Buds 2 Bluetooth Sem Fio Anti Ruído",
+    "preco": "R$ 609,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4101027525-fone-de-ouvido-jbl-tune-buds-2-bluetooth-sem-fio-anti-ruido-_JM?searchVariation=188532291879#polycard_client=search-nordic&searchVariation=188532291879&search_layout=stack&position=2&type=item&tracking_id=7c403060-d9fa-489a-a4c2-e77922fba07c"
+  },
+  {
+    "termo": "LIVE FREE 2 TWS JBL",
+    "nome": "Fones De Ouvido Jbl Live Free 2 Tws Preto",
+    "preco": "R$ 499,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fones-de-ouvido-jbl-live-free-2-tws-preto/p/MLB27806991#polycard_client=search-nordic&wid=MLB3575092347&search_layout=stack&position=2&type=product&tracking_id=8c6abf3b-989b-4ccc-9f54-c38ad89f5680&sid=search"
+  },
+  {
+    "termo": "Wave Beam 2 JBL",
+    "nome": "Fone De Ouvido Com Mic Sem fio Wave Beam 2 JBL Preto",
+    "preco": "R$ 261,95",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-com-mic-sem-fio-wave-beam-2-jbl-preto/p/MLB43943907#polycard_client=search-nordic&wid=MLB4011918383&search_layout=stack&position=1&type=product&tracking_id=7b95c315-5273-4c38-a2da-a0546a238abd&sid=search"
+  },
+  {
+    "termo": "Wave Buds 2 JBL",
+    "nome": "Fone De Ouvido Bluetooth Sem Fio Wave Buds 2 JBL JBLWBUDS2BLK Preto",
+    "preco": "R$ 241,71",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-sem-fio-wave-buds-2-jbl-jblwbuds2blk-preto/p/MLB43534649#polycard_client=search-nordic&wid=MLB5327551864&search_layout=stack&position=1&type=product&tracking_id=d8a33096-576f-4648-8f57-b69a9230e320&sid=search"
+  },
+  {
+    "termo": "Tour One M2 JBL",
+    "nome": "Fone De Ouvido Tour One M2 Preto Jbl Preto",
+    "preco": "R$ 1236,57",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-tour-one-m2-preto-jbl/up/MLBU1393926329#polycard_client=search-nordic&wid=MLB3435531125&search_layout=stack&position=1&type=product&tracking_id=199cc745-83d8-4dd1-9f47-e8e67c131818&sid=search"
+  },
+  {
+    "termo": "LIVE FREE 2 TWS JBL",
+    "nome": "Fones De Ouvido Jbl Live Free 2 Tws Preto",
+    "preco": "R$ 499,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fones-de-ouvido-jbl-live-free-2-tws-preto/p/MLB27806991#polycard_client=search-nordic&wid=MLB3575092347&search_layout=stack&position=2&type=product&tracking_id=156aaebb-8db9-4a99-aeee-b28cffecf442&sid=search"
+  },
+  {
+    "termo": "BHC010/81 PHILIPS",
+    "nome": "Secador Essential Philips Bhc010/81 127v Preto",
+    "preco": "R$ 199,97",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/secador-essential-philips-bhc01081-127v/up/MLBU1157535272#polycard_client=search-nordic&wid=MLB3828986264&search_layout=stack&position=6&type=product&tracking_id=0f8b1f55-9444-478a-829d-d5184823e363&sid=search"
+  },
+  {
+    "termo": "TAT1108BK/00 PHILIPS",
+    "nome": "Fone De Ouvido Philips True Wireless Tat1108bk/00 color Preto",
+    "preco": "R$ 194,42",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-philips-true-wireless-tat1108bk00-color-preto/p/MLB29413658#polycard_client=search-nordic&wid=MLB4183494237&search_layout=stack&position=4&type=product&tracking_id=4d0427c2-ccc1-4697-971b-ad2964200bec&sid=search"
+  },
+  {
+    "termo": "TAT1209BK/00 PHILIPS",
+    "nome": "Fones Philips Tat1209bk/00 Sem Fio Preto",
+    "preco": "R$ 199,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-5398985606-fones-philips-tat1209bk00-sem-fio-preto-_JM?searchVariation=188063373583#polycard_client=search-nordic&searchVariation=188063373583&search_layout=stack&position=5&type=item&tracking_id=3b7867b7-04bf-4437-9254-8d5a67491ba4"
+  },
+  {
+    "termo": "TAT3509GY/00 PHILIPS",
+    "nome": "Fones De Ouvido Bluetooth Philips Tat3708 - Pretos",
+    "preco": "R$ 220,04",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-5362787890-fones-de-ouvido-bluetooth-philips-tat3708-pretos-_JM#polycard_client=search-nordic&search_layout=stack&position=1&type=item&tracking_id=620459aa-a3c3-4c62-8d57-26b45fea872a"
+  },
+  {
+    "termo": "TAT1109BK/00 PHILIPS",
+    "nome": "Fone De Ouvido Sem Fio Tws Philips TAT1109BK/00 Na Cor Preto, Com Bluetooth, Microfone, Tecnologia Ipx4",
+    "preco": "R$ 124,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-sem-fio-tws-philips-tat1109bk00-na-cor-preto-com-bluetooth-microfone-tecnologia-ipx4/p/MLB46051297#polycard_client=search-nordic&wid=MLB5305987156&search_layout=stack&position=1&type=product&tracking_id=6c9e9aa5-e173-45ac-9728-d776ad6147c3&sid=search"
+  },
+  {
+    "termo": "AWS-SP-06-B AIWA",
+    "nome": "Caixa De Som Aiwa Mini Speaker Aws-sp-03-b Bivolt - Preta",
+    "preco": "R$ 379,85",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4170345865-caixa-de-som-aiwa-mini-speaker-aws-sp-03-b-bivolt-preta-_JM?searchVariation=184881921206#polycard_client=search-nordic&searchVariation=184881921206&search_layout=grid&position=1&type=item&tracking_id=adf1740c-9be9-450b-9efa-70fdbe34fbbd"
+  },
+  {
+    "termo": "GO 4 JBL",
+    "nome": "Caixa de Som Bluetooth Portátil Go 4 JBL Branca",
+    "preco": "R$ 269,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-portatil-go-4-jbl-branca/p/MLB36343191#polycard_client=search-nordic&wid=MLB4796556596&search_layout=grid&position=1&type=product&tracking_id=5aa40855-f7e1-4de0-9a4e-9772a0e4823f&sid=search"
+  },
+  {
+    "termo": "GO 4 JBL",
+    "nome": "Caixa de Som Bluetooth Portátil Go 4 JBL Branca",
+    "preco": "R$ 269,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-portatil-go-4-jbl-branca/p/MLB36343191#polycard_client=search-nordic&wid=MLB4796556596&search_layout=grid&position=1&type=product&tracking_id=544c81d8-1b50-433e-896b-50be3456a718&sid=search"
+  },
+  {
+    "termo": "AWS-SP-03 AIWA",
+    "nome": "Caixa de Som Speaker AIWA AWS-SP-03-B Bluetooth IPX4 RGB Cor Preto",
+    "preco": "R$ 171,94",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-speaker-aiwa-aws-sp-03-b-bluetooth-ipx4-rgb-cor-preto/p/MLB44553695#polycard_client=search-nordic&wid=MLB5233306230&search_layout=grid&position=1&type=product&tracking_id=6b134a02-e856-4e3b-a0a7-272e51cc269b&sid=search"
+  },
+  {
+    "termo": "Clip 5 JBL",
+    "nome": "Caixa de som ultraportátil à prova d'água JBL Clip 5 Cor Preto",
+    "preco": "R$ 347,63",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-ultraportatil-prova-dagua-jbl-clip-5-cor-preto/p/MLB37887626#polycard_client=search-nordic&wid=MLB4025902825&search_layout=grid&position=1&type=product&tracking_id=8ad5e897-7344-48d5-b81a-d1e073aea376&sid=search"
+  },
+  {
+    "termo": "XG2T JBL",
+    "nome": "Caixa Amplificada Ativa Jbl Slim 8 Polegadas Sw8a-ms 400w",
+    "preco": "R$ 1817,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-3392866061-caixa-amplificada-ativa-jbl-slim-8-polegadas-sw8a-ms-400w-_JM?searchVariation=179209212221#polycard_client=search-nordic&searchVariation=179209212221&search_layout=grid&position=4&type=item&tracking_id=63aee236-35a3-4faf-afa5-33610b5ba4ce"
+  },
+  {
+    "termo": "AWS-SP-01 AIWA",
+    "nome": "Aiwa AWS-SP-01 Caixa De Som Speaker Bluetooth Cor Preto Aiwa",
+    "preco": "R$ 198,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/aiwa-aws-sp-01-caixa-de-som-speaker-bluetooth-cor-preto-aiwa/p/MLB26826554#polycard_client=search-nordic&wid=MLB3598132501&search_layout=grid&position=1&type=product&tracking_id=14b65836-2772-47b6-bbbf-5ea8241e2574&sid=search"
+  },
+  {
+    "termo": "Flip Essential 2 JBL",
+    "nome": "Alto-falante Bluetooth à prova d'água Jbl Flip Essential 2 (Novo com caixa aberta)",
+    "preco": "R$ 520,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/alto-falante-bluetooth-prova-dagua-jbl-flip-essential-2-novo-com-caixa-aberta/p/MLB2022833957#polycard_client=search-nordic&wid=MLB5580055614&search_layout=grid&position=2&type=product&tracking_id=201f2173-32f6-403d-a0a0-ac1779dab418&sid=search"
+  },
+  {
+    "termo": "XG5S LG",
+    "nome": "Caixa De Som Portátil LG Xboom Go Xg5s Power Bluetooth 18h Cor Preto",
+    "preco": "R$ 419,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-portatil-lg-xboom-go-xg5s-power-bluetooth-18h-cor-preto/p/MLB38519806#polycard_client=search-nordic&wid=MLB4181491731&search_layout=grid&position=1&type=product&tracking_id=39fb9cdc-db4c-4e1f-8eac-7a98412fd6c9&sid=search"
+  },
+  {
+    "termo": "AWS-SP-05-LB AIWA",
+    "nome": "Caixa De Som Speaker Aiwa SP-05-LB 30w Bluetooth Ipx5",
+    "preco": "R$ 549,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-speaker-aiwa-sp-05-lb-30w-bluetooth-ipx5/p/MLB53397326#polycard_client=search-nordic&wid=MLB5538542720&search_layout=grid&position=1&type=product&tracking_id=dac38d4a-3785-48c2-8969-bbe7349acd13&sid=search"
+  },
+  {
+    "termo": "Flip 6 JBL",
+    "nome": "Camuflagem Jbl Flip 6",
+    "preco": "R$ 545,95",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/jbl-f-lip-6-camouflage/p/MLB2036552817#polycard_client=search-nordic&wid=MLB4183305759&search_layout=grid&position=1&type=product&tracking_id=e9b1edd7-d078-43ba-a937-3dd30f2e3dd2&sid=search"
+  },
+  {
+    "termo": "XBOOM GO XG5S LG",
+    "nome": "Caixa De Som Portátil LG Xboom Go Xg5s Power Bluetooth 18h Cor Preto",
+    "preco": "R$ 407,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-portatil-lg-xboom-go-xg5s-power-bluetooth-18h-cor-preto/p/MLB38519806#polycard_client=search-nordic&wid=MLB4099706917&search_layout=grid&position=1&type=product&tracking_id=45c4db73-a267-4078-b91c-eb2a462e3358&sid=search"
+  },
+  {
+    "termo": "AWS-SP-05-LB AIWA",
+    "nome": "Caixa De Som Speaker Aiwa SP-05-LB 30w Bluetooth Ipx5",
+    "preco": "R$ 549,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-speaker-aiwa-sp-05-lb-30w-bluetooth-ipx5/p/MLB53397326#polycard_client=search-nordic&wid=MLB5538542720&search_layout=grid&position=1&type=product&tracking_id=067d81c3-f419-4692-b850-8fb68715b9fe&sid=search"
+  },
+  {
+    "termo": "Charge 5 JBL",
+    "nome": "Alto-falante Jbl Charge 5 Portátil Com Bluetooth Cor Black 110v E 220v",
+    "preco": "R$ 940,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/alto-falante-jbl-charge-5-portatil-com-bluetooth-cor-black-110v-e-220v/p/MLB29776524#polycard_client=search-nordic&wid=MLB5379384448&search_layout=grid&position=7&type=product&tracking_id=bdfa9ce3-e70f-4db3-a6f5-3f3bf8287aba&sid=search"
+  },
+  {
+    "termo": "XBOOM GO X75S LG",
+    "nome": "Caixa De Som Portátil LG Xboom Go Xg5s Power Bluetooth 18h Cor Preto",
+    "preco": "R$ 419,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-portatil-lg-xboom-go-xg5s-power-bluetooth-18h-cor-preto/p/MLB38519806#polycard_client=search-nordic&wid=MLB4181491731&search_layout=grid&position=1&type=product&tracking_id=de9d4d5f-fa0f-46b1-95e7-1b98ab750b99&sid=search"
+  },
+  {
+    "termo": "AWS-SP-07-B AIWA",
+    "nome": "Caixa De Som Aiwa Mini Speaker Aws-sp-03-b Bivolt - Preta",
+    "preco": "R$ 379,85",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-4170345865-caixa-de-som-aiwa-mini-speaker-aws-sp-03-b-bivolt-preta-_JM?searchVariation=184881921206#polycard_client=search-nordic&searchVariation=184881921206&search_layout=grid&position=1&type=item&tracking_id=9e2b837f-3faf-4570-97b1-7c1029495f8b"
+  },
+  {
+    "termo": "GO 4 JBL",
+    "nome": "Caixa de Som JBL GO 4 Black Resistente à Água Bluetooth 5.3 Cor preto",
+    "preco": "R$ 288,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-jbl-go-4-black-resistente-agua-bluetooth-53-cor-preto/p/MLB35996052#polycard_client=search-nordic&wid=MLB5043428556&search_layout=grid&position=1&type=product&tracking_id=bdd9a6d0-eb1b-49ec-a1a4-49df4e419d47&sid=search"
+  },
+  {
+    "termo": "GO 3 JBL",
+    "nome": "Jbl Go 3: alto-falante portátil com Bluetooth, bateria embutida, 110v",
+    "preco": "R$ 259,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/jbl-go-3-alto-falante-portatil-com-bluetooth-bateria-embutida-110v/p/MLB35886513#polycard_client=search-nordic&wid=MLB5633573832&search_layout=grid&position=22&type=product&tracking_id=70a6fcdf-909a-4038-b755-6acb118d2acf&sid=search"
+  },
+  {
+    "termo": "GO Essential JBL",
+    "nome": "Caixa De Som Go Essential Portátil Bluetooth Cor Vermelho Jbl",
+    "preco": "R$ 182,53",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-go-essential-portatil-bluetooth-cor-vermelho-jbl/p/MLB19561890#polycard_client=search-nordic&wid=MLB3141462294&search_layout=grid&position=1&type=product&tracking_id=d0696f74-30a2-4a7a-baec-c259432a1a6a&sid=search"
+  },
+  {
+    "termo": "ACA1900 AMVOX",
+    "nome": "Caixa De Som Amvox Aca1900 Tws Led 2 Woofer 12 Biv Sfm",
+    "preco": "R$ 1659,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://produto.mercadolivre.com.br/MLB-3646035887-caixa-de-som-amvox-aca1900-tws-led-2-woofer-12-biv-sfm-_JM#polycard_client=search-nordic&search_layout=grid&position=14&type=item&tracking_id=5b88c01e-af9a-4c99-8113-bab7c4a1a860&wid=MLB3646035887&sid=search"
+  },
+  {
+    "termo": "TM-2200 MONDIAL",
+    "nome": "Caixa De Som Mondial Torre Tm-2200 2200w Bluetooth",
+    "preco": "R$ 1601,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-5532065154-caixa-de-som-mondial-torre-tm-2200-2200w-bluetooth-_JM#polycard_client=search-nordic&search_layout=stack&position=1&type=item&tracking_id=eb836d80-b043-46e5-8c5a-2fdcaf6c29bb&wid=MLB5532065154&sid=search"
+  },
+  {
+    "termo": "TAX5509 PHILIPS",
+    "nome": "Caixa Torre Philips Tax5509 Bluetooth Led 2400w-3 Mic",
+    "preco": "R$ 1822,88",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-torre-philips-tax5509-bluetooth-led-2400w-3-mic/p/MLB49683786#polycard_client=search-nordic&wid=MLB5397342502&search_layout=grid&position=1&type=product&tracking_id=ec2b5774-5cfa-4e35-ba13-25153ce743d2&sid=search"
+  },
+  {
+    "termo": "SP508 PULSE",
+    "nome": "Caixa De Som Torre Double 12 Pol 2300w Bluetooth Cor Preto Pulse SP508",
+    "preco": "R$ 1857,90",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/caixa-de-som-torre-double-12-pol-2300w-bluetooth-cor-preto-pulse-sp508/p/MLB28056055#polycard_client=search-nordic&wid=MLB4437162874&search_layout=stack&position=1&type=product&tracking_id=b33b34e1-262c-4a06-a23f-b1ce68e8c0b0&sid=search"
+  },
+  {
+    "termo": "AWS-TV-32-BL-02-A AIWA",
+    "nome": "Smart TV AIWA 32” Android HD Borda Ultrafina HDR10 Dolby Áudio AWS-TV-32-BL-02-A",
+    "preco": "R$ 842,99",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/smart-tv-aiwa-32-android-hd-borda-ultrafina-hdr10-dolby-audio-aws-tv-32-bl-02-a/p/MLB19955269#polycard_client=search-nordic&wid=MLB5532064430&search_layout=grid&position=1&type=product&tracking_id=461905bc-2c71-4655-88dc-2a75b7746a0c&sid=search"
+  },
+  {
+    "termo": "AWS-TV-43-BL-02-A AIWA",
+    "nome": "Smart TV AIWA 43” Android Full HD Borda Ultrafina HDR10 Dolby Áudio AWS-TV-43-BL-02-A",
+    "preco": "R$ 1499,04",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/smart-tv-aiwa-43-android-full-hd-borda-ultrafina-hdr10-dolby-audio-aws-tv-43-bl-02-a/p/MLB20662382#polycard_client=search-nordic&wid=MLB3612292055&search_layout=grid&position=1&type=product&tracking_id=a66f966b-b27d-4206-aeff-f3d9dc670b50&sid=search"
+  },
+  {
+    "termo": "32LR650BPSA LG",
+    "nome": "Smart Tv Lg 32'' Hd 32lr650bpsa, Wifi 5, Bluetooth 5.0",
+    "preco": "R$ 1294,00",
+    "loja": "Mercado Livre",
+    "vendido": true,
+    "link": "https://www.mercadolivre.com.br/smart-tv-lg-32-hd-32lr650bpsa-wifi-5-bluetooth-50/up/MLBU3275289595#polycard_client=search-nordic&wid=MLB5481847794&search_layout=grid&position=8&type=product&tracking_id=e4d7812f-8f31-4756-99b7-36953d1fccab&sid=search"
+  },
+  {
+    "termo": "43UT8000PSA LG",
+    "nome": "Placa Principal Tv Lg 43ut8000psa Ebt67956606 (Usado)",
+    "preco": "R$ 398,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/placa-principal-tv-lg-43ut8000psa-ebt67956606/up/MLBU3353150731#polycard_client=search-nordic&wid=MLB5573193284&search_layout=stack&position=4&type=product&tracking_id=ace45745-3da5-4d10-926a-1f8c6fb6a916&sid=search"
+  },
+  {
+    "termo": "UN32T4300 SAMSUNG",
+    "nome": "Smart Tv 32 Samsung Un32t4300ag Led Hd - Preto (Usado)",
+    "preco": "R$ 899,00",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://produto.mercadolivre.com.br/MLB-5606492452-smart-tv-32-samsung-un32t4300ag-led-hd-preto-_JM#polycard_client=search-nordic&search_layout=grid&position=1&type=item&tracking_id=e1c02a59-4e1f-48ad-9ace-536065f4659a&wid=MLB5606492452&sid=search"
+  },
+  {
+    "termo": "F6000F SAMSUNG",
+    "nome": "Smart TV 43\" Full HD F6000F 2025 Samsung Bivolt",
+    "preco": "R$ 1424,05",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/smart-tv-43-full-hd-f6000f-2025-samsung-bivolt/p/MLB49741878#polycard_client=search-nordic&wid=MLB4083287641&search_layout=stack&position=10&type=product&tracking_id=96754952-9fa3-4abf-a9d5-f29f8faaa4d1&sid=search"
+  },
+  {
+    "termo": "32S5400AF TCL",
+    "nome": "Placa Principal Tv Semp Tcl 32s5400af",
+    "preco": "R$ 329,90",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/placa-principal-tv-semp-tcl-32s5400af/up/MLBU2332041947#polycard_client=search-nordic&wid=MLB3746748075&search_layout=grid&position=2&type=product&tracking_id=7fe1d4f3-8fb1-4641-9b11-f0db4ebc0799&sid=search"
+  },
+  {
+    "termo": "43S5400A TCL",
+    "nome": "Smart TV 43” LED FULL HD 2 HDMI WI-FI Bluetooth 43S5400A TCL",
+    "preco": "R$ 1755,60",
+    "loja": "Mercado Livre",
+    "vendido": false,
+    "link": "https://www.mercadolivre.com.br/smart-tv-43-led-full-hd-2-hdmi-wi-fi-bluetooth-43s5400a-tcl/p/MLB27150721#polycard_client=search-nordic&wid=MLB5276887608&search_layout=grid&position=1&type=product&tracking_id=67a299c1-a9bc-4d7f-8467-b665efa12ecc&sid=search"
   }
 ]
