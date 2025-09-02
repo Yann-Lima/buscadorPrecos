@@ -106,19 +106,28 @@ async function buscarProdutoML(page, item, tentativas = 0) {
   const maxTentativas = 3;
   try {
     await page.setUserAgent(userAgents[tentativas % userAgents.length]);
-    const client = await page.target().createCDPSession();
+    /*const client = await page.target().createCDPSession();
     await client.send("Network.clearBrowserCookies");
-    await client.send("Network.clearBrowserCache");
+    await client.send("Network.clearBrowserCache");*/
+
+    await page.setUserAgent(userAgents[Math.floor(Math.random() * userAgents.length)]);
 
     if (!item.searchTerm) {
       throw new Error(`Item sem searchTerm válido: ${JSON.stringify(item)}`);
     }
-    const termoEncoded = encodeURIComponent(item.searchTerm.trim());
+    const termoSlug = item.searchTerm.trim().replace(/\s+/g, "-");
+const urlBusca = `https://lista.mercadolivre.com.br/${termoSlug}`;
 
-    const urlBusca = `https://lista.mercadolivre.com.br/${termoEncoded}`;
     console.error(`[INFO] Buscando produto: ${item.searchTerm}`);
 
-    await page.goto(urlBusca, { waitUntil: "domcontentloaded", timeout: 60000 });
+    await page.goto(urlBusca, { waitUntil: "networkidle2", timeout: 60000 });
+
+// espera aparecer os resultados
+const temResultados = await page.$("div.ui-search-result__wrapper");
+if (!temResultados) {
+  throw new Error("Redirecionado para login/captcha");
+}
+
 
     // Scroll para carregar resultados
     await page.evaluate(async () => {
@@ -243,6 +252,30 @@ async function executarBuscaEmTodos() {
     args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"]
   });
   const page = await browser.newPage();
+
+  await page.setViewport({
+    width: [1366, 1440, 1920][Math.floor(Math.random() * 3)],
+    height: [768, 900, 1080][Math.floor(Math.random() * 3)],
+    deviceScaleFactor: 1,
+  });
+
+  // --- Bloqueio de recursos pesados ou desnecessários ---
+  /*await page.setRequestInterception(true);
+  page.on("request", (req) => {
+    const type = req.resourceType();
+    if (['image', 'stylesheet', 'font'].includes(type)) {
+      req.abort();  // bloqueia
+    } else {
+      req.continue(); // deixa passar os demais
+    }
+  });*/
+
+  // --- DEBUG HTTP ---
+  /*page.on("response", async (res) => {
+    if (!res.ok()) {
+      console.error("[HTTP] Status:", res.status(), "| URL:", res.url());
+    }
+  });*/
 
   for (let i = 0; i < listaProdutos.length; i++) {
     const item = listaProdutos[i];
